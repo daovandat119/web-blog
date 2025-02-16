@@ -14,7 +14,7 @@ const Article = () => {
       title: "Fireflies AI Review: Why is EVERYONE using it for meeting notes?",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -25,7 +25,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2025",
-      image: "/blog2.webp",
+      image: "/public/blog2.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -36,7 +36,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -47,7 +47,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -58,7 +58,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -69,7 +69,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -80,7 +80,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -94,7 +94,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -105,7 +105,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -116,7 +116,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -127,7 +127,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -138,7 +138,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -149,7 +149,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -160,7 +160,7 @@ const Article = () => {
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
       author: "By Aron Kantor",
       date: "November 28, 2024",
-      image: "/blog1.webp",
+      image: "/public/blog1.webp",
       content:
         "I have been a massive Notion user for more than two years. Along the way, I reviewed several other note-taking apps, so I had a chance to put Notion into perspective. Using this plus two years of personal experience and my knowledge in the note-taking space, I will share everything you need to know about…",
     },
@@ -200,7 +200,7 @@ const Article = () => {
                       Do you like videos better?
                     </p>
                     <img
-                      src="/logo.webp"
+                      src="/public/logo.webp"
                       alt="Logo"
                       className="w-32 h-32 rounded-full border border-gray-900 my-5 object-contain"
                     />
@@ -283,7 +283,7 @@ const Article = () => {
               </h1>
             </div>
             <img
-              src="/banner2.webp"
+              src="/public/banner2.webp"
               alt="banner"
               className="w-full lg:w-3/5"
             />

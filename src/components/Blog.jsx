@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   const articles = [
@@ -8,7 +9,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Software Reviews"],
       author: "Aron Kantor",
       date: "February 6, 2025",
-      image: "/anh1.webp",
+      image: "/public/anh1.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -18,7 +19,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Free Software"],
       author: "Jane Doe",
       date: "March 10, 2025",
-      image: "/anh2.webp",
+      image: "/public/anh2.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -28,7 +29,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Tutorials"],
       author: "John Smith",
       date: "April 15, 2025",
-      image: "/anh3.webp",
+      image: "/public/anh3.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -38,7 +39,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Software Reviews"],
       author: "Aron Kantor",
       date: "February 6, 2025",
-      image: "/anh1.webp",
+      image: "/public/anh1.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -48,7 +49,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Free Software"],
       author: "Jane Doe",
       date: "March 10, 2025",
-      image: "/anh2.webp",
+      image: "/public/anh2.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -58,7 +59,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Tutorials"],
       author: "John Smith",
       date: "April 15, 2025",
-      image: "/anh3.webp",
+      image: "/public/anh3.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -68,7 +69,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Software Reviews"],
       author: "Aron Kantor",
       date: "February 6, 2025",
-      image: "/anh1.webp",
+      image: "/public/anh1.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -78,7 +79,7 @@ const Blog = () => {
       categories: ["PDF Tools", "Free Software"],
       author: "Jane Doe",
       date: "March 10, 2025",
-      image: "/anh2.webp",
+      image: "/public/anh2.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -88,14 +89,14 @@ const Blog = () => {
       categories: ["PDF Tools", "Tutorials"],
       author: "John Smith",
       date: "April 15, 2025",
-      image: "/anh3.webp",
+      image: "/public/anh3.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
   ];
 
   return (
-    <a href="/bog-top-picks" className="grid grid-cols-1 md:grid-cols-3 gap-10 ">
+     <Link to="/bog-top-picks" className="grid grid-cols-1 md:grid-cols-3 gap-10 ">
       {articles.map((article) => (
         <div
           key={article.id}
@@ -109,12 +110,12 @@ const Blog = () => {
           <div className="w-9/10 mx-auto">
             <h5 className="uppercase text-xs text-[#3182ce] font-bold leading-relaxed pt-4">
               {article.categories.map((category, index) => (
-                <a href="/article-category" key={index}>
+                 <Link to="/article-category" key={index}>
                   {category}
                   {index !== article.categories.length - 1 && (
                     <span className="text-gray-700 px-1">|</span>
                   )}
-                </a>
+                </Link>
               ))}
             </h5>
             <h1 className="text-[30px] font-bold hover:text-[#3182ce]">
@@ -137,7 +138,7 @@ const Blog = () => {
           </div>
         </div>
       ))}
-    </a>
+    </Link>
   );
 };
 

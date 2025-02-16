@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ArticleCategory = () => {
   const articlesPerPage = 4;
@@ -12,7 +13,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Software Reviews"],
       author: "Aron Kantor",
       date: "February 6, 2025",
-      image: "/anh1.webp",
+      image: "anh1.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -22,7 +23,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Free Software"],
       author: "Jane Doe",
       date: "March 10, 2025",
-      image: "/anh2.webp",
+      image: "anh2.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -32,7 +33,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Tutorials"],
       author: "John Smith",
       date: "April 15, 2025",
-      image: "/anh3.webp",
+      image: "anh3.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -42,7 +43,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Software Reviews"],
       author: "Mark Taylor",
       date: "May 20, 2025",
-      image: "/anh4.webp",
+      image: "anh3.webp",
       content:
         "PDF editing is a crucial part of digital documentation. This article explores some lesser-known tools that are worth checking out.",
     },
@@ -52,7 +53,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Tech News"],
       author: "Emily Johnson",
       date: "June 18, 2025",
-      image: "/anh5.webp",
+      image: "anh2.webp",
       content:
         "PDF readers have evolved significantly. Discover the latest features and best options available in 2025.",
     },
@@ -62,7 +63,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Tutorials"],
       author: "Michael Scott",
       date: "July 5, 2025",
-      image: "/anh6.webp",
+      image: "anh1.webp",
       content:
         "Converting PDFs to Word is easier than ever. Learn the best methods and tools for seamless conversion.",
     },
@@ -103,12 +104,12 @@ const ArticleCategory = () => {
                 <div className="w-9/10 mx-auto">
                   <h5 className="uppercase text-xs text-[#3182ce] font-bold leading-relaxed pt-4">
                     {article.categories.map((category, index) => (
-                      <a href="/article-category" key={index}>
+                       <Link to="/article-category" key={index}>
                         {category}
                         {index !== article.categories.length - 1 && (
                           <span className="text-gray-700 px-1">|</span>
                         )}
-                      </a>
+                      </Link>
                     ))}
                   </h5>
                   <h1 className="text-[30px] font-bold hover:text-[#3182ce]">

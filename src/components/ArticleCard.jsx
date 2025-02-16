@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ArticleCard = ({
   categories,
@@ -35,7 +36,7 @@ const ArticleCard = ({
         {selectedCategory &&
           categories.map((category) =>
             category.id === selectedCategory ? (
-              <a href="/bog-top-picks" key={category.id} className="w-full group ml-12 lg:ml-0 lg:flex lg:w-25/26">
+               <Link to="/bog-top-picks" key={category.id} className="w-full group ml-12 lg:ml-0 lg:flex lg:w-25/26">
                 <div className="relative lg:w-2/5 lg:mb-7">
                   <img
                     src={category.image}
@@ -47,12 +48,12 @@ const ArticleCard = ({
                   <h5 className="uppercase text-xs text-[#3182ce] font-bold leading-relaxed pt-7 flex flex-wrap">
                     {category.categories &&
                       category.categories.map((cat, index) => (
-                        <a href="/article-category" key={index}>
+                         <Link to="/article-category" key={index}>
                           {cat}
                           {index !== category.categories.length - 1 && (
                             <span className="text-gray-700 px-1">|</span>
                           )}
-                        </a>
+                        </Link>
                       ))}   
                   </h5>
                   <h1 className="text-[27px] font-bold mt-2 hover:text-[#3182ce] hover:duration-300 hover:ease-out">
@@ -73,7 +74,7 @@ const ArticleCard = ({
                     READ MORE →
                   </a>
                 </div>
-              </a>
+              </Link>
             ) : null
           )}
       </div>
