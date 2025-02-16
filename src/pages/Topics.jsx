@@ -12,7 +12,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 4,
@@ -56,7 +56,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 4,
@@ -67,7 +67,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 4,
@@ -78,7 +78,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 4,
@@ -89,7 +89,7 @@ const Topics = () => {
       date: "February 6, 2025",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project...",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
   ];
   

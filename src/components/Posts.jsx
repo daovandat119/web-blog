@@ -7,20 +7,20 @@ const Posts = () => {
       title:
         "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
       categories: ["Meeting tools", "Productivity Guides", "Software Reviews"],
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
     },
     {
       id: 2,
       title: "The 8 Best PDF Editors In 2025 | 30+ Personally Tested PDF Tools",
       categories: ["Meeting tools", "Productivity Guides", "Software Reviews"],
-      image: "/src/assets/anh2.webp",
+      image: "/public/anh2.webp",
     },
     {
       id: 3,
       title:
         "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
       categories: ["Meeting tools", "Productivity Guides", "Software Reviews"],
-      image: "/src/assets/anh3.webp",
+      image: "/public/anh3.webp",
     },
   ];
 

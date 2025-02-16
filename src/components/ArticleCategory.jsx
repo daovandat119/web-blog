@@ -12,7 +12,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Software Reviews"],
       author: "Aron Kantor",
       date: "February 6, 2025",
-      image: "/src/assets/anh1.webp",
+      image: "/public/anh1.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -22,7 +22,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Free Software"],
       author: "Jane Doe",
       date: "March 10, 2025",
-      image: "/src/assets/anh2.webp",
+      image: "/public/anh2.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -32,7 +32,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Tutorials"],
       author: "John Smith",
       date: "April 15, 2025",
-      image: "/src/assets/anh3.webp",
+      image: "/public/anh3.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -42,7 +42,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Software Reviews"],
       author: "Mark Taylor",
       date: "May 20, 2025",
-      image: "/src/assets/anh4.webp",
+      image: "/public/anh4.webp",
       content:
         "PDF editing is a crucial part of digital documentation. This article explores some lesser-known tools that are worth checking out.",
     },
@@ -52,7 +52,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Tech News"],
       author: "Emily Johnson",
       date: "June 18, 2025",
-      image: "/src/assets/anh5.webp",
+      image: "/public/anh5.webp",
       content:
         "PDF readers have evolved significantly. Discover the latest features and best options available in 2025.",
     },
@@ -62,7 +62,7 @@ const ArticleCategory = () => {
       categories: ["PDF Tools", "Tutorials"],
       author: "Michael Scott",
       date: "July 5, 2025",
-      image: "/src/assets/anh6.webp",
+      image: "/public/anh6.webp",
       content:
         "Converting PDFs to Word is easier than ever. Learn the best methods and tools for seamless conversion.",
     },
