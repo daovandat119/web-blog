@@ -10,38 +10,38 @@ const BlogTopPicks = () => {
     {
       title:
         "Best 4 Automatic Note-Takers You Must Try in 2025 (Tested & Ranked)",
-        image: "/public/banner2.webp",
+        image: "/banner2.webp",
       date: "August 8, 2024",
       author: "Aron Kantor",
     },
     {
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
-      image: "/public/banner2.webp",
+      image: "/banner2.webp",
       date: "January 2, 2024",
       author: "Aron Kantor",
     },
     {
       title: "Adobe Acrobat Vs PDFelement: Which One Is Better In 2025?",
-      image: "/public/banner2.webp",
+      image: "/banner2.webp",
       date: "January 21, 2025",
       author: "Aron Kantor",
     },
     {
       title:
         "Best 4 Automatic Note-Takers You Must Try in 2025 (Tested & Ranked)",
-        image: "/public/banner2.webp",
+        image: "/banner2.webp",
       date: "August 8, 2024",
       author: "Aron Kantor",
     },
     {
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
-      image: "/public/banner2.webp",
+      image: "/banner2.webp",
       date: "January 2, 2024",
       author: "Aron Kantor",
     },
     {
       title: "Adobe Acrobat Vs PDFelement: Which One Is Better In 2025?",
-      image: "/public/banner2.webp",
+      image: "/banner2.webp",
       date: "January 21, 2025",
       author: "Aron Kantor",
     },
@@ -63,7 +63,7 @@ const BlogTopPicks = () => {
         </div>
       </div>
       <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
-        <img src="/public/banner2.webp"></img>
+        <img src="/banner2.webp"></img>
         <h1>
           There are over 100 PDF editors in the world. The question is: How do
           you know which PDF editors are worth checking out?

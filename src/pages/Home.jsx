@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="">
       <div className="relative w-full">
-        <img src="/public/banner.webp" alt="logo" className="w-full h-[100px] lg:h-[700px] object-cover" />
+        <img src="/banner.webp" alt="logo" className="w-full h-[100px] lg:h-[700px] object-cover" />
         <Article/>
       </div>
     </div>

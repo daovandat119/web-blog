@@ -5,7 +5,7 @@ const TopComparisons = () => {
   const topComparisons = [
     {
       id: 1,
-      image: "/public/anh1.webp",
+      image: "/anh1.webp",
       categories: [
         "Note-Taking Apps",
         "Project management",
@@ -16,34 +16,34 @@ const TopComparisons = () => {
     },
     {
       id: 2,
-      image: "/public/anh2.webp",
+      image: "/anh2.webp",
       categories: ["PDF Tools", "Software Reviews"],
       title: "The 8 Best PDF Editors In 2025 | 30+ Personally Tested PDF Tools",
     },
     {
       id: 3,
-      image: "/public/anh3.webp",
+      image: "/anh3.webp",
       categories: ["Meeting tools", "Productivity Guides", "Software Reviews"],
       title:
         "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
     },
     {
       id: 4,
-      image: "/public/anh3.webp",
+      image: "/anh3.webp",
       categories: ["Meeting tools", "Productivity Guides", "Software Reviews"],
       title:
         "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
     },
     {
       id: 3,
-      image: "/public/anh3.webp",
+      image: "/anh3.webp",
       categories: ["Meeting tools", "Productivity Guides", "Software Reviews"],
       title:
         "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
     },
     {
       id: 4,
-      image: "/public/anh3.webp",
+      image: "/anh3.webp",
       categories: ["Meeting tools", "Productivity Guides", "Software Reviews"],
       title:
         "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
