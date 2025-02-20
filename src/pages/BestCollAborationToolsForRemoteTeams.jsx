@@ -48,56 +48,20 @@ const BestCollAborationToolsForRemoteTeams = () => {
           name: "What to consider when choosing remote collaboration tools?",
           link: "#consider-remote-collaboration-tools",
         },
-        {
-          name: "Best project management tools for remote teams",
-          link: "#project-management-tools",
-        },
         { name: "ClickUp", link: "#clickup" },
         { name: "Wrike", link: "#wrike" },
         { name: "nTask", link: "#ntask" },
         { name: "Taskade", link: "#taskade" },
-      ],
-    },
-    {
-      title: "Best apps to automate meeting notes",
-      link: "#best-apps-automate-meeting-notes",
-      items: [
         { name: "Fireflies AI", link: "#fireflies-ai" },
         { name: "tl;dv", link: "#tldv" },
-      ],
-    },
-    {
-      title: "Best scheduling apps to organize your calendar",
-      link: "#best-scheduling-apps",
-      items: [
         { name: "Motion", link: "#motion" },
         { name: "Reclaim", link: "#reclaim" },
+        { name: "Notion", link: "#notion" },
+        { name: "Geekbot", link: "#geekbot" },
+        { name: "Krisp", link: "#krisp" },
+        { name: "Dropbox", link: "#dropbox" },
+        { name: "Slack", link: "#slack" },
       ],
-    },
-    {
-      title: "Best tool for managing notes and tasks",
-      link: "#best-tool-managing-notes-tasks",
-      items: [{ name: "Notion", link: "#notion" }],
-    },
-    {
-      title: "Best tool to automate standups, surveys, and workflows",
-      link: "#best-tool-automate-standups-surveys-workflows",
-      items: [{ name: "Geekbot", link: "#geekbot" }],
-    },
-    {
-      title: "Best noise cancelling app for remote workers",
-      link: "#best-noise-cancelling-app",
-      items: [{ name: "Krisp", link: "#krisp" }],
-    },
-    {
-      title: "Best file sharing tools for remote teams",
-      link: "#best-file-sharing-tools",
-      items: [{ name: "Dropbox", link: "#dropbox" }],
-    },
-    {
-      title: "Best communication tool for remote teams",
-      link: "#best-communication-tools",
-      items: [{ name: "Slack", link: "#slack" }],
     },
     {
       title: "Frequently asked questions",
@@ -127,7 +91,7 @@ const BestCollAborationToolsForRemoteTeams = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-       image: "anh3.webp",
+      image: "anh3.webp",
       date: "October 5, 2023",
     },
     {
@@ -236,6 +200,11 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "The mobile app lacks some functionality compared to the desktop version.",
         },
       ],
+      descriptions: [
+        "ClickUp is an all-in-one project management tool that combines tasks, goals, and collaboration in one platform, making it easy to streamline your workflow and improve team productivity.",
+        "With highly customizable workflows, task management, and integrations, ClickUp offers a flexible and scalable solution for teams of all sizes, whether for small projects or large enterprises.",
+        "Although it offers a wide range of features, the complexity of the interface and mobile app limitations may present challenges for new users.",
+      ],
     },
     {
       id: "wrike",
@@ -314,6 +283,11 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "Setting up custom workflows and integrations can take a bit of time, especially for large teams with complex needs.",
         },
       ],
+      descriptions: [
+        "Wrike is a comprehensive project management tool that provides advanced resource allocation, custom dashboards, and interactive Gantt charts, enabling teams to manage tasks and collaborate effectively.",
+        "Its robust integrations with popular tools and automated task requests make it an excellent choice for teams looking for powerful workflow management and real-time collaboration.",
+        "Ideal for teams needing advanced reporting, task tracking, and resource management, Wrike is a scalable solution for businesses of all sizes.",
+      ],
     },
     {
       id: "ntask",
@@ -372,6 +346,11 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "nTask's integration options with third-party tools are somewhat limited compared to competitors.",
         },
       ],
+      descriptions: [
+        "nTask is a project management tool designed for teams to efficiently track tasks, manage risks, and improve productivity with built-in time tracking and collaboration features.",
+        "Its easy-to-use interface and customizable dashboards make it a great choice for teams looking for a simple yet effective solution.",
+        "While nTask provides comprehensive task management and reporting, it lacks the integrations available in other project management platforms.",
+      ],
     },
     {
       id: "taskade",
@@ -428,9 +407,14 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "The free plan has limited features compared to the paid plans.",
         },
       ],
+      descriptions: [
+        "Taskade is a simple and intuitive project management tool designed for team collaboration, task management, and note-taking.",
+        "Its cross-platform syncing and customizable templates allow teams to streamline workflows and stay productive no matter where they are.",
+        "While the free plan offers basic functionality, advanced features are only available through the paid Pro plan.",
+      ],
     },
     {
-      id: "fireflies",
+      id: "fireflies-ai",
       name: "Fireflies",
       image: "anh163.webp",
       link: "https://fireflies.ai/",
@@ -474,17 +458,21 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "The quality of transcriptions may decrease with poor audio quality.",
         },
       ],
+      descriptions: [
+        "Fireflies offers AI-powered transcription and meeting summary tools that help teams collaborate and save time.",
+        "With real-time collaboration, you can work on meeting notes and action items simultaneously with your team.",
+      ],
     },
     {
       id: "tldv",
-      name: "TLDV",
+      name: "tl;dv",
       image: "anh70.webp",
       link: "https://tldv.io/fr",
       keyFeatures: [
         {
           title: "AI-Powered Meeting Insights",
           content:
-            "TLDV helps you get valuable insights and summaries from your meeting recordings using AI.",
+            "tl;dv helps you get valuable insights and summaries from your meeting recordings using AI.",
         },
         {
           title: "Searchable Meeting Content",
@@ -510,9 +498,13 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "TLDV's integrations are limited compared to other tools.",
         },
       ],
+      descriptions: [
+        "tl;dv utilizes AI to provide insights and summaries from meeting recordings, making it easier to track important information.",
+        "The tool also offers a searchable meeting archive, allowing you to quickly find the most relevant content.",
+      ],
     },
     {
-      id: "usemotion",
+      id: "motion",
       name: "Motion",
       image: "anh164.webp",
       link: "https://www.usemotion.com/",
@@ -561,6 +553,10 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "The free version lacks some of the more advanced features like recurring task automation.",
         },
       ],
+      descriptions: [
+        "Motion uses AI to automate task scheduling, making it easier to prioritize your work and improve time management.",
+        "With features like time blocking and project management tools, Motion keeps you organized and on track.",
+      ],
     },
     {
       id: "reclaim",
@@ -606,6 +602,10 @@ const BestCollAborationToolsForRemoteTeams = () => {
           description:
             "While great for automation, the tool offers limited customization for task prioritization and workflow.",
         },
+      ],
+      descriptions: [
+        "Reclaim.ai offers smart calendar management, automatically scheduling your tasks and meetings based on your availability.",
+        "The platform integrates tasks and meetings, ensuring a smooth and efficient workflow.",
       ],
     },
     {
@@ -655,6 +655,10 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "Due to its many features and customization options, it can take time for new users to learn how to make the most of Notion.",
         },
       ],
+      descriptions: [
+        "Notion is a versatile all-in-one workspace for managing tasks, notes, wikis, and more, making it easy to collaborate with your team in real-time.",
+        "With a wide selection of templates and tools, Notion helps organize work and projects efficiently.",
+      ],
     },
     {
       id: "geekbot",
@@ -701,6 +705,10 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "Geekbot's focus on standups means it lacks broader features available in other project management tools.",
         },
       ],
+      descriptions: [
+        "Geekbot simplifies daily stand-up meetings by automating the collection of updates and generating reports, all within Slack.",
+        "It allows teams to submit updates asynchronously, which improves flexibility, especially for remote teams.",
+      ],
     },
     {
       id: "krisp",
@@ -746,6 +754,10 @@ const BestCollAborationToolsForRemoteTeams = () => {
           description:
             "The free plan only allows a limited number of minutes for noise cancellation each week.",
         },
+      ],
+      descriptions: [
+        "Krisp is an effective noise cancellation tool that works with all major communication apps, ensuring clear and crisp conversations.",
+        "It’s an easy-to-use tool that enhances the quality of your voice and removes distracting background sounds.",
       ],
     },
     {
@@ -795,6 +807,10 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "Dropbox's premium plans can be expensive compared to other cloud storage options.",
         },
       ],
+      descriptions: [
+        "Dropbox provides reliable cloud storage with automatic syncing, enabling easy file sharing and access from any device.",
+        "With built-in collaboration features, Dropbox simplifies teamwork by allowing users to share files and control versions.",
+      ],
     },
     {
       id: "slack",
@@ -842,6 +858,10 @@ const BestCollAborationToolsForRemoteTeams = () => {
             "The free plan restricts access to only the most recent 10,000 messages, which can be a limitation for larger teams.",
         },
       ],
+      descriptions: [
+        "Slack is a powerful team communication platform that facilitates collaboration through real-time messaging and organized channels.",
+        "With integrations with numerous third-party tools, Slack helps teams stay connected and work more efficiently.",
+      ],
     },
   ];
 
@@ -870,7 +890,9 @@ const BestCollAborationToolsForRemoteTeams = () => {
             <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
-            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">{item.date}</p>
+            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
+              {item.date}
+            </p>
           </div>
         ))}
       </div>
@@ -986,27 +1008,15 @@ const BestCollAborationToolsForRemoteTeams = () => {
                   alt="app-image"
                   className="my-5 w-full"
                 />
-                <h1 className="mt-10">
-                  {taskManager.name} is a top choice for managing tasks and
-                  projects with AI. It helps streamline work, automates
-                  processes, and integrates with over 400 apps. From request
-                  forms to workload balance, it handles every aspect of project
-                  management.
-                  <br />
-                  <br />
-                  But what makes {taskManager.name} unique is its focus on
-                  teamwork. It is designed to boost collaboration among team
-                  members and different departments. This ensures efficient
-                  communication and project success.
-                  <br />
-                  <br />
-                  {taskManager.name} is the{" "}
-                  <span className="work-sans-900">
-                    most versatile AI-powered platform.
-                  </span>{" "}
-                  It is an ideal choice for teams of any size where seamless and
-                  efficient collaboration is paramount.
-                </h1>
+                {taskManager.descriptions && (
+                  <>
+                    {taskManager.descriptions.map((description, idx) => (
+                      <p key={idx} className="my-5">
+                        {description}
+                      </p>
+                    ))}
+                  </>
+                )}
                 <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                   Key Features:
                 </h1>
@@ -1160,7 +1170,7 @@ const BestCollAborationToolsForRemoteTeams = () => {
                 1024: { slidesPerView: 3 },
               }}
             >
-               {posts.map((post, index) => (
+              {posts.map((post, index) => (
                 <SwiperSlide key={index}>
                   <div className="bg-white shadow-lg overflow-hidden">
                     <Link to={post.url}>

@@ -52,10 +52,6 @@ const BestEmailProductivityApps = () => {
       title: "Best email productivity tools in 2025",
       link: "#best-email-productivity-tools",
       items: [
-        {
-          name: "Best email productivity tools in 2025",
-          link: "#email-productivity-tools-2025",
-        },
         { name: "SaneBox", link: "#sanebox" },
         { name: "Missive", link: "#missive" },
         { name: "Clean Email", link: "#clean-email" },
@@ -134,357 +130,312 @@ const BestEmailProductivityApps = () => {
 
   const taskManagerData = [
     {
-      id: "sanebox",
-      name: "SaneBox",
-      image: "anh173.webp",
-      link: "https://www.sanebox.com/",
-      reviewText: "Read the full review here",
-      textLink: "Why SaneBox is the smartest way to manage your inbox!",
-      reviewLink: "/article-category/email-management-reviews",
-      keyFeatures: [
+      "id": "sanebox",
+      "name": "SaneBox",
+      "image": "anh173.webp",
+      "link": "https://www.sanebox.com/",
+      "keyFeatures": [
         {
-          title: "Smart Filtering",
-          content:
-            "SaneBox uses AI to automatically sort your emails into different folders like SaneLater, SaneBlackHole, and SaneNews, helping you focus on what's important.",
+          "title": "Smart Filtering",
+          "content": "SaneBox uses AI to automatically sort your emails into different folders like SaneLater, SaneBlackHole, and SaneNews, helping you focus on what's important."
         },
         {
-          title: "Snooze Emails",
-          content:
-            "Snooze emails for a later time so you can deal with them when it’s more convenient and keep your inbox organized.",
+          "title": "Snooze Emails",
+          "content": "Snooze emails for a later time so you can deal with them when it’s more convenient and keep your inbox organized."
         },
         {
-          title: "One-Click Unsubscribe",
-          content:
-            "Unsubscribe from unwanted email lists with a single click, saving you time and keeping your inbox clean.",
+          "title": "One-Click Unsubscribe",
+          "content": "Unsubscribe from unwanted email lists with a single click, saving you time and keeping your inbox clean."
         },
         {
-          title: "Custom Folders",
-          content:
-            "Create custom folders to sort emails in ways that work best for your workflow and needs.",
+          "title": "Custom Folders",
+          "content": "Create custom folders to sort emails in ways that work best for your workflow and needs."
         },
         {
-          title: "SaneReminders",
-          content:
-            "Set reminders for follow-up emails to ensure important conversations don’t fall through the cracks.",
-        },
+          "title": "SaneReminders",
+          "content": "Set reminders for follow-up emails to ensure important conversations don’t fall through the cracks."
+        }
       ],
-      pricing: [
-        { plan: "Basic", price: "$7/month" },
-        { plan: "Premium", price: "$12/month" },
-        { plan: "Executive", price: "$36/month" },
+      "pricing": [
+        { "plan": "Basic", "price": "$7/month" },
+        { "plan": "Premium", "price": "$12/month" },
+        { "plan": "Executive", "price": "$36/month" }
       ],
-      pros: [
+      "pros": [
         {
-          pro: "AI-Powered Email Sorting",
-          description:
-            "The intelligent sorting system helps prioritize your inbox by automatically filtering emails based on importance.",
+          "pro": "AI-Powered Email Sorting",
+          "description": "The intelligent sorting system helps prioritize your inbox by automatically filtering emails based on importance."
         },
         {
-          pro: "Time-Saving Features",
-          description:
-            "With features like one-click unsubscribe and email snooze, SaneBox saves you time and makes email management effortless.",
+          "pro": "Time-Saving Features",
+          "description": "With features like one-click unsubscribe and email snooze, SaneBox saves you time and makes email management effortless."
         },
         {
-          pro: "Works with Any Email Provider",
-          description:
-            "SaneBox integrates seamlessly with any email provider, making it easy to set up and use without switching platforms.",
-        },
+          "pro": "Works with Any Email Provider",
+          "description": "SaneBox integrates seamlessly with any email provider, making it easy to set up and use without switching platforms."
+        }
       ],
-      cons: [
+      "cons": [
         {
-          con: "Subscription-Based Pricing",
-          description:
-            "SaneBox requires a subscription, which may not be ideal for those looking for a free email management solution.",
+          "con": "Subscription-Based Pricing",
+          "description": "SaneBox requires a subscription, which may not be ideal for those looking for a free email management solution."
         },
         {
-          con: "Learning Curve for New Users",
-          description:
-            "It may take some time for SaneBox to learn your preferences, meaning it might not be perfectly accurate initially.",
-        },
+          "con": "Learning Curve for New Users",
+          "description": "It may take some time for SaneBox to learn your preferences, meaning it might not be perfectly accurate initially."
+        }
       ],
+      "descriptions": [
+        "SaneBox uses AI to filter and organize your inbox, helping you focus on important emails and reduce clutter.",
+        "It offers powerful features like snooze, unsubscribe, and reminders to keep your inbox under control."
+      ]
     },
     {
-      id: "missive",
-      name: "Missive",
-      image: "anh174.webp",
-      link: "https://missiveapp.com/",
-      reviewText: "Read the full review here",
-      textLink: "Why Missive is the best team collaboration tool for email!",
-      reviewLink: "/article-category/email-management-reviews",
-      keyFeatures: [
+      "id": "missive",
+      "name": "Missive",
+      "image": "anh174.webp",
+      "link": "https://missiveapp.com/",
+      "keyFeatures": [
         {
-          title: "Shared Inboxes",
-          content:
-            "Collaborate with your team on shared inboxes, manage customer support, and handle project emails all in one place.",
+          "title": "Shared Inboxes",
+          "content": "Collaborate with your team on shared inboxes, manage customer support, and handle project emails all in one place."
         },
         {
-          title: "Live Chat Integration",
-          content:
-            "Integrate live chat directly into your inbox to manage conversations with clients and team members efficiently.",
+          "title": "Live Chat Integration",
+          "content": "Integrate live chat directly into your inbox to manage conversations with clients and team members efficiently."
         },
         {
-          title: "Email Delegation",
-          content:
-            "Delegate tasks via email, assigning emails to team members for follow-up and resolution.",
+          "title": "Email Delegation",
+          "content": "Delegate tasks via email, assigning emails to team members for follow-up and resolution."
         },
         {
-          title: "Threaded Conversations",
-          content:
-            "Organize emails into threaded conversations for better collaboration and more effective communication.",
+          "title": "Threaded Conversations",
+          "content": "Organize emails into threaded conversations for better collaboration and more effective communication."
         },
         {
-          title: "Automated Workflows",
-          content:
-            "Set up automated workflows to streamline your email management and improve productivity.",
-        },
+          "title": "Automated Workflows",
+          "content": "Set up automated workflows to streamline your email management and improve productivity."
+        }
       ],
-      pricing: [
-        { plan: "Free", price: "$0" },
-        { plan: "Standard", price: "$12/month per user" },
-        { plan: "Business", price: "$24/month per user" },
+      "pricing": [
+        { "plan": "Free", "price": "$0" },
+        { "plan": "Standard", "price": "$12/month per user" },
+        { "plan": "Business", "price": "$24/month per user" }
       ],
-      pros: [
+      "pros": [
         {
-          pro: "Ideal for Team Collaboration",
-          description:
-            "Missive is designed for teams, allowing you to collaborate directly within the inbox to solve problems quickly.",
+          "pro": "Ideal for Team Collaboration",
+          "description": "Missive is designed for teams, allowing you to collaborate directly within the inbox to solve problems quickly."
         },
         {
-          pro: "Real-Time Updates",
-          description:
-            "Real-time updates help keep all team members on the same page with email conversations and tasks.",
+          "pro": "Real-Time Updates",
+          "description": "Real-time updates help keep all team members on the same page with email conversations and tasks."
         },
         {
-          pro: "Powerful Integrations",
-          description:
-            "Missive integrates with many third-party apps, making it versatile and easy to adapt to your workflow.",
-        },
+          "pro": "Powerful Integrations",
+          "description": "Missive integrates with many third-party apps, making it versatile and easy to adapt to your workflow."
+        }
       ],
-      cons: [
+      "cons": [
         {
-          con: "Complex for Individual Users",
-          description:
-            "Missive is more tailored to teams, which might be a bit too complex for individual users.",
+          "con": "Complex for Individual Users",
+          "description": "Missive is more tailored to teams, which might be a bit too complex for individual users."
         },
         {
-          con: "Pricing Can Be High for Small Teams",
-          description:
-            "For smaller teams, the subscription fees might be on the pricier side.",
-        },
+          "con": "Pricing Can Be High for Small Teams",
+          "description": "For smaller teams, the subscription fees might be on the pricier side."
+        }
       ],
+      "descriptions": [
+        "Missive allows teams to collaborate within email inboxes, making it easy to manage customer support and project communications.",
+        "With features like live chat, delegation, and workflow automation, Missive enhances team collaboration and productivity."
+      ]
     },
     {
-      id: "cleanemail",
-      name: "Clean Email",
-      image: "anh175.webp",
-      link: "https://cleanemail.com/",
-      reviewText: "Read the full review here",
-      textLink: "Why Clean Email is the best email cleaner for your inbox!",
-      reviewLink: "/article-category/email-management-reviews",
-      keyFeatures: [
+      "id": "cleanemail",
+      "name": "Clean Email",
+      "image": "anh175.webp",
+      "link": "https://cleanemail.com/",
+      "keyFeatures": [
         {
-          title: "Email Cleaning",
-          content:
-            "Automatically clean your inbox by removing unwanted emails, subscriptions, and spam messages.",
+          "title": "Email Cleaning",
+          "content": "Automatically clean your inbox by removing unwanted emails, subscriptions, and spam messages."
         },
         {
-          title: "Unsubscribe from Lists",
-          content:
-            "Easily unsubscribe from unwanted email lists and newsletters with a single click.",
+          "title": "Unsubscribe from Lists",
+          "content": "Easily unsubscribe from unwanted email lists and newsletters with a single click."
         },
         {
-          title: "Smart Folders",
-          content:
-            "Create custom folders to organize your emails based on criteria like sender, subject, and other filters.",
+          "title": "Smart Folders",
+          "content": "Create custom folders to organize your emails based on criteria like sender, subject, and other filters."
         },
         {
-          title: "Email Blocker",
-          content:
-            "Block unwanted senders and prevent further clutter in your inbox.",
+          "title": "Email Blocker",
+          "content": "Block unwanted senders and prevent further clutter in your inbox."
         },
         {
-          title: "Multiple Account Support",
-          content:
-            "Clean Email supports multiple email accounts, allowing you to manage and clean all your inboxes in one place.",
-        },
+          "title": "Multiple Account Support",
+          "content": "Clean Email supports multiple email accounts, allowing you to manage and clean all your inboxes in one place."
+        }
       ],
-      pricing: [
-        { plan: "Free Trial", price: "$0 for 7 days" },
-        { plan: "Premium", price: "$9.99/month" },
-        { plan: "Yearly", price: "$29.99/year" },
+      "pricing": [
+        { "plan": "Free Trial", "price": "$0 for 7 days" },
+        { "plan": "Premium", "price": "$9.99/month" },
+        { "plan": "Yearly", "price": "$29.99/year" }
       ],
-      pros: [
+      "pros": [
         {
-          pro: "Easy-to-Use Interface",
-          description:
-            "Clean Email's interface is user-friendly, making it easy to clean and organize your inbox.",
+          "pro": "Easy-to-Use Interface",
+          "description": "Clean Email's interface is user-friendly, making it easy to clean and organize your inbox."
         },
         {
-          pro: "Efficient Bulk Actions",
-          description:
-            "The tool allows you to clean up your inbox quickly by applying bulk actions to emails.",
+          "pro": "Efficient Bulk Actions",
+          "description": "The tool allows you to clean up your inbox quickly by applying bulk actions to emails."
         },
         {
-          pro: "Automated Email Sorting",
-          description:
-            "It helps automatically sort your emails, saving you time and keeping your inbox organized.",
-        },
+          "pro": "Automated Email Sorting",
+          "description": "It helps automatically sort your emails, saving you time and keeping your inbox organized."
+        }
       ],
-      cons: [
+      "cons": [
         {
-          con: "Limited Free Version",
-          description:
-            "The free version has limited functionality, requiring a premium plan for full access.",
+          "con": "Limited Free Version",
+          "description": "The free version has limited functionality, requiring a premium plan for full access."
         },
         {
-          con: "Not Suitable for Complex Email Management",
-          description:
-            "While great for cleaning, Clean Email may not be ideal for more advanced email management needs.",
-        },
+          "con": "Not Suitable for Complex Email Management",
+          "description": "While great for cleaning, Clean Email may not be ideal for more advanced email management needs."
+        }
       ],
+      "descriptions": [
+        "Clean Email helps you clean and organize your inbox by removing unwanted emails and automatically sorting messages.",
+        "With features like unsubscribe, blocking, and multiple account support, it simplifies inbox management for busy professionals."
+      ]
     },
     {
-      id: "mailbutler",
-      name: "Mailbutler",
-      image: "anh176.webp",
-      link: "https://www.mailbutler.io/",
-      reviewText: "Read the full review here",
-      textLink: "Why Mailbutler is the best productivity tool for email!",
-      reviewLink: "/article-category/email-productivity-reviews",
-      keyFeatures: [
+      "id": "mailbutler",
+      "name": "Mailbutler",
+      "image": "anh176.webp",
+      "link": "https://www.mailbutler.io/",
+      "keyFeatures": [
         {
-          title: "Email Tracking",
-          content:
-            "Track emails to see when they’re opened and whether links are clicked, helping you gauge interest and follow up effectively.",
+          "title": "Email Tracking",
+          "content": "Track emails to see when they’re opened and whether links are clicked, helping you gauge interest and follow up effectively."
         },
         {
-          title: "Snooze Emails",
-          content:
-            "Snooze emails to remind yourself to follow up at the best time, keeping your inbox clean and focused.",
+          "title": "Snooze Emails",
+          "content": "Snooze emails to remind yourself to follow up at the best time, keeping your inbox clean and focused."
         },
         {
-          title: "Scheduled Sending",
-          content:
-            "Schedule your emails to be sent at a specific time, ensuring they reach the recipient when it’s most convenient.",
+          "title": "Scheduled Sending",
+          "content": "Schedule your emails to be sent at a specific time, ensuring they reach the recipient when it’s most convenient."
         },
         {
-          title: "Custom Signatures",
-          content:
-            "Create and use custom email signatures to personalize your communication and maintain brand consistency.",
+          "title": "Custom Signatures",
+          "content": "Create and use custom email signatures to personalize your communication and maintain brand consistency."
         },
         {
-          title: "Task Management",
-          content:
-            "Turn emails into tasks and assign follow-ups to keep track of important actions directly from your inbox.",
-        },
+          "title": "Task Management",
+          "content": "Turn emails into tasks and assign follow-ups to keep track of important actions directly from your inbox."
+        }
       ],
-      pricing: [
-        { plan: "Free", price: "$0" },
-        { plan: "Personal", price: "$9.95/month" },
-        { plan: "Professional", price: "$19.95/month" },
+      "pricing": [
+        { "plan": "Free", "price": "$0" },
+        { "plan": "Personal", "price": "$9.95/month" },
+        { "plan": "Professional", "price": "$19.95/month" }
       ],
-      pros: [
+      "pros": [
         {
-          pro: "Powerful Email Tracking",
-          description:
-            "Track email opens and clicks to improve follow-up strategies and email communication.",
+          "pro": "Powerful Email Tracking",
+          "description": "Track email opens and clicks to improve follow-up strategies and email communication."
         },
         {
-          pro: "Increased Productivity",
-          description:
-            "With features like scheduling and task management, Mailbutler boosts your overall email productivity.",
+          "pro": "Increased Productivity",
+          "description": "With features like scheduling and task management, Mailbutler boosts your overall email productivity."
         },
         {
-          pro: "Seamless Integration",
-          description:
-            "Integrates smoothly with Gmail and Apple Mail, making it easy to incorporate Mailbutler into your existing workflow.",
-        },
+          "pro": "Seamless Integration",
+          "description": "Integrates smoothly with Gmail and Apple Mail, making it easy to incorporate Mailbutler into your existing workflow."
+        }
       ],
-      cons: [
+      "cons": [
         {
-          con: "Limited Features in Free Plan",
-          description:
-            "The free plan offers limited features, requiring a paid plan for full access to the premium tools.",
+          "con": "Limited Features in Free Plan",
+          "description": "The free plan offers limited features, requiring a paid plan for full access to the premium tools."
         },
         {
-          con: "Can Be Overwhelming for New Users",
-          description:
-            "Some users may find the range of features overwhelming at first, especially when starting out.",
-        },
+          "con": "Can Be Overwhelming for New Users",
+          "description": "Some users may find the range of features overwhelming at first, especially when starting out."
+        }
       ],
+      "descriptions": [
+        "Mailbutler offers powerful tools like email tracking, snoozing, scheduling, and task management to enhance email productivity.",
+        "It integrates well with Gmail and Apple Mail, making it easy to add advanced functionality to your email workflow."
+      ]
     },
     {
-      id: "mailbird",
-      name: "Mailbird",
-      image: "anh177.webp",
-      link: "https://www.getmailbird.com/",
-      reviewText: "Read the full review here",
-      textLink:
-        "Why Mailbird is the best email client for efficient communication!",
-      reviewLink: "/article-category/email-management-reviews",
-      keyFeatures: [
+      "id": "mailbird",
+      "name": "Mailbird",
+      "image": "anh177.webp",
+      "link": "https://www.getmailbird.com/",
+      "keyFeatures": [
         {
-          title: "Unified Inbox",
-          content:
-            "Consolidate all your email accounts into a single inbox for easier management and faster responses.",
+          "title": "Unified Inbox",
+          "content": "Consolidate all your email accounts into a single inbox for easier management and faster responses."
         },
         {
-          title: "Customizable Layout",
-          content:
-            "Choose from various layouts to organize your inbox and streamline your workflow.",
+          "title": "Customizable Layout",
+          "content": "Choose from various layouts to organize your inbox and streamline your workflow."
         },
         {
-          title: "Speed Reader",
-          content:
-            "Mailbird’s Speed Reader helps you read emails faster with the ability to instantly scan messages.",
+          "title": "Speed Reader",
+          "content": "Mailbird’s Speed Reader helps you read emails faster with the ability to instantly scan messages."
         },
         {
-          title: "App Integrations",
-          content:
-            "Integrates with popular apps like WhatsApp, Google Calendar, and Dropbox for better productivity.",
+          "title": "App Integrations",
+          "content": "Integrates with popular apps like WhatsApp, Google Calendar, and Dropbox for better productivity."
         },
         {
-          title: "Advanced Search",
-          content:
-            "Find any email with ease using Mailbird’s powerful search feature that filters by multiple criteria.",
-        },
+          "title": "Advanced Search",
+          "content": "Find any email with ease using Mailbird’s powerful search feature that filters by multiple criteria."
+        }
       ],
-      pricing: [
-        { plan: "Free", price: "$0" },
-        { plan: "Pro", price: "$39.90/year" },
-        { plan: "Business", price: "$59.00/year" },
+      "pricing": [
+        { "plan": "Free", "price": "$0" },
+        { "plan": "Pro", "price": "$39.90/year" },
+        { "plan": "Business", "price": "$59.00/year" }
       ],
-      pros: [
+      "pros": [
         {
-          pro: "All-in-One Email Management",
-          description:
-            "Mailbird consolidates all your emails into one interface, making it easier to stay on top of communication.",
+          "pro": "All-in-One Email Management",
+          "description": "Mailbird consolidates all your emails into one interface, making it easier to stay on top of communication."
         },
         {
-          pro: "Fast and Intuitive",
-          description:
-            "The interface is clean and intuitive, making Mailbird easy to navigate and quick to use.",
+          "pro": "Fast and Intuitive",
+          "description": "The interface is clean and intuitive, making Mailbird easy to navigate and quick to use."
         },
         {
-          pro: "Customizable Experience",
-          description:
-            "Mailbird offers plenty of customization options, from themes to layout, so you can work the way you prefer.",
-        },
+          "pro": "Customizable Experience",
+          "description": "Mailbird offers plenty of customization options, from themes to layout, so you can work the way you prefer."
+        }
       ],
-      cons: [
+      "cons": [
         {
-          con: "Limited Free Version",
-          description:
-            "The free version has limited features, with most advanced tools available only in the paid plans.",
+          "con": "Limited Free Version",
+          "description": "The free version has limited features, with most advanced tools available only in the paid plans."
         },
         {
-          con: "Can Be Slow with Large Mailboxes",
-          description:
-            "Mailbird can sometimes become sluggish when managing large volumes of emails or large mailboxes.",
-        },
+          "con": "Can Be Slow with Large Mailboxes",
+          "description": "Mailbird can sometimes become sluggish when managing large volumes of emails or large mailboxes."
+        }
       ],
-    },
-  ];
+      "descriptions": [
+        "Mailbird brings all your emails into one interface, making it easier to stay organized and efficient.",
+        "It integrates with apps like WhatsApp and Dropbox and offers advanced search and speed reading features."
+      ]
+    }
+  ]
+  
 
   return (
     <div className="container mx-auto">
@@ -646,27 +597,15 @@ const BestEmailProductivityApps = () => {
                   alt="app-image"
                   className="my-5 w-full"
                 />
-                <h1 className="mt-10">
-                  {taskManager.name} is a top choice for managing tasks and
-                  projects with AI. It helps streamline work, automates
-                  processes, and integrates with over 400 apps. From request
-                  forms to workload balance, it handles every aspect of project
-                  management.
-                  <br />
-                  <br />
-                  But what makes {taskManager.name} unique is its focus on
-                  teamwork. It is designed to boost collaboration among team
-                  members and different departments. This ensures efficient
-                  communication and project success.
-                  <br />
-                  <br />
-                  {taskManager.name} is the{" "}
-                  <span className="work-sans-900">
-                    most versatile AI-powered platform.
-                  </span>{" "}
-                  It is an ideal choice for teams of any size where seamless and
-                  efficient collaboration is paramount.
-                </h1>
+                {taskManager.descriptions && (
+                  <>
+                    {taskManager.descriptions.map((description, idx) => (
+                      <p key={idx} className="my-5">
+                        {description}
+                      </p>
+                    ))}
+                  </>
+                )}
                 <h1 className="text-xl work-sans-900 my-5 ">Key Features:</h1>
                 <ul className="list-disc pb-10 px-10">
                   {taskManager.keyFeatures.map((feature, idx) => (

@@ -275,7 +275,7 @@ const AdobeAcrobatVsUpdf = () => {
 
           {/* phần hai */}
           <div>
-            <h1 className="text-2xl work-sans-900 my-5">
+            <h1 id="keydifferences" className="text-2xl work-sans-900 my-5">
               Key differences between Adobe Acrobat and UPDF
             </h1>
             Here is a short overview of the key differences I found in the Adobe

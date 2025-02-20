@@ -80,12 +80,6 @@ const BestAiNoteTakingApp = () => {
         { name: "Laxis", link: "#laxis" },
         { name: "Fireflies AI", link: "#fireflies-ai" },
         { name: "MeetGeek", link: "#meetgeek" },
-      ],
-    },
-    {
-      title: "Best AI tools for personal note-taking",
-      link: "#best-ai-tools-personal-note-taking",
-      items: [
         { name: "Notion AI", link: "#notion-ai" },
         { name: "Taskade", link: "#taskade" },
         { name: "Reflect", link: "#reflect" },
@@ -150,6 +144,11 @@ const BestAiNoteTakingApp = () => {
       imageOne: "anh92.webp",
       imageTwo: "anh126.webp",
       link: "https://www.tldv.io/",
+      descriptions: [
+        "tl;dv is an advanced AI-powered tool designed to enhance the way teams manage and capture information from meetings. With automatic transcription, smart summarization, and easy-to-search meeting archives, it saves time and effort, allowing you to focus on what's important. Whether you're in a fast-paced business environment or handling multiple meetings, tl;dv streamlines the process and ensures no key points or action items are missed.",
+        "The platform is highly versatile, integrating seamlessly with popular tools like Zoom, Google Meet, and Microsoft Teams, making it a great choice for teams of all sizes. Additionally, its easy-to-use interface ensures everyone can quickly access meeting summaries and action items without the need for extensive training.",
+        "Overall, tl;dv is an invaluable tool for teams looking to optimize their workflow and increase productivity by automating routine tasks like note-taking and action item tracking."
+      ],
       keyFeatures: [
         {
           title: "AI-Powered Meeting Summaries",
@@ -228,6 +227,11 @@ const BestAiNoteTakingApp = () => {
       imageOne: "anh74.webp",
       imageTwo: "anh75.webp",
       link: "https://www.laxis.com/",
+      descriptions: [
+        "Laxis is a powerful AI-based meeting assistant that makes real-time transcription and meeting summaries an effortless task. By automatically generating clear, concise summaries and detecting key action items during meetings, it ensures that no important detail is overlooked.",
+        "Laxis' integration with popular meeting platforms like Zoom, Google Meet, and Microsoft Teams allows it to work seamlessly within existing workflows, making it ideal for teams who need fast, reliable transcription.",
+        "What sets Laxis apart is its intelligent analysis of meeting content, which highlights key discussion points and actionable items, helping teams stay focused on what truly matters in each meeting."
+      ],
       keyFeatures: [
         {
           title: "Real-Time Meeting Transcription",
@@ -275,11 +279,16 @@ const BestAiNoteTakingApp = () => {
       ],
     },
     {
-      id: "fireflies",
+      id: "fireflies-ai",
       name: "Fireflies",
       imageOne: "anh127.webp",
       imageTwo: "anh128.webp",
       link: "https://fireflies.ai/",
+      descriptions: [
+        "Fireflies is an AI-powered meeting assistant that transcribes your meetings and provides intelligent insights and action items. Designed for seamless integration with platforms like Zoom, Google Meet, and Slack, it ensures that your team stays on top of every meeting, without missing any key details.",
+        "The platform goes beyond just transcription; it automatically detects and summarizes key points from your discussions, offering actionable insights that enhance your workflow.",
+        "Fireflies is ideal for teams looking to improve their meeting productivity by automating note-taking, summarizing, and organizing important tasks and insights."
+      ],
       keyFeatures: [
         {
           title: "AI Meeting Assistant",
@@ -322,26 +331,31 @@ const BestAiNoteTakingApp = () => {
       ],
     },
     {
-      id: "notion",
+      id: "notion-ai",
       name: "Notion",
       imageOne: "anh129.webp",
       imageTwo: "anh130.webp",
       link: "https://www.notion.so/",
+      descriptions: [
+        "Notion is an all-in-one workspace that combines note-taking, task management, databases, and wikis, offering teams and individuals the flexibility to organize their work in a way that suits their needs. Its highly customizable interface allows users to create templates, track projects, and maintain a central knowledge base.",
+        "With its powerful collaboration features, Notion enables teams to work together in real time, making it easy to share documents and brainstorm ideas. Whether you’re working on personal projects or managing a team, Notion adapts to your style of work, ensuring efficiency and productivity.",
+        "However, Notion’s true strength lies in its versatility. You can design your workspace to fit your workflow perfectly, adding databases, lists, and tasks where you need them, and customizing how you view your data. This flexibility makes Notion ideal for individuals or teams that need a more tailored organizational system."
+      ],
       keyFeatures: [
         {
           title: "All-in-One Workspace",
           content:
-            "Notion provides a versatile workspace for notes, databases, tasks, and wikis.",
+            "Notion provides a versatile workspace for notes, databases, tasks, and wikis, allowing you to keep everything in one place.",
         },
         {
           title: "Collaboration Features",
           content:
-            "Work with your team on documents in real time, making it easy to collaborate.",
+            "Work with your team on documents in real time, making it easy to collaborate on projects and keep everyone on the same page.",
         },
         {
           title: "Customizable Templates",
           content:
-            "Create and customize templates for your workflows, notes, and projects.",
+            "Create and customize templates for your workflows, notes, and projects, making it easy to standardize processes and streamline work.",
         },
       ],
       pricing: [
@@ -353,19 +367,19 @@ const BestAiNoteTakingApp = () => {
         {
           pro: "Versatile Platform",
           description:
-            "Notion combines notes, tasks, and databases all in one place.",
+            "Notion combines notes, tasks, and databases all in one place, offering flexibility to manage various aspects of your workflow.",
         },
         {
           pro: "Customizable",
           description:
-            "You can create and organize information however you like.",
+            "You can create and organize information in a way that fits your unique needs, making it easy to adapt to changing work styles.",
         },
       ],
       cons: [
         {
           con: "Steep Learning Curve",
           description:
-            "The variety of features can make it difficult for new users to learn.",
+            "The variety of features and options in Notion can be overwhelming for new users, requiring some time to master its full potential.",
         },
       ],
     },
@@ -375,20 +389,25 @@ const BestAiNoteTakingApp = () => {
       imageOne: "anh30.webp",
       imageTwo: "anh31.webp",
       link: "https://meetgeek.ai/",
+      descriptions: [
+        "MeetGeek is an AI-powered meeting assistant that helps you take notes, transcribe your meetings in real time, and easily access recordings and summaries later. Its intuitive platform is designed to help teams save time by automating tedious tasks like transcription, note-taking, and summarization.",
+        "In addition to transcription, MeetGeek offers features like easy-to-access meeting recordings, allowing you to revisit important discussions and ensure no details are forgotten. Whether you're managing multiple meetings or just want to streamline your workflow, MeetGeek is an excellent tool to keep your meetings organized and efficient.",
+        "MeetGeek's simple design and user-friendly interface make it accessible to users of all experience levels, ensuring that everyone can benefit from its powerful features without a steep learning curve."
+      ],
       keyFeatures: [
         {
           title: "AI Meeting Assistant",
           content:
-            "MeetGeek assists in meetings by taking notes, providing summaries, and offering insights.",
+            "MeetGeek assists in meetings by taking notes, providing summaries, and offering insights to make your meetings more efficient.",
         },
         {
           title: "Real-Time Transcription",
-          content: "Get accurate transcriptions of your meetings in real time.",
+          content: "Get accurate transcriptions of your meetings in real time, ensuring no detail is missed.",
         },
         {
           title: "Easy-to-Access Recordings",
           content:
-            "MeetGeek allows you to revisit meeting recordings and summaries at any time.",
+            "MeetGeek allows you to revisit meeting recordings and summaries at any time, providing easy access to your discussions.",
         },
       ],
       pricing: [
@@ -398,18 +417,20 @@ const BestAiNoteTakingApp = () => {
       pros: [
         {
           pro: "User-Friendly Interface",
-          description: "Easy to use with minimal setup.",
+          description:
+            "Easy to use with minimal setup, allowing users to focus on the meeting content rather than learning complex tools.",
         },
         {
           pro: "Time-Saving Summaries",
-          description: "Automatically generates concise meeting summaries.",
+          description:
+            "Automatically generates concise meeting summaries, so you can quickly review key points without sifting through long transcriptions.",
         },
       ],
       cons: [
         {
           con: "Limited Integrations",
           description:
-            "Doesn't integrate with as many tools as some competitors.",
+            "Doesn't integrate with as many tools as some competitors, which may be a limitation for teams using other platforms.",
         },
       ],
     },
@@ -419,11 +440,16 @@ const BestAiNoteTakingApp = () => {
       imageOne: "anh132.webp",
       imageTwo: "anh131.webp",
       link: "https://www.taskade.com/",
+      descriptions: [
+        "Taskade is a task management and collaboration platform designed to streamline your team's workflow. With features like customizable templates, cross-platform sync, and easy task assignment, Taskade makes organizing and tracking your projects simpler and more efficient.",
+        "Whether you’re planning personal tasks or working with a team, Taskade allows you to create to-do lists, set deadlines, and track progress across all devices. The app's flexibility enables users to customize their workspace to fit their exact needs, whether it’s for a project or day-to-day tasks.",
+        "One of Taskade's standout features is its powerful template system, which allows you to start projects quickly and maintain consistency in how you work. Whether you need to create task lists, manage team projects, or even track goals, Taskade has the tools to get the job done."
+      ],
       keyFeatures: [
         {
           title: "Task Management and Collaboration",
           content:
-            "Organize and collaborate on tasks and projects in a streamlined environment.",
+            "Organize and collaborate on tasks and projects in a streamlined environment, ensuring all team members are on the same page.",
         },
         {
           title: "Cross-Platform Sync",
@@ -433,7 +459,7 @@ const BestAiNoteTakingApp = () => {
         {
           title: "Customizable Templates",
           content:
-            "Choose from various templates for productivity, personal projects, and more.",
+            "Choose from various templates for productivity, personal projects, and more, or create your own for a personalized experience.",
         },
       ],
       pricing: [
@@ -445,19 +471,19 @@ const BestAiNoteTakingApp = () => {
         {
           pro: "Simple and Clean Interface",
           description:
-            "Taskade's interface is intuitive, making it easy to organize and collaborate.",
+            "Taskade's interface is intuitive, making it easy to organize tasks and collaborate with others, no matter your experience level.",
         },
         {
           pro: "Multiple Integrations",
           description:
-            "Connect with tools like Google Drive, Slack, and others to enhance your productivity.",
+            "Connect with tools like Google Drive, Slack, and others to enhance your productivity and streamline workflows.",
         },
       ],
       cons: [
         {
           con: "Limited Features in Free Plan",
           description:
-            "The free plan lacks some advanced features and customizations.",
+            "The free plan lacks some advanced features and customizations, which may require an upgrade to unlock the full potential of Taskade.",
         },
       ],
     },
@@ -467,21 +493,26 @@ const BestAiNoteTakingApp = () => {
       imageOne: "anh133.webp",
       imageTwo: "anh134.webp",
       link: "https://reflect.app/",
+      descriptions: [
+        "Reflect is an AI-powered note-taking tool designed to help users organize their meeting notes, track action items, and collaborate with teams in real time. By using smart AI algorithms, Reflect transforms how you capture, organize, and retrieve important information from meetings.",
+        "Its main feature, AI-powered notes, allows you to capture meeting content quickly and efficiently. In addition, Reflect’s organized knowledge base helps you manage notes for various projects and access them in seconds using the intuitive search functionality.",
+        "Whether you're working individually or as part of a team, Reflect's collaborative features allow multiple users to edit and add to notes in real time, ensuring everyone stays aligned and up-to-date with project progress."
+      ],
       keyFeatures: [
         {
           title: "Smart Note-Taking",
           content:
-            "Reflect uses AI to help you take better, smarter notes during meetings.",
+            "Reflect uses AI to help you take better, smarter notes during meetings, making it easier to organize and review key information.",
         },
         {
           title: "Organized Knowledge Base",
           content:
-            "Keep your notes organized in a centralized, easy-to-search knowledge base.",
+            "Keep your notes organized in a centralized, easy-to-search knowledge base, making information retrieval fast and efficient.",
         },
         {
           title: "Real-Time Collaboration",
           content:
-            "Collaborate with your team on notes in real time for better results.",
+            "Collaborate with your team on notes in real time, enhancing team productivity and ensuring that everyone stays on the same page.",
         },
       ],
       pricing: [
@@ -492,18 +523,19 @@ const BestAiNoteTakingApp = () => {
         {
           pro: "AI-Powered Notes",
           description:
-            "Leverages AI to generate and organize insightful meeting notes.",
+            "Leverages AI to generate and organize insightful meeting notes, saving you time and effort on manual note-taking.",
         },
         {
           pro: "Searchable Notes",
           description:
-            "Search and retrieve meeting notes easily and efficiently.",
+            "Search and retrieve meeting notes easily and efficiently, allowing you to find relevant information in seconds.",
         },
       ],
       cons: [
         {
           con: "Learning Curve for AI Features",
-          description: "It may take time to adjust to the AI-powered features.",
+          description:
+            "It may take time to adjust to the AI-powered features, especially for those who are new to using AI tools in everyday tasks.",
         },
       ],
     },
@@ -513,21 +545,26 @@ const BestAiNoteTakingApp = () => {
       imageOne: "anh135.webp",
       imageTwo: "anh136.webp",
       link: "https://get.mem.ai/",
+      descriptions: [
+        "Mem is an AI-powered knowledge management tool designed to streamline the way you organize and manage your personal and team knowledge. With its intelligent organization system, Mem helps you stay on top of your notes, documents, and tasks, ensuring that everything is easily accessible and well-structured.",
+        "One of Mem's standout features is its natural language search functionality, allowing you to find relevant notes and tasks by simply typing in plain language. This removes the need for complex tags or keywords, making it easy to search for information without needing to remember exactly how it was categorized.",
+        "Mem is designed for seamless collaboration, enabling teams to work together in real-time on notes, documents, and tasks. This ensures that everyone stays up-to-date with the latest information, promoting better collaboration and productivity."
+      ],
       keyFeatures: [
         {
           title: "AI-Powered Knowledge Management",
           content:
-            "Mem's AI helps you organize your personal knowledge and tasks effortlessly.",
+            "Mem's AI helps you organize your personal knowledge and tasks effortlessly, making it easier to stay on top of your work and personal projects.",
         },
         {
           title: "Real-Time Collaboration",
           content:
-            "Collaborate seamlessly on notes, documents, and tasks in real time.",
+            "Collaborate seamlessly on notes, documents, and tasks in real time with your team, ensuring everyone is aligned and up-to-date.",
         },
         {
           title: "Natural Language Search",
           content:
-            "Search your notes and tasks using natural language, making it easier to find relevant information.",
+            "Search your notes and tasks using natural language, making it easier to find relevant information without complex queries.",
         },
       ],
       pricing: [
@@ -538,23 +575,24 @@ const BestAiNoteTakingApp = () => {
         {
           pro: "AI-Based Organization",
           description:
-            "The AI intelligently organizes your notes and tasks, helping you stay on top of your work.",
+            "The AI intelligently organizes your notes and tasks, helping you stay on top of your work and reducing the time spent on manual organization.",
         },
         {
           pro: "Seamless Collaboration",
           description:
-            "Collaborate in real-time with team members, enhancing productivity.",
+            "Collaborate in real-time with team members, enhancing productivity and ensuring everyone is on the same page.",
         },
       ],
       cons: [
         {
           con: "Limited Integrations",
           description:
-            "Has fewer integrations compared to other knowledge management tools.",
+            "Has fewer integrations compared to other knowledge management tools, which may be a limitation for teams that rely on other platforms.",
         },
       ],
     },
   ];
+  
 
   return (
     <div className="container mx-auto">
@@ -855,6 +893,12 @@ const BestAiNoteTakingApp = () => {
 
           {/* phần ba */}
           <div>
+          <h1
+              id="best-ai-note-apps-meetings"
+              className="text-3xl work-sans-900 my-6 mt-10"
+            >
+              Best AI note-taking apps for meetings
+            </h1>
             {taskManagerData.map((taskManager, index) => (
               <div key={index} id={taskManager.id}>
                 <h1 className="text-3xl work-sans-900 my-6">
@@ -868,27 +912,15 @@ const BestAiNoteTakingApp = () => {
                   alt="app-image"
                   className="my-5 w-full"
                 />
-                <h1 className="mt-10">
-                  {taskManager.name} is a top choice for managing tasks and
-                  projects with AI. It helps streamline work, automates
-                  processes, and integrates with over 400 apps. From request
-                  forms to workload balance, it handles every aspect of project
-                  management.
-                  <br />
-                  <br />
-                  But what makes {taskManager.name} unique is its focus on
-                  teamwork. It is designed to boost collaboration among team
-                  members and different departments. This ensures efficient
-                  communication and project success.
-                  <br />
-                  <br />
-                  {taskManager.name} is the{" "}
-                  <span className="work-sans-900">
-                    most versatile AI-powered platform.
-                  </span>{" "}
-                  It is an ideal choice for teams of any size where seamless and
-                  efficient collaboration is paramount.
-                </h1>
+                {taskManager.descriptions && (
+                  <>
+                    {taskManager.descriptions.map((description, idx) => (
+                      <p key={idx} className="my-5">
+                        {description}
+                      </p>
+                    ))}
+                  </>
+                )}
                 <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                   Key Features:
                 </h1>
@@ -948,7 +980,7 @@ const BestAiNoteTakingApp = () => {
 
           {/* phần bốn */}
           <div>
-            <h1 className="text-xl work-sans-900 my-5 ">Wrap-up</h1>
+            <h1 id="wrap-up" className="text-2xl work-sans-900 my-5 ">Wrap-up</h1>
             While it is a good thing that there are many AI note-takers, it
             makes it challenging to find the one that suits you the best. I hope
             this guide gave you some context about which AI note-taking app fits

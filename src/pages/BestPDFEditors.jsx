@@ -70,7 +70,6 @@ const BestPDFEditors = () => {
         { name: "PDFgear", link: "#pdfgear" },
         { name: "Nitro", link: "#nitro" },
         { name: "PDFelement", link: "#pdfelement" },
-        { name: "PDF Expert", link: "#pdfexpert" },
         { name: "EaseUS PDF", link: "#easeuspdf" },
         { name: "Adobe Acrobat", link: "#adobeacrobat" },
       ],
@@ -294,7 +293,7 @@ const BestPDFEditors = () => {
               <br></br>
               Based on these factors, here are the best 6 Notion alternatives:
               <img src="anh4.png" alt="anh" className="pt-5" />
-              <h1 id="alternatives" className="text-2xl work-sans-900 mt-10">
+              <h1 id="editors" className="text-2xl work-sans-900 mt-10">
                 Best Notion alternatives in 2025
               </h1>
               <br></br>
@@ -1130,7 +1129,7 @@ const BestPDFEditors = () => {
               <FaStar className="text-yellow-500 text-2xl" />
               <FaStar className="text-yellow-500 text-2xl" />
             </h1>
-            <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
+            <h1 id="" className="text-xl work-sans-900 my-5 text-[#3182ce]">
               A Good All-Around PDF Editor
             </h1>
             <img src="anh56.webp" alt="anh" className="my-5" />
@@ -1340,10 +1339,10 @@ const BestPDFEditors = () => {
               <FaStar className="text-yellow-500 text-2xl" />
               <FaStar className="text-yellow-500 text-2xl" />
             </h1>
-            <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
+            <h1  className="text-xl work-sans-900 my-5 text-[#3182ce]">
               An affordable PDF editor for Windows users
             </h1>
-            <img src="anh60.webp" alt="image" className="my-5" />
+            <img src="anh382.webp" alt="image" className="my-5" />
             <button
               onClick={() => window.open("https://www.easeus.com/", "_blank")}
               className="text-[#3182ce] underline"
@@ -1370,7 +1369,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Key features
             </h1>
-            <img src="anh61.webp" alt="image" />
+            <img src="anh383.webp" alt="image" />
             <div className="mt-10">
               <div className="flex flex-col lg:flex-row gap-4">
                 <FaRegStickyNote className="text-green-500 text-3xl lg:text-7xl" />
@@ -1473,7 +1472,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               My experience with EaseUS PDF Editor
             </h1>
-            <img src="anh62.webp" alt="image" className="mb-10" />
+            <img src="anh384.webp" alt="image" className="mb-10" />
             EaseUS PDF offers similar features to other PDF editors but at a
             significantly lower price. One of the standout features is its speed
             – even with large files, it opens quickly without any lag.
@@ -1486,7 +1485,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pricing
             </h1>
-            <img src="anh63.webp" alt="image" className="mb-10" />
+            <img src="anh385.webp" alt="image" className="mb-10" />
             EaseUS PDF offers a free version for reading and viewing PDFs. For
             more advanced features, it provides two paid plans.
             <br />

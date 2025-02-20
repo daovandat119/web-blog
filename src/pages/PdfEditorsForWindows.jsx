@@ -232,7 +232,7 @@ const PdfEditorsForWindows = () => {
           </div>
           {/* phần hai */}
           <div>
-            <h1 className="text-3xl work-sans-900 my-6">
+            <h1 id="best" className="text-3xl work-sans-900 my-6">
               Which are the best PDF editors for Windows in 2025?
             </h1>
             <h1 className="mt-10">

@@ -263,8 +263,8 @@ const FoxitVsPdfelement = () => {
 
                     {/* phần hai */}
                     <div>
-                        <h1 id="keydifferences" className="text-2xl work-sans-900 my-5">
-                            Key differences between Evernote and Xtiles
+                        <h1 id="key-differences" className="text-2xl work-sans-900 my-5">
+                            Key differences between Foxit and PDFelement
                         </h1>
                         <p className="my-5">
                             Here is a short overview of the key differences I found in the

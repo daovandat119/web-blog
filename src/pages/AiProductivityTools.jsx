@@ -56,91 +56,27 @@ const AiProductivityTools = () => {
       title:
         "What factors did I consider when choosing the best AI productivity tools?",
       link: "#factors-for-choosing-ai-tools",
-    },
-
-    {
-      title: "AI transcription apps for online meetings",
-      link: "#ai-transcription-apps",
       items: [
         { name: "Tl;dv", link: "#tldv" },
         { name: "Fireflies AI", link: "#fireflies" },
         { name: "MeetGeek", link: "#meetgeek" },
-      ],
-    },
-
-    {
-      title: "Task management apps",
-      link: "#task-management-apps",
-      items: [
         { name: "Todoist", link: "#todoist" },
         { name: "Taskade", link: "#taskade" },
-      ],
-    },
-
-    {
-      title: "Project management apps",
-      link: "#project-management-apps",
-      items: [
         { name: "ClickUp", link: "#clickup" },
         { name: "Wrike", link: "#wrike" },
-      ],
-    },
-
-    {
-      title: "Scheduling apps",
-      link: "#scheduling-apps",
-      items: [
         { name: "Reclaim", link: "#reclaim" },
         { name: "Motion", link: "#motion" },
         { name: "TimeHero", link: "#timehero" },
+        { name: "SaneBox", link: "#sanebox" },
+        { name: "Notion AI", link: "#notion-ai" },
+        { name: "GeekBot", link: "#geekbot" },
+        { name: "FlexClip", link: "#flexclip" },
+
+        { name: "Krisp", link: "#krisp" },
+        { name: "Jasper", link: "#jasper" },
+        { name: "Grammarly", link: "#grammarly" },
+        { name: "Dall-E", link: "#dall-e" },
       ],
-    },
-
-    {
-      title: "Email management app",
-      link: "#email-management-app",
-      items: [{ name: "SaneBox", link: "#sanebox" }],
-    },
-
-    {
-      title: "Workspace and document management app",
-      link: "#workspace-management-app",
-      items: [{ name: "Notion AI", link: "#notion-ai" }],
-    },
-
-    {
-      title: "Survey and standup automation tool",
-      link: "#survey-standup-automation",
-      items: [{ name: "GeekBot", link: "#geekbot" }],
-    },
-
-    {
-      title: "Video editing tool",
-      link: "#video-editing-tool",
-      items: [{ name: "FlexClip", link: "#flexclip" }],
-    },
-
-    {
-      title: "Background noise cancellation tool",
-      link: "#background-noise-cancellation",
-      items: [{ name: "Krisp", link: "#krisp" }],
-    },
-
-    {
-      title: "AI-powered writing assistant for content creation",
-      link: "#ai-writing-assistant",
-      items: [{ name: "Jasper", link: "#jasper" }],
-    },
-
-    {
-      title: "Grammar checker tool",
-      link: "#grammar-checker-tool",
-      items: [{ name: "Grammarly", link: "#grammarly" }],
-    },
-    {
-      title: "Image generation tool",
-      link: "#image-generation-tool",
-      items: [{ name: "Dall-E", link: "#dall-e" }],
     },
 
     {
@@ -161,7 +97,7 @@ const AiProductivityTools = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-       image: "anh3.webp",
+      image: "anh3.webp",
       date: "October 5, 2023",
     },
     {
@@ -773,7 +709,9 @@ const AiProductivityTools = () => {
             <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
-            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">{item.date}</p>
+            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
+              {item.date}
+            </p>
           </div>
         ))}
       </div>
@@ -833,7 +771,10 @@ const AiProductivityTools = () => {
           </div>
           {/* phần hai */}
           <div>
-            <h1 id="best" className="text-3xl work-sans-900 my-6">
+            <h1
+              id="ai-productivity-tools"
+              className="text-3xl work-sans-900 my-6"
+            >
               What are AI productivity tools?
             </h1>
             <h1 className="mt-10">
@@ -848,7 +789,7 @@ const AiProductivityTools = () => {
               processing with one aim: to help users maximize their time and
               resources and ultimately achieve better results.
             </h1>
-            <h1 className="text-3xl work-sans-900 my-6">
+            <h1 id="best-ai-tools" className="text-3xl work-sans-900 my-6">
               The best AI tools for productivity by category
               <ul className="list-disc p-10 text-base">
                 <li>
@@ -902,7 +843,10 @@ const AiProductivityTools = () => {
                 </li>
               </ul>
             </h1>
-            <h1 className="text-3xl work-sans-900 my-6">
+            <h1
+              id="factors-for-choosing-ai-tools"
+              className="text-3xl work-sans-900 my-6"
+            >
               What factors did I consider when choosing the best AI productivity
               tools?
               <ul className="list-disc p-10 text-base">
@@ -944,7 +888,10 @@ const AiProductivityTools = () => {
                 </li>
               </ul>
             </h1>
-            <h1 className="text-3xl work-sans-900 my-6">
+            <h1
+              id="ai-transcription-apps"
+              className="text-3xl work-sans-900 my-6"
+            >
               AI transcription apps for online meetings
             </h1>
             AI note-taking apps are seamlessly integrated with your meeting and
@@ -1035,10 +982,10 @@ const AiProductivityTools = () => {
           {/* phần bốn */}
           <div>
             <h1 className="mt-10">
-              <h1 className="text-xl work-sans-900 my-5">
+              <h1 id="faq" className="text-xl work-sans-900 my-5">
                 Frequently Asked Questions
               </h1>
-              <h1 id="#faq" className="text-xl work-sans-900 my-5">
+              <h1 id="faq1" className="text-xl work-sans-900 my-5">
                 How can AI enhance productivity?
               </h1>
               AI is transforming the way we work by enhancing productivity
@@ -1051,7 +998,7 @@ const AiProductivityTools = () => {
               <br /> <br />
               With AI, you can streamline your workflow, reduce human error, and
               accomplish more in less time.
-              <h1 id="#faq1" className="text-xl work-sans-900 my-5">
+              <h1 id="faq2" className="text-xl work-sans-900 my-5">
                 What are some of the most widely used productivity tools?
               </h1>
               While productivity tools vary depending on your needs, some of the
@@ -1072,7 +1019,7 @@ const AiProductivityTools = () => {
               management options if you're looking for something different from
               Trello. There are plenty of other tools out there designed to
               supercharge productivity beyond these essential apps.
-              <h1 id="#faq2" className="text-xl work-sans-900 my-5">
+              <h1 id="faq3" className="text-xl work-sans-900 my-5">
                 Which AI tool is best for enhancing productivity?
               </h1>
               The best AI tool for productivity depends on your specific
@@ -1135,7 +1082,7 @@ const AiProductivityTools = () => {
                 1024: { slidesPerView: 3 },
               }}
             >
-               {posts.map((post, index) => (
+              {posts.map((post, index) => (
                 <SwiperSlide key={index}>
                   <div className="bg-white shadow-lg overflow-hidden">
                     <Link to={post.url}>

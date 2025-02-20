@@ -106,37 +106,13 @@ const BestAiTaskManager = () => {
       title: "The Future of AI Task Management",
       link: "#future-ai-task-management",
     },
-    {
-      title: "Summary",
-      link: "#summary",
-    },
-    {
-      title: "Frequently Asked Questions",
-      link: "#faq",
-      items: [
-        { name: "What is an AI task manager for individuals?", link: "#faq1" },
-        { name: "Can you use AI for personal tasks?", link: "#faq2" },
-        {
-          name: "What are the main benefits of AI task management tools?",
-          link: "#faq3",
-        },
-        {
-          name: "How can I choose the right AI task manager tool for my needs?",
-          link: "#faq4",
-        },
-        {
-          name: "What challenges might I face when using AI task managers?",
-          link: "#faq5",
-        },
-      ],
-    },
   ];
 
   const posts = [
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-       image: "anh3.webp",
+      image: "anh3.webp",
       date: "October 5, 2023",
     },
     {
@@ -183,7 +159,6 @@ const BestAiTaskManager = () => {
       name: "Wrike",
       image: "anh114.webp",
       link: "https://www.wrike.com/",
-      image: "anh114.webp",
       keyFeatures: [
         {
           title: "Advanced Resource Allocation",
@@ -256,6 +231,11 @@ const BestAiTaskManager = () => {
             "Setting up custom workflows and integrations can take a bit of time, especially for large teams with complex needs.",
         },
       ],
+      descriptions: [
+        "Wrike is a comprehensive task management platform that specializes in resource allocation, task tracking, and team collaboration. With a focus on custom workflows, smart tagging, and real-time updates, it helps businesses streamline their project management efforts.",
+        "What sets Wrike apart is its advanced reporting and integration capabilities. With integrations to popular apps like Slack and Google Drive, Wrike allows you to centralize communication, documentation, and project management, making it easy to stay organized.",
+        "Wrike is ideal for businesses of all sizes. Whether you're managing complex projects or simple tasks, Wrike offers a highly customizable environment to keep everything on track, making it a top choice for teams seeking efficiency.",
+      ],
     },
     {
       id: "clickup",
@@ -319,6 +299,11 @@ const BestAiTaskManager = () => {
             "Some users report slow performance with large workspaces or complex setups.",
         },
       ],
+      descriptions: [
+        "ClickUp is an all-in-one project management tool that enables you to handle everything from task tracking to goal management in a single platform. With its extensive features and customizability, it helps streamline workflows and improve team productivity.",
+        "What makes ClickUp stand out is its flexibility and powerful automation features. You can create custom views and automate tasks to match your team’s specific needs, making it a versatile option for both small teams and larger organizations.",
+        "ClickUp is perfect for teams looking for a customizable solution that grows with their needs. It combines task management, time tracking, and collaboration tools into a single, efficient platform.",
+      ],
     },
     {
       id: "todoist",
@@ -381,6 +366,11 @@ const BestAiTaskManager = () => {
             "Does not provide time tracking features out of the box.",
         },
       ],
+      descriptions: [
+        "Todoist is a streamlined task management tool perfect for individuals and small teams who need a simple, efficient way to manage their tasks and projects. With a focus on ease of use and organization, it’s a great way to stay on top of personal and professional responsibilities.",
+        "What sets Todoist apart is its user-friendly design and cross-platform availability. Whether you're on mobile or desktop, Todoist keeps you organized and in control of your tasks no matter where you are.",
+        "Todoist is ideal for those who prefer a simple yet effective task management system. While it lacks some advanced features, it provides all the essentials to help you stay on track.",
+      ],
     },
     {
       id: "taskade",
@@ -442,246 +432,214 @@ const BestAiTaskManager = () => {
           description: "Does not offer native time tracking capabilities.",
         },
       ],
+      descriptions: [
+        "Taskade is a task management tool that focuses on simplicity and real-time collaboration. It allows teams to manage tasks, take notes, and plan projects in a seamless, cross-platform environment.",
+        "What makes Taskade unique is its emphasis on pre-built templates and real-time syncing. This makes it easy to collaborate and organize tasks, especially for teams working remotely.",
+        "Taskade is perfect for small teams or personal use. Its intuitive design and essential features make it a great choice for users who want a straightforward tool to manage their tasks and projects.",
+      ],
     },
+
     {
-      id: "motion",
-      name: "Motion",
+      id: "asana",
+      name: "Asana",
       image: "anh118.webp",
-      link: "https://www.usemotion.com/",
+      link: "https://www.asana.com/",
       keyFeatures: [
         {
-          title: "Task Automation",
+          title: "Task & Project Tracking",
           content:
-            "Motion automates task scheduling and prioritization based on your preferences.",
+            "Asana provides a platform for tracking tasks and entire projects, helping teams stay organized and focused.",
         },
         {
-          title: "Integrated Calendar",
+          title: "Project Timelines",
           content:
-            "Sync your tasks and deadlines with your calendar for real-time updates.",
+            "Easily visualize project timelines with Gantt-style charts that show milestones, deadlines, and dependencies.",
         },
         {
-          title: "Project and Goal Tracking",
+          title: "Team Collaboration",
           content:
-            "Track projects and long-term goals to stay aligned with your objectives.",
-        },
-        {
-          title: "Focus Mode",
-          content:
-            "Motion offers a focus mode to help you work uninterrupted for maximum productivity.",
-        },
-        {
-          title: "Smart Recommendations",
-          content:
-            "Motion recommends the best times for tasks based on your schedule and priorities.",
-        },
-      ],
-      pricing: [
-        { plan: "Free Plan", price: "Free" },
-        { plan: "Pro", price: "$8/month" },
-      ],
-      pros: [
-        {
-          pro: "Smart Task Suggestions",
-          description:
-            "Motion intelligently suggests the best time to tackle tasks based on your calendar.",
-        },
-        {
-          pro: "Integrated Calendar",
-          description:
-            "Helps you manage tasks and schedule in one place with automatic syncing.",
-        },
-      ],
-      cons: [
-        {
-          con: "Limited Free Plan",
-          description:
-            "The free plan has limited features compared to the paid versions.",
-        },
-        {
-          con: "Can Be Overwhelming",
-          description:
-            "For those new to task automation, the features may seem overwhelming.",
-        },
-      ],
-    },
-    {
-      id: "hive",
-      name: "Hive",
-      image: "anh119.webp",
-      link: "https://hive.com/",
-      keyFeatures: [
-        {
-          title: "Project Management",
-          content:
-            "Hive helps you manage and organize projects with task management and team collaboration tools.",
+            "With Asana, you can collaborate with your team, comment on tasks, attach files, and share progress in real-time.",
         },
         {
           title: "Automation",
-          content: "Automate repetitive tasks to save time and reduce errors.",
+          content:
+            "Automate repetitive workflows, like task assignments and status updates, to save time and reduce manual errors.",
         },
         {
-          title: "Real-Time Collaboration",
+          title: "Integrations",
           content:
-            "Collaborate with your team in real-time using chat, comments, and document sharing.",
-        },
-        {
-          title: "Time Tracking",
-          content:
-            "Track your team's work hours and productivity directly in the platform.",
-        },
-        {
-          title: "Reports and Analytics",
-          content:
-            "Generate reports to track project progress and team productivity.",
+            "Asana integrates seamlessly with tools like Slack, Google Drive, and Microsoft Teams to centralize your work.",
         },
       ],
       pricing: [
-        { plan: "Free Plan", price: "Free" },
-        { plan: "Pro", price: "$12/month per user" },
-        { plan: "Business", price: "$24/month per user" },
+        { plan: "Basic", price: "Free" },
+        { plan: "Premium", price: "$10.99/month per user" },
+        { plan: "Business", price: "$24.99/month per user" },
+        { plan: "Enterprise", price: "Custom Pricing" },
       ],
       pros: [
         {
-          pro: "Comprehensive Project Management",
+          pro: "User-Friendly Interface",
           description:
-            "Hive offers a wide range of project management features for teams of all sizes.",
+            "Asana’s interface is intuitive, making it easy for users to pick up quickly, even without a steep learning curve.",
         },
         {
-          pro: "Real-Time Updates",
+          pro: "Powerful Task Management",
           description:
-            "Instant updates on task progress, conversations, and documents ensure your team is always in sync.",
+            "Tasks are fully customizable with priority tags, deadlines, and assignees, providing a robust task management system.",
         },
       ],
       cons: [
         {
-          con: "Steep Learning Curve",
+          con: "Limited Reporting Features",
           description:
-            "New users might take some time to familiarize themselves with the interface.",
+            "Some users find that the built-in reporting tools don’t offer as much customization as they would like.",
         },
         {
-          con: "Expensive Premium Plans",
+          con: "Steep Pricing for Advanced Features",
           description:
-            "The premium plans are on the expensive side, which could be a barrier for small teams.",
+            "The more advanced features, such as timeline views and reporting, are locked behind premium plans.",
         },
+      ],
+      descriptions: [
+        "Asana is a leading task management platform for teams to organize, track, and manage work. With its customizable project timelines, teams can visualize goals and keep track of key milestones.",
+        "Asana offers a suite of features designed to help teams streamline communication and enhance productivity. From task creation to detailed project tracking, Asana keeps teams aligned and focused on deadlines.",
+        "Whether you're managing large projects or personal tasks, Asana’s collaboration and automation tools allow teams to work smarter and stay organized, making it a top choice for businesses of all sizes.",
       ],
     },
     {
-      id: "reclaim",
-      name: "Reclaim",
+      id: "monday",
+      name: "Monday.com",
+      image: "anh119.webp",
+      link: "https://monday.com/",
+      keyFeatures: [
+        {
+          title: "Custom Workflows",
+          content:
+            "Create customized workflows that match your team's unique processes, with an easy-to-use drag-and-drop interface.",
+        },
+        {
+          title: "Team Collaboration",
+          content:
+            "Collaborate in real-time with your team, assign tasks, set due dates, and monitor progress all in one place.",
+        },
+        {
+          title: "Time Tracking",
+          content:
+            "Track time spent on each task, and gain insights into how long your projects take from start to finish.",
+        },
+        {
+          title: "Project Dashboards",
+          content:
+            "Get a bird’s-eye view of all your projects, tasks, and timelines with customizable project dashboards.",
+        },
+        {
+          title: "Automation",
+          content:
+            "Automate repetitive tasks and processes to save time and eliminate manual errors, improving team efficiency.",
+        },
+      ],
+      pricing: [
+        { plan: "Basic", price: "$8/month per user" },
+        { plan: "Standard", price: "$10/month per user" },
+        { plan: "Pro", price: "$16/month per user" },
+        { plan: "Enterprise", price: "Custom Pricing" },
+      ],
+      pros: [
+        {
+          pro: "Highly Visual Interface",
+          description:
+            "Monday.com’s colorful and easy-to-read interface helps teams track tasks and workflows in a visually appealing way.",
+        },
+        {
+          pro: "Comprehensive Customization",
+          description:
+            "The platform allows deep customization for project boards and workflows, which can be tailored to a wide range of industries and use cases.",
+        },
+      ],
+      cons: [
+        {
+          con: "Can Be Overwhelming for Beginners",
+          description:
+            "Due to its extensive features and options, new users might feel overwhelmed when first using the platform.",
+        },
+        {
+          con: "Pricing Can Add Up Quickly",
+          description:
+            "While Monday.com offers great features, its pricing can get expensive, especially when adding users to premium plans.",
+        },
+      ],
+      descriptions: [
+        "Monday.com is a visual project management tool designed to help teams track and organize work. With its highly customizable interface, teams can streamline workflows, track tasks, and collaborate in real time.",
+        "Known for its ease of use and visual layout, Monday.com makes project management simple for teams of any size. With powerful features like automation and time tracking, it's built to improve productivity and transparency.",
+        "Monday.com is ideal for teams looking for a flexible, visually-driven tool to manage projects, tasks, and workflows in a seamless and efficient way.",
+      ],
+    },
+    {
+      id: "trello",
+      name: "Trello",
       image: "anh120.webp",
-      link: "https://reclaim.ai/",
+      link: "https://trello.com/",
       keyFeatures: [
         {
-          title: "Smart Scheduling",
+          title: "Kanban Boards",
           content:
-            "Reclaim AI automatically schedules and reschedules your tasks, optimizing your time and productivity.",
+            "Trello uses Kanban-style boards to organize tasks and workflows, making it simple to see project statuses at a glance.",
         },
         {
-          title: "Time Blocking",
+          title: "Task Cards",
           content:
-            "Time block your tasks to ensure you stay on track with your workday.",
-        },
-        {
-          title: "Priority Management",
-          content:
-            "Reclaim helps you prioritize important tasks, so nothing slips through the cracks.",
+            "Each task is represented by a card, which can contain descriptions, due dates, attachments, and more.",
         },
         {
           title: "Team Collaboration",
           content:
-            "Work together with your team and synchronize schedules to align goals and priorities.",
+            "Collaborate with your team by assigning tasks, commenting on cards, and sharing files all within the platform.",
+        },
+        {
+          title: "Automation",
+          content:
+            "Automate tasks and workflows with Butler, Trello’s built-in automation tool, to streamline repetitive actions.",
+        },
+        {
+          title: "Integrations",
+          content:
+            "Trello integrates with popular apps like Slack, Google Drive, and Dropbox to keep all your work in one place.",
         },
       ],
       pricing: [
         { plan: "Free Plan", price: "Free" },
-        { plan: "Pro", price: "$12/month" },
-        { plan: "Business", price: "$25/month per user" },
+        { plan: "Business Class", price: "$9.99/month per user" },
+        { plan: "Enterprise", price: "Custom Pricing" },
       ],
       pros: [
         {
-          pro: "Intelligent Scheduling",
+          pro: "Simple and Easy to Use",
           description:
-            "Reclaim’s AI-powered scheduler ensures your day is optimized for productivity.",
+            "Trello’s drag-and-drop interface makes it one of the most user-friendly project management tools available.",
         },
         {
-          pro: "Easy to Use",
+          pro: "Highly Visual",
           description:
-            "The interface is intuitive, making it simple to schedule and reschedule tasks.",
+            "The Kanban board layout is perfect for visualizing tasks and project progress, helping teams stay organized.",
         },
       ],
       cons: [
         {
-          con: "Limited Integrations",
+          con: "Limited Advanced Features",
           description:
-            "Reclaim currently supports only a few integrations with other apps.",
+            "While Trello is excellent for simple task management, it lacks more complex features like detailed reporting and resource management.",
         },
         {
-          con: "Not Fully Automated",
+          con: "Can Be Cluttered with Large Teams",
           description:
-            "Although it automates many scheduling tasks, you still need to input some tasks manually.",
+            "Trello boards can become overwhelming and cluttered when managing a large number of tasks or team members.",
         },
       ],
-    },
-    {
-      id: "timehero",
-      name: "Timehero",
-      image: "anh121.webp",
-      link: "https://app.timehero.com/",
-      keyFeatures: [
-        {
-          title: "Task Scheduling",
-          content:
-            "Timehero automates task scheduling to optimize time allocation based on deadlines and priorities.",
-        },
-        {
-          title: "Team Collaboration",
-          content:
-            "Collaborate seamlessly with your team by sharing tasks and tracking progress.",
-        },
-        {
-          title: "Time Tracking",
-          content:
-            "Track how much time is being spent on each task and project to improve productivity.",
-        },
-        {
-          title: "Deadline Management",
-          content:
-            "Timehero helps you manage deadlines by scheduling tasks accordingly.",
-        },
-        {
-          title: "Project Overview",
-          content:
-            "Get a comprehensive view of the project’s progress with an easy-to-use dashboard.",
-        },
-      ],
-      pricing: [
-        { plan: "Free Plan", price: "Free" },
-        { plan: "Pro", price: "$8/month per user" },
-        { plan: "Team", price: "$15/month per user" },
-      ],
-      pros: [
-        {
-          pro: "Automatic Scheduling",
-          description:
-            "Automatically schedules your tasks based on their priority and deadlines.",
-        },
-        {
-          pro: "Easy Integration",
-          description:
-            "Integrates easily with other tools like Google Calendar and Slack.",
-        },
-      ],
-      cons: [
-        {
-          con: "Basic Reporting",
-          description:
-            "Reporting features are basic and might not offer the level of detail some users need.",
-        },
-        {
-          con: "Steep Learning Curve",
-          description:
-            "Some users may find the initial setup and learning process to be a bit time-consuming.",
-        },
+      descriptions: [
+        "Trello is a simple, visual project management tool that uses Kanban boards to help teams organize tasks. It’s ideal for small to medium teams looking for an easy way to track work and collaborate on projects.",
+        "With Trello’s simple interface, users can create boards for projects, add task cards, and assign team members to keep everything organized. It's great for teams that need a quick and effective way to manage tasks.",
+        "While it may lack some advanced features, Trello’s focus on simplicity and ease of use makes it perfect for teams that prefer an intuitive and straightforward task management tool.",
       ],
     },
   ];
@@ -711,7 +669,9 @@ const BestAiTaskManager = () => {
             <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
-            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">{item.date}</p>
+            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
+              {item.date}
+            </p>
           </div>
         ))}
       </div>
@@ -866,7 +826,7 @@ const BestAiTaskManager = () => {
 
           {/* phần hai */}
           <div>
-            <h1 id="best" className="text-3xl work-sans-900 my-6">
+            <h1 id="ai-task-management" className="text-3xl work-sans-900 my-6">
               Understanding AI Task Management in 2025
             </h1>
             <h1 className="mt-10">
@@ -896,6 +856,12 @@ const BestAiTaskManager = () => {
 
           {/* phần ba */}
           <div>
+            <h1
+              id="best-ai-task-managers"
+              className="text-2xl work-sans-900 my-5"
+            >
+              8 Best AI Task Manager Tools Ranked and Reviewed
+            </h1>
             {taskManagerData.map((taskManager, index) => (
               <div key={index} id={taskManager.id}>
                 <h1 className="text-3xl work-sans-900 my-6">
@@ -909,27 +875,15 @@ const BestAiTaskManager = () => {
                   alt="app-image"
                   className="my-5 w-full"
                 />
-                <h1 className="mt-10">
-                  {taskManager.name} is a top choice for managing tasks and
-                  projects with AI. It helps streamline work, automates
-                  processes, and integrates with over 400 apps. From request
-                  forms to workload balance, it handles every aspect of project
-                  management.
-                  <br />
-                  <br />
-                  But what makes {taskManager.name} unique is its focus on
-                  teamwork. It is designed to boost collaboration among team
-                  members and different departments. This ensures efficient
-                  communication and project success.
-                  <br />
-                  <br />
-                  {taskManager.name} is the{" "}
-                  <span className="work-sans-900">
-                    most versatile AI-powered platform.
-                  </span>{" "}
-                  It is an ideal choice for teams of any size where seamless and
-                  efficient collaboration is paramount.
-                </h1>
+                {taskManager.descriptions && (
+                  <>
+                    {taskManager.descriptions.map((description, idx) => (
+                      <p key={idx} className="my-5">
+                        {description}
+                      </p>
+                    ))}
+                  </>
+                )}
                 <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                   Key Features:
                 </h1>
@@ -1387,7 +1341,7 @@ const BestAiTaskManager = () => {
                 1024: { slidesPerView: 3 },
               }}
             >
-               {posts.map((post, index) => (
+              {posts.map((post, index) => (
                 <SwiperSlide key={index}>
                   <div className="bg-white shadow-lg overflow-hidden">
                     <Link to={post.url}>

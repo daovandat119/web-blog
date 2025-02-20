@@ -296,7 +296,7 @@ const TaskadeVsCoda = () => {
 
           {/* phần hai */}
           <div>
-            <h1 className="text-2xl work-sans-900 my-5">
+            <h1 id="keydifferences" className="text-2xl work-sans-900 my-5">
               Key differences between Taskade and Coda
             </h1>
             Here is a short overview of the key differences I found in the

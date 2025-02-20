@@ -103,7 +103,7 @@ const BestAisChedulingAssistant = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-       image: "anh3.webp",
+      image: "anh3.webp",
       date: "October 5, 2023",
     },
     {
@@ -151,6 +151,11 @@ const BestAisChedulingAssistant = () => {
       imageOne: "anh141.webp",
       imageTwo: "anh142.webp",
       link: "https://www.reclaim.ai/",
+      descriptions: [
+        "Reclaim AI is an innovative tool designed to improve your productivity by leveraging artificial intelligence. It uses advanced AI technology to automatically generate concise and clear meeting summaries, ensuring that you never miss important takeaways or action items from your meetings.",
+        "In addition to its summary feature, Reclaim AI offers real-time transcription, which ensures that all of your meetings are accurately captured, even during fast-paced discussions. This is particularly useful for professionals who need to review meeting content at a later time without spending hours transcribing notes manually.",
+        "Furthermore, Reclaim AI functions as a smart scheduler, helping users find the best time slots for meetings, tasks, habits, and breaks. It integrates seamlessly with popular tools like Zoom, Google Meet, and Microsoft Teams, making it easy to synchronize and manage your calendar. With this intelligent scheduling feature, Reclaim AI helps you optimize your time and maintain a balanced workflow, ensuring that you stay productive while also prioritizing your well-being.",
+      ],
       keyFeatures: [
         {
           title: "AI-Powered Meeting Summaries",
@@ -223,7 +228,7 @@ const BestAisChedulingAssistant = () => {
         },
       ],
       userExperience:
-        "Reclaim AI is an AI scheduler that automatically finds the best time slots for tasks, meetings, habits, and breaks. Besides working as an AI scheduling app, it also has task management features, and you can integrate it with many project management apps. They designed this app to help you manage your business and personal calendars and find work-life balance.",
+        "Reclaim AI is an AI scheduler that automatically finds the best time slots for tasks, meetings, habits, and breaks. Besides working as an AI scheduling app, it also has task management features, and you can integrate it with many project management apps. Designed to help you manage both your business and personal calendars, it assists in maintaining a balanced work-life dynamic.",
     },
     {
       id: "motion-ai",
@@ -231,6 +236,11 @@ const BestAisChedulingAssistant = () => {
       imageOne: "anh143.webp",
       imageTwo: "anh144.webp",
       link: "https://www.usemotion.com/",
+      descriptions: [
+        "Motion AI is an intelligent productivity tool that helps you manage your time and tasks more efficiently. By analyzing your priorities and energy levels, it automatically schedules your day, ensuring that your tasks are allocated based on when you're most likely to be productive.",
+        "The app also helps with task prioritization, automatically identifying the most important tasks and deadlines, and organizing them in a way that makes it easier for you to stay focused. Whether you're working on a project with strict deadlines or juggling personal responsibilities, Motion AI helps you keep track of your to-do list effortlessly.",
+        "Motion integrates seamlessly with your existing calendar tools, including Google Calendar, so all of your meetings and tasks are in one place. This integration saves you time by eliminating the need to manually sync your calendar and ensures that no tasks or appointments are overlooked.",
+      ],
       keyFeatures: [
         {
           title: "Smart Scheduling",
@@ -280,6 +290,11 @@ const BestAisChedulingAssistant = () => {
       imageOne: "anh145.webp",
       imageTwo: "anh146.webp",
       link: "https://app.timehero.com/",
+      descriptions: [
+        "TimeHero is a comprehensive scheduling and task management tool designed to help users manage their workload efficiently. Whether you're an individual or part of a team, TimeHero ensures that all tasks, meetings, and projects are organized in a centralized hub.",
+        "The app uses AI to automatically schedule tasks based on your availability and workload, which helps you avoid over-scheduling or missing important deadlines. It takes the burden off users by providing a dynamic system that adjusts based on changes in your workday or project requirements.",
+        "TimeHero also offers collaboration tools that enable teams to share tasks, assign responsibilities, and track project progress. Whether you're working on a solo project or collaborating with a team, TimeHero keeps everyone aligned and on track, improving productivity across the board.",
+      ],
       keyFeatures: [
         {
           title: "Automatic Scheduling",
@@ -329,21 +344,26 @@ const BestAisChedulingAssistant = () => {
       imageOne: "anh147.webp",
       imageTwo: "anh148.webp",
       link: "https://www.getclockwise.com/",
+      descriptions: [
+        "Clockwise is an AI-powered smart calendar tool that optimizes your work schedule by automatically finding the best time slots for meetings, tasks, and breaks. By analyzing your calendar, Clockwise helps you focus on the most important work while minimizing distractions.",
+        "It uses AI to shift meetings around, ensuring that uninterrupted blocks of time are reserved for deep work. It also syncs with Google Calendar, making it easy to integrate into your current workflow without switching apps.",
+        "Clockwise is particularly useful for teams that need to coordinate schedules and prioritize work. It maximizes productivity by managing time effectively, allowing users to focus on what truly matters.",
+      ],
       keyFeatures: [
         {
-          title: "Smart Calendar Management",
+          title: "Smart Scheduling",
           content:
-            "Clockwise optimizes your work calendar by blocking off time for focused work and automatically rescheduling meetings.",
+            "Clockwise uses AI to intelligently reschedule meetings, optimizing your calendar to ensure productivity and uninterrupted work time.",
         },
         {
-          title: "Focus Time",
+          title: "Automatic Time Blocks",
           content:
-            "Automatically creates blocks of uninterrupted time for deep work, enhancing productivity.",
+            "The tool automatically creates time blocks for deep work, meetings, and personal tasks based on your availability.",
         },
         {
-          title: "Team Collaboration",
+          title: "Team Coordination",
           content:
-            "Clockwise helps teams optimize shared calendars, making it easier to find meeting times that work for everyone.",
+            "Clockwise helps teams align their schedules, ensuring everyone has time for meetings without sacrificing focused work.",
         },
       ],
       pricing: [
@@ -352,221 +372,295 @@ const BestAisChedulingAssistant = () => {
       ],
       pros: [
         {
-          pro: "Focus Time Scheduling",
+          pro: "AI-Powered",
           description:
-            "Clockwise's focus time feature automatically finds the best blocks for deep work, increasing productivity.",
+            "Clockwise uses advanced AI to optimize scheduling, helping users find the best times for tasks and meetings.",
         },
         {
-          pro: "Team Collaboration",
+          pro: "Integrates with Google Calendar",
           description:
-            "It integrates seamlessly with team calendars, helping teams schedule meetings with ease.",
+            "It easily integrates with Google Calendar, making it simple to add it to your existing tools.",
+        },
+        {
+          pro: "Improves Productivity",
+          description:
+            "By creating uninterrupted blocks of focused time, Clockwise helps you be more productive and reduce scheduling chaos.",
         },
       ],
       cons: [
         {
-          con: "Limited Features in Free Plan",
+          con: "Limited Customization",
           description:
-            "Advanced features like team calendar management are only available in the paid version.",
+            "While the AI does a good job of optimizing schedules, some users may feel it lacks customization for specific needs.",
+        },
+        {
+          con: "Requires Google Calendar",
+          description:
+            "Clockwise only works with Google Calendar, which might be limiting for users on different calendar platforms.",
         },
       ],
       userExperience:
-        "Clockwise is designed to enhance your productivity by ensuring you have enough time for deep work while efficiently managing your calendar. The app's smart scheduling system ensures that you’re never over-scheduled and that your time is maximized for both meetings and focused tasks.",
+        "Clockwise offers a seamless experience for managing your time, using AI to optimize your calendar. It's perfect for those who struggle with juggling meetings and deep work sessions. However, it does require a Google Calendar to work, which could be a limitation for some users.",
     },
+
     {
       id: "trevor-ai",
       name: "Trevor AI",
       imageOne: "anh149.webp",
       imageTwo: "anh150.webp",
-      link: "https://www.trevorai.com/",
+      link: "https://www.trevor.ai/",
+      descriptions: [
+        "Trevor AI is a smart task management assistant designed to help individuals organize their to-dos and calendars in one place. By analyzing your tasks and scheduling them automatically, Trevor AI optimizes your day to help you stay productive.",
+        "Trevor integrates with both your to-do lists and calendar to provide a seamless workflow. It uses artificial intelligence to learn your habits and preferences, adjusting its suggestions based on what works best for you.",
+        "This tool is ideal for users who need a smart assistant to manage both work and personal tasks while prioritizing and organizing them according to your availability.",
+      ],
       keyFeatures: [
         {
-          title: "Task Scheduling",
+          title: "Smart Task Scheduling",
           content:
-            "Trevor AI automatically schedules tasks based on your calendar, helping you manage your time more effectively.",
+            "Trevor AI automatically schedules tasks based on your available time and priorities.",
         },
         {
-          title: "Integration with Google Calendar",
+          title: "Integrates with Multiple Tools",
           content:
-            "Trevor AI integrates with Google Calendar to automatically schedule your tasks around existing meetings and events.",
+            "It syncs with your task managers and calendars, allowing for a unified system for task and time management.",
         },
         {
-          title: "AI-Powered Recommendations",
+          title: "AI-Powered Suggestions",
           content:
-            "The app suggests optimal times for tasks based on your habits and previous work patterns.",
+            "Trevor AI learns your preferences and adjusts its suggestions accordingly, becoming more efficient over time.",
         },
       ],
       pricing: [
         { plan: "Free Plan", price: "Free" },
-        { plan: "Premium Plan", price: "$9/month per user" },
+        { plan: "Premium Plan", price: "$5/month" },
       ],
       pros: [
         {
           pro: "AI-Driven Scheduling",
           description:
-            "Trevor AI's machine learning-driven scheduling system optimizes your tasks based on your preferences and habits.",
+            "Trevor uses AI to automatically schedule tasks, ensuring that your time is optimized.",
         },
         {
-          pro: "Efficient Task Management",
+          pro: "Cross-Platform Integration",
           description:
-            "It automatically categorizes and organizes your tasks, so you can focus on what’s most important.",
+            "It integrates with various productivity tools, making it easier to keep everything in sync.",
+        },
+        {
+          pro: "Personalized Experience",
+          description:
+            "As Trevor learns your preferences, it becomes increasingly effective at helping you manage your time.",
+        },
+      ],
+      cons: [
+        {
+          con: "Limited Customization",
+          description:
+            "The automatic scheduling may not always align with users' specific preferences or requirements.",
+        },
+        {
+          con: "Basic Features",
+          description:
+            "While Trevor is excellent for simple task management, it lacks some of the advanced features seen in other project management tools.",
+        },
+      ],
+      userExperience:
+        "Trevor AI is perfect for users who want an intelligent assistant to manage both their tasks and time. Its simple integration with calendars and to-do lists makes it a great tool for enhancing productivity. However, it might not be as flexible as other more complex task management platforms.",
+    },
+
+    {
+      id: "sidekick-ai",
+      name: "Sidekick AI",
+      imageOne: "anh151.webp",
+      imageTwo: "anh152.webp",
+      link: "https://www.sidekick.ai/",
+      descriptions: [
+        "Sidekick AI is a personal productivity assistant that uses AI to help users manage their calendar, tasks, and emails more efficiently. The tool works by learning your daily routines and offering smart suggestions to streamline your workflow.",
+        "Sidekick AI’s unique feature is its ability to analyze emails and meetings, offering suggestions to optimize your workday and boost productivity. It integrates with major calendar tools and email platforms to ensure a smooth experience.",
+        "This tool is ideal for busy professionals who need to handle multiple tasks and communications without getting overwhelmed.",
+      ],
+      keyFeatures: [
+        {
+          title: "Email and Calendar Management",
+          content:
+            "Sidekick AI offers features to help manage emails and calendars, offering suggestions for optimal time management.",
+        },
+        {
+          title: "Smart Task Prioritization",
+          content:
+            "It uses AI to automatically prioritize tasks, helping you focus on the most important work first.",
+        },
+        {
+          title: "Automated Workflow",
+          content:
+            "Sidekick AI automates many parts of your day, such as scheduling and email responses, allowing you to focus on key tasks.",
+        },
+      ],
+      pricing: [
+        { plan: "Free Plan", price: "Free" },
+        { plan: "Pro Plan", price: "$12/month" },
+      ],
+      pros: [
+        {
+          pro: "AI-Driven Workflow",
+          description:
+            "Sidekick AI automates routine tasks like scheduling and email management, making it easy to focus on high-priority work.",
+        },
+        {
+          pro: "Smart Suggestions",
+          description:
+            "Sidekick provides personalized suggestions that help optimize your day and prioritize tasks effectively.",
+        },
+        {
+          pro: "Integrates with Major Tools",
+          description:
+            "It integrates smoothly with major email and calendar platforms, offering a seamless user experience.",
         },
       ],
       cons: [
         {
           con: "Limited Integrations",
           description:
-            "The platform's integrations are currently limited, particularly when compared to other scheduling tools.",
+            "Sidekick AI might not integrate with all productivity tools, limiting its usefulness for some users.",
+        },
+        {
+          con: "Requires Learning Curve",
+          description:
+            "New users may need some time to get used to its features and AI-based recommendations.",
         },
       ],
       userExperience:
-        "Trevor AI is an excellent tool for anyone looking to improve time management. It integrates seamlessly with your calendar and tasks, offering AI-based suggestions that help you manage your day without manual intervention.",
+        "Sidekick AI is a great option for those looking to streamline their workflow. With its ability to automate tasks and prioritize work, it's an invaluable tool for busy professionals. However, the learning curve might be steep for those new to AI-powered assistants.",
     },
-    {
-      id: "sidekick-ai",
-      name: "Sidekick AI",
-      imageOne: "anh151.webp",
-      imageTwo: "anh152.webp",
-      link: "https://www.sidekickai.com/",
-      keyFeatures: [
-        {
-          title: "Smart Scheduling Assistant",
-          content:
-            "Sidekick AI helps you find the best times for meetings, tasks, and breaks based on your calendar and preferences.",
-        },
-        {
-          title: "Team Collaboration",
-          content:
-            "Sidekick AI ensures that team members are always available for meetings by synchronizing their calendars automatically.",
-        },
-        {
-          title: "Automated Task Reminders",
-          content:
-            "The app sends reminders for tasks and meetings, making sure you never miss important deadlines or appointments.",
-        },
-      ],
-      pricing: [
-        { plan: "Free Plan", price: "Free" },
-        { plan: "Premium Plan", price: "$8/month per user" },
-      ],
-      pros: [
-        {
-          pro: "Intuitive Interface",
-          description:
-            "Sidekick AI features a user-friendly interface that is easy to navigate, even for users unfamiliar with AI tools.",
-        },
-        {
-          pro: "Efficient Time Management",
-          description:
-            "The app helps users manage their time effectively by automatically rescheduling tasks and meetings.",
-        },
-      ],
-      cons: [
-        {
-          con: "Basic Features in Free Plan",
-          description:
-            "The free version of Sidekick AI lacks some advanced scheduling and analytics features that are available in the paid plan.",
-        },
-      ],
-      userExperience:
-        "Sidekick AI helps you schedule your tasks and meetings with ease by providing smart recommendations. Whether you're working alone or in a team, Sidekick AI ensures that everything is efficiently managed and organized in one place.",
-    },
+
     {
       id: "calendarhero",
       name: "CalendarHero",
       imageOne: "anh153.webp",
       imageTwo: "anh154.webp",
-      link: "https://calendarhero.com/",
+      link: "https://www.calendarhero.com/",
+      descriptions: [
+        "CalendarHero is a smart calendar tool that automates scheduling and helps manage appointments, meetings, and reminders. It simplifies the process of scheduling by automatically finding open time slots and sending invites to attendees.",
+        "By using AI, CalendarHero analyzes your availability and schedules meetings based on your preferences. It also integrates with other tools like Zoom, Google Meet, and Microsoft Teams to streamline meeting management.",
+        "Ideal for busy professionals or teams, CalendarHero saves time by automating the scheduling process and reducing the back-and-forth of organizing meetings.",
+      ],
       keyFeatures: [
         {
-          title: "Automated Meeting Scheduling",
+          title: "AI-Powered Scheduling",
           content:
-            "CalendarHero automates the scheduling of meetings and appointments, eliminating the need for back-and-forth communication.",
+            "CalendarHero automates the process of scheduling meetings, finding the best time slots based on your availability and preferences.",
         },
         {
-          title: "Customizable Availability",
+          title: "Meeting Integrations",
           content:
-            "You can set your availability preferences, and CalendarHero will automatically adjust meeting times based on your schedule.",
+            "It integrates with video conferencing tools like Zoom and Google Meet to help schedule virtual meetings seamlessly.",
         },
         {
-          title: "Team Collaboration",
+          title: "Time Zone Management",
           content:
-            "CalendarHero ensures smooth scheduling across teams by syncing with multiple calendars and showing team availability in one view.",
+            "CalendarHero automatically adjusts for different time zones, ensuring that meetings are scheduled at convenient times for all participants.",
         },
       ],
       pricing: [
         { plan: "Free Plan", price: "Free" },
-        { plan: "Pro Plan", price: "$12/month per user" },
+        { plan: "Premium Plan", price: "$8/month" },
       ],
       pros: [
         {
-          pro: "Streamlined Scheduling",
+          pro: "Automates Scheduling",
           description:
-            "CalendarHero takes the hassle out of scheduling by automating meeting booking and adjusting availability based on your preferences.",
+            "CalendarHero saves time by automating the scheduling of meetings and appointments.",
         },
         {
-          pro: "Efficient Team Collaboration",
+          pro: "Integrates with Video Tools",
           description:
-            "It works seamlessly across teams, making group scheduling simple and hassle-free.",
+            "The integration with tools like Zoom and Microsoft Teams streamlines virtual meetings.",
+        },
+        {
+          pro: "Time Zone Management",
+          description:
+            "CalendarHero's automatic time zone adjustment feature makes scheduling meetings across different regions easy.",
         },
       ],
       cons: [
         {
-          con: "Limited Free Plan Features",
+          con: "Limited Customization",
           description:
-            "The free version offers limited access to advanced features like team scheduling and customized reminders.",
+            "The automated scheduling system may not provide enough customization for some users.",
+        },
+        {
+          con: "Basic Free Plan",
+          description:
+            "The free version of CalendarHero has limited features, which may not suit the needs of larger teams.",
         },
       ],
       userExperience:
-        "CalendarHero simplifies scheduling by automatically finding the best meeting times based on your availability. It saves you time and reduces scheduling conflicts, helping you focus on more important tasks.",
+        "CalendarHero is a great tool for those who need an automated, streamlined scheduling process. It integrates well with major video conferencing platforms and makes it easy to manage appointments. However, its free version may not be enough for users who need more advanced features.",
     },
+
     {
       id: "calendly",
       name: "Calendly",
-      imageOne: "anh157.webp",
+      imageOne: "anh155.webp",
       imageTwo: "anh156.webp",
       link: "https://calendly.com/",
+      descriptions: [
+        "Calendly is a simple and effective scheduling tool that eliminates the back-and-forth of finding the perfect meeting time. It allows users to set their availability and lets others book time slots that work for both parties.",
+        "Calendly integrates seamlessly with Google, Outlook, Office 365, and iCloud calendars, making it easy to manage meetings and appointments. Its simplicity and ease of use make it popular with individuals and teams alike.",
+        "Calendly is particularly useful for professionals who need to schedule meetings with clients, colleagues, or other stakeholders without all the hassle.",
+      ],
       keyFeatures: [
         {
-          title: "Automated Scheduling",
+          title: "Easy Scheduling",
           content:
-            "Calendly automates meeting scheduling, allowing others to book time with you based on your availability.",
+            "Calendly allows users to set their availability and lets others book appointments directly within those time frames.",
         },
         {
-          title: "Integrations with Multiple Platforms",
+          title: "Calendar Integration",
           content:
-            "Calendly integrates with popular platforms like Google Calendar, Outlook, and Zoom for smooth scheduling.",
+            "It syncs with major calendar platforms to ensure you're never double-booked and that your availability is always accurate.",
         },
         {
-          title: "Customizable Availability",
+          title: "Customizable Time Slots",
           content:
-            "Users can set up availability preferences, ensuring meetings only occur during preferred times.",
+            "Calendly gives users control over how long meetings should last and when they are available, providing great flexibility.",
         },
       ],
       pricing: [
         { plan: "Free Plan", price: "Free" },
-        { plan: "Pro Plan", price: "$10/month per user" },
+        { plan: "Premium Plan", price: "$8/month" },
       ],
       pros: [
         {
-          pro: "Ease of Use",
+          pro: "User-Friendly",
           description:
-            "Calendly is easy to set up and use, making it ideal for anyone looking for a quick and efficient scheduling tool.",
+            "Calendly is incredibly easy to use, making it ideal for people who need a simple scheduling solution.",
         },
         {
-          pro: "Time-Saving Automation",
+          pro: "Calendar Integration",
           description:
-            "It removes the back-and-forth email exchanges when scheduling, saving valuable time for everyone involved.",
+            "It syncs with a variety of calendar platforms to ensure accurate availability.",
+        },
+        {
+          pro: "Customizable Availability",
+          description:
+            "Calendly allows users to set custom availability and time durations, making it flexible for different needs.",
         },
       ],
       cons: [
         {
-          con: "Limited Features in Free Plan",
+          con: "Limited Features in Free Version",
           description:
-            "While Calendly offers a free plan, some advanced features like team scheduling are only available in the paid plans.",
+            "The free plan of Calendly offers only basic features, which may not be enough for power users.",
+        },
+        {
+          con: "No Built-in Communication Tools",
+          description:
+            "Calendly doesn't include built-in communication tools like video conferencing, requiring third-party integration.",
         },
       ],
       userExperience:
-        "Calendly simplifies the scheduling process by automating it. You can set your availability and let others book time with you based on your preferences, saving time and reducing the back-and-forth typically involved in scheduling.",
+        "Calendly is a simple yet powerful scheduling tool that saves time and eliminates scheduling headaches. Its integration with popular calendar platforms makes it easy to manage appointments. However, advanced users may find its free version limiting.",
     },
   ];
 
@@ -595,7 +689,9 @@ const BestAisChedulingAssistant = () => {
             <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
-            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">{item.date}</p>
+            <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
+              {item.date}
+            </p>
           </div>
         ))}
       </div>
@@ -843,6 +939,13 @@ const BestAisChedulingAssistant = () => {
           </div>
           {/* phần ba */}
           <div>
+            {" "}
+            <h1
+              id="best-ai-scheduling-assistants"
+              className="text-3xl work-sans-900 my-6"
+            >
+              Best AI scheduling assistants ranked and reviewed
+            </h1>
             {taskManagerData.map((taskManager, index) => (
               <div key={index} id={taskManager.id}>
                 <h1 className="text-3xl work-sans-900 my-6">
@@ -853,27 +956,15 @@ const BestAisChedulingAssistant = () => {
                   alt="app-image"
                   className="my-5 w-full"
                 />
-                <h1 className="mt-10">
-                  {taskManager.name} is a top choice for managing tasks and
-                  projects with AI. It helps streamline work, automates
-                  processes, and integrates with over 400 apps. From request
-                  forms to workload balance, it handles every aspect of project
-                  management.
-                  <br />
-                  <br />
-                  But what makes {taskManager.name} unique is its focus on
-                  teamwork. It is designed to boost collaboration among team
-                  members and different departments. This ensures efficient
-                  communication and project success.
-                  <br />
-                  <br />
-                  {taskManager.name} is the{" "}
-                  <span className="work-sans-900">
-                    most versatile AI-powered platform.
-                  </span>{" "}
-                  It is an ideal choice for teams of any size where seamless and
-                  efficient collaboration is paramount.
-                </h1>
+                {taskManager.descriptions && (
+                  <>
+                    {taskManager.descriptions.map((description, idx) => (
+                      <p key={idx} className="my-5">
+                        {description}
+                      </p>
+                    ))}
+                  </>
+                )}
                 <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                   Key Features:
                 </h1>
@@ -1062,7 +1153,7 @@ const BestAisChedulingAssistant = () => {
                 1024: { slidesPerView: 3 },
               }}
             >
-               {posts.map((post, index) => (
+              {posts.map((post, index) => (
                 <SwiperSlide key={index}>
                   <div className="bg-white shadow-lg overflow-hidden">
                     <Link to={post.url}>

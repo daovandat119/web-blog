@@ -309,7 +309,7 @@ const EvernoteVsNotion = () => {
 
           {/* phần hai */}
           <div>
-            <h1 id="keydifferences" className="text-2xl work-sans-900 my-5">
+            <h1 id="key-differences" className="text-2xl work-sans-900 my-5">
               Key differences between Evernote and Notion
             </h1>
             <p className="my-5">

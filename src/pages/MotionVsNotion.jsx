@@ -299,7 +299,7 @@ const MotionVsNotion = () => {
 
           {/* phần hai */}
           <div>
-            <h1 id="keydifferences" className="text-2xl work-sans-900 my-5">
+            <h1 id="key-differences" className="text-2xl work-sans-900 my-5">
               Key differences between Motion and Notion
             </h1>
             <p className="my-5">
@@ -386,7 +386,7 @@ const MotionVsNotion = () => {
             <div>
               <div>
                 <h1
-                  id="comparison-motion-vs-notion"
+                  id="comparison"
                   class="text-2xl work-sans-900 my-5"
                 >
                   Comparison: Motion vs Notion
