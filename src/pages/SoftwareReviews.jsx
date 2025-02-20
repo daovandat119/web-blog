@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React from "react";
+import { useState, useEffect } from "react";
 import { Search } from "lucide-react";
 import Blog from "../components/Blog";
 
@@ -200,7 +200,7 @@ const articles = [
         link: "/note-taking-apps",
       },
       {
-       name: "Software Reviews",
+        name: "Software Reviews",
         link: "/software-reviews",
       },
     ],
@@ -303,7 +303,7 @@ const articles = [
         link: "/pdf-tools",
       },
       {
-       name: "Software Reviews",
+        name: "Software Reviews",
         link: "/software-reviews",
       },
     ],
