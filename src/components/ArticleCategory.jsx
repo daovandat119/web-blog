@@ -8,9 +8,18 @@ const ArticleCategory = () => {
 
   const articles = [
     {
-      id: 1,
+      url: "/article-category",
       title: "I Tested +30 PDF editors for Windows | Here Are The 8 Best",
-      categories: ["PDF Tools", "Software Reviews"],
+      categories: [
+        {
+          name: "PDF Tools",
+          link: "/article-category"
+        },
+        {
+          name: "Software Reviews",
+          link: "/article-category"
+        }
+      ],      
       author: "Aron Kantor",
       date: "February 6, 2025",
       image: "anh1.webp",
@@ -18,9 +27,22 @@ const ArticleCategory = () => {
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
     {
-      id: 2,
+      url: "/article-category",
       title: "Best Free PDF Tools You Can Use Today",
-      categories: ["PDF Tools", "Free Software"],
+      categories: [
+        {
+          name: "Meeting tools",
+          link: "/article-category"
+        },
+        {
+          name: "Productivity Guides",
+          link: "/article-category"
+        },
+        {
+          name: "Software Reviews",
+          link: "/article-category"
+        }
+      ],      
       author: "Jane Doe",
       date: "March 10, 2025",
       image: "anh2.webp",
@@ -28,9 +50,22 @@ const ArticleCategory = () => {
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
     {
-      id: 3,
+      url: "/article-category",
       title: "How to Merge PDFs in 2025: A Simple Guide",
-      categories: ["PDF Tools", "Tutorials"],
+      categories: [
+        {
+          name: "Meeting tools",
+          link: "/article-category"
+        },
+        {
+          name: "Productivity Guides",
+          link: "/article-category"
+        },
+        {
+          name: "Software Reviews",
+          link: "/article-category"
+        }
+      ],
       author: "John Smith",
       date: "April 15, 2025",
       image: "anh3.webp",
@@ -38,9 +73,22 @@ const ArticleCategory = () => {
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
     {
-      id: 4,
+      url: "/article-category",
       title: "Another PDF Editing Tool Reviewed",
-      categories: ["PDF Tools", "Software Reviews"],
+      categories: [
+        {
+          name: "Meeting tools",
+          link: "/article-category"
+        },
+        {
+          name: "Productivity Guides",
+          link: "/article-category"
+        },
+        {
+          name: "Software Reviews",
+          link: "/article-category"
+        }
+      ],
       author: "Mark Taylor",
       date: "May 20, 2025",
       image: "anh3.webp",
@@ -48,9 +96,22 @@ const ArticleCategory = () => {
         "PDF editing is a crucial part of digital documentation. This article explores some lesser-known tools that are worth checking out.",
     },
     {
-      id: 5,
+      url: "/article-category",
       title: "Why You Should Use a PDF Reader in 2025",
-      categories: ["PDF Tools", "Tech News"],
+      categories: [
+        {
+          name: "Meeting tools",
+          link: "/article-category"
+        },
+        {
+          name: "Productivity Guides",
+          link: "/article-category"
+        },
+        {
+          name: "Software Reviews",
+          link: "/article-category"
+        }
+      ],
       author: "Emily Johnson",
       date: "June 18, 2025",
       image: "anh2.webp",
@@ -58,9 +119,22 @@ const ArticleCategory = () => {
         "PDF readers have evolved significantly. Discover the latest features and best options available in 2025.",
     },
     {
-      id: 6,
+      url: "/article-category",
       title: "How to Convert PDFs to Word: The Ultimate Guide",
-      categories: ["PDF Tools", "Tutorials"],
+      categories: [
+        {
+          name: "Meeting tools",
+          link: "/article-category"
+        },
+        {
+          name: "Productivity Guides",
+          link: "/article-category"
+        },
+        {
+          name: "Software Reviews",
+          link: "/article-category"
+        }
+      ],
       author: "Michael Scott",
       date: "July 5, 2025",
       image: "anh1.webp",
@@ -104,8 +178,8 @@ const ArticleCategory = () => {
                 <div className="w-9/10 mx-auto">
                   <h5 className="uppercase text-xs text-[#3182ce] font-bold leading-relaxed pt-4">
                     {article.categories.map((category, index) => (
-                       <Link to="/article-category" key={index}>
-                        {category}
+                       <Link to={category.link} key={index}>
+                        {category.name}
                         {index !== article.categories.length - 1 && (
                           <span className="text-gray-700 px-1">|</span>
                         )}
@@ -124,7 +198,7 @@ const ArticleCategory = () => {
                       : article.content}
                   </p>
                   <a
-                    href="/bog-top-picks"
+                    href="/"
                     className="mt-5 block font-bold text-black text-[14px] hover:text-[#3182ce] hover:duration-300 hover:ease-out"
                   >
                     READ MORE →

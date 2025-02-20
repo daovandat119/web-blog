@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@import "tailwindcss";
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fef5ff;
+  transform: scale(0.4); /* Thu nhỏ mũi tên */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #cccccc;
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi mượt */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: white;
+  background-color: black; /* Màu đậm hơn khi hover */
+}
+

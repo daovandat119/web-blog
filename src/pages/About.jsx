@@ -6,13 +6,13 @@ const About = () => {
       <div className="w-6/7 mx-auto pl-5 mt-8 pb-10 mb-15 shadow-[0px_10px_10px_-5px_rgba(0,0,0,0.1)]">
         <div className="flex flex-col lg:flex-row lg:items-center gap-1 my-15">
           <img
-            src="electric.webp"
+            src="anh33.jpg"
             alt="avatar"
             className="w-48 h-53 object-cover rounded-full"
           />
-          <h1 className="w-50 lg:w-full text-[70px] font-bold">Hey, I’m Aron!</h1>
+          <h1 className="w-50 lg:w-full text-[70px] work-sans-900">Hey, I’m Aron!</h1>
         </div>
-        <h1 className="font-bold text-xl mb-7">Who Am I?</h1>
+        <h1 className="work-sans-900 text-xl mb-7">Who Am I?</h1>
         <p className=" text-[18px] leading-relaxed">
           I’m the dude behind The Business Dive, and excited to have you here.
           My name is Aron and I’m a 29-year-old living in the beautiful country
@@ -23,7 +23,7 @@ const About = () => {
           This site is about productivity and business growth, but most
           importantly, it’s for those who thirst for knowledge.
         </p>
-        <h1 className="font-bold text-xl mb-7">
+        <h1 className="work-sans-900 text-xl mb-7">
           The Journey of The Business Dive
         </h1>
         <p className=" text-[18px] leading-relaxed">
@@ -40,7 +40,7 @@ const About = () => {
           it hit me that expressing myself through a unique platform would be
           amazing.
         </p>
-        <h1 className="font-bold text-xl mb-7">
+        <h1 className="work-sans-900 text-xl mb-7">
           Why I created The Business Dive?
         </h1>
         <p className=" text-[18px] leading-relaxed">
@@ -61,7 +61,7 @@ const About = () => {
           best productivity tools and create a closer connection with my
           audience.
         </p>
-        <h1 className="font-bold text-xl mb-7">For Who I Created?</h1>
+        <h1 className="work-sans-900 text-xl mb-7">For Who I Created?</h1>
         <p className=" text-[18px] leading-relaxed my-7">
           I want to help people to elevate their productivity to the next level
           and unleash their full potential. Whether you are just starting like
@@ -69,7 +69,7 @@ const About = () => {
           productivity or business growth, there is a place for you at The
           Business Dive.
         </p>
-        <h1 className="font-bold text-xl mb-7">How can you reach out to me?</h1>
+        <h1 className="work-sans-900 text-xl mb-7">How can you reach out to me?</h1>
         <p className=" text-[18px] leading-relaxed my-7">
           Whether you want to collaborate or just have a question, feel free to
           drop me a message anytime at aronkantor@thebusinessdive.com.

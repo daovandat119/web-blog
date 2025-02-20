@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="hidden lg:flex items-center">
         <Link
           to="/"
-          className={`font-sans relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
+          className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
       active === "/"
         ? "text-black after:w-full after:bg-black"
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="relative group inline-block">
           <Link
             to="/top-picks"
-            className={`font-sans relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
+            className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
       active === "/top-picks"
         ? "text-black after:w-full after:bg-black"
@@ -49,68 +49,68 @@ const Navbar = () => {
           >
             Top Picks <FaChevronDown className="inline w3 h-3" />
           </Link>
-          <div className="absolute left-0 w-48 bg-[#141a26] text-white border border-gray-800 shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50 ">
+          <div className="absolute left-0 w-48 bg-[#141a26] text-white border border-gray-800 work-sans-400 shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50 ">
             <ul className="">
               <li>
                 <Link
-                  to="/bog-top-picks"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/best-pdf-editors"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Best PDF Editors
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/javascript"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/ai-productivity-tools"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   AI Productivity Tools
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/best-ai-task-manager"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Task Manager Tools
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/best-ai-note-taking-app"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Note-Taking Apps
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/best-ai-meeting-manager"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Meeting Managers Apps
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/best-ai-scheduling-assistant"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   AI Scheduling Assistants
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/best-collaboration-tools-for-remote-teams"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Remote Collaboration Tools
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/best-email-productivity-apps"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Email Apps
                 </Link>
@@ -121,7 +121,7 @@ const Navbar = () => {
         <div className="relative group inline-block">
           <Link
             to="/topics"
-            className={`font-sans relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
+            className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
       active === "/topics"
         ? "text-black after:w-full after:bg-black"
@@ -135,56 +135,56 @@ const Navbar = () => {
             <ul className="">
               <li>
                 <Link
-                  to="/blog-topics"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/note-taking-apps"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Note-Taking Apps
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/javascript"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/meeting-tools"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Meeting Tools
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/pdf-tools"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   PDF Tools
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/project-management"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Project Management Apps
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/software-reviews"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   All Software Reviews
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/productivity-guides"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Productivity Guides
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/topics/css"
-                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800"
+                  to="/business-growth"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Business Growth
                 </Link>
@@ -194,7 +194,7 @@ const Navbar = () => {
         </div>
         <Link
           to="/about"
-          className={`font-sans relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
+          className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
       active === "/about"
         ? "text-black after:w-full after:bg-black"
@@ -278,7 +278,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/task-management-tools"
+                    to="/best-ai-task-manager"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
@@ -287,7 +287,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/note-taking-apps"
+                        to="/best-ai-note-taking-app"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
@@ -296,7 +296,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/meeting-manager-apps"
+                    to="/best-ai-meeting-manager"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
@@ -305,7 +305,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/ai-scheduling-assistants"
+                    to="/best-ai-scheduling-assistant"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
@@ -314,7 +314,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/remote-collaboration-tools"
+                     to="/best-collaboration-tools-for-remote-teams"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
@@ -323,7 +323,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/email-apps"
+                    to="/best-email-productivity-apps"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
@@ -337,11 +337,11 @@ const Navbar = () => {
           <li>
             <div className="flex items-center justify-between w-full py-2">
               <Link
-                to="/top-picks"
+                to="/topics"
                 className="hover:text-blue-500 text-sx"
                 onClick={() => setIsOpen(false)}
               >
-                <span>Top Picks</span>
+                <span>Topics</span>
               </Link>
               <button onClick={() => setIsTopicsOpen(!isTopicsOpen)}>
                 {isTopicsOpen ? (
@@ -392,7 +392,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/all-software-reviews"
+                    to="/software-reviews"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
