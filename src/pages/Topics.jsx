@@ -468,7 +468,7 @@ const Topics = () => {
             <img
               src={post.image}
               alt="featured"
-              className="w-full h-[250px] object-cover rounded-t-lg"
+              className="w-full h-[350px] rounded-t-lg"
             />
             <div className="px-6 py-4">
               <h5 className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed pt-4">
