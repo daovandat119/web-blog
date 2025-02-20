@@ -14,7 +14,7 @@ const Blog = ({ articles} ) => {
           <img
             src={article.image}
             alt={article.title}
-            className="w-full h-[300px] object-cover"
+            className="w-full h-[270px]"
           />
           <div className="w-9/10 mx-auto">
             <h5 className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed pt-4">
