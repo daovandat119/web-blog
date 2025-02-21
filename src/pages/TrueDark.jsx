@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const DoubleOakEssentials = () => {
+const TrueDark = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
@@ -47,20 +47,16 @@ const DoubleOakEssentials = () => {
 
   const sections = [
     {
-      title: "The Benefits of Using a Double Oak Essentials Wallet",
-      link: "#The",
+      title: "Immediate Benefits After Use",
+      link: "#Immediate",
     },
     {
-      title: "Quality & Design – When Minimalism Meets Luxury",
+      title: "Quality and Design – A Variety of Options for Every Need",
       link: "#Quality",
     },
     {
-      title: "Pricing – Is It Worth the Investment?",
+      title: "Pricing – A Worthwhile Investment in Your Health",
       link: "#Pricing",
-    },
-    {
-      title: "Final Verdict – Should You Buy a Double Oak Essentials Wallet?",
-      link: "#Final",
     },
   ];
 
@@ -144,35 +140,24 @@ const DoubleOakEssentials = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="health14.png" alt="anh" className="w-full"/>
-            
-            <h1 class="text-2xl work-sans-900 my-5 flex items-center">
-              Are You Facing These Issues with Your Current Wallet?
-            </h1>
-            <ul class="list-disc pl-5 py-5">
-              <li>
-                Is your wallet too thick, making your pocket feel uncomfortably
-                bulky?
-              </li>
-              <li>Do you struggle to find the right card or cash quickly?</li>
-              <li>
-                Does your wallet start to wear out and peel after just a short
-                time?
-              </li>
-              <li>
-                Are you worried about your card information being stolen due to
-                a lack of RFID protection?
-              </li>
-            </ul>
-            <img src="health15.png.jpg" alt="anh" className="w-full"/>
-            <h1 class="text-2xl work-sans-900 my-5 flex items-center">
-            RFID protection?
-            </h1>
-            <p class="my-5">
-              If you’ve been dealing with these problems, it’s time to upgrade
-              to a sleek, stylish, and functional wallet – and{" "}
-              <span class="work-sans-900">Double Oak Essentials</span> is the
-              answer.
+            <h2 class="text-2xl work-sans-900 my-5 flex items-center">
+              TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes
+            </h2>
+            <img
+              src="health19.png.jpg"
+              alt="anh"
+              className="w-full object-cover"
+            />
+            <p className="my-5">
+              Blue light from computer screens, phones, and LED lights
+              negatively impacts our sleep and eye health every day.
+            </p>
+            <img src="health20.png" alt="anh" className="w-full object-cover" />
+            <p className="mt-5">
+              If you often experience eye strain, difficulty sleeping, or lack
+              of focus while working, TrueDark glasses might be the solution
+              you’re looking for. I’ve tested several TrueDark glasses, and
+              here’s my personal experience.
             </p>
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
@@ -211,101 +196,157 @@ const DoubleOakEssentials = () => {
           </div>
           {/* phần hai */}
           {/* phần ba */}
-          <div>
-            
 
-            <h2 id="The" class="text-2xl work-sans-900 my-5 flex items-center">
-              The Benefits of Using a Double Oak Essentials Wallet
+          {/* phần bốn */}
+          <div>
+            <h2
+              id="Immediate"
+              class="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              Immediate Benefits After Use
+            </h2>
+            <img src="health21.png" alt="anh" className="w-full object-cover" />
+            <p>
+              Before using <span className="work-sans-900">TrueDark</span>, I
+              often experienced:
+            </p>
+            <ul class="list-disc pl-10 py-5">
+              <li>
+                Eye strain and headaches after long hours in front of a screen.
+              </li>
+              <li>
+                Restless sleep and difficulty falling asleep, even when trying
+                to relax before bed.
+              </li>
+              <li>Reduced focus and energy dips in the middle of the day.</li>
+            </ul>
+
+            <p>After using TrueDark glasses, the changes were clear:</p>
+
+            <ul class="list-disc pl-10 py-5">
+              <li>
+                Improved sleep quality – I fall asleep more easily and
+                experience deeper sleep.
+              </li>
+              <li>
+                Less eye discomfort and dryness – Reducing blue light exposure
+                made my eyes feel much more comfortable throughout the day.
+              </li>
+              <li>
+                Increased focus and productivity – I no longer experience
+                mid-afternoon energy crashes.
+              </li>
+            </ul>
+            <img
+              src="/public/health22.png.jpg"
+              alt="anh"
+              className="w-full object-cover"
+            />
+            <h2
+              id="Quality"
+              class="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              Quality and Design – A Variety of Options for Every Need
+            </h2>
+            <img src="health23.png" alt="anh" className="w-full object-cover" />
+            <p>
+              <span className="work-sans-900">TrueDark</span> not only delivers
+              high performance but also offers multiple product lines tailored
+              to different needs:
+            </p>
+
+            <ul class="list-disc pl-10 py-5">
+              <li>
+                <span className="work-sans-900">TrueDark Daylights –</span>{" "}
+                Filters blue light during the day, reducing eye strain while
+                working long hours in front of screens.
+              </li>
+              <li>
+                <span className="work-sans-900">
+                  TrueDark Twilights Classic & Elite –
+                </span>{" "}
+                Supports sleep by blocking nearly all blue, green, and violet
+                light in the evening.
+              </li>
+              <li>
+                <span className="work-sans-900">TrueDark Kids –</span>{" "}
+                Specifically designed for children to protect their eyes from
+                harmful electronic screen exposure.
+              </li>
+              <li>
+                <span className="work-sans-900">
+                  TrueDark Transition Lenses –
+                </span>{" "}
+                Automatically adjusts tint based on lighting conditions, perfect
+                for those moving between indoor and outdoor environments.
+              </li>
+            </ul>
+            <img src="health24.png" alt="anh" className="w-full object-cover" />
+            <p>
+              Each product is lightweight, comfortable, and snug-fitting, making
+              them easy to wear for extended periods. The high-quality lenses
+              provide clear vision while offering maximum eye protection.
+            </p>
+
+            <h2
+              id="Pricing"
+              class="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              Pricing – A Worthwhile Investment in Your Health
             </h2>
             <p>
-              Ever since I switched to a{" "}
-              <span class="work-sans-900">Double Oak Essentials</span> wallet,
-              I’ve noticed a huge improvement:
+              <span className="work-sans-900">TrueDark glasses</span> aren’t the
+              cheapest blue light-blocking options, but considering the benefits
+              they provide, I believe the price range of $100 - $250 is well
+              worth it.
             </p>
+
             <ul class="list-disc pl-10 py-5">
               <li>
-                 Ultra-thin and lightweight – No more bulky, uncomfortable
-                pockets.
+                Superior quality compared to standard blue light-blocking
+                glasses.
               </li>
               <li>
-                 Smart organization – Well-designed compartments make it easy
-                to access cards and cash.
+                Advanced lens technology effectively filters light without
+                excessive color distortion.
               </li>
               <li>
-                 RFID protection – Keeps your card information safe from
-                digital theft.
-              </li>
-              <li>
-                 Premium genuine leather – Feels luxurious and gets better
-                with age.
+                Long-term protection – A high-quality pair of glasses can
+                safeguard your sleep and eye health every day.
               </li>
             </ul>
-            <img src="health16.png" alt="anh" className="w-full"/>
-            <h2 id="Quality" class="text-2xl work-sans-900 my-5 flex items-center">
-              Quality & Design – When Minimalism Meets Luxury
-            </h2>
-            <p class="my-5">
-              <span class="work-sans-900">Double Oak Essentials</span> offers a
-              range of high-quality wallets to match any style:
-            </p>
-            <ul class="list-disc pl-10 py-5">
-              <li>
-                Midnight Edition Wallet – Sleek and elegant in deep black,
-                perfect for a sophisticated look.
-              </li>
-              <li>
-                Founder’s Edition Wallet – Classic brown leather for those
-                who love timeless style.
-              </li>
-              <li>
-                Iceberg Edition Wallet – A unique, minimalist white wallet
-                that stands out effortlessly.
-              </li>
-              <li>
-                Wallet Tracker Card – A smart accessory that helps track your
-                wallet’s location via phone, so you never lose it.
-              </li>
-            </ul>
-            <img src="health17.png" alt="anh" className="w-full"/>
-            <p class="my-5">
-              Each wallet is carefully crafted with high-quality leather, fine
-              stitching, and a slim yet functional design.
+            <img src="health24.png" alt="anh" className="w-full object-cover" />
+            <h3 className="mt-5">
+              Conclusion – If You’re Struggling with These Issues,{" "}
+              <span className="work-sans-900">TrueDark</span> Is the Best
+              Solution
+            </h3>
+
+            <p className="my-5">
+              If you frequently use electronic devices and want to protect your
+              eye health while improving sleep,{" "}
+              <span className="work-sans-900">TrueDark</span> is a valuable
+              investment. While it may be pricier than regular blue light
+              glasses, the real benefits it delivers make it completely worth
+              it.
             </p>
 
-            <h2 class="text-2xl work-sans-900 my-5 flex items-center">
-              3. Pricing – Is It Worth the Investment?
-            </h2>
-            <p class="my-5">
-              <span class="work-sans-900">Double Oak Essentials</span> wallets
-              range from $50 - $150. While they’re not the cheapest wallets out
-              there, if you’re looking for durability, elegance, and
-              convenience, this is an investment worth making.
+            <p className="my-5">
+              Don’t let blue light silently damage your health! Try{" "}
+              <span className="work-sans-900">TrueDark</span>
+              today and experience the difference!
             </p>
 
-            <h2 class="text-2xl work-sans-900 my-5 flex items-center">
-              Final Verdict – Should You Buy a Double Oak Essentials Wallet?
-            </h2>
-            <img src="health18.png" alt="anh" className="w-full"/>
-            <p class="my-5">
-              If you’re tired of bulky, low-quality wallets that lack security,{" "}
-              <span class="work-sans-900">Double Oak Essentials</span> is the
-              perfect upgrade. It keeps your essentials organized, enhances your
-              style, and provides premium protection.
-            </p>
-
-            <p class="my-5">
-              🔥 Upgrade your wallet today! 
-              <a
-                href="https://www.doubleoakessentials.com/fr?sca_ref=7430060.WsR706KbDIey"
+            <p className="my-5">
+            <a
+                href="https://truedark.com/?ref=zwi1mta"
                 class="text-[#3182ce] underline"
               >
                 Click here
-              </a>{" "}
-              to explore Double Oak Essentials’ best-selling collection!
+              </a>{" "} below to explore{" "}
+              <span className="work-sans-900">TrueDark</span> now!
             </p>
           </div>
-
-          {/* phần bốn */}
 
           {/* phần cuối */}
           <div>
@@ -388,4 +429,4 @@ const DoubleOakEssentials = () => {
   );
 };
 
-export default DoubleOakEssentials;
+export default TrueDark;

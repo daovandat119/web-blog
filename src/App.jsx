@@ -60,7 +60,7 @@ import Health from "./pages/Health";
 import Fashion from "./pages/Fashion";
 import Beauty from "./pages/Beauty";
 import DoubleOakEssentials from "./pages/DoubleOakEssentials";
-
+import TrueDark from "./pages/TrueDark";
 const App = () => {
   return (
     <Router>
@@ -125,6 +125,7 @@ const App = () => {
           <Route path="/fashion" element={<Fashion />} />
           <Route path="/beauty" element={<Beauty />} />
           <Route path="/double-oak-essentials" element={<DoubleOakEssentials />} />
+          <Route path="/true-dark" element={<TrueDark />} />
         </Routes>
         <Footer />
       </div>

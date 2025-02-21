@@ -4,39 +4,7 @@ import { Search } from "lucide-react";
 import Blog from "../components/Blog";
 
 const articles = [
-  {
-    url: "/goli-ashwagandha",
-    title:
-      "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
-    categories: [],
-    author: "Aron Kantor",
-    date: "February 21, 2025",
-    image: "health.png",
-    content:
-      "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
-  },
-  {
-    url: "/last-crumb-cookies",
-    title:
-      "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
-    categories: [],
-    author: "Aron Kantor",
-    date: "February 21, 2025",
-    image: "health5.png",
-    content:
-      "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
-  },
-  {
-    url: "/chronic-pain",
-    title:
-      "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
-    categories: [],
-    author: "Aron Kantor",
-    date: "February 21, 2025",
-    image: "health9.png",
-    content:
-      "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
-  },
+
 ];
 
 const Fashion = () => {
