@@ -38,6 +38,52 @@ const Navbar = () => {
         </Link>
         <div className="relative group inline-block">
           <Link
+            to="/lifestyle"
+            className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
+    ${
+      active === "/lifestyle"
+        ? "text-black after:w-full after:bg-black"
+        : "text-gray-500 after:w-0 after:bg-blue-500 hover:text-blue-500 hover:after:w-full"
+    }`}
+            onClick={() => setActive("/lifestyle")}
+          >
+            Lifestyle <FaChevronDown className="inline w3 h-3" />
+          </Link>
+          <div className="absolute left-0 w-full bg-[#141a26] text-white border border-gray-800 work-sans-400 shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50 ">
+            <ul className="">
+              <li>
+                <Link
+                  to="/health"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                 Health
+                </Link>
+              </li>
+            </ul>
+            <ul className="">
+              <li>
+                <Link
+                  to="/fashion"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                 Fashion
+                </Link>
+              </li>
+            </ul>
+            <ul className="">
+              <li>
+                <Link
+                  to="/beauty"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                 Beauty
+                </Link>
+              </li>
+            </ul>
+          </div>  
+        </div>
+        <div className="relative group inline-block">
+          <Link
             to="/top-picks"
             className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
@@ -287,7 +333,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                        to="/best-ai-note-taking-app"
+                    to="/best-ai-note-taking-app"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >
@@ -314,7 +360,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                     to="/best-collaboration-tools-for-remote-teams"
+                    to="/best-collaboration-tools-for-remote-teams"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >

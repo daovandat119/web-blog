@@ -617,7 +617,7 @@ const Article = () => {
                 productivity app to use
               </h1>
             </div>
-            <img src="banner2.webp" alt="banner" className="w-full lg:w-3/5" />
+            <img src="banner2.png" alt="banner" className="w-full lg:w-3/5" />
           </div>
           <div>
             <h1 className="w-full h-[100px] flex justify-center items-center work-sans-900 text-2xl mt-15">

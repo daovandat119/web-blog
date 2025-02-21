@@ -52,6 +52,15 @@ import EvernoteVsObsidian from "./pages/EvernoteVsObsidian";
 import EvernoteVsNotion from "./pages/EvernoteVsNotion";
 import PdfEditorsForWindows from "./pages/PdfEditorsForWindows";
 import AdobeAcrobatAternatives from "./pages/AdobeAcrobatAternatives";
+import GoliAshwagandha from "./pages/GoliAshwagandha";
+import Lifestyle from "./pages/Lifestyle";
+import LastCrumbCookies from "./pages/LastCrumbCookies";
+import ChronicPain from "./pages/ChronicPain";
+import Health from "./pages/Health";
+import Fashion from "./pages/Fashion";
+import Beauty from "./pages/Beauty";
+import DoubleOakEssentials from "./pages/DoubleOakEssentials";
+
 const App = () => {
   return (
     <Router>
@@ -108,6 +117,14 @@ const App = () => {
           <Route path="/evernote-vs-notion" element={<EvernoteVsNotion />} />
           <Route path="/pdf-editors-for-windows" element={<PdfEditorsForWindows />} />
           <Route path="/adobe-acrobat-alternatives" element={<AdobeAcrobatAternatives />} />
+          <Route path="/goli-ashwagandha" element={<GoliAshwagandha />} />
+          <Route path="/lifestyle" element={<Lifestyle />} />
+          <Route path="/last-crumb-cookies" element={<LastCrumbCookies />} />
+          <Route path="/chronic-pain" element={<ChronicPain />} />
+          <Route path="/health" element={<Health />} />
+          <Route path="/fashion" element={<Fashion />} />
+          <Route path="/beauty" element={<Beauty />} />
+          <Route path="/double-oak-essentials" element={<DoubleOakEssentials />} />
         </Routes>
         <Footer />
       </div>
