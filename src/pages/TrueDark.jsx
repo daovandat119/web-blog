@@ -238,7 +238,7 @@ const TrueDark = () => {
               </li>
             </ul>
             <img
-              src="/public/health22.png.jpg"
+              src="health22.png.jpg"
               alt="anh"
               className="w-full object-cover"
             />
@@ -315,7 +315,7 @@ const TrueDark = () => {
                 safeguard your sleep and eye health every day.
               </li>
             </ul>
-            <img src="health24.png" alt="anh" className="w-full object-cover" />
+            <img src="health25.jpg" alt="anh" className="w-full object-cover" />
             <h3 className="mt-5">
               Conclusion – If You’re Struggling with These Issues,{" "}
               <span className="work-sans-900">TrueDark</span> Is the Best

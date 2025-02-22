@@ -9,5 +9,11 @@ export default defineConfig({
     react(),
     svgr(),
   ],
-  
+  base: "/",
+  build: {
+    outDir: "dist",
+  },
+  server: {
+    historyApiFallback: true,
+  }
 })
