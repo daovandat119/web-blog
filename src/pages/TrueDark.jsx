@@ -333,7 +333,7 @@ const TrueDark = () => {
 
             <p className="my-5">
               Don’t let blue light silently damage your health! Try{" "}
-              <span className="work-sans-900">TrueDark</span>
+              <span className="work-sans-900">TrueDark </span>
               today and experience the difference!
             </p>
 

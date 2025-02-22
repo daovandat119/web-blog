@@ -8,6 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   const [isTopicsOpen, setIsTopicsOpen] = useState(false);
+  const [isLifestyle, setIsLifestyle] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
@@ -283,6 +284,57 @@ const Navbar = () => {
             >
               Home
             </Link>
+          </li>
+          <li>
+            <div className="flex items-center justify-between w-full py-2">
+              <Link
+                to="/lifestyle"
+                className="hover:text-blue-500 text-sx"
+                onClick={() => setIsOpen(false)}
+              >
+                <span>Lifestyle</span>
+              </Link>
+              <button onClick={() => setIsLifestyle(!isLifestyle)}>
+                {isLifestyle ? (
+                  <ChevronUp size={18} />
+                ) : (
+                  <ChevronDown size={18} />
+                )}
+              </button>
+            </div>
+
+            {isLifestyle && (
+              <ul className="pl-4 mt-2 space-y-2 text-base">
+                <li>
+                  <Link
+                    to="/health"
+                    className="block py-3"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Health
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/fashion"
+                    className="block py-3"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Fashion
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/beauty"
+                    className="block py-3"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Beauty
+                  </Link>
+                </li>
+              </ul>
+            )}
+
           </li>
           <li>
             <div className="flex items-center justify-between w-full py-2">
