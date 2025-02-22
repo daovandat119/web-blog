@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Lifestyle = () => {
   const blogPosts = [
     {
-      url: "/best-ai-meeting-manager",
+      url: "/goli-ashwagandha",
       title: "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
       categories: [
   
@@ -15,6 +15,48 @@ const Lifestyle = () => {
       image: "health.png",
       content:
         "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
+    },
+    {
+      url: "/last-crumb-cookies",
+      title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health5.png",
+      content:
+        "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
+    },
+    {
+      url: "/chronic-pain",
+      title:
+        "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health9.png",
+      content:
+        "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
+    },
+    {
+      url: "/double-oak-essentials",
+      title:
+        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health14.png",
+      content:
+        "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
+    },
+    {
+      url: "/true-dark",
+      title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health19.png.jpg",
+      content:
+        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
     },
   ];
 

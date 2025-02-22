@@ -526,7 +526,7 @@ const Article = () => {
             </h1>
           </div>
           <Posts />
-          {/* <div className="w-full mt-10">
+          <div className="w-full mt-10">
             <div className="grid lg:grid-cols-[1.35fr_1.6fr_1.6fr] w-full gap-0 border border-gray-400 bg-gray-100">
               <div className="w-full h-90 lg:h-56 flex items-center">
                 <div className="lg:flex lg:justify-between w-full ">
@@ -567,7 +567,7 @@ const Article = () => {
                 ></iframe>
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="lg:flex lg:justify-between mt-15">
             <div className="lg:w-1/2 flex flex-col items-center">
               <h2 className="w-40 text-[38px] lg:text-[50px] work-sans-900 text-gray-800 lg:w-2/3 text-center mb-25 pt-5">
