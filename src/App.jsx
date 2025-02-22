@@ -50,17 +50,17 @@ import FoxitVsPdfelement from "./pages/FoxitVsPdfelement";
 import MotionVsNotion from "./pages/MotionVsNotion";
 import EvernoteVsObsidian from "./pages/EvernoteVsObsidian";
 import EvernoteVsNotion from "./pages/EvernoteVsNotion";
-import PdfEditorsForWindows from "./pages/PdfEditorsForWindows.jsx";
-import AdobeAcrobatAternatives from "./pages/AdobeAcrobatAternatives.jsx";
-import GoliAshwagandha from "./pages/GoliAshwagandha.jsx";
-import Lifestyle from "./pages/Lifestyle.jsx";
-import LastCrumbCookies from "./pages/LastCrumbCookies.jsx";
-import ChronicPain from "./pages/ChronicPain.jsx";
-import Health from "./pages/Health.jsx";
-import Fashion from "./pages/Fashion.jsx";
-import Beauty from "./pages/Beauty.jsx";
-import DoubleOakEssentials from "./pages/DoubleOakEssentials.jsx";
-import TrueDark from "./pages/TrueDark.jsx";
+import PdfEditorsForWindows from "./pages/PdfEditorsForWindows";
+import AdobeAcrobatAternatives from "./pages/AdobeAcrobatAternatives";
+import GoliAshwagandha from "./pages/GoliAshwagandha";
+import Lifestyle from "./pages/Lifestyle";
+import LastCrumbCookies from "./pages/LastCrumbCookies";
+import ChronicPain from "./pages/ChronicPain";
+import Health from "./pages/Health";
+import Fashion from "./pages/Fashion";
+import Beauty from "./pages/Beauty";
+import DoubleOakEssentials from "./pages/DoubleOakEssentials";
+import TrueDark from "./pages/TrueDark";
 const App = () => {
   return (
     <Router>
