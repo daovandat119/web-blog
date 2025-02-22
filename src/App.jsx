@@ -61,6 +61,12 @@ import Fashion from "./pages/Fashion";
 import Beauty from "./pages/Beauty";
 import DoubleOakEssentials from "./pages/DoubleOakEssentials";
 import TrueDark from "./pages/TrueDark";
+import Pickleball from "./pages/Pickleball";
+import PersonalExperience from "./pages/PersonalExperience";
+import Tradeify from "./pages/Tradeify";
+import Comprehensive from "./pages/Comprehensive";
+
+
 const App = () => {
   return (
     <Router>
@@ -126,6 +132,10 @@ const App = () => {
           <Route path="/beauty" element={<Beauty />} />
           <Route path="/double-oak-essentials" element={<DoubleOakEssentials />} />
           <Route path="/true-dark" element={<TrueDark />} />
+          <Route path="/pickleball" element={<Pickleball />} />
+          <Route path="/personal-experience" element={<PersonalExperience />} />
+          <Route path="/tradeify" element={<Tradeify />} />
+          <Route path="/comprehensive" element={<Comprehensive />} />
         </Routes>
         <Footer />
       </div>
