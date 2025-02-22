@@ -204,7 +204,6 @@ const AiProductivityTools = () => {
     },
     {
       link: "meetgeek",
-      link: "meetgeek",
       title: "MeetGeek",
       imgSrc: "anh30.webp", // Replace with the actual logo URL
       bestFor:
