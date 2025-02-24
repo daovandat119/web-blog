@@ -58,6 +58,54 @@ const Lifestyle = () => {
       content:
         "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
     },
+    {
+      url: "/pickleball",
+      title: "It's Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
+      categories: [
+  
+      ],
+      author: "Aron Kantor",
+      date: "February 23, 2025",
+      image: "health25.png",
+      content:
+        " Are You Losing Your Health Without Realizing It? Modern life keeps gradually neglecting the importance of exercise. The result? Declining health, fatigue, and mental stress. But how can we stay active while enjoying the process?",
+    },
+    {
+      url: "/personal-experience",
+      title: "Personal Experience with Lovense Products",
+      categories: [
+  
+      ],
+      author: "Aron Kantor",
+      date: "February 23, 2025",
+      image: "health34.png",
+      content:
+        "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
+    },
+    {
+      url: "/tradeify",
+      title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
+      categories: [
+  
+      ],
+      author: "Aron Kantor",
+      date: "February 23, 2025",
+      image: "health35.jpg",
+      content:
+        "Financial trading can bring enormous profits, but most people fear losing money, lack experience, or worry about choosing the wrong trading platform. These concerns are completely valid because the financial market is not for the unprepared. I was once like that – doubting my abilities and struggling to find a reliable platform to start. But then I found Tradeify, a modern trading platform that helped me overcome my fears and maximize my earning potential in the market.",
+    },
+    {
+      url: "/comprehensive",
+      title: "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
+      categories: [
+  
+      ],
+      author: "Aron Kantor",
+      date: "February 23, 2025",
+      image: "health39.png",
+      content:
+        "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
+    },
   ];
 
   const POSTS_PER_PAGE = 10;

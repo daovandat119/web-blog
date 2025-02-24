@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Blog = ({ articles} ) => {
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       {articles.map((article) => (
         <Link
           to={article.url}
@@ -14,7 +14,7 @@ const Blog = ({ articles} ) => {
           <img
             src={article.image}
             alt={article.title}
-            className="w-full object-cover"
+            className="w-full "
           />
           <div className="w-9/10 mx-auto">
             <h5 className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed pt-4">

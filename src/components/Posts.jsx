@@ -4,58 +4,36 @@ import { Link } from "react-router-dom";
 const Posts = () => {
   const posts = [
     {
-      url: "/notion-alternatives",
+      url: "/last-crumb-cookies",
+      title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health5.png",
+      content:
+        "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
+    },
+    {
+      url: "/chronic-pain",
       title:
-        "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-          name: "Project management",
-          link: "/project-management",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
-      image: "anh1.webp",
+        "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health9.png",
+      content:
+        "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
     },
     {
-      url: "/best-pdf-editors",
-      title: "The 8 Best PDF Editors In 2025 | 30+ Personally Tested PDF Tools",
-      categories: [
-        {
-           name: "PDF Tools",
-          link: "/pdf-tools",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
-      image: "anh2.webp",
-    },
-    {
-      url: "/best-ai-meeting-manager",
-      title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-      categories: [
-        {
-           name: "Meeting tools",
-          link: "/meeting-tools",
-        },
-        {
-          name: "Productivity Guides",
-          link: "/productivity-guides",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
-      image: "anh3.webp",
+      url: "/double-oak-essentials",
+      title:
+        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health14.png",
+      content:
+        "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
     },
   ];
 
@@ -83,8 +61,11 @@ const Posts = () => {
                   </Link>
                 ))}
             </h5>
-            <h1 className="text-[28px] work-sans-900 text-large hover:text-[#3182ce] pb-10">
+            <h1 className="text-[28px] work-sans-900 text-large hover:text-[#3182ce] pb-5">
               {post.title}
+            </h1>
+            <h1 className="pb-5">
+              {post.date}
             </h1>
           </div>
         </Link>

@@ -324,179 +324,72 @@ const Article = () => {
 
   const articles = [
     {
-      url: "/evernote-vs-xtiles",
-      title: "Evernote Vs Xtiles: Side-by-Side Comparison (2025)",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
+      url: "/goli-ashwagandha",
+      title:
+        "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
+      categories: [],
       author: "Aron Kantor",
-      date: "February 17, 2025",
-      image: "anh335.webp",
+      date: "February 21, 2025",
+      image: "health.png",
       content:
-        "In this comparison between Evernote and Xtiles, I'll walk you through the major differences between these two productivity tools. I'll be comparing Evernote and Xtiles across features, pricing, user interfaces, and their pros and cons. After spending countless hours with both apps over the past two years, I'm here to break down the advantages and limitations of each, helping you make an informed decision.",
+        "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
     },
     {
-      url: "/foxit-vs-pdfelement",
-      title: "Foxit Vs PDFelement: Side-by-Side Comparison (2025)",
+      url: "/comprehensive",
+      title: "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
       categories: [
-        {
-          name: "PDF Tools",
-          link: "/pdf-tools",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
+  
       ],
       author: "Aron Kantor",
-      date: "February 13, 2025",
-      image: "anh344.webp",
+      date: "February 23, 2025",
+      image: "health39.png",
       content:
-        "In this comparison between Foxit and PDFelement, I’ll break down the essential differences between these two powerful PDF editors. I’ll compare their features, pricing, user interfaces, my personal experience, and the pros and cons of each. After spending hours working with both, I’m excited to share the strengths and weaknesses of each tool to help you make the right choice.",
+        "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
     },
     {
-      url: "/pdf-editors-for-windows",
-      title: "I Tested +30 PDF editors for Windows | Here Are The 8 Best",
+      url: "/personal-experience",
+      title: "Personal Experience with Lovense Products",
       categories: [
-        {
-          name: "PDF Tools",
-          link: "/pdf-tools",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
+  
       ],
       author: "Aron Kantor",
-      date: "February 6, 2025",
-      image: "anh371.webp",
+      date: "February 23, 2025",
+      image: "health34.png",
       content:
-        "In this Evernote vs Xtiles comparison, I will show you the key differences between these two productivity tools. I will compare Evernote to Xtiles based on features, pricing, user interfaces, and pros and cons. I spent numerous hours with both note-taking apps in the past two years, and I am here to share the benefits…",
+        "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
     },
     {
-      url: "/motion-vs-notion",
-      title: "Motion vs Notion: Why I use BOTH (2025)",
+      url: "/tradeify",
+      title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
       categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
+  
       ],
       author: "Aron Kantor",
-      date: "February 4, 2025",
-      image: "anh351.webp",
+      date: "February 23, 2025",
+      image: "health35.jpg",
       content:
-        " In this Motion vs Notion comparison, I’ll highlight the key differences between these two productivity tools. I’ll be evaluating Motion and Notion based on features, pricing, user interfaces, and the pros and cons of each. After spending countless hours with both apps over the past two years, I’m here to provide you with insights to help you make the best decision.",
+        "Financial trading can bring enormous profits, but most people fear losing money, lack experience, or worry about choosing the wrong trading platform. These concerns are completely valid because the financial market is not for the unprepared. I was once like that – doubting my abilities and struggling to find a reliable platform to start. But then I found Tradeify, a modern trading platform that helped me overcome my fears and maximize my earning potential in the market.",
     },
     {
-      url: "/evernote-vs-obsidian",
-      title: "Evernote vs Obsidian: A REAL Comparison With No Fluff (2025)",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
+      url: "/double-oak-essentials",
+      title:
+        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+      categories: [],
       author: "Aron Kantor",
-      date: "February 3, 2025",
-      image: "anh362.webp",
+      date: "February 21, 2025",
+      image: "health14.png",
       content:
-        "In this Evernote vs Obsidian comparison, I’ll highlight the key differences between these two popular note-taking tools. I'll be comparing Evernote with Obsidian based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time with both apps over the past two years, I’m here to share my findings so you can make the best choice for your needs.",
+        "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
     },
     {
-      url: "/evernote-vs-notion",
-      title: "Evernote Vs Notion: An Easier Decision That You Think (2025)",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
+      url: "/true-dark",
+      title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
+      categories: [],
       author: "Aron Kantor",
-      date: "February 3, 2025",
-      image: "anh370.webp",
+      date: "February 21, 2025",
+      image: "health19.png.jpg",
       content:
-        "In this Evernote vs Notion comparison, I’ll outline the key differences between these two productivity tools. I will compare Evernote with Notion across features, pricing, user interfaces, and pros and cons. After spending many hours using both note-taking apps over the last two years, I’m here to share the strengths and weaknesses of each tool to help you make the right choice.",
-    },
-    {
-      url: "/evernote-review",
-      title: "Evernote Review: My Unfiltered Opinion (2025)",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
-      author: "Aron Kantor",
-      date: "January 30, 2025",
-      image: "anh181.webp",
-      content:
-        "Lately, I have spent a lot of time with Evernote and have mixed feelings about it. In the past two years, I have had a chance to review many note-taking apps to put Evernote into perspective. And I want to share my experience with you in this Evernote review.",
-    },
-    {
-      url: "/notion-alternatives",
-      title: "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
-      categories: [
-        {
-         name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-          name: "Productivity Guides",
-          link: "/productivity-guides",
-        },
-        {
-          name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
-      author: "Aron Kantor",
-      date: " January 27, 2025",
-      image: "anh1.webp",
-      content:
-        "Looking for the perfect Notion alternative? Here are the best picks for 2025!. I’ll be honest—Notion is a fantastic tool. I've been using it for years, and it has greatly optimized my workflow. But let's face it—Notion isn't the perfect fit for everyone. The good news? There are hundreds of productivity tools out there, each offering unique features and advantages.",
-    },
-    {
-      url: "/adobe-acrobat-alternatives",
-      title: "The 7 Best Adobe Acrobat Alternatives: 30+ PDF Editors Tested",
-      categories: [
-        {
-          name: "PDF Tools",
-          link: "/pdf-tools",
-        },
-        {
-         name: "Software Reviews",
-          link: "/software-reviews",
-        },
-      ],
-      author: "Aron Kantor",
-      date: "January 23, 2025",
-      image: "anh368.webp",
-      content:
-        "In this Evernote vs Xtiles comparison, I will show you the key differences between these two productivity tools. I will compare Evernote to Xtiles based on features, pricing, user interfaces, and pros and cons. I spent numerous hours with both note-taking apps in the past two years, and I am here to share the benefits…",
+        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
     },
   ];
 
@@ -513,7 +406,7 @@ const Article = () => {
   };
 
   return (
-    <div className="w-full lg:h-[8100px]">
+    <div className="w-full lg:h-[7400px]">
       <div className="ml-6 lg:ml-0 lg:absolute lg:left-8 lg:top-160 bg-white w-21/24 lg:w-24/25 ">
         <div className="w-20/21 mx-auto">
           <div>
