@@ -275,6 +275,7 @@ const DoubleOakEssentials = () => {
             <h2 class="text-2xl work-sans-900 my-5 flex items-center">
               3. Pricing – Is It Worth the Investment?
             </h2>
+            <iframe className="w-full h-[300px]" src="https://www.youtube.com/embed/UkCkIFcpdpw" title="Double Oak Essentials Slim Edition Wallets #doubleoakessentials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p class="my-5">
               <span class="work-sans-900">Double Oak Essentials</span> wallets
               range from $50 - $150. While they’re not the cheapest wallets out
