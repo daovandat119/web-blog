@@ -65,8 +65,13 @@ import Pickleball from "./pages/Pickleball";
 import PersonalExperience from "./pages/PersonalExperience";
 import Tradeify from "./pages/Tradeify";
 import Comprehensive from "./pages/Comprehensive";
-
-
+import Elevated from "./pages/Elevated";
+import TheHydroJug from "./pages/TheHydroJug";
+import Gling from "./pages/Gling";
+import FlasKap from "./pages/FlasKap";
+import WalterWrites from "./pages/WalterWrites";
+import LockedIn from "./pages/LockedIn";
+import Financial from "./pages/Financial";
 const App = () => {
   return (
     <Router>
@@ -136,6 +141,13 @@ const App = () => {
           <Route path="/personal-experience" element={<PersonalExperience />} />
           <Route path="/tradeify" element={<Tradeify />} />
           <Route path="/comprehensive" element={<Comprehensive />} />
+          <Route path="/elevated" element={<Elevated />} />
+          <Route path="/the-hydro-jug" element={<TheHydroJug />} />
+          <Route path="/gling" element={<Gling />} />
+          <Route path="/flaskap" element={<FlasKap />} />
+          <Route path="/walter-writes" element={<WalterWrites />} />
+          <Route path="/locked-in" element={<LockedIn />} />
+          <Route path="/financial" element={<Financial />} />
         </Routes>
         <Footer />
       </div>

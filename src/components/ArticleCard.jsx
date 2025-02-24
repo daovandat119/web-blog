@@ -12,7 +12,7 @@ const ArticleCard = ({
       <h1 className="bg-[#f7fafc] w-full h-[100px] flex justify-center items-center work-sans-900 text-2xl mt-15">
         {title}
       </h1>
-      <div className=" flex flex-col items-center shadow-[0px_10px_10px_-5px_rgba(0,0,0,0.1)] rounded-lg">
+      <div className="flex flex-col items-center shadow-[0px_10px_10px_-5px_rgba(0,0,0,0.1)] rounded-lg">
         <nav className="flex justify-center p-7 overflow-x-auto w-80 lg:w-full scrollbar-hidden">
           {categories.map((category) => (
             <button

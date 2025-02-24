@@ -28,18 +28,16 @@ const articles = [
     content:
       "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
   },
-  {
-    url: "/tradeify",
-    title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
-    categories: [
-
-    ],
-    author: "Aron Kantor",
-    date: "February 23, 2025",
-    image: "health35.jpg",
-    content:
-      "Financial trading can bring enormous profits, but most people fear losing money, lack experience, or worry about choosing the wrong trading platform. These concerns are completely valid because the financial market is not for the unprepared. I was once like that – doubting my abilities and struggling to find a reliable platform to start. But then I found Tradeify, a modern trading platform that helped me overcome my fears and maximize my earning potential in the market.",
-  },
+    {
+      url: "/true-dark",
+      title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health19.png.jpg",
+      content:
+        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
+    },
   {
     url: "/comprehensive",
     title: "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
@@ -51,6 +49,28 @@ const articles = [
     image: "health39.png",
     content:
       "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
+  },
+  {
+    url: "/elevated",
+    title:
+      "Elevated Faith Review: Unique Christian Apparel with Purpose & Impact",
+    categories: [],
+    author: "Aron Kantor",
+    date: "February 24, 2025",
+    image: "health45.png",
+    content:
+      "If you're looking for faith-inspired clothing and accessories that make a real difference, Elevated Faith is a brand that stands out. More than just a clothing line, it’s a movement designed to spark conversations about faith while giving back to those in need. After exploring their products, mission, and customer experience, here’s why Elevated Faith is worth your attention.",
+  },
+  {
+    url: "/double-oak-essentials",
+    title:
+      "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+    categories: [],
+    author: "Aron Kantor",
+    date: "February 21, 2025",
+    image: "health14.png",
+    content:
+      "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
   },
 ];
 

@@ -25,7 +25,7 @@ const Article = () => {
           link: "/project-management",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -46,7 +46,7 @@ const Article = () => {
           link: "/note-taking-apps",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -67,7 +67,7 @@ const Article = () => {
           link: "/note-taking-apps",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -88,7 +88,7 @@ const Article = () => {
           link: "/pdf-tools",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -113,7 +113,7 @@ const Article = () => {
           link: "/productivity-guides",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -138,7 +138,7 @@ const Article = () => {
           link: "/project-management",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -159,7 +159,7 @@ const Article = () => {
           link: "/note-taking-apps",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -200,11 +200,11 @@ const Article = () => {
       app_list: "MeetGeek",
       categories: [
         {
-           name: "Meeting tools",
+          name: "Meeting tools",
           link: "/meeting-tools",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -221,11 +221,11 @@ const Article = () => {
       app_list: "Tl;dv",
       categories: [
         {
-           name: "Meeting tools",
+          name: "Meeting tools",
           link: "/meeting-tools",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -242,15 +242,16 @@ const Article = () => {
       app_list: "Fellow",
       categories: [
         {
-           name: "Meeting tools",
+          name: "Meeting tools",
           link: "/meeting-tools",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
-      title: "In-Depth Fellow App Review: Is It The Right AI Note-Taker For You In 2025?",
+      title:
+        "In-Depth Fellow App Review: Is It The Right AI Note-Taker For You In 2025?",
       author: "By Aron Kantor",
       date: "October 10, 2024",
       image: "anh269.webp",
@@ -263,11 +264,11 @@ const Article = () => {
       app_list: "Fathom",
       categories: [
         {
-           name: "Meeting tools",
+          name: "Meeting tools",
           link: "/meeting-tools",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -284,11 +285,11 @@ const Article = () => {
       app_list: "MinutesLink",
       categories: [
         {
-           name: "Meeting tools",
+          name: "Meeting tools",
           link: "/meeting-tools",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -305,11 +306,11 @@ const Article = () => {
       app_list: "Krisp",
       categories: [
         {
-           name: "Meeting tools",
+          name: "Meeting tools",
           link: "/meeting-tools",
         },
         {
-         name: "Software Reviews",
+          name: "Software Reviews",
           link: "/software-reviews",
         },
       ],
@@ -336,10 +337,9 @@ const Article = () => {
     },
     {
       url: "/comprehensive",
-      title: "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
-      categories: [
-  
-      ],
+      title:
+        "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
+      categories: [],
       author: "Aron Kantor",
       date: "February 23, 2025",
       image: "health39.png",
@@ -349,9 +349,7 @@ const Article = () => {
     {
       url: "/personal-experience",
       title: "Personal Experience with Lovense Products",
-      categories: [
-  
-      ],
+      categories: [],
       author: "Aron Kantor",
       date: "February 23, 2025",
       image: "health34.png",
@@ -361,9 +359,7 @@ const Article = () => {
     {
       url: "/tradeify",
       title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
-      categories: [
-  
-      ],
+      categories: [],
       author: "Aron Kantor",
       date: "February 23, 2025",
       image: "health35.jpg",
@@ -411,7 +407,8 @@ const Article = () => {
         <div className="w-20/21 mx-auto">
           <div>
             <h1 className="text-[40px] text-center work-sans-900 mt-10 ">
-            Discover the Top Tools That Will Help You Take Your Productivity to New Heights and Achieve Your Goals Faster
+              Discover the Top Tools That Will Help You Take Your Productivity
+              to New Heights and Achieve Your Goals Faster
             </h1>
             <hr className="w-3/4 mx-auto my-10 text-gray-200" />
             <h1 className="text-2xl text-center work-sans-900">
@@ -419,7 +416,7 @@ const Article = () => {
             </h1>
           </div>
           <Posts />
-          {/* <div className="w-full mt-10">
+          <div className="w-full mt-10">
             <div className="grid lg:grid-cols-[1.35fr_1.6fr_1.6fr] w-full gap-0 border border-gray-400 bg-gray-100">
               <div className="w-full h-90 lg:h-56 flex items-center">
                 <div className="lg:flex lg:justify-between w-full ">
@@ -428,7 +425,7 @@ const Article = () => {
                       Do you like videos better?
                     </p>
                     <img
-                      src="logo.webp"
+                      src="logo.png"
                       alt="Logo"
                       className="w-32 h-32 rounded-full border border-gray-900 my-5 object-contain"
                     />
@@ -437,7 +434,15 @@ const Article = () => {
                     <h2 className="text-[32px] work-sans-900 text-gray-900 mb-15">
                       Video Reviews
                     </h2>
-                    <button className="bg-gray-900 text-white rounded-[22px] h-15 w-40 lg:mb-15 ml-5 font-[45px]">
+                    <button
+                      onClick={() =>
+                        window.open(
+                          "https://www.youtube.com/@TrungNguyen-nk7eb/shorts",
+                          "_blank"
+                        )
+                      }
+                      className="bg-gray-900 text-white rounded-[22px] h-15 w-40 lg:mb-15 ml-5 font-[45px]"
+                    >
                       Subscribe
                     </button>
                   </div>
@@ -446,7 +451,7 @@ const Article = () => {
               <div className="w-full lg:h-56">
                 <iframe
                   className="w-full h-full aspect-video"
-                  src="https://www.youtube.com/embed/mZQ4sKd9C44?list=PLrRm3Kq-V4MfL_nmxAgr29g8QYrsHkTjo"
+                  src="https://www.youtube.com/embed/IspjXT2pk-w"
                   frameBorder="0"
                   allowFullScreen
                 ></iframe>
@@ -454,13 +459,13 @@ const Article = () => {
               <div className="w-full lg:h-56">
                 <iframe
                   className="w-full h-full aspect-video"
-                  src="https://www.youtube.com/embed/mZQ4sKd9C44?list=PLrRm3Kq-V4MfL_nmxAgr29g8QYrsHkTjo"
+                  src="https://www.youtube.com/embed/UkCkIFcpdpw"
                   frameBorder="0"
                   allowFullScreen
                 ></iframe>
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="lg:flex lg:justify-between mt-15">
             <div className="lg:w-1/2 flex flex-col items-center">
               <h2 className="w-40 text-[38px] lg:text-[50px] work-sans-900 text-gray-800 lg:w-2/3 text-center mb-25 pt-5">

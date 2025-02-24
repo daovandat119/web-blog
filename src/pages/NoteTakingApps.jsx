@@ -5,18 +5,38 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
+    url: "/walter-writes",
+    title: "WalterWrites.ai – Elevating Writing with AI Innovation",
+    categories: [],
+    author: "Aron Kantor",
+    date: "February 24, 2025",
+    image: "health63.png",
+    content:
+      "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
+  },
+  {
+    url: "/locked-in",
+    title:
+      "LockedIn AI - The Most Effective Interview Preparation Solution Today",
+    categories: [],
+    author: "Aron Kantor",
+    date: "February 24, 2025",
+    image: "health66.png",
+    content:
+      "As someone who frequently faces stressful interviews, I was always looking for a tool to help me prepare effectively. When I discovered LockedIn AI, I decided to give it a try, and I was truly surprised by what it had to offer.",
+  },
+  {
+    url: "/gling",
+    title: "Gling.ai – Transforming Video Editing with AI Efficiency",
+    author: "Aron Kantor",
+    date: "February 24, 2025",
+    image: "health52.png",
+    content:
+      "As a content creator, video editing has always been a time-consuming process for me. However, after discovering Gling.ai, I’ve completely changed the way I approach editing. This AI-powered tool has optimized my workflow, allowing me to focus on content creation rather than spending hours cutting and adjusting videos manually.",
+  },
+  {
     url: "/evernote-vs-xtiles",
     title: "Evernote Vs Xtiles: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "Aron Kantor",
     date: "February 17, 2025",
     image: "anh335.webp",
@@ -26,16 +46,6 @@ const articles = [
   {
     url: "/motion-vs-notion",
     title: "Motion vs Notion: Why I use BOTH (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "Jane Doe",
     date: "February 4, 2025",
     image: "anh351.webp",
@@ -45,16 +55,6 @@ const articles = [
   {
     url: "/evernote-vs-obsidian",
     title: "Evernote vs Obsidian: A REAL Comparison With No Fluff (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "February 3, 2025",
     image: "anh362.webp",
@@ -64,16 +64,6 @@ const articles = [
   {
     url: "/evernote-vs-notion",
     title: "Evernote Vs Notion: An Easier Decision That You Think (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "February 3, 2025",
     image: "anh370.webp",
@@ -83,16 +73,6 @@ const articles = [
   {
     url: "/evernote-review",
     title: "Evernote Review: My Unfiltered Opinion (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "January 30, 2025",
     image: "anh181.webp",
@@ -102,20 +82,6 @@ const articles = [
   {
     url: "/notion-alternatives",
     title: "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "January 30, 2025",
     image: "anh1.webp",
@@ -125,20 +91,6 @@ const articles = [
   {
     url: "/notion-alternatives",
     title: "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "January 30, 2025",
     image: "anh1.webp",
@@ -148,20 +100,6 @@ const articles = [
   {
     url: "/taskade-vs-coda",
     title: "Taskade Vs Coda: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "January 30, 2025",
     image: "anh300.webp",
@@ -171,24 +109,6 @@ const articles = [
   {
     url: "/notion-review",
     title: "My Honest Notion Review After Using It For +2 Years (2025)",
-    categories:[
-      {
-        name: "Note-Taking Apps",
-        url: "/note-taking-apps",
-      },
-      {
-        name: "Productivity Guides",
-        url: "/productivity-guides",
-      },
-      {
-        name: "Project Management",
-        url: "/project-management",
-      },
-      {
-        name: "Software Reviews",
-        url: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "November 28, 2024",
     image: "blog1.webp",
@@ -198,20 +118,6 @@ const articles = [
   {
     url: "/notion-vs-notebooklm",
     title: "Notion Vs NotebookLM: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "December 19, 2024",
     image: "anh307.webp",
@@ -221,20 +127,6 @@ const articles = [
   {
     url: "/xtiles-vs-notion",
     title: "Xtiles Vs Notion: All Features Compared (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "January 6, 2025",
     image: "anh314.webp",
@@ -244,16 +136,6 @@ const articles = [
   {
     url: "/obsidian-review",
     title: "Obsidian Review: What Nobody Tells You About This App (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "January 2, 2024",
     image: "blog2.webp",
@@ -263,20 +145,6 @@ const articles = [
   {
     url: "/anytype-review",
     title: "Anytype Review: The Best Note-Taking App In 2025?",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "November 28, 2024",
     image: "anh177.webp",
@@ -286,16 +154,6 @@ const articles = [
   {
     url: "/notebooklm-review",
     title: "NotebookLM Review: A Promising AI Tool For Note-Taking (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "November 28, 2024",
     image: "anh179.webp",
@@ -305,20 +163,6 @@ const articles = [
   {
     url: "/coda-io-review",
     title: "My Honest Coda.io Review: Here’s What Surprised Me! (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
     author: "John Smith",
     date: "November 28, 2024",
     image: "anh180.webp",
@@ -346,10 +190,14 @@ const NoteTakingApps = () => {
   return (
     <div className="container mx-auto">
       <div className="w-6/7 flex flex-col mx-auto my-10 lg:my-20">
-        <h1 className="text-center work-sans-900 text-5xl lg:text-3xl leading-relaxed">Note-Taking Apps</h1>
+        <h1 className="text-center work-sans-900 text-5xl lg:text-3xl leading-relaxed">
+          AI Tools
+        </h1>
         <hr className="w-3/4 mx-auto my-10 text-gray-200" />
         <div>
-          <h5 className="work-sans-900 text-3xl lg:text-xl my-5">What are you looking for?</h5>
+          <h5 className="work-sans-900 text-3xl lg:text-xl my-5">
+            What are you looking for?
+          </h5>
           <div className="flex items-center">
             <div className="relative flex items-center w-full">
               <input

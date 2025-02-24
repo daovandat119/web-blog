@@ -4,23 +4,21 @@ import { Search } from "lucide-react";
 import Blog from "../components/Blog";
 
 const articles = [
-
-  {
-    url: "/chronic-pain",
-    title:
-      "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
-    categories: [],
-    author: "Aron Kantor",
-    date: "February 21, 2025",
-    image: "health9.png",
-    content:
-      "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
-  },
-
-
+    {
+        url: "/tradeify",
+        title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
+        categories: [
+    
+        ],
+        author: "Aron Kantor",
+        date: "February 23, 2025",
+        image: "health35.jpg",
+        content:
+          "Financial trading can bring enormous profits, but most people fear losing money, lack experience, or worry about choosing the wrong trading platform. These concerns are completely valid because the financial market is not for the unprepared. I was once like that – doubting my abilities and struggling to find a reliable platform to start. But then I found Tradeify, a modern trading platform that helped me overcome my fears and maximize my earning potential in the market.",
+      },
 ];
 
-const Beauty = () => {
+const Financial = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState(searchQuery);
 
@@ -40,7 +38,7 @@ const Beauty = () => {
     <div className="container mx-auto">
       <div className="w-6/7 flex flex-col mx-auto my-10 lg:my-20">
         <h1 className="text-center work-sans-900 text-5xl lg:text-3xl leading-relaxed">
-          Beauty
+        Financial information
         </h1>
         <hr className="w-3/4 mx-auto my-10 text-gray-200" />
         <div>
@@ -72,4 +70,4 @@ const Beauty = () => {
   );
 };
 
-export default Beauty;
+export default Financial;

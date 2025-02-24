@@ -18,14 +18,14 @@ const Blog = ({ articles} ) => {
           />
           <div className="w-9/10 mx-auto">
             <h5 className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed pt-4">
-              {article.categories.map((category, index) => (
+              {/* {article.categories.map((category, index) => (
                 <Link to={category.link} key={index}>
                   {category.name}
                   {index !== article.categories.length - 1 && (
                     <span className="text-gray-700 px-1">|</span>
                   )}
                 </Link>
-              ))}
+              ))} */}
             </h5>
             <h1 className="text-[30px] work-sans-900 hover:text-[#3182ce]">
               {article.title}

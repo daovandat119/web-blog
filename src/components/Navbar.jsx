@@ -9,6 +9,7 @@ const Navbar = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   const [isTopicsOpen, setIsTopicsOpen] = useState(false);
   const [isLifestyle, setIsLifestyle] = useState(false);
+  const [isFinancial, setIsFinancial] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
@@ -39,6 +40,52 @@ const Navbar = () => {
         </Link>
         <div className="relative group inline-block">
           <Link
+            to="/financial"
+            className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
+    ${
+      active === "/financial"
+        ? "text-black after:w-full after:bg-black"
+        : "text-gray-500 after:w-0 after:bg-blue-500 hover:text-blue-500 hover:after:w-full"
+    }`}
+            onClick={() => setActive("/financial")}
+          >
+            Financial information
+          </Link>
+          {/* <div className="absolute left-0 w-full bg-[#141a26] text-white border border-gray-800 work-sans-400 shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50 ">
+            <ul className="">
+              <li>
+                <Link
+                  to="/health"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                  Health
+                </Link>
+              </li>
+            </ul>
+            <ul className="">
+              <li>
+                <Link
+                  to="/fashion"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                  Fashion
+                </Link>
+              </li>
+            </ul>
+            <ul className="">
+              <li>
+                <Link
+                  to="/beauty"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                  Beauty
+                </Link>
+              </li>
+            </ul>
+          </div> */}
+        </div>
+        <div className="relative group inline-block">
+          <Link
             to="/lifestyle"
             className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
@@ -57,7 +104,7 @@ const Navbar = () => {
                   to="/health"
                   className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
-                 Health
+                  Health
                 </Link>
               </li>
             </ul>
@@ -67,7 +114,7 @@ const Navbar = () => {
                   to="/fashion"
                   className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
-                 Fashion
+                  Fashion
                 </Link>
               </li>
             </ul>
@@ -77,12 +124,13 @@ const Navbar = () => {
                   to="/beauty"
                   className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
-                 Beauty
+                  Beauty
                 </Link>
               </li>
             </ul>
-          </div>  
+          </div>
         </div>
+
         <div className="relative group inline-block">
           <Link
             to="/top-picks"
@@ -176,7 +224,8 @@ const Navbar = () => {
     }`}
             onClick={() => setActive("/topics")}
           >
-            Topics <FaChevronDown className="inline w3 h-3" />
+            AI Tools
+            <FaChevronDown className="inline w3 h-3" />
           </Link>
           <div className="absolute left-0 w-48 bg-[#141a26] text-white border border-[#2d3748] shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50">
             <ul className="">
@@ -288,6 +337,20 @@ const Navbar = () => {
           <li>
             <div className="flex items-center justify-between w-full py-2">
               <Link
+                to="/financial"
+                className="hover:text-blue-500 text-sx"
+                onClick={() => setIsOpen(false)}
+              >
+                <span>Financial</span>
+              </Link>
+              <button onClick={() => setIsFinancial(!isFinancial)}>
+                
+              </button>
+            </div>
+          </li>
+          <li>
+            <div className="flex items-center justify-between w-full py-2">
+              <Link
                 to="/lifestyle"
                 className="hover:text-blue-500 text-sx"
                 onClick={() => setIsOpen(false)}
@@ -334,7 +397,6 @@ const Navbar = () => {
                 </li>
               </ul>
             )}
-
           </li>
           <li>
             <div className="flex items-center justify-between w-full py-2">
