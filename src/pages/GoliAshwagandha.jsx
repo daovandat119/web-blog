@@ -3,10 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
-import {
-  FaYoutube,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaYoutube, FaTwitter } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -154,7 +151,7 @@ const GoliAshwagandha = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="health.png" alt="anh" />
+            <img src="health.png" alt="anh" className="w-full"/>
             <h1 className="mt-10">
               Goli Ashwagandha is a supplement made from Ashwagandha, an herb
               renowned in Ayurveda for its adaptogenic properties. This product
@@ -262,7 +259,15 @@ const GoliAshwagandha = () => {
             >
               Supporting Better Sleep with Ashwagandha
             </h1>
-            <iframe className="w-full h-[300px]" src="https://www.youtube.com/embed/IspjXT2pk-w" title="Naturally Support Your Mental and Physical Wellness #goligummy #goli #goliashwagandha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              className="w-full h-[300px]"
+              src="https://www.youtube.com/embed/IspjXT2pk-w"
+              title="Naturally Support Your Mental and Physical Wellness #goligummy #goli #goliashwagandha"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
             <br />
             One of the side benefits of Ashwagandha is its ability to support
             sleep. KSM-66® Ashwagandha helps the body relax, which may improve
@@ -393,22 +398,21 @@ const GoliAshwagandha = () => {
             >
               Try it now and feel the difference!
             </h1>
-
-              Don’t miss the opportunity to take care of your health—
-              <button
-                onClick={() =>
-                  window.open(
-                    "https://goli.com/?discount_code=pricings",
-                    "_blank"
-                  )
-                }
-                className="text-[#3182ce] underline"
-              >
-                Click Here
-              </button>{" "}
-              on the link below to explore now!
-              <br />
-              <br />
+            Don’t miss the opportunity to take care of your health—
+            <button
+              onClick={() =>
+                window.open(
+                  "https://goli.com/?discount_code=pricings",
+                  "_blank"
+                )
+              }
+              className="text-[#3182ce] underline"
+            >
+              Click Here
+            </button>{" "}
+            on the link below to explore now!
+            <br />
+            <br />
             I truly believe that Goli Nutrition will provide you with incredible
             results. Their high-quality products are designed to support your
             health in a simple and enjoyable way, making wellness easier than
