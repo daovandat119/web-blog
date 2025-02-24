@@ -402,7 +402,7 @@ const Article = () => {
   };
 
   return (
-    <div className="w-full lg:h-[7400px]">
+    <div className="w-full lg:h-[7650px]">
       <div className="ml-6 lg:ml-0 lg:absolute lg:left-8 lg:top-160 bg-white w-21/24 lg:w-24/25 ">
         <div className="w-20/21 mx-auto">
           <div>

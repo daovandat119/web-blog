@@ -156,20 +156,7 @@ const XtilesReview = () => {
             key={index}
             className="lg:w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))}
-            </div>
+            
             <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
