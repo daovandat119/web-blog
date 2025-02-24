@@ -262,8 +262,7 @@ const GoliAshwagandha = () => {
             >
               Supporting Better Sleep with Ashwagandha
             </h1>
-            <iframe src="https://www.youtube.com/embed/1y2SIIeqy34">
-            </iframe>
+            <iframe className="w-full h-[300px]" src="https://www.youtube.com/embed/IspjXT2pk-w" title="Naturally Support Your Mental and Physical Wellness #goligummy #goli #goliashwagandha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <br />
             One of the side benefits of Ashwagandha is its ability to support
             sleep. KSM-66® Ashwagandha helps the body relax, which may improve
