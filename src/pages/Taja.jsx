@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const FlasKap = () => {
+const Taja = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
@@ -38,30 +38,39 @@ const FlasKap = () => {
           url: "/software-reviews",
         },
       ],
-      title: "FlasKap – Revolutionizing the World of Thermal Bottles",
+      title: "Taja AI – The Ultimate AI Tool for YouTube Content Optimization",
       author: "",
-      date: "February 24, 2025",
+      date: "February 25, 2025",
     },
   ];
 
   const sections = [
     {
-      title: "What Makes FlasKap Stand Out?",
-      link: "#What",
+      title: "My Experience with Taja AI",
+      link: "#My",
+    },
+    {
+      title: "Key Features of Taja AI",
+      link: "#Key",
+    },
+    {
+      title: "Why Choose Lilac St.?",
+      link: "#Why",
       items: [
-        { name: "Quality & Durability", link: "#Quality" },
-        { name: "Modern & Unique Design", link: "#Modern" },
-        { name: "A Variety of Products to Suit All Needs", link: "#A" },
-        { name: "Reasonable Price for the Quality", link: "#Reasonable" },
+        { name: "AI-Powered SEO Analysis", link: "#AI" },
+        { name: "Automatic Video Metadata Creation", link: "#Automatic" },
+        { name: "Eye-Catching Thumbnail Design", link: "#Eye" },
+        { name: "Multi-Language & Industry-Specific Support", link: "#Multi" },
+        { name: "Easy to Use – No Installation Required", link: "#Easy" },
       ],
     },
     {
-      title: "Comparison: FlasKap vs. Traditional Thermal Bottles",
-      link: "#Comparison",
+      title: "Why Choose Taja AI?",
+      link: "#Why",
     },
     {
-      title: "Why Choose FlasKap?",
-      link: "#Why",
+      title: "Conclusion",
+      link: "#Conclusion",
     },
   ];
 
@@ -145,18 +154,15 @@ const FlasKap = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <h1 className="text-2xl work-sans-900 my-5">
-              Personal Experience with FlasKap
-            </h1>
-            <p className="mb-5">
-              As someone who is constantly on the move and appreciates
-              convenient products, I am always on the lookout for a thermal
-              bottle that not only ensures durability but also offers
-              outstanding features. After testing several brands, I discovered
-              FlasKap – a name that is making a strong impression in the
-              community of convenience and innovation lovers.
+            <p className="my-5">
+              Are you a YouTube creator struggling with SEO optimization,
+              writing video descriptions, designing eye-catching thumbnails, and
+              increasing visibility? Taja AI is the solution you've been looking
+              for! Having personally experienced this tool, I want to share how
+              it has completely transformed my content creation process—saving
+              time, boosting efficiency, and taking my videos to the next level.
             </p>
-            <img src="health58.jpg" alt="anh" className="w-full" />
+            <img src="health72.png" alt="anh" className="w-full" />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -195,94 +201,138 @@ const FlasKap = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h1
-              id="What"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              What Makes FlasKap Stand Out?
-            </h1>
-            <p>
-              FlasKap is not just an ordinary thermal bottle. Its uniqueness
-              lies in its smart design and the ability to personalize beverages
-              effortlessly. This is the perfect product for those who want to
-              enjoy their drinks in the most convenient and stylish way.
-            </p>
-
-            <h2
-              id="Quality"
-              className="text-xl work-sans-900 my-3"
-            >
-              Quality & Durability
-            </h2>
-            <p className="mb-5">
-              FlasKap is made from high-quality, BPA-free materials, ensuring
-              user safety. Its impressive thermal retention capability keeps
-              beverages hot or cold for hours.
-            </p>
-                <img src="health59.png" alt="anh" className="w-full" />
-            <h2 id="Modern" className="text-xl work-sans-900 my-3">
-              Modern & Unique Design
+            <h2 id="My" class="text-2xl work-sans-900 my-5 flex items-center">
+              My Experience with Taja AI
             </h2>
             <p>
-              One of FlasKap’s standout features is the <span className="work-sans-900">FreePour</span> and <span className="work-sans-900">Madic
-              Collection</span> systems – two product lines that allow users to control
-              their drink portions with just the press of a button.
-              Additionally, FlasKap is compatible with many popular thermal
-              bottles on the market, such as the Yeti Rambler, providing more
-              choices for users.
+              Before discovering Taja AI, I spent hours researching keywords,
+              crafting compelling titles, optimizing descriptions, and testing
+              different thumbnails. But as soon as I started using Taja AI, I
+              realized I had been wasting so much time on tasks that AI could
+              handle in minutes!
             </p>
-
-            <h2 id="A" className="text-xl work-sans-900 my-3">
-              A Variety of Products to Suit All Needs
+            <p>With Taja AI, I can:</p>
+            <ul class="list-disc pl-5 py-5">
+              <li>
+                <span class="work-sans-900">
+                  Generate perfect video metadata:
+                </span>{" "}
+                Simply enter your video topic, and AI will suggest SEO-friendly
+                titles, engaging descriptions, and the most relevant tags.
+              </li>
+              <li>
+                <span class="work-sans-900">Increase YouTube visibility:</span>{" "}
+                Taja AI analyzes YouTube's algorithm, optimizing your videos to
+                reach the right audience and boost recommendations.
+              </li>
+              <li>
+                <span class="work-sans-900">
+                  Create professional thumbnails in seconds:
+                </span>{" "}
+                No design skills required—AI automatically generates attractive
+                thumbnails to increase click-through rates (CTR).
+              </li>
+              <li>
+                <span class="work-sans-900">
+                  Save time and maximize productivity:
+                </span>{" "}
+                Tasks that once took hours now take just minutes, allowing me to
+                focus more on content creation rather than SEO struggles.
+              </li>
+            </ul>
+            <img src="health73.png" alt="anh" className="w-full" />
+            <h2 id="Key" class="text-2xl work-sans-900 my-5 flex items-center">
+              Key Features of Taja AI
             </h2>
-            <ul className="list-disc pl-5 py-5">
-              <li>
-              <span className="work-sans-900">Madic 6 & 9 Ounce:</span> Allows mixing drinks directly in the bottle
-                with flexible capacities.
+            <ul class="list-disc pl-5 py-5">
+              <li id="AI">
+                <span class="work-sans-900">AI-Powered SEO Analysis:</span> Taja
+                AI uses advanced artificial intelligence to analyze search
+                trends, suggest high-ranking keywords, and help your videos rank
+                higher on YouTube.
               </li>
-              <img src="health60.png" alt="anh" className="w-full" />
-              <li>
-              <span className="work-sans-900">FreePour Cap:</span> A smart lid that helps control the amount of drink
-                poured each time.
+              <li id="Automatic">
+                <span class="work-sans-900">
+                  Automatic Video Metadata Creation:
+                </span>{" "}
+                Simply enter your video topic, and AI will instantly generate
+                optimized titles, compelling descriptions, and the best keyword
+                tags.
               </li>
-              <img src="health61.png" alt="anh" className="w-full" />
+              <li id="Eye">
+                <span class="work-sans-900">
+                  Eye-Catching Thumbnail Design:
+                </span>{" "}
+                Taja AI offers customizable, professional-looking thumbnail
+                templates that grab attention and increase click-through rates.
+              </li>
+              <li id="Multi">
+                <span class="work-sans-900">
+                  Multi-Language & Industry-Specific Support:
+                </span>{" "}
+                Whether you're a travel vlogger, product reviewer, or
+                educational content creator, Taja AI has tailored solutions for
+                every niche.
+              </li>
+              <li id="Easy">
+                <span class="work-sans-900">
+                  Easy to Use – No Installation Required:
+                </span>{" "}
+                Taja AI works directly from your web browser—no need for
+                downloads or complex installations. It’s accessible on both
+                desktop and mobile devices.
+              </li>
             </ul>
 
-            <h2 id="Reasonable" className="text-xl work-sans-900 my-3">
-              Reasonable Price for the Quality
+            <h2 id="Why" class="text-2xl work-sans-900 my-5 flex items-center">
+              Why Choose Taja AI?
+            </h2>
+            <ul class="list-disc pl-5 py-5">
+              <li>
+                <span class="work-sans-900">Boost video rankings quickly:</span>{" "}
+                AI optimizes your content according to YouTube's algorithm,
+                increasing your chances of appearing in recommendations.
+              </li>
+              <li>
+                <span class="work-sans-900">Save time and effort:</span> No need
+                to spend hours researching SEO or designing thumbnails.
+              </li>
+              <li>
+                <span class="work-sans-900">Powerful yet user-friendly:</span>{" "}
+                Even beginners can master Taja AI in just a few minutes.
+              </li>
+              <li>
+                <span class="work-sans-900">
+                  All-in-One solution for YouTubers:
+                </span>{" "}
+                From SEO optimization and descriptions to thumbnail design,
+                everything is covered.
+              </li>
+            </ul>
+            <img src="health74.png" alt="anh" className="w-full" />
+            <h2
+              id="Conclusion"
+              class="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              Conclusion
             </h2>
             <p>
-              Compared to other brands on the market, FlasKap strikes a perfect
-              balance between price and quality. Users not only get a durable
-              product but also enjoy premium features that few brands offer.
+              If you want to grow your YouTube channel quickly and
+              professionally without being an SEO expert or a graphic designer,
+              Taja AI is the perfect choice. Don't let your high-quality content
+              get buried on YouTube just because of poor optimization! Let Taja
+              AI help you reach millions of viewers effortlessly.
             </p>
-
-            <h2
-              id="Comparison"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Comparison: FlasKap vs. Traditional Thermal Bottles
-            </h2>
-            <img src="health62.png" alt="anh" className="w-full" />
-            <h2
-              id="Why"
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
-              Why Choose FlasKap?
-            </h2>
+            <p class="my-5">
+              Have you tried Taja AI yet? If not, don’t wait—this could be your
+              secret weapon for YouTube success! 🚀
+            </p>
             <p>
-              If you are looking for a thermal bottle that not only meets
-              hydration needs but also enhances your drinking experience,
-              FlasKap is the perfect choice. With its innovative design, durable
-              quality, and reasonable pricing, FlasKap is a must-have companion
-              for your daily activities.
-            </p>
-            <p className="mt-5">
-              👉Discover{" "}
-              <a href="https://flaskap.com/?sca_ref=7444505.VZral2l47L&utm_source=7444505&utm_medium=do-hung&utm_campaign=193544&utm_term=Elite-Ambassador-Commission" class="text-[#3182ce] underline">
-                 FlasKap 
-              </a>
-              {" "}and experience the difference!
+              👉Try{" "}
+              <a href="https://www.trytaja.ai" class="text-[#3182ce] underline">
+                Taja.AI
+              </a>{" "}
+              now
             </p>
           </div>
 
@@ -369,4 +419,4 @@ const FlasKap = () => {
   );
 };
 
-export default FlasKap;
+export default Taja;

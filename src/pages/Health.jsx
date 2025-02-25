@@ -5,6 +5,17 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
+    url: "/four",
+    title:
+      "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
+    categories: [],
+    author: "Aron Kantor",
+    date: "February 25, 2025",
+    image: "health75.jpg",
+    content:
+      "Four Sigmatic is a standout brand in the functional food industry, specializing in products that combine medicinal mushrooms with organic ingredients to support both physical and mental health. Let’s explore the features and real user reviews of Four Sigmatic products.",
+  },
+  {
     url: "/goli-ashwagandha",
     title:
       "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",

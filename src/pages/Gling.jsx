@@ -333,7 +333,7 @@ const Gling = () => {
             </p>
             <p className="my-5">
               Try 👉{" "}
-              <a href="https://www.gling.ai/?via=us-uk" class="text-[#3182ce] underline">
+              <a href="https://gling.ai/?via=us-uk" class="text-[#3182ce] underline">
                 Gling.ai
               </a>{" "}
               now and revolutionize the way you edit videos!

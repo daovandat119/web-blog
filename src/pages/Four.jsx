@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const FlasKap = () => {
+const Four = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
@@ -38,30 +38,30 @@ const FlasKap = () => {
           url: "/software-reviews",
         },
       ],
-      title: "FlasKap – Revolutionizing the World of Thermal Bottles",
+      title:
+        "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
       author: "",
-      date: "February 24, 2025",
+      date: "February 25, 2025",
     },
   ];
 
   const sections = [
     {
-      title: "What Makes FlasKap Stand Out?",
-      link: "#What",
+      title: "Key Features and Highlights",
+      link: "#Key",
       items: [
-        { name: "Quality & Durability", link: "#Quality" },
-        { name: "Modern & Unique Design", link: "#Modern" },
-        { name: "A Variety of Products to Suit All Needs", link: "#A" },
-        { name: "Reasonable Price for the Quality", link: "#Reasonable" },
+        { name: "Main Ingredients", link: "#Main" },
+        { name: "Unique Formulations", link: "#Unique" },
+        { name: "Free from Harmful Ingredients", link: "#Free" },
       ],
     },
     {
-      title: "Comparison: FlasKap vs. Traditional Thermal Bottles",
-      link: "#Comparison",
+      title: "User Reviews",
+      link: "#User",
     },
     {
-      title: "Why Choose FlasKap?",
-      link: "#Why",
+      title: "Should You Buy Four Sigmatic Products?",
+      link: "#Should",
     },
   ];
 
@@ -145,18 +145,14 @@ const FlasKap = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <h1 className="text-2xl work-sans-900 my-5">
-              Personal Experience with FlasKap
-            </h1>
-            <p className="mb-5">
-              As someone who is constantly on the move and appreciates
-              convenient products, I am always on the lookout for a thermal
-              bottle that not only ensures durability but also offers
-              outstanding features. After testing several brands, I discovered
-              FlasKap – a name that is making a strong impression in the
-              community of convenience and innovation lovers.
+            <p className="my-5">
+              Four Sigmatic is a standout brand in the functional food industry,
+              specializing in products that combine medicinal mushrooms with
+              organic ingredients to support both physical and mental health.
+              Let’s explore the features and real user reviews of Four Sigmatic
+              products.
             </p>
-            <img src="health58.jpg" alt="anh" className="w-full" />
+            <img src="health75.jpg" alt="anh" className="w-full" />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -195,95 +191,131 @@ const FlasKap = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h1
-              id="What"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              What Makes FlasKap Stand Out?
-            </h1>
-            <p>
-              FlasKap is not just an ordinary thermal bottle. Its uniqueness
-              lies in its smart design and the ability to personalize beverages
-              effortlessly. This is the perfect product for those who want to
-              enjoy their drinks in the most convenient and stylish way.
-            </p>
-
             <h2
-              id="Quality"
-              className="text-xl work-sans-900 my-3"
+              id="Key"
+              class="text-2xl work-sans-900 my-5 flex items-center"
             >
-              Quality & Durability
+              Key Features and Highlights
             </h2>
-            <p className="mb-5">
-              FlasKap is made from high-quality, BPA-free materials, ensuring
-              user safety. Its impressive thermal retention capability keeps
-              beverages hot or cold for hours.
-            </p>
-                <img src="health59.png" alt="anh" className="w-full" />
-            <h2 id="Modern" className="text-xl work-sans-900 my-3">
-              Modern & Unique Design
-            </h2>
-            <p>
-              One of FlasKap’s standout features is the <span className="work-sans-900">FreePour</span> and <span className="work-sans-900">Madic
-              Collection</span> systems – two product lines that allow users to control
-              their drink portions with just the press of a button.
-              Additionally, FlasKap is compatible with many popular thermal
-              bottles on the market, such as the Yeti Rambler, providing more
-              choices for users.
-            </p>
-
-            <h2 id="A" className="text-xl work-sans-900 my-3">
-              A Variety of Products to Suit All Needs
-            </h2>
-            <ul className="list-disc pl-5 py-5">
+            <h3 id="Main" class="text-xl work-sans-900 my-3">Main Ingredients</h3>
+            <p>Four Sigmatic products use medicinal mushrooms such as:</p>
+            <ul class="list-disc pl-5 py-5">
               <li>
-              <span className="work-sans-900">Madic 6 & 9 Ounce:</span> Allows mixing drinks directly in the bottle
-                with flexible capacities.
+                <span class="work-sans-900">Lion’s Mane:</span> Supports memory,
+                focus, and brain health.
               </li>
-              <img src="health60.png" alt="anh" className="w-full" />
               <li>
-              <span className="work-sans-900">FreePour Cap:</span> A smart lid that helps control the amount of drink
-                poured each time.
+                <span class="work-sans-900">Chaga:</span> Rich in antioxidants,
+                helping to boost the immune system.
               </li>
-              <img src="health61.png" alt="anh" className="w-full" />
+              <li>
+                <span class="work-sans-900">Cordyceps:</span> Enhances energy
+                levels and endurance.
+              </li>
+              <li>
+                <span class="work-sans-900">Reishi:</span> Promotes relaxation
+                and supports sleep quality.
+              </li>
             </ul>
 
-            <h2 id="Reasonable" className="text-xl work-sans-900 my-3">
-              Reasonable Price for the Quality
-            </h2>
+            <h3 id="Unique" class="text-xl work-sans-900 my-3">Unique Formulations</h3>
+            <ul class="list-disc pl-5 py-5">
+              <li>
+                <span class="work-sans-900">Mushroom Coffee:</span> A blend of
+                organic coffee and mushrooms that enhances alertness without
+                causing jitters.
+              </li>
+              <li>
+                <span class="work-sans-900">Plant-based Protein:</span> Vegan
+                protein supplemented with mushrooms to promote muscle health and
+                immunity.
+              </li>
+              <li>
+                <span class="work-sans-900">Adaptogen Blends:</span> Formulas
+                designed to reduce stress, boost energy, and help the body adapt
+                to daily challenges.
+              </li>
+            </ul>
+
+            <h3 id="Free" class="text-xl work-sans-900 my-3">
+              Free from Harmful Ingredients
+            </h3>
             <p>
-              Compared to other brands on the market, FlasKap strikes a perfect
-              balance between price and quality. Users not only get a durable
-              product but also enjoy premium features that few brands offer.
+              Four Sigmatic ensures their products contain no preservatives,
+              refined sugars, or artificial flavors. All products are tested for
+              quality and certified organic by USDA.
             </p>
+                <img src="health76.jpg" alt="anh" className="w-full" />
+            <h2
+              id="User"
+              class="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              User Reviews
+            </h2>
+            <h3 class="text-xl work-sans-900 my-3">Pros</h3>
+            <ul class="list-disc pl-5 py-5">
+              <li>
+                <span class="work-sans-900">
+                   Enhances alertness and focus without causing stress.
+                </span>
+              </li>
+              <li>
+                <span class="work-sans-900">
+                   Supports immunity and overall health.
+                </span>
+              </li>
+              <li>
+                <span class="work-sans-900">
+                   Natural, safe ingredients, easy to prepare.
+                </span>
+              </li>
+              <li>
+                <span class="work-sans-900">
+                   Pleasant taste without any strong or unpleasant odors.
+                </span>
+              </li>
+            </ul>
+
+            <h3 class="text-xl work-sans-900 my-3">Cons</h3>
+            <ul class="list-disc pl-5 py-5">
+              <li>
+                <span class="work-sans-900">
+                  More expensive compared to regular coffee.
+                </span>
+              </li>
+              <li>
+                <span class="work-sans-900">
+                  Some products may have a slightly bitter taste if you are
+                  not accustomed to them.
+                </span>
+              </li>
+            </ul>
 
             <h2
-              id="Comparison"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              id="Should"
+              class="text-2xl work-sans-900 my-5 flex items-center"
             >
-              Comparison: FlasKap vs. Traditional Thermal Bottles
-            </h2>
-            <img src="health62.png" alt="anh" className="w-full" />
-            <h2
-              id="Why"
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
-              Why Choose FlasKap?
+              Should You Buy Four Sigmatic Products?
             </h2>
             <p>
-              If you are looking for a thermal bottle that not only meets
-              hydration needs but also enhances your drinking experience,
-              FlasKap is the perfect choice. With its innovative design, durable
-              quality, and reasonable pricing, FlasKap is a must-have companion
-              for your daily activities.
+              If you are looking for a healthier alternative to coffee or daily
+              supplements, Four Sigmatic is a brand worth trying. With
+              high-quality ingredients and unique medicinal mushroom
+              formulations, these products offer significant health benefits
+              without negative side effects.
             </p>
             <p className="mt-5">
-              👉Discover{" "}
-              <a href="https://flaskap.com/?sca_ref=7444505.VZral2l47L&utm_source=7444505&utm_medium=do-hung&utm_campaign=193544&utm_term=Elite-Ambassador-Commission" class="text-[#3182ce] underline">
-                 FlasKap 
+            <span className="work-sans-900">You can purchase Four Sigmatic products at: </span>{" "}
+              <a href="https://us.foursigmatic.com/?snowball=ANHTUAN66381" class="text-[#3182ce] underline">
+                Click here
               </a>
-              {" "}and experience the difference!
             </p>
+
+            <p class="my-5">
+              Have you tried Four Sigmatic products? Share your experience in
+              the comments!
+            </p>
+            <img src="health77.jpg" alt="anh" className="w-full" />
           </div>
 
           {/* phần bốn */}
@@ -291,11 +323,9 @@ const FlasKap = () => {
           {/* phần cuối */}
           <div>
             <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
-              opinions expressed here are our own. This post may contain
-              affiliate links that at no additional cost to you, I may earn a
-              small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
+            Disclaimer: This is an objective review of Four Sigmatic products.
+              I am not the manufacturer or owner of this brand, but I may
+              receive a commission if you purchase through the link above.
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
@@ -369,4 +399,4 @@ const FlasKap = () => {
   );
 };
 
-export default FlasKap;
+export default Four;

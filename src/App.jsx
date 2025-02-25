@@ -72,6 +72,10 @@ import FlasKap from "./pages/FlasKap";
 import WalterWrites from "./pages/WalterWrites";
 import LockedIn from "./pages/LockedIn";
 import Financial from "./pages/Financial";
+import Lilac from "./pages/Lilac";
+import Taja from "./pages/Taja";
+import Four from "./pages/Four";
+
 const App = () => {
   return (
     <Router>
@@ -148,6 +152,9 @@ const App = () => {
           <Route path="/walter-writes" element={<WalterWrites />} />
           <Route path="/locked-in" element={<LockedIn />} />
           <Route path="/financial" element={<Financial />} />
+          <Route path="/lilac" element={<Lilac />} />
+          <Route path="/taja" element={<Taja />} />
+          <Route path="/four" element={<Four />} />
         </Routes>
         <Footer />
       </div>

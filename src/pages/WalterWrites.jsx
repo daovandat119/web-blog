@@ -346,7 +346,7 @@ const WalterWrites = () => {
             <p className="mt-5">
               👉Try {" "}
               <a
-                href="https://walterwrites.ai"
+                href="https://walterwrites.ai/?via=gbeng"
                 class="text-[#3182ce] underline"
               >
                 WalterWrites.ai 

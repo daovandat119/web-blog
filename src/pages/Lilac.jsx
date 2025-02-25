@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const FlasKap = () => {
+const Lilac = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
@@ -38,30 +38,34 @@ const FlasKap = () => {
           url: "/software-reviews",
         },
       ],
-      title: "FlasKap – Revolutionizing the World of Thermal Bottles",
+      title:
+        "Lilac St. Lashes – The Perfect Natural False Lashes Experience for Every Girl",
       author: "",
-      date: "February 24, 2025",
+      date: "February 25, 2025",
     },
   ];
 
   const sections = [
     {
-      title: "What Makes FlasKap Stand Out?",
-      link: "#What",
+      title: "Real Experience with Lilac St",
+      link: "#Real",
       items: [
-        { name: "Quality & Durability", link: "#Quality" },
-        { name: "Modern & Unique Design", link: "#Modern" },
-        { name: "A Variety of Products to Suit All Needs", link: "#A" },
-        { name: "Reasonable Price for the Quality", link: "#Reasonable" },
+        { name: "Natural and Lightweight Feel", link: "#Natural" },
+        { name: "Easy to Apply and Remove", link: "#Easy" },
+        { name: "Long-Lasting Wear", link: "#Long" },
       ],
     },
     {
-      title: "Comparison: FlasKap vs. Traditional Thermal Bottles",
-      link: "#Comparison",
+      title: "Why Features of Lilac St",
+      link: "#Why",
     },
     {
-      title: "Why Choose FlasKap?",
+      title: "Why Choose Lilac St.?",
       link: "#Why",
+    },
+    {
+      title: "Conclusion",
+      link: "#Conclusion",
     },
   ];
 
@@ -146,17 +150,12 @@ const FlasKap = () => {
           {/* phần một */}
           <div>
             <h1 className="text-2xl work-sans-900 my-5">
-              Personal Experience with FlasKap
+            Introduction to Lilac St. Lashes
             </h1>
             <p className="mb-5">
-              As someone who is constantly on the move and appreciates
-              convenient products, I am always on the lookout for a thermal
-              bottle that not only ensures durability but also offers
-              outstanding features. After testing several brands, I discovered
-              FlasKap – a name that is making a strong impression in the
-              community of convenience and innovation lovers.
+            In the world of makeup, finding the perfect pair of false lashes that look natural and are easy to use is no easy task. Lilac St. has become one of the top choices thanks to its premium false lash products, offering absolute naturalness and optimal comfort with every lash strand.
             </p>
-            <img src="health58.jpg" alt="anh" className="w-full" />
+            <img src="health69.png" alt="anh" className="w-full" />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -195,94 +194,105 @@ const FlasKap = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h1
-              id="What"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              What Makes FlasKap Stand Out?
-            </h1>
-            <p>
-              FlasKap is not just an ordinary thermal bottle. Its uniqueness
-              lies in its smart design and the ability to personalize beverages
-              effortlessly. This is the perfect product for those who want to
-              enjoy their drinks in the most convenient and stylish way.
-            </p>
-
-            <h2
-              id="Quality"
-              className="text-xl work-sans-900 my-3"
-            >
-              Quality & Durability
-            </h2>
-            <p className="mb-5">
-              FlasKap is made from high-quality, BPA-free materials, ensuring
-              user safety. Its impressive thermal retention capability keeps
-              beverages hot or cold for hours.
-            </p>
-                <img src="health59.png" alt="anh" className="w-full" />
-            <h2 id="Modern" className="text-xl work-sans-900 my-3">
-              Modern & Unique Design
+            <h2 id="Real" class="text-2xl work-sans-900 my-5 flex items-center">
+              Real Experience with Lilac St.
             </h2>
             <p>
-              One of FlasKap’s standout features is the <span className="work-sans-900">FreePour</span> and <span className="work-sans-900">Madic
-              Collection</span> systems – two product lines that allow users to control
-              their drink portions with just the press of a button.
-              Additionally, FlasKap is compatible with many popular thermal
-              bottles on the market, such as the Yeti Rambler, providing more
-              choices for users.
+              As someone who loves makeup, I’m always looking for false lashes
+              that are easy to wear, natural-looking, and make my eyes more
+              defined and captivating. When I discovered Lilac St., I decided to
+              give it a try—and the results truly exceeded my expectations!
             </p>
 
-            <h2 id="A" className="text-xl work-sans-900 my-3">
-              A Variety of Products to Suit All Needs
+            <h3 id="Natural" class="text-xl work-sans-900 my-3">
+              Natural and Lightweight Feel
+            </h3>
+            <p>
+              From the very first use, I noticed how lightweight and flexible
+              Lilac St. lashes are. Compared to other false lashes I’ve tried
+              before, Lilac St. provides incredible softness, ensuring my eyes
+              don’t feel stiff or heavy at all.
+            </p>
+
+            <h3 id="Easy" class="text-xl work-sans-900 my-3">
+              Easy to Apply and Remove
+            </h3>
+            <p>
+              With its cluster-style design (small lash segments), I can easily
+              apply them at home within minutes. Lilac St.’s adhesive keeps the
+              lashes securely in place while still being easy to remove, without
+              affecting my natural lashes.
+            </p>
+
+            <h3 id="Long" class="text-xl work-sans-900 my-3">
+              Long-Lasting Wear
+            </h3>
+            <p>
+              Unlike traditional false lashes that last only a day, Lilac St.
+              lashes can stay put for 5–7 days without shifting or falling off.
+            </p>
+            <img src="health70.png" alt="anh" className="w-full" />
+            <h2 id="Key" class="text-2xl work-sans-900 my-5 flex items-center">
+              Key Features of Lilac St.
             </h2>
-            <ul className="list-disc pl-5 py-5">
+            <ul class="list-disc pl-5 py-5">
               <li>
-              <span className="work-sans-900">Madic 6 & 9 Ounce:</span> Allows mixing drinks directly in the bottle
-                with flexible capacities.
+                <span class="work-sans-900">Natural design:</span> Soft,
+                lightweight lashes that don’t feel heavy or stiff.
               </li>
-              <img src="health60.png" alt="anh" className="w-full" />
               <li>
-              <span className="work-sans-900">FreePour Cap:</span> A smart lid that helps control the amount of drink
-                poured each time.
+                <span class="work-sans-900">Easy application and removal:</span>{" "}
+                Flexible adhesive with strong hold.
               </li>
-              <img src="health61.png" alt="anh" className="w-full" />
+              <li>
+                <span class="work-sans-900">Long-lasting beauty:</span> Stays in
+                place for up to 7 days.
+              </li>
+              <li>
+                <span class="work-sans-900">Variety of styles:</span> From
+                natural to glamorous, suitable for any occasion.
+              </li>
+            </ul>
+                <img src="health71.png" alt="anh" className="w-full" />
+            <h2 id="Why" class="text-2xl work-sans-900 my-5 flex items-center">
+              Why Choose Lilac St.?
+            </h2>
+            <ul class="list-disc pl-5 py-5">
+              <li>
+                <span class="work-sans-900">Saves time and money:</span> More
+                affordable than salon lash extensions.
+              </li>
+              <li>
+                <span class="work-sans-900">Suitable for everyone:</span> Even
+                beginners can apply them with ease.
+              </li>
+              <li>
+                <span class="work-sans-900">Enhances aesthetics:</span> Switch
+                up your look in minutes.
+              </li>
             </ul>
 
-            <h2 id="Reasonable" className="text-xl work-sans-900 my-3">
-              Reasonable Price for the Quality
+            <h2
+              id="Conclusion"
+              class="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              Conclusion
             </h2>
             <p>
-              Compared to other brands on the market, FlasKap strikes a perfect
-              balance between price and quality. Users not only get a durable
-              product but also enjoy premium features that few brands offer.
+              Lilac St. Lashes are truly the ideal choice for beauty lovers who
+              don’t want to spend too much time on their routine. With their
+              natural design, high quality, and impressive durability, Lilac St.
+              is definitely worth trying today!
             </p>
-
-            <h2
-              id="Comparison"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Comparison: FlasKap vs. Traditional Thermal Bottles
-            </h2>
-            <img src="health62.png" alt="anh" className="w-full" />
-            <h2
-              id="Why"
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
-              Why Choose FlasKap?
-            </h2>
-            <p>
-              If you are looking for a thermal bottle that not only meets
-              hydration needs but also enhances your drinking experience,
-              FlasKap is the perfect choice. With its innovative design, durable
-              quality, and reasonable pricing, FlasKap is a must-have companion
-              for your daily activities.
-            </p>
-            <p className="mt-5">
-              👉Discover{" "}
-              <a href="https://flaskap.com/?sca_ref=7444505.VZral2l47L&utm_source=7444505&utm_medium=do-hung&utm_campaign=193544&utm_term=Elite-Ambassador-Commission" class="text-[#3182ce] underline">
-                 FlasKap 
-              </a>
-              {" "}and experience the difference!
+            <p class="my-5">
+              👉{" "}
+              <a
+                href="https://lilacst.com/?aff=2414"
+                class="text-[#3182ce] underline"
+              >
+                Click here
+              </a>{" "}
+              <span className="work-sans-900">to explore</span>
             </p>
           </div>
 
@@ -369,4 +379,4 @@ const FlasKap = () => {
   );
 };
 
-export default FlasKap;
+export default Lilac;

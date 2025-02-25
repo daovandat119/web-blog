@@ -284,7 +284,7 @@ const LockedIn = () => {
             </p>
             <p className="mt-5">
               👉Try{" "}
-              <a href="https://lockedin.ai" class="text-[#3182ce] underline">
+              <a href="https://www.lockedinai.com/?via=bebe" class="text-[#3182ce] underline">
                 LockedIn AI
               </a>{" "} now and elevate your interview preparation!
             </p>
