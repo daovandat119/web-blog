@@ -226,7 +226,7 @@ const PersonalExperience = () => {
               comfort and efficiency. The discreet appearance also makes them
               easy to store and travel-friendly.
             </p>
-            <img src="health30.png" alt="anh" className="w-full my-10" />
+            <img src="health30.jpg" alt="anh" className="w-full my-10" />
             <h1
               id="A"
               className="text-2xl work-sans-900 my-5 flex items-center"

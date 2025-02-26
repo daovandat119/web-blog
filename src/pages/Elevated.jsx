@@ -163,7 +163,7 @@ const Elevated = () => {
               <span className="work-sans-900"> Elevated Faith</span> is worth
               your attention.
             </h1>
-            <img src="health45.png" alt="anh" className="w-full" />
+            <img src="health45.jpg" alt="anh" className="w-full" />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -268,14 +268,14 @@ const Elevated = () => {
                 <span className="work-sans-900">Super-soft cotton blends </span>
                 – Their shirts and hoodies are lightweight yet cozy.
               </li>
-              <img src="health46.png" alt="anh" className="w-full" />
+              <img src="health46.jpg" alt="anh" className="w-full" />
               <li>
                 <span className="work-sans-900">
                   High-quality engraving on jewelry{" "}
                 </span>
                 – No fading, peeling, or tarnishing over time.
               </li>
-              <img src="health47.png" alt="anh" className="w-full" />
+              <img src="health47.jpg" alt="anh" className="w-full" />
               <li>
                 <span className="work-sans-900">
                   Stretchable & durable accessories{" "}

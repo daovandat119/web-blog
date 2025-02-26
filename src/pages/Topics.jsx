@@ -20,7 +20,7 @@ const Topics = () => {
       categories: [],
       author: "Aron Kantor",
       date: "February 24, 2025",
-      image: "health63.png",
+      image: "health63.jpg",
       content:
         "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
     },

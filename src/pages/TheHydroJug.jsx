@@ -299,7 +299,7 @@ const TheHydroJug = () => {
             >
               Comparison: TheHydroJug vs. Other Brands
             </h2>
-            <img src="health51.png" alt="anh" className="w-full" />
+            <img src="/public/health51.png" alt="anh" className="w-full" />
 
 
             <h2

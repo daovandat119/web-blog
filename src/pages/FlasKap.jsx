@@ -219,7 +219,7 @@ const FlasKap = () => {
               user safety. Its impressive thermal retention capability keeps
               beverages hot or cold for hours.
             </p>
-                <img src="health59.png" alt="anh" className="w-full" />
+                <img src="health59.jpg" alt="anh" className="w-full" />
             <h2 id="Modern" className="text-xl work-sans-900 my-3">
               Modern & Unique Design
             </h2>
@@ -240,12 +240,12 @@ const FlasKap = () => {
               <span className="work-sans-900">Madic 6 & 9 Ounce:</span> Allows mixing drinks directly in the bottle
                 with flexible capacities.
               </li>
-              <img src="health60.png" alt="anh" className="w-full" />
+              <img src="health60.jpg" alt="anh" className="w-full" />
               <li>
               <span className="work-sans-900">FreePour Cap:</span> A smart lid that helps control the amount of drink
                 poured each time.
               </li>
-              <img src="health61.png" alt="anh" className="w-full" />
+              <img src="health61.jpg" alt="anh" className="w-full" />
             </ul>
 
             <h2 id="Reasonable" className="text-xl work-sans-900 my-3">

@@ -57,7 +57,7 @@ const articles = [
     categories: [],
     author: "Aron Kantor",
     date: "February 24, 2025",
-    image: "health45.png",
+    image: "health45.jpg",
     content:
       "If you're looking for faith-inspired clothing and accessories that make a real difference, Elevated Faith is a brand that stands out. More than just a clothing line, it’s a movement designed to spark conversations about faith while giving back to those in need. After exploring their products, mission, and customer experience, here’s why Elevated Faith is worth your attention.",
   },
