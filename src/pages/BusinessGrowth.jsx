@@ -4,61 +4,15 @@ import Blog from "../components/Blog";
 import { useState, useEffect } from "react";
 const articles = [
   {
-    url: "/article-category",
-    title: "I Tested +30 PDF editors for Windows | Here Are The 8 Best",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
+    url: "/locked-in",
+    title:
+      "LockedIn AI - The Most Effective Interview Preparation Solution Today",
+    categories: [],
     author: "Aron Kantor",
-    date: "February 6, 2025",
-    image: "anh1.webp",
+    date: "February 24, 2025",
+    image: "health66.png",
     content:
-      "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market...",
-  },
-  {
-    url: "/article-category",
-    title: "Best Free PDF Tools You Can Use Today",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "Jane Doe",
-    date: "March 10, 2025",
-    image: "anh2.webp",
-    content:
-      "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market...",
-  },
-  {
-    url: "/article-category",
-    title: "How to Merge PDFs in 2025: A Simple Guide",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "April 15, 2025",
-    image: "anh3.webp",
-    content:
-      "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market...",
+      "As someone who frequently faces stressful interviews, I was always looking for a tool to help me prepare effectively. When I discovered LockedIn AI, I decided to give it a try, and I was truly surprised by what it had to offer.",
   },
 ];
 

@@ -24,17 +24,7 @@ const articles = [
     content:
       "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
   },
-  {
-    url: "/locked-in",
-    title:
-      "LockedIn AI - The Most Effective Interview Preparation Solution Today",
-    categories: [],
-    author: "Aron Kantor",
-    date: "February 24, 2025",
-    image: "health66.png",
-    content:
-      "As someone who frequently faces stressful interviews, I was always looking for a tool to help me prepare effectively. When I discovered LockedIn AI, I decided to give it a try, and I was truly surprised by what it had to offer.",
-  },
+
   {
     url: "/gling",
     title: "Gling.ai – Transforming Video Editing with AI Efficiency",
