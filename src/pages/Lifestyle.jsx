@@ -5,16 +5,49 @@ import { Link } from "react-router-dom";
 const Lifestyle = () => {
   const blogPosts = [
     {
+      url: "/four",
+      title:
+        "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 25, 2025",
+      image: "health75.jpg",
+      content:
+        "Four Sigmatic is a standout brand in the functional food industry, specializing in products that combine medicinal mushrooms with organic ingredients to support both physical and mental health. Let’s explore the features and real user reviews of Four Sigmatic products.",
+    },
+    {
       url: "/goli-ashwagandha",
-      title: "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
-      categories: [
-  
-      ],
+      title:
+        "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
+      categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
       image: "health.png",
       content:
         "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
+    },
+    
+    {
+      url: "/the-hydro-jug",
+      title:
+        "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health48.png",
+      content:
+        "TheHydroJug is a standout brand specializing in large-capacity water bottles, making it easier for you to stay properly hydrated throughout the day. With a convenient design, safe materials, and a variety of accessories, TheHydroJug has quickly become the top choice for fitness enthusiasts, office workers, and anyone looking to maintain a healthy lifestyle.",
+    },
+    {
+      url: "/flaskap",
+      title:
+        "FlasKap – Revolutionizing the World of Thermal Bottles",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health58.jpg",
+      content:
+        "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
     },
     {
       url: "/last-crumb-cookies",
@@ -27,15 +60,57 @@ const Lifestyle = () => {
         "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
     },
     {
-      url: "/chronic-pain",
+      url: "/pickleball",
       title:
-        "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
+        "It's Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 23, 2025",
+      image: "health25.png",
+      content:
+        " Are You Losing Your Health Without Realizing It? Modern life keeps gradually neglecting the importance of exercise. The result? Declining health, fatigue, and mental stress. But how can we stay active while enjoying the process?",
+    },
+    {
+      url: "/personal-experience",
+      title: "Personal Experience with Lovense Products",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 23, 2025",
+      image: "health34.png",
+      content:
+        "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
+    },
+    {
+      url: "/true-dark",
+      title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health9.png",
+      image: "health19.png.jpg",
       content:
-        "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
+        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
+    },
+    {
+      url: "/comprehensive",
+      title:
+        "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 23, 2025",
+      image: "health39.png",
+      content:
+        "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
+    },
+    {
+      url: "/elevated",
+      title:
+        "Elevated Faith Review: Unique Christian Apparel with Purpose & Impact",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health45.jpg",
+      content:
+        "If you're looking for faith-inspired clothing and accessories that make a real difference, Elevated Faith is a brand that stands out. More than just a clothing line, it’s a movement designed to spark conversations about faith while giving back to those in need. After exploring their products, mission, and customer experience, here’s why Elevated Faith is worth your attention.",
     },
     {
       url: "/double-oak-essentials",
@@ -49,62 +124,26 @@ const Lifestyle = () => {
         "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
     },
     {
-      url: "/true-dark",
-      title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
+      url: "/lilac",
+      title:
+        "Lilac St. Lashes – The Perfect Natural False Lashes Experience for Every Girl",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 25, 2025",
+      image: "health69.png",
+      content:
+        "In the world of makeup, finding the perfect pair of false lashes that look natural and are easy to use is no easy task. Lilac St. has become one of the top choices thanks to its premium false lash products, offering absolute naturalness and optimal comfort with every lash strand.",
+    },
+    {
+      url: "/chronic-pain",
+      title:
+        "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health19.png.jpg",
+      image: "health9.png",
       content:
-        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
-    },
-    {
-      url: "/pickleball",
-      title: "It's Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
-      categories: [
-  
-      ],
-      author: "Aron Kantor",
-      date: "February 23, 2025",
-      image: "health25.png",
-      content:
-        " Are You Losing Your Health Without Realizing It? Modern life keeps gradually neglecting the importance of exercise. The result? Declining health, fatigue, and mental stress. But how can we stay active while enjoying the process?",
-    },
-    {
-      url: "/personal-experience",
-      title: "Personal Experience with Lovense Products",
-      categories: [
-  
-      ],
-      author: "Aron Kantor",
-      date: "February 23, 2025",
-      image: "health34.png",
-      content:
-        "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
-    },
-    {
-      url: "/tradeify",
-      title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
-      categories: [
-  
-      ],
-      author: "Aron Kantor",
-      date: "February 23, 2025",
-      image: "health35.jpg",
-      content:
-        "Financial trading can bring enormous profits, but most people fear losing money, lack experience, or worry about choosing the wrong trading platform. These concerns are completely valid because the financial market is not for the unprepared. I was once like that – doubting my abilities and struggling to find a reliable platform to start. But then I found Tradeify, a modern trading platform that helped me overcome my fears and maximize my earning potential in the market.",
-    },
-    {
-      url: "/comprehensive",
-      title: "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
-      categories: [
-  
-      ],
-      author: "Aron Kantor",
-      date: "February 23, 2025",
-      image: "health39.png",
-      content:
-        "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
+        "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
     },
   ];
 

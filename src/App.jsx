@@ -76,6 +76,8 @@ import Lilac from "./pages/Lilac";
 import Taja from "./pages/Taja";
 import Four from "./pages/Four";
 import SEOContent from "./pages/SEOContent";
+import Anycubic  from "./pages/Anycubic";
+import CreativityUtility from "./pages/CreativityUtility";
 const App = () => {
   return (
     <Router>
@@ -156,6 +158,8 @@ const App = () => {
           <Route path="/taja" element={<Taja />} />
           <Route path="/four" element={<Four />} />
           <Route path="/seo-content" element={<SEOContent />} />
+          <Route path="/anycubic" element={<Anycubic />} />
+          <Route path="/creativity" element={<CreativityUtility />} />
         </Routes>
         <Footer />
       </div>

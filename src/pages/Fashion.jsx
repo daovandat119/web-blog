@@ -6,10 +6,9 @@ import Blog from "../components/Blog";
 const articles = [
   {
     url: "/pickleball",
-    title: "It's Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
-    categories: [
-
-    ],
+    title:
+      "It's Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
+    categories: [],
     author: "Aron Kantor",
     date: "February 23, 2025",
     image: "health25.png",
@@ -19,31 +18,28 @@ const articles = [
   {
     url: "/personal-experience",
     title: "Personal Experience with Lovense Products",
-    categories: [
-
-    ],
+    categories: [],
     author: "Aron Kantor",
     date: "February 23, 2025",
     image: "health34.png",
     content:
       "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
   },
-    {
-      url: "/true-dark",
-      title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
-      categories: [],
-      author: "Aron Kantor",
-      date: "February 21, 2025",
-      image: "health19.png.jpg",
-      content:
-        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
-    },
+  {
+    url: "/true-dark",
+    title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
+    categories: [],
+    author: "Aron Kantor",
+    date: "February 21, 2025",
+    image: "health19.png.jpg",
+    content:
+      "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
+  },
   {
     url: "/comprehensive",
-    title: "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
-    categories: [
-
-    ],
+    title:
+      "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
+    categories: [],
     author: "Aron Kantor",
     date: "February 23, 2025",
     image: "health39.png",
@@ -94,7 +90,7 @@ const Fashion = () => {
     <div className="container mx-auto">
       <div className="w-6/7 flex flex-col mx-auto my-10 lg:my-20">
         <h1 className="text-center work-sans-900 text-5xl lg:text-3xl leading-relaxed">
-        Fashion
+          Fashion
         </h1>
         <hr className="w-3/4 mx-auto my-10 text-gray-200" />
         <div>

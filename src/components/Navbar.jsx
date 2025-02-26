@@ -97,7 +97,17 @@ const Navbar = () => {
           >
             Lifestyle <FaChevronDown className="inline w3 h-3" />
           </Link>
-          <div className="absolute left-0 w-full bg-[#141a26] text-white border border-gray-800 work-sans-400 shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50 ">
+          <div className="absolute left-0 w-[180px] bg-[#141a26] text-white border border-gray-800 work-sans-400 shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50 ">
+            <ul className="">
+              <li>
+                <Link
+                  to="/creativity"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                  Creativity & Utility
+                </Link>
+              </li>
+            </ul>
             <ul className="">
               <li>
                 <Link
@@ -229,7 +239,7 @@ const Navbar = () => {
           </Link>
           <div className="absolute left-0 w-48 bg-[#141a26] text-white border border-[#2d3748] shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50">
             <ul className="">
-            <li>
+              <li>
                 <Link
                   to="/seo-content"
                   className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
@@ -351,9 +361,7 @@ const Navbar = () => {
               >
                 <span>Financial</span>
               </Link>
-              <button onClick={() => setIsFinancial(!isFinancial)}>
-                
-              </button>
+              <button onClick={() => setIsFinancial(!isFinancial)}></button>
             </div>
           </li>
           <li>
@@ -376,6 +384,15 @@ const Navbar = () => {
 
             {isLifestyle && (
               <ul className="pl-4 mt-2 space-y-2 text-base">
+                <li>
+                  <Link
+                    to="/creativity"
+                    className="block py-3"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Creativity & Utility
+                  </Link>
+                </li>
                 <li>
                   <Link
                     to="/health"
@@ -509,7 +526,7 @@ const Navbar = () => {
                 className="hover:text-blue-500 text-sx"
                 onClick={() => setIsOpen(false)}
               >
-                <span>Topics</span>
+                <span>AI Tools</span>
               </Link>
               <button onClick={() => setIsTopicsOpen(!isTopicsOpen)}>
                 {isTopicsOpen ? (
@@ -522,6 +539,15 @@ const Navbar = () => {
 
             {isTopicsOpen && (
               <ul className="pl-4 mt-2 space-y-2 text-base">
+                <li>
+                  <Link
+                    to="/seo-content"
+                    className="block py-3"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    SEO & Content
+                  </Link>
+                </li>
                 <li>
                   <Link
                     to="/note-taking-apps"

@@ -15,17 +15,6 @@ const articles = [
       "Are you a YouTube creator struggling with SEO optimization, writing video descriptions, designing eye-catching thumbnails, and increasing visibility? Taja AI is the solution you've been looking for! Having personally experienced this tool, I want to share how it has completely transformed my content creation process—saving time, boosting efficiency, and taking my videos to the next level.",
   },
   {
-    url: "/walter-writes",
-    title: "WalterWrites.ai – Elevating Writing with AI Innovation",
-    categories: [],
-    author: "Aron Kantor",
-    date: "February 24, 2025",
-    image: "health63.png",
-    content:
-      "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
-  },
-
-  {
     url: "/gling",
     title: "Gling.ai – Transforming Video Editing with AI Efficiency",
     author: "Aron Kantor",

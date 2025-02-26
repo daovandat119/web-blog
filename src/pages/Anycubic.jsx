@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const TheHydroJug = () => {
+const Anycubic = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
@@ -38,36 +38,35 @@ const TheHydroJug = () => {
           url: "/software-reviews",
         },
       ],
-      title:
-        "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
+      title: "Anycubic - A Reliable 3D Printing Solution for Everyone",
       author: "",
-      date: "February 24, 2025",
+      date: "February 26, 2025",
     },
   ];
 
   const sections = [
     {
-      title: "Why Do You Need a TheHydroJug Bottle?",
+      title: "Why Choose Anycubic?",
       link: "#Why",
-    },
-    {
-      title: "Detailed Review of TheHydroJug Products",
-      link: "#Detailed",
       items: [
-        { name: "Quality – Safe & Durable", link: "#Quality" },
-        { name: "Design – Modern & User-Friendly", link: "#Design" },
-        { name: "Product Variety – Catering to All Needs", link: "#Product" },
-        { name: "Pricing – Reasonable for the Quality", link: "#Pricing" },
+        { name: "Exceptional Print Quality", link: "#Exceptional" },
+        { name: "User-Friendly – Ideal for Beginners", link: "#User" },
+        { name: "Affordable with High Performance", link: "#Affordable" },
+        { name: "Durable and Stable", link: "#Durable" },
       ],
     },
     {
-      title: "Comparison: TheHydroJug vs. Other Brands",
+      title: "Comparison: Anycubic vs. Other Brands",
       link: "#Comparison",
     },
     {
-      title: "Conclusion – Should You Buy TheHydroJug?",
-      link: "#Conclusion",
+      title: "Top Anycubic 3D Printers",
+      link: "#Top",
     },
+    {
+      title: "Final Verdict – Should You Buy an Anycubic 3D Printer?",
+      link: "#Final",
+    },  
   ];
 
   const posts = [
@@ -150,18 +149,21 @@ const TheHydroJug = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="health48.png" alt="anh" className="w-full" />
             <h1 className="text-2xl work-sans-900 my-5">
-              Introduction to TheHydroJug
+              Personal Experience with Anycubic
             </h1>
-            <p>
-              TheHydroJug is a standout brand specializing in large-capacity
-              water bottles, making it easier for you to stay properly hydrated
-              throughout the day. With a convenient design, safe materials, and
-              a variety of accessories, TheHydroJug has quickly become the top
-              choice for fitness enthusiasts, office workers, and anyone looking
-              to maintain a healthy lifestyle.
-            </p>
+            <img src="health79.jpg" alt="anh" className="w-full" />
+            <h1 className="mt-5">
+              As a 3D printing enthusiast, I have tried many different machines.
+              However, when I used Anycubic 3D printers, I was truly impressed
+              by their outstanding print quality, stability, and affordability.
+            </h1>
+            <h1 className="mt-5">
+              Anycubic provides a seamless experience from setup and calibration
+              to printing a finished product. If you're looking for a
+              high-quality, reliable 3D printing solution without breaking the
+              bank, Anycubic is the perfect choice.
+            </h1>
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -200,130 +202,163 @@ const TheHydroJug = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h2
+            <h1
               id="Why"
               className="text-2xl work-sans-900 my-5 flex items-center"
             >
-              Why Do You Need a TheHydroJug Bottle?
+              Why Choose Anycubic?
+            </h1>
+            <h2 id="Exceptional" className="text-xl work-sans-900 my-5 flex items-center">
+              Exceptional Print Quality
             </h2>
-            <p>
-              Have you ever forgotten to drink water during a busy day? Or do
-              you find it inconvenient to refill your bottle repeatedly?
-              TheHydroJug is designed to solve these problems:
-            </p>
             <ul className="list-disc pl-5 py-5">
               <li>
-              <span className="work-sans-900">Provides enough water for the entire day –</span> With a large
-              <span className="work-sans-900">2.2-liter capacity,</span> you don’t need to refill frequently.
+                 Anycubic is known for its sharp details, smooth surfaces, and
+                fewer print errors compared to other printers in the same price
+                range.
               </li>
               <li>
-              <span className="work-sans-900">Helps build a hydration habit –</span> Seeing your bottle nearby serves
-                as a constant reminder to drink water.
+                 Advanced resin (SLA) and FDM (filament-based) printing
+                technologies ensure high-precision models.
               </li>
-              <li>
-              <span className="work-sans-900">Convenient for travel –</span> Whether at the office, gym, or on the
-                go, TheHydroJug is your reliable companion.
-              </li>
-              <img src="health49.jpg" alt="anh" className="w-full" />
             </ul>
 
-            <h2
-              id="Detailed"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Detailed Review of TheHydroJug Products
+            <h2 id="User" className="text-xl work-sans-900 my-5 flex items-center">
+              User-Friendly – Ideal for Beginners
             </h2>
-
-            <h3 id="Quality" className="text-xl work-sans-900 my-3">
-              Quality – Safe & Durable
-            </h3>
-            <p>
-              TheHydroJug is committed to offering <span className="work-sans-900">BPA-free</span> products, ensuring
-              safety for users. The high-quality plastic material makes the
-              bottle highly durable, resistant to impact, and leak-proof.
-            </p>
-
-            <h3 id="Design" className="text-xl work-sans-900 my-3">
-              Design – Modern & User-Friendly
-            </h3>
             <ul className="list-disc pl-5 py-5">
+              <li> Intuitive interface, easy operation.</li>
               <li>
-              <span className="work-sans-900">Wide mouth opening,</span> making it easy to pour water, add ice, or
-                clean.
-              </li>
-              <li><span className="work-sans-900">Sturdy handle,</span> ensuring a secure grip while carrying.</li>
-              <li>
-              <span className="work-sans-900">Leak-proof lid,</span> preventing spills when placed in a bag or car.
+                 Pre-assembled or detailed instructions make it
+                beginner-friendly.
               </li>
               <li>
-              <span className="work-sans-900">Convenient straw,</span> allowing you to drink quickly without opening
-                the lid frequently.
+                 Comes with slicing software for quick and optimized print
+                preparation.
               </li>
             </ul>
 
-            <h3 id="Product" className="text-xl work-sans-900 my-3">
-              Product Variety – Catering to All Needs
-            </h3>
+            <h2 id="Affordable" className="text-xl work-sans-900 my-5 flex items-center">
+              Affordable with High Performance
+            </h2>
             <ul className="list-disc pl-5 py-5">
               <li>
-              <span className="work-sans-900">Plastic HydroJug Bottle –</span> Lightweight, durable, and available in
-                multiple unique colors.
+                 Delivers outstanding performance at a competitive price.
               </li>
               <li>
-              <span className="work-sans-900">Stainless Steel Bottle –</span> Keeps water cold for longer, perfect
-                for outdoor activities.
+                 Saves material costs with efficient printing processes.
               </li>
-              <li>
-              <span className="work-sans-900">Neoprene Sleeve –</span> Insulated, scratch-resistant, and equipped
-                with a pocket for phones and keys.
-              </li>
-              <li>
-              <span className="work-sans-900">Replacement Lids & Straws –</span> Customizable for individual user
-                needs.
-              </li>
-              <img src="health50.jpg" alt="anh" className="w-full" />
             </ul>
 
-            <h3 id="Pricing" className="text-xl work-sans-900 my-3">
-              Pricing – Reasonable for the Quality
-            </h3>
-            <p>
-              While TheHydroJug is not the cheapest option on the market, its
-              <span className="work-sans-900"> high-value usability</span>, long-lasting durability, and multiple
-              features make it well worth the price.
-            </p>
+            <h2 id="Durable" className="text-xl work-sans-900 my-5 flex items-center">
+              Durable and Stable
+            </h2>
+            <ul className="list-disc pl-5 py-5">
+              <li> Smooth operation with minimal technical issues.</li>
+              <li>
+                 Cooling and calibration systems enable continuous, error-free
+                printing.
+              </li>
+              <li> Long-lasting durability for extended use.</li>
+            </ul>
 
-            <h2
+            <h1
               id="Comparison"
               className="text-2xl work-sans-900 my-5 flex items-center"
             >
-              Comparison: TheHydroJug vs. Other Brands
-            </h2>
-            <img src="health51.png" alt="anh" className="w-full" />
+              Comparison: Anycubic vs. Other Brands
+            </h1>
+            <table className="table-auto w-full">
+              <thead>
+                <tr>
+                  <th className="border px-4 py-2">Feature</th>
+                  <th className="border px-4 py-2">Anycubic ✅ </th>
+                  <th className="border px-4 py-2">Other Brands ❌</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2">Print Accuracy</td>
+                  <td className="border px-4 py-2">✅  High</td>
+                  <td className="border px-4 py-2">⚠️ Medium</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Affordability</td>
+                  <td className="border px-4 py-2">✅  Cost-effective</td>
+                  <td className="border px-4 py-2">❌ Expensive</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Ease of Use</td>
+                  <td className="border px-4 py-2">✅  User-friendly</td>
+                  <td className="border px-4 py-2">
+                    ⚠️ Requires complex setup
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Print Speed</td>
+                  <td className="border px-4 py-2">✅  Fast</td>
+                  <td className="border px-4 py-2">❌ Slower</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Maintenance</td>
+                  <td className="border px-4 py-2">✅  Easy upkeep</td>
+                  <td className="border px-4 py-2">❌ Complicated</td>
+                </tr>
+              </tbody>
+            </table>
 
-
-            <h2
-              id="Conclusion"
+            <h1
+              id="Top"
               className="text-2xl work-sans-900 my-5 flex items-center"
             >
-              Conclusion – Should You Buy TheHydroJug?
-            </h2>
+              Top Anycubic 3D Printers
+            </h1>
+            <ul className="list-disc pl-5 py-5">
+              <li>
+                <strong>Anycubic Photon Series (Resin Printing)</strong> –
+                Exceptional detail for small prints.
+              </li>
+              <img src="health80.jpg" alt="anh" className="w-full my-5" />
+              <li>
+                <strong>Anycubic Kobra Series (FDM Printing)</strong> – Fast
+                printing, budget-friendly, ideal for beginners.
+              </li>
+              <img src="health81.png" alt="anh" className="w-full my-5" />
+              <li>
+                <strong>Anycubic Vyper</strong> – Auto-bed leveling technology
+                for effortless setup.
+              </li>
+              <img src="health82.png" alt="anh" className="w-full my-5" />
+            </ul>
+
+            <h1
+              id="Final"
+              className="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              Final Verdict – Should You Buy an Anycubic 3D Printer?
+            </h1>
             <p>
-              If you’re looking for <span className="work-sans-900">a large-capacity, durable, and convenient
-              water bottle</span> that supports you in <span className="work-sans-900">maintaining a hydration habit </span>
-              every day, TheHydroJug is an excellent choice. It’s not just a
-              product—it’s an investment in your health.
+              If you’re looking for a 3D printer that offers high quality, ease
+              of use, and an affordable price, Anycubic is undoubtedly a great
+              option. Whether you're a beginner or an expert, Anycubic has a
+              model that fits your needs.
             </p>
-            <p className="my-5">
-              👉{" "}
-              <a
-                href="https://www.thehydrojug.com/?aff=27717&utm_campaign=AMB&utm_source=affiliatly&utm_medium=link&utm_term=link"
-                class="text-[#3182ce] underline"
-              >
-                Click here 
-              </a>
-              <span className="work-sans-900"> to explore TheHydroJug and receive exclusive offers
-              for new users!</span>
+            <p className="mt-5">
+              👉Experience{" "}
+              <button
+              onClick={() =>
+                window.open(
+                  "https://store.anycubic.com/?ref=zignjkjw",
+                  "_blank"
+                )
+              }
+              className="text-[#3182ce] underline"
+            >
+              Anycubic 
+            </button>{" "}
+              today and unlock the endless possibilities
+                of 3D printing!
+              🚀
             </p>
           </div>
 
@@ -410,4 +445,4 @@ const TheHydroJug = () => {
   );
 };
 
-export default TheHydroJug;
+export default Anycubic;

@@ -5,18 +5,19 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
-    url: "/walter-writes",
-    title: "WalterWrites.ai – Elevating Writing with AI Innovation",
+    url: "/anycubic",
+    title:
+      "Anycubic - A Reliable 3D Printing Solution for Everyone",
     categories: [],
     author: "Aron Kantor",
-    date: "February 24, 2025",
-    image: "health63.png",
+    date: "February 26, 2025",
+    image: "health79.jpg",
     content:
-      "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
+      "As a 3D printing enthusiast, I have tried many different machines. However, when I used Anycubic 3D printers, I was truly impressed by their outstanding print quality, stability, and affordability.",
   },
 ];
 
-const SEOContent = () => {
+const CreativityUtility = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState(searchQuery);
 
@@ -36,7 +37,7 @@ const SEOContent = () => {
     <div className="container mx-auto">
       <div className="w-6/7 flex flex-col mx-auto my-10 lg:my-20">
         <h1 className="text-center work-sans-900 text-5xl lg:text-3xl leading-relaxed">
-        SEO & Content
+        Creativity & Utility
         </h1>
         <hr className="w-3/4 mx-auto my-10 text-gray-200" />
         <div>
@@ -68,4 +69,4 @@ const SEOContent = () => {
   );
 };
 
-export default SEOContent;
+export default CreativityUtility;
