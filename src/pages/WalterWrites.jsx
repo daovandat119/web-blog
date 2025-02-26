@@ -169,6 +169,7 @@ const WalterWrites = () => {
               but it also enhances the quality of writing with remarkable
               accuracy and creativity.
             </p>
+            <img src="health78.jpg" alt="anh" className="w-full" />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -235,7 +236,7 @@ const WalterWrites = () => {
                 Multi-Language Writing Support –</span> Translates and optimizes
                 content in multiple languages.
               </li>
-              <img src="health63.png" alt="anh" className="w-full" />
+              <img src="health63.jpg" alt="anh" className="w-full" />
             </ul>
 
             <h2 id="In" className="text-2xl work-sans-900 my-3">
@@ -320,7 +321,7 @@ const WalterWrites = () => {
                 Enterprise Plan –</span> Large-scale writing solutions for businesses
                 and content teams.
               </li>
-              <img src="health64.png" alt="anh" className="w-full" />
+              <img src="health64.jpg" alt="anh" className="w-full" />
             </ul>
 
             <h2

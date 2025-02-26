@@ -229,6 +229,14 @@ const Navbar = () => {
           </Link>
           <div className="absolute left-0 w-48 bg-[#141a26] text-white border border-[#2d3748] shadow-lg opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible z-50">
             <ul className="">
+            <li>
+                <Link
+                  to="/seo-content"
+                  className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
+                >
+                  SEO & Content
+                </Link>
+              </li>
               <li>
                 <Link
                   to="/note-taking-apps"

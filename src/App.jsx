@@ -75,7 +75,7 @@ import Financial from "./pages/Financial";
 import Lilac from "./pages/Lilac";
 import Taja from "./pages/Taja";
 import Four from "./pages/Four";
-
+import SEOContent from "./pages/SEOContent";
 const App = () => {
   return (
     <Router>
@@ -155,6 +155,7 @@ const App = () => {
           <Route path="/lilac" element={<Lilac />} />
           <Route path="/taja" element={<Taja />} />
           <Route path="/four" element={<Four />} />
+          <Route path="/seo-content" element={<SEOContent />} />
         </Routes>
         <Footer />
       </div>
