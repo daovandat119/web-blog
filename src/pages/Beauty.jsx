@@ -22,7 +22,7 @@ const articles = [
     categories: [],
     author: "Aron Kantor",
     date: "February 21, 2025",
-    image: "health9.png",
+    image: "health9.jpg",
     content:
       "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
   },

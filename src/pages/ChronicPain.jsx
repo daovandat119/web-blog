@@ -151,14 +151,14 @@ const ChronicPain = () => {
               expensive, and painkillers only provide temporary relief… So what
               is a safe, effective, and convenient solution you can use at home?
             </h1>
-            <img src="health9.png" alt="anh" />
+            <img src="health9.jpg" alt="anh" />
             <h1 className="my-10">
               <span className="work-sans-900">NovaaLab</span> brings you
               advanced red light therapy technology, designed to relieve pain,
               support muscle recovery, aid in arthritis treatment, and improve
               blood circulation—all in just a few minutes of use per day.
             </h1>
-            <img src="health10.png" alt="anh" />
+            <img src="health10.jpg" alt="anh" />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -219,7 +219,7 @@ const ChronicPain = () => {
                 effects.
               </li>
             </ul>
-            <img src="health11.png" alt="anh" />
+            <img src="health11.jpg" alt="anh" />
             <h1
               id="NovaaLab"
               className="text-2xl work-sans-900 my-5 flex items-center"
