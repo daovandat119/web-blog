@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const LastCrumbCookies = () => {
+const GoliTriple = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
@@ -38,28 +38,43 @@ const LastCrumbCookies = () => {
           url: "/software-reviews",
         },
       ],
-      title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+      title:
+        "Goli Triple Action Immune Gummies – The Ultimate Solution for Stronger Immunity",
       author: "",
-      date: "February 21, 2025",
+      date: "May 3, 2025",
     },
   ];
 
   const sections = [
     {
-      title: "Quality – The Pinnacle of Handcrafted Excellence",
-      link: "#Quality",
+      title: "My Personal Experience with Goli Triple Action Immune Gummies",
+      link: "#My",
     },
     {
-      title: "Flavor – A Journey of Sensory Delight",
-      link: "#Flavor",
+      title: "Outstanding Benefits of Goli Triple Action Immune Gummies",
+      link: "#Outstanding",
+      items: [
+        {
+          name: "Scientifically Backed Formula for Maximum Immune Support",
+          link: "#Scientifically",
+        },
+        { name: "Convenient – Take It Anywhere, Anytime", link: "#Convenient" },
+        {
+          name: "Antioxidant & Full-Body Health Support",
+          link: "#Antioxidant",
+        },
+        { name: "100% Safe & Free from Harmful Ingredients", link: "#Safe" },
+      ],
+    },
+
+    {
+      title: "Why Choose Goli Triple Action Immune Gummies?",
+      link: "#Choose",
     },
     {
-      title: " Value – More Than Just a Cookie, It’s an Experience",
-      link: "#Value",
-    },
-    {
-      title: "Conclusion – A Decadent Choice for Those Who Love Indulgence",
-      link: "#Conclusion",
+      title:
+        "Final Verdict – Should You Buy Goli Triple Action Immune Gummies?",
+      link: "#Final",
     },
   ];
 
@@ -143,16 +158,18 @@ const LastCrumbCookies = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <h1 className="mt-10">
-              If you’re searching for a premium culinary experience where each
-              cookie is not just a treat but a masterpiece,{" "}
-              <span className="work-sans-900">Last Crumb</span> is for you. With
-              a price tag of $140 for a box of 12, these aren’t your average
-              cookies—they are a luxurious indulgence, crafted for those who
-              appreciate unique flavors and perfection in every detail.
-            </h1>
-            <br />
-            <img src="health5.png" alt="anh" />
+            <p>
+              In today’s fast-paced life, taking care of our immune system is
+              often overlooked. As someone who works under high pressure, I
+              understand the exhaustion and vulnerability to colds when immunity
+              weakens. After researching various supplements, I decided to try
+              <span className="work-sans-900">
+                {" "}
+                Goli Triple Action Immune Gummies –
+              </span>{" "}
+              a convenient, delicious, and effective way to support my immune
+              health.
+            </p>
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -191,142 +208,196 @@ const LastCrumbCookies = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h1
-              id="Quality"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Quality – The Pinnacle of Handcrafted Excellence
-            </h1>
-            A box of Last Crumb isn’t just a product—it’s an art piece. Packaged
-            in a sleek, elegant black box, each cookie is individually wrapped
-            to maintain its freshness and texture upon arrival.
-            <br />
-            <br />
-            From texture to ingredients, every element is meticulously crafted:
-            <ul className="list-disc pl-5 py-5">
-              <li>
-                Perfect texture – A delicate crunch on the outside, soft and
-                gooey on the inside.
-              </li>
-              <li>
-                Premium ingredients – Featuring imported butter, high-quality
-                chocolate, and carefully selected nuts.
-              </li>
-              <li>
-                Handmade perfection – Each cookie is crafted with precision,
-                unlike mass-produced alternatives.
-              </li>
-            </ul>
-            <img src="health6.png" alt="anh" />
-            <h1
-              id="Flavor"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Flavor – A Journey of Sensory Delight
-            </h1>
-            What sets <span className="work-sans-900">Last Crumb</span> apart is
-            its collection of bold, innovative flavors, delivering more than
-            just taste—they create a memorable culinary experience:
-            <ul className="list-disc pl-5 py-5">
-              <li>
-                “The Madonna” (Red Velvet) – A rich red velvet cookie infused
-                with velvety white chocolate for a sophisticated and decadent
-                treat.
-              </li>
-              <li>
-                “Better Than Sex” (Chocolate Chip) – A classic taken to the next
-                level, featuring a crisp exterior with a molten, gooey chocolate
-                center that’s downright addictive.
-              </li>
-              <li>
-                “The Floor Is Lava” (Molten Chocolate Lava) – If you love lava
-                cake, this cookie will win your heart with its luxurious melted
-                chocolate filling.
-              </li>
-              <li>
-                “Oh, Baby” (Ube) – A unique twist with a creamy ube (purple yam)
-                filling, delivering a new yet irresistibly satisfying taste.
-              </li>
-            </ul>
-            Each cookie strikes the perfect balance of sweetness, richness, and
-            texture, making it impossible to stop at just one bite.
-            <br />
-            <br />
-            <img src="health7.png" alt="anh" className="w-full" />
-            <h1
-              id="Value"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Value – More Than Just a Cookie, It’s an Experience
-            </h1>
-            Why is
-            <span className="work-sans-900"> Last Crumb</span> worth the
-            investment?
-            <br />
-            <ul className="list-disc pl-5 py-5">
-              <li>
-                A gourmet experience: Unlike ordinary cookies, each Last Crumb
-                cookie feels like a Michelin-star dessert in every bite
-              </li>
-              <li>
-                The perfect gift: With its luxurious packaging and outstanding
-                quality, it’s an impressive gift for colleagues, friends, or
-                loved ones on special occasions.
-              </li>
-              <li>
-                For those who appreciate the finer things: If you have a taste
-                for the extraordinary,{" "}
-                <span className="work-sans-900"> Last Crumb</span> will not
-                disappoint.
-              </li>
-            </ul>
-            <img src="health8.png" alt="anh" />
-            <h1
-              id="Conclusion"
+            <h2
+              id="My"
               className="text-xl work-sans-900 my-5 flex items-center"
             >
-              Conclusion – A Decadent Choice for Those Who Love Indulgence
-            </h1>
-            <span className="work-sans-900"> Last Crumb</span> is more than just
-            cookies—it’s an experience of pure indulgence. It satisfies your
-            taste buds, excites your senses, and lets you enjoy a touch of
-            luxury right at home.
-            <ul className="list-disc pl-5 pb-5">
+              My Personal Experience with Goli Triple Action Immune Gummies
+            </h2>
+            <img src="health83.png" alt="anh" className="w-full mb-5 object-cover" />
+            <p>
+              I initially chose Goli because of its convenience and delicious
+              taste. Unlike traditional pills, Goli’s gummies make taking
+              supplements enjoyable, making it easier to maintain a daily health
+              routine.
+            </p>
+            <p className="pt-5">
+              After over a month of use, I noticed significant improvements in
+              my well-being:
+            </p>
+
+            <ul className="list-disc pl-5 py-5">
               <li>
-                If you want to treat yourself to something truly special, this
-                is the perfect choice.
+                <span className="work-sans-900">Fewer colds & flu:</span> I used
+                to get sick frequently with weather changes, but since taking
+                Goli, this has drastically reduced.
               </li>
               <li>
-                If you’re looking for a premium gift that will leave a lasting
-                impression, <span className="work-sans-900"> Last Crumb</span>{" "}
-                stands above the rest.
+                <span className="work-sans-900">More energy & alertness:</span>{" "}
+                The combination of{" "}
+                <span className="work-sans-900">Vitamin C, D, and Zinc</span>{" "}
+                strengthened my immune system, helping me feel more energized
+                throughout the day.
               </li>
               <li>
-                If you appreciate craftsmanship, uniqueness, and excellence in
-                every detail, these cookies will exceed your expectations.
+                <span className="work-sans-900">
+                  Better digestion & anti-inflammatory benefits:
+                </span>{" "}
+                With{" "}
+                <span className="work-sans-900">
+                  turmeric and ginger extracts,
+                </span>{" "}
+                my digestion improved, and bloating became less frequent.
+              </li>
+              <li>
+                <span className="work-sans-900">
+                  Delicious taste & easy to consume:
+                </span>{" "}
+                The natural fruit flavor is pleasant, without being overly sweet
+                or chewy.
               </li>
             </ul>
-            One box, one unforgettable experience—
-            <span className="work-sans-900">Last Crumb</span> is the kind of
-            luxury everyone should try at least once.
-            <br />
-            <br />
-            Ready to experience the ultimate luxury in cookies?
-            <br />
-            <br />
-            <button
-              onClick={() =>
-                window.open(
-                  "https://lastcrumb.com/?snowball=ANTONY69667",
-                  "_blank"
-                )
-              }
-              className="text-[#3182ce] underline"
+
+            <h2
+              id="Outstanding"
+              className="text-xl work-sans-900 my-5 flex items-center"
             >
-              Click Here
-            </button>{" "}
-            below to get your box of Last Crumb and indulge in the most decadent
-            treat ever!
+              Outstanding Benefits of Goli Triple Action Immune Gummies
+            </h2>
+            <img src="health84.png" alt="anh" className="w-full object-cover" />
+            <ul className="list-disc pl-5 py-5">
+              <li id="Scientifically">
+                <strong>
+                  Scientifically Backed Formula for Maximum Immune Support
+                </strong>
+                <br />
+                Goli combines{" "}
+                <span className="work-sans-900">
+                  Vitamin C, D, Zinc, and plant extracts
+                </span>{" "}
+                to boost antibody production and shield the body from harmful
+                agents.
+              </li>
+              <li id="Convenient">
+                <strong>Convenient – Take It Anywhere, Anytime</strong>
+                <br />
+                No water, no mixing required – just chew{" "}
+                <span className="work-sans-900">two gummies a day</span> to get
+                essential immune-boosting nutrients.
+              </li>
+              <li id="Antioxidant">
+                <strong>Antioxidant & Full-Body Health Support</strong>
+                <br />
+                Ingredients like{" "}
+                <span className="work-sans-900">
+                  elderberry, turmeric, and ginger{" "}
+                </span>
+                help combat free radicals, reduce inflammation, and support
+                healthy skin.
+              </li>
+              <li id="Safe">
+                <strong>100% Safe & Free from Harmful Ingredients</strong>
+                <br />
+                ✔ Gluten-free <br />
+                ✔ Non-GMO <br />
+                ✔ No artificial colors <br />✔ 100% vegan-friendly, suitable for
+                various diets
+              </li>
+            </ul>
+            <img src="health85.jpg" alt="anh" className="w-full object-cover" />
+            <h2
+              id="Choose"
+              className="text-xl work-sans-900 my-5 flex items-center"
+            >
+              Why Choose Goli Triple Action Immune Gummies?
+            </h2>
+
+            <table className="table-auto w-full">
+              <thead>
+                <tr>
+                  <th className="border px-4 py-2">Feature</th>
+                  <th className="border px-4 py-2">
+                    Goli Triple Action Immune Gummies ✅
+                  </th>
+                  <th className="border px-4 py-2">
+                    Traditional Immune Supplements ❌
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2">Effectiveness</td>
+                  <td className="border px-4 py-2">
+                    ✅ Triple-action formula for full immune support
+                  </td>
+                  <td className="border px-4 py-2">
+                    ❌ Focuses only on Vitamin C or Zinc
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Taste</td>
+                  <td className="border px-4 py-2">
+                    ✅ Delicious, easy to chew, no water needed
+                  </td>
+                  <td className="border px-4 py-2">
+                    ❌ Often bland or hard to swallow
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Convenience</td>
+                  <td className="border px-4 py-2">
+                    ✅ Gummy format, easy to carry anywhere
+                  </td>
+                  <td className="border px-4 py-2">
+                    ❌ Requires water, easy to forget
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Safety</td>
+                  <td className="border px-4 py-2">
+                    ✅ Free from preservatives, 100% vegan
+                  </td>
+                  <td className="border px-4 py-2">
+                    ❌ Some contain artificial colors & additives
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h1
+              id="Final"
+              className="text-2xl work-sans-900 my-5 flex items-center"
+            >
+              Final Verdict – Should You Buy Goli Triple Action Immune Gummies?
+            </h1>
+
+            <p>
+              If you’re looking for a{" "}
+              <span className="work-sans-900">
+                safe, effective, and convenient immune support solution, Goli
+                Triple Action Immune Gummies{" "}
+              </span>
+              is an excellent choice. With a scientifically backed formula, ease
+              of use, and great taste, this product has helped me improve my
+              overall health and maintain my daily energy levels.
+            </p>
+
+            <p className="mt-5">
+              👉 Try{" "}
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://goli.com/?discount_code=pricings",
+                    "_blank"
+                  )
+                }
+                className="text-[#3182ce] underline"
+              >
+                Goli Triple
+              </button>{" "}
+              Action Immune Gummies today and strengthen your immune system
+              effortlessly!
+            </p>
           </div>
 
           {/* phần bốn */}
@@ -412,4 +483,4 @@ const LastCrumbCookies = () => {
   );
 };
 
-export default LastCrumbCookies;
+export default GoliTriple;

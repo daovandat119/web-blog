@@ -5,6 +5,17 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
+    url: "/goli-triple",
+    title:
+      "Goli Triple Action Immune Gummies – The Ultimate Solution for Stronger Immunity",
+    categories: [],
+    author: "Aron Kantor",
+    date: "May 3, 2025",
+    image: "health83.png",
+    content:
+      "In today’s fast-paced life, taking care of our immune system is often overlooked. As someone who works under high pressure, I understand the exhaustion and vulnerability to colds when immunity weakens. After researching various supplements, I decided to try Goli Triple Action Immune Gummies – a convenient, delicious, and effective way to support my immune health.",
+  },
+  {
     url: "/four",
     title:
       "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
@@ -26,7 +37,6 @@ const articles = [
     content:
       "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
   },
-  
   {
     url: "/the-hydro-jug",
     title:

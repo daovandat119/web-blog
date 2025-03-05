@@ -78,6 +78,7 @@ import Four from "./pages/Four";
 import SEOContent from "./pages/SEOContent";
 import Anycubic  from "./pages/Anycubic";
 import CreativityUtility from "./pages/CreativityUtility";
+import GoliTriple from "./pages/GoliTriple";
 const App = () => {
   return (
     <Router>
@@ -160,6 +161,7 @@ const App = () => {
           <Route path="/seo-content" element={<SEOContent />} />
           <Route path="/anycubic" element={<Anycubic />} />
           <Route path="/creativity" element={<CreativityUtility />} />
+          <Route path="/goli-triple" element={<GoliTriple />} />
         </Routes>
         <Footer />
       </div>
