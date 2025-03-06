@@ -135,7 +135,7 @@ const Tradeify = () => {
     <div className="container mx-auto">
       <Helmet>
         <title>
-          Tradeify: Smart Trading Solution to Maximize Profits in 2025
+          Tradeify Smart Trading Solution - Maximize Profits with Modern Tools
         </title>
         <meta
           name="description"
@@ -360,10 +360,7 @@ const Tradeify = () => {
               today!{" "}
               <button
                 onClick={() =>
-                  window.open(
-                    "https://tradeify.co/ref/6756/",
-                    "_blank"
-                  )
+                  window.open("https://tradeify.co/ref/6756/", "_blank")
                 }
                 className="text-[#3182ce] underline"
               >
