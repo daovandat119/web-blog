@@ -12,10 +12,12 @@ const Tradeify = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
+  // Hàm toggle FAQ (nếu cần mở rộng chi tiết)
   const toggleFaq = (index) => {
     setFaq(faq === index ? null : index);
   };
 
+  // Cuộn mượt đến phần FAQ khi được chọn
   useEffect(() => {
     if (faq !== null && faqRefs.current[faq]) {
       faqRefs.current[faq].scrollIntoView({
@@ -25,31 +27,23 @@ const Tradeify = () => {
     }
   }, [faq]);
 
+  // Dữ liệu nội dung bài viết
   const content = [
     {
       category: "PDF Tools",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "PDF Tools", url: "/pdf-tools" },
+        { name: "Software Reviews", url: "/software-reviews" },
       ],
-      title:
-        "Tradeify Smart Trading Solution - Maximize Profits with Modern Tools",
+      title: "Tradeify: Smart Trading Tools for Profit",
       author: "",
       date: "February 23, 2025",
     },
   ];
 
+  // Các mục trong mục lục
   const sections = [
-    {
-      title: "Are You Losing Wealth Because of Fear?",
-      link: "#Are",
-    },
+    { title: "Are You Losing Wealth Because of Fear?", link: "#Are" },
     {
       title: "Why Is Tradeify Different?",
       link: "#Why",
@@ -62,30 +56,19 @@ const Tradeify = () => {
           name: "Advanced Trading Technology – Control Anywhere",
           link: "#Advanced",
         },
-        {
-          name: "Simple and Hassle-Free Process",
-          link: "#Simple",
-        },
+        { name: "Simple and Hassle-Free Process", link: "#Simple" },
         {
           name: "Professional and Responsive Customer Support",
           link: "#Professional",
         },
       ],
     },
-    {
-      title: "Benefits of Tradeify – What Do You Gain?",
-      link: "#Benefits",
-    },
-    {
-      title: "Who Needs Tradeify?",
-      link: "#Who",
-    },
-    {
-      title: "Don’t Let the Opportunity Slip Away!",
-      link: "#Don’t",
-    },
+    { title: "Benefits of Tradeify – What Do You Gain?", link: "#Benefits" },
+    { title: "Who Needs Tradeify?", link: "#Who" },
+    { title: "Don’t Let the Opportunity Slip Away!", link: "#Don’t" },
   ];
 
+  // Dữ liệu bài viết tương tự
   const posts = [
     {
       url: "/best-ai-meeting-manager",
@@ -133,18 +116,18 @@ const Tradeify = () => {
 
   return (
     <div className="container mx-auto">
+      {/* Tối ưu SEO với Helmet */}
       <Helmet>
-        <title>
-          Tradeify Smart Trading Solution - Maximize Profits with Modern Tools
-        </title>
+        <title>Tradeify: Smart Trading Tools for Profit</title>
         <meta
           name="description"
-          content="Discover Tradeify – a smart trading platform built to maximize profits with funded accounts, advanced tools, and expert support. Start trading today!"
+          content="trading platform built to maximize profits with funded accounts, advanced tools, and expert support. Start trading today!"
         />
         <meta
           name="keywords"
           content="Tradeify, smart trading platform, maximize profits, funded trading accounts, advanced trading tools, financial markets, risk management, trading for beginners"
         />
+        <link rel="canonical" href="https://www.bundlam.com/tradeify-smart-trading" />
         <meta
           property="og:title"
           content="Tradeify: Smart Trading Solution to Maximize Profits in 2025"
@@ -155,8 +138,9 @@ const Tradeify = () => {
         />
         <meta
           property="og:image"
-          content="smart-trading-tools-with-tradeify.jpg"
+          content="https://www.bundlam.com/smart-trading-tools-with-tradeify.jpg"
         />
+        <meta property="og:url" content="https://www.bundlam.com/tradeify-smart-trading" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -169,30 +153,31 @@ const Tradeify = () => {
         />
         <meta
           name="twitter:image"
-          content="smart-trading-tools-with-tradeify.jpg"
+          content="https://www.bundlam.com/smart-trading-tools-with-tradeify.jpg"
         />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Tradeify Smart Trading Solution",
+              "description": "Discover Tradeify – a smart trading platform built to maximize profits.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-23"
+              "image": "https://www.bundlam.com/smart-trading-tools-with-tradeify.jpg"
+              }
+          `}
+        </script>
       </Helmet>
+
+      {/* Tiêu đề bài viết */}
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-          <Link
-            key={i}
-            to={sub.url}
-            className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-          >
-            {sub.name}
-            {i !== item.subcategory.length - 1 && (
-              <span className="text-gray-700 px-1">|</span>
-            )}
-          </Link>
-        ))} */}
-            </div>
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 py-5 lg:w-full text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
@@ -201,67 +186,60 @@ const Tradeify = () => {
           </div>
         ))}
       </div>
+
+      {/* Nội dung chính */}
       <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          <div>
-            <img
-              src="smart-trading-tools-with-tradeify.jpg"
-              alt="Smart trading tools with Tradeify"
-              className="w-full my-10"
-            />
-            <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
-              <ol className="list-decimal pl-5 underline">
-                {sections.map((section, index) => (
-                  <li key={index}>
-                    <a href={section.link}>{section.title}</a>
-                    {section.items && (
-                      <ol className="pl-5">
-                        {section.items.map((item, i) => (
-                          <li
-                            key={i}
-                            ref={(el) => (faqRefs.current[i] = el)}
-                            className="underline"
-                          >
-                            {item.link ? (
-                              <a href={item.link}>{`${index + 1}.${i + 1} ${
-                                item.name
-                              }`}</a>
-                            ) : (
-                              <button
-                                onClick={() => toggleFaq(i)}
-                                className="text-blue-600 hover:underline"
-                              >
-                                {`${index + 1}.${i + 1} ${item.name}`}
-                              </button>
-                            )}
-                          </li>
-                        ))}
-                      </ol>
-                    )}
-                  </li>
-                ))}
-              </ol>
-            </div>
+          <img
+            src="smart-trading-tools-with-tradeify.jpg"
+            alt="Smart trading tools with Tradeify"
+            className="w-full my-10"
+          />
+
+          {/* Mục lục */}
+          <div className="ml-10 my-15 text-gray-800">
+            <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+            <ol className="list-decimal pl-5 underline">
+              {sections.map((section, index) => (
+                <li key={index}>
+                  <a href={section.link}>{section.title}</a>
+                  {section.items && (
+                    <ol className="pl-5">
+                      {section.items.map((item, i) => (
+                        <li key={i} className="underline">
+                          <a href={item.link}>{`${index + 1}.${i + 1} ${
+                            item.name
+                          }`}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </li>
+              ))}
+            </ol>
           </div>
+
+          {/* Các phần nội dung */}
           <div>
-            <h1
+            <h2
               id="Are"
               className="text-xl work-sans-900 my-5 flex items-center"
             >
-              Are You Losing Money Due to Fear of Trading?
-            </h1>
+              Are You Losing Wealth Because of Fear?
+            </h2>
             <p>
-              Trading in financial markets offers huge profit potential, but
-              fear of losing money, lack of experience, or choosing the wrong
-              platform holds many back. I get it – I’ve been there too. That’s
-              why I turned to <strong>Tradeify</strong>, a smart trading
-              platform that erased my doubts and helped me maximize profits
-              confidently in 2025.
+              Financial trading can bring enormous profits, but most people fear
+              losing money, lack experience, or worry about choosing the wrong
+              trading platform. These concerns are completely valid because the
+              financial market is not for the unprepared. I was once like that –
+              doubting my abilities and struggling to find a reliable platform
+              to start. But then I found Tradeify, a modern trading platform
+              that helped me overcome my fears and maximize my earning potential
+              in the market.
             </p>
             <img
               src="overcoming-fear-of-losing-money-with-tradeify.jpg"
-              alt="Overcoming fear of losing money with Tradeify in 2025"
+              alt="Overcoming fear of losing money with Tradeify"
               className="w-full my-10"
             />
 
@@ -269,33 +247,45 @@ const Tradeify = () => {
               id="Why"
               className="text-xl work-sans-900 my-5 flex items-center"
             >
-              Why Choose Tradeify Over Other Platforms?
+              Why Is Tradeify Different?
             </h2>
             <p>
-              Tradeify stands out by offering security, simplicity, and powerful
-              features. Here’s why it won me over:
+              Unlike many other trading platforms, Tradeify gave me a sense of
+              security and control right from the start. Here are the key
+              reasons why I was completely convinced:
             </p>
             <ul className="list-disc pl-5 py-5">
               <li id="Funded">
-                <strong>Funded Accounts – Start Without Big Capital:</strong>{" "}
-                Tradeify removes the capital barrier with funded accounts,
-                letting you trade without risking thousands upfront. Perfect for
-                beginners!
+                <strong>
+                  Funded Accounts – No Need for Large Initial Capital:
+                </strong>{" "}
+                One of the biggest barriers to trading is the lack of capital.
+                Tradeify solves this issue by providing funded accounts,
+                allowing me to start trading without investing thousands of
+                dollars from my own pocket. This significantly reduces risk,
+                especially for beginners.
               </li>
               <li id="Advanced">
-                <strong>Advanced Trading Tools – Trade Anywhere:</strong> Its
-                robust platform and mobile app let me monitor markets and
-                execute trades on the go – no desk required.
+                <strong>Advanced Trading Technology – Control Anywhere:</strong>{" "}
+                With a powerful online trading platform and app, Tradeify allows
+                me to manage my trades anytime, anywhere. I can monitor the
+                market, execute orders, and adjust my strategy directly from my
+                phone without being tied to a computer all day.
               </li>
               <li id="Simple">
-                <strong>Easy Setup Process:</strong> Signing up and getting
-                started with Tradeify takes minutes – no complex steps or
-                delays.
+                <strong>Simple and Hassle-Free Process:</strong> Unlike other
+                complicated platforms, Tradeify streamlines the registration and
+                trading process. It only took me a few minutes to create an
+                account and start my journey to making money. No complex
+                verification procedures, no long waiting times for a funded
+                account.
               </li>
               <li id="Professional">
-                <strong>Expert Support Team:</strong> Tradeify’s responsive
-                customer support has saved me from costly mistakes and boosted
-                my trading skills.
+                <strong>Professional and Responsive Customer Support:</strong>{" "}
+                One aspect that impressed me the most was Tradeify's customer
+                support team. Whenever I faced difficulties, I received quick
+                responses from experts. This helped me avoid many mistakes and
+                enhance my trading efficiency.
               </li>
             </ul>
 
@@ -303,29 +293,36 @@ const Tradeify = () => {
               id="Benefits"
               className="text-xl work-sans-900 my-5 flex items-center"
             >
-              Top Benefits of Trading with Tradeify
+              Benefits of Tradeify – What Do You Gain?
             </h2>
             <p>
-              Tradeify isn’t just a platform – it’s a profit-optimizing tool
-              with built-in risk management. Here’s what you gain:
+              Using Tradeify, I realized that this is not just another trading
+              platform; it is a tool that optimizes income and effectively
+              manages risk. Here are the benefits I experienced:
             </p>
             <ul className="list-disc pl-5 py-5">
               <li>
-                Lower Risk: Trade professionally without a huge upfront
-                investment.
+                Reduced financial risk: Start trading professionally without
+                investing a large sum upfront.
               </li>
               <li>
-                Profit Potential: Earn steady income from financial markets,
-                beginner or pro.
+                Make money from financial markets: Whether you are a beginner or
+                a professional investor, you have the opportunity to generate
+                stable income.
               </li>
-              <li>Freedom: Trade anytime, anywhere – no 9-to-5 grind.</li>
               <li>
-                Skill Growth: Learn trading with smart analytics and strategies.
+                Flexibility and financial freedom: No need to be tied to a fixed
+                job; I can trade anytime, anywhere.
+              </li>
+              <li>
+                Learn and develop trading skills: Tradeify not only helps me
+                make money but also allows me to enhance my knowledge through
+                smart analysis tools and trading strategies.
               </li>
             </ul>
             <img
               src="benefits-of-using-tradeify-platform.jpg"
-              alt="Key benefits of the Tradeify trading platform"
+              alt="Benefits of using Tradeify platform"
               className="w-full my-10"
             />
 
@@ -333,19 +330,24 @@ const Tradeify = () => {
               id="Who"
               className="text-xl work-sans-900 my-5 flex items-center"
             >
-              Who Should Use Tradeify?
+              Who Needs Tradeify?
             </h2>
-            <p>Tradeify is ideal if you:</p>
+            <p>If you:</p>
             <ul className="list-disc pl-5 py-5">
-              <li>Want to trade but lack significant starting funds.</li>
-              <li>Worry about scams or unreliable platforms.</li>
-              <li>Need a user-friendly, effective trading solution.</li>
-              <li>Seek tools to maximize profits in financial markets.</li>
+              <li>
+                Want to make money from financial markets but lack significant
+                capital.
+              </li>
+              <li>Fear scams or choosing a poor-quality trading platform.</li>
+              <li>
+                Are looking for a simple, effective, and easy-to-use platform.
+              </li>
+              <li>Need a powerful trading tool to optimize profits.</li>
             </ul>
-            <p>If that’s you, Tradeify could be your game-changer!</p>
+            <p>Then Tradeify is the perfect choice for you!</p>
             <img
               src="who-benefits-from-tradeify.jpg"
-              alt="Who can benefit from Tradeify in 2025"
+              alt="Who benefits from Tradeify"
               className="w-full my-10"
             />
 
@@ -353,23 +355,18 @@ const Tradeify = () => {
               id="Don’t"
               className="text-xl work-sans-900 my-5 flex items-center"
             >
-              Don’t Miss Out on Smart Trading in 2025!
+              Don’t Let the Opportunity Slip Away!
             </h2>
             <p>
-              Stop letting fear stop you – start trading smarter with Tradeify
-              today!{" "}
-              <button
-                onClick={() =>
-                  window.open("https://tradeify.co/ref/6756/", "_blank")
-                }
-                className="text-[#3182ce] underline"
-              >
-                Click here
-              </button>{" "}
-              to join Tradeify and unlock exclusive offers for new users in
-              2025.
+              Overcome your fears and start smart trading with Tradeify today!{" "}
+              <a href="https://tradeify.co/ref/6756/" target="_blank" rel="nofollow" className="text-[#3182ce] underline">Click here</a>
+              {" "}
+              below to explore Tradeify and receive exclusive offers for new
+              users!
             </p>
           </div>
+
+          {/* Thông tin tác giả */}
           <div>
             <h1 className="italic my-7">
               Disclosure: I only recommend products I would use myself, and all
@@ -406,6 +403,7 @@ const Tradeify = () => {
         </div>
       </div>
 
+      {/* Bài viết tương tự với Swiper */}
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
