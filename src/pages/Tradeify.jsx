@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -38,7 +37,7 @@ const Tradeify = () => {
           url: "/software-reviews",
         },
       ],
-      title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
+      title: "Tradeify – Smart Trading Platform For Modern Investors | Maximize Profits",
       author: "",
       date: "February 23, 2025",
     },
@@ -161,11 +160,15 @@ const Tradeify = () => {
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <img src="health35.jpg" alt="anh" className="w-full my-10" />
+            <img
+              src="smart-trading-tools-with-tradeify.jpg"
+              alt="Smart trading tools with Tradeify"
+              className="w-full my-10"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -181,9 +184,7 @@ const Tradeify = () => {
                             className="underline"
                           >
                             {item.link ? (
-                              <a href={item.link}>{`${index + 1}.${i + 1} ${
-                                item.name
-                              }`}</a>
+                              <a href={item.link}>{`${index + 1}.${i + 1} ${item.name}`}</a>
                             ) : (
                               <button
                                 onClick={() => toggleFaq(i)}
@@ -201,8 +202,7 @@ const Tradeify = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
             <h1
               id="Are"
@@ -214,13 +214,16 @@ const Tradeify = () => {
               Financial trading can bring enormous profits, but most people fear
               losing money, lack experience, or worry about choosing the wrong
               trading platform. These concerns are completely valid because the
-              financial market is not for the unprepared. I was once like that –
-              doubting my abilities and struggling to find a reliable platform
-              to start. But then I found Tradeify, a modern trading platform
-              that helped me overcome my fears and maximize my earning potential
-              in the market.
+              financial market is not for the unprepared. I was once like that – doubting
+              my abilities and struggling to find a reliable platform to start. But then
+              I found Tradeify, a modern trading platform that helped me overcome my
+              fears and maximize my earning potential in the market.
             </p>
-            <img src="health36.jpg" alt="anh" className="w-full my-10" />
+            <img
+              src="overcoming-fear-of-losing-money-with-tradeify.jpg"
+              alt="Overcoming fear of losing money with Tradeify"
+              className="w-full my-10"
+            />
             <h1
               id="Why"
               className="text-xl work-sans-900 my-5 flex items-center"
@@ -228,41 +231,34 @@ const Tradeify = () => {
               Why Is Tradeify Different?
             </h1>
             <p>
-              Unlike many other trading platforms, Tradeify gave me a sense of
-              security and control right from the start. Here are the key
-              reasons why I was completely convinced:
+              Unlike many other trading platforms, Tradeify gave me a sense of security and control
+              right from the start. Here are the key reasons why I was completely convinced:
             </p>
-            <ul class="list-disc pl-5 py-5">
-              <li>
+            <ul className="list-disc pl-5 py-5">
+              <li id="Funded">
                 <strong>
                   Funded Accounts – No Need for Large Initial Capital:
-                </strong>{" "}
-                One of the biggest barriers to trading is the lack of capital.
-                Tradeify solves this issue by providing funded accounts,
-                allowing me to start trading without investing thousands of
-                dollars from my own pocket. This significantly reduces risk,
-                especially for beginners.
+                </strong> One of the biggest barriers to trading is the lack of capital.
+                Tradeify solves this issue by providing funded accounts, allowing me to start trading
+                without investing thousands of dollars from my own pocket. This significantly reduces
+                risk, especially for beginners.
               </li>
-              <li>
-                <strong>Advanced Trading Technology – Control Anywhere:</strong>{" "}
-                With a powerful online trading platform and app, Tradeify allows
-                me to manage my trades anytime, anywhere. I can monitor the
-                market, execute orders, and adjust my strategy directly from my
-                phone without being tied to a computer all day.
+              <li id="Advanced">
+                <strong>Advanced Trading Technology – Control Anywhere:</strong>
+                With a powerful online trading platform and app, Tradeify allows me to manage my trades
+                anytime, anywhere. I can monitor the market, execute orders, and adjust my strategy
+                directly from my phone without being tied to a computer all day.
               </li>
-              <li>
-                <strong>Simple and Hassle-Free Process:</strong> Unlike other
-                complicated platforms, Tradeify streamlines the registration and
-                trading process. It only took me a few minutes to create an
-                account and start my journey to making money. No complex
-                verification procedures, no long waiting times for a funded
-                account.
+              <li id="Simple">
+                <strong>Simple and Hassle-Free Process:</strong> Unlike other complicated platforms,
+                Tradeify streamlines the registration and trading process. It only took me a few minutes
+                to create an account and start my journey to making money. No complex verification
+                procedures, no long waiting times for a funded account.
               </li>
-              <li>
-                <strong>Professional and Responsive Customer Support:</strong>{" "}
-                One aspect that impressed me the most was Tradeify's customer
-                support team. Whenever I faced difficulties, I received quick
-                responses from experts. This helped me avoid many mistakes and
+              <li id="Professional">
+                <strong>Professional and Responsive Customer Support:</strong>
+                One aspect that impressed me the most was Tradeify's customer support team. Whenever I faced
+                difficulties, I received quick responses from experts. This helped me avoid many mistakes and
                 enhance my trading efficiency.
               </li>
             </ul>
@@ -274,31 +270,32 @@ const Tradeify = () => {
               Benefits of Tradeify – What Do You Gain?
             </h1>
             <p>
-              Using Tradeify, I realized that this is not just another trading
-              platform; it is a tool that optimizes income and effectively
-              manages risk. Here are the benefits I experienced:
+              Using Tradeify, I realized that this is not just another trading platform; it is a tool
+              that optimizes income and effectively manages risk. Here are the benefits I experienced:
             </p>
-            <ul class="list-disc pl-5 py-5">
+            <ul className="list-disc pl-5 py-5">
               <li>
-                Reduced financial risk: Start trading professionally without
-                investing a large sum upfront.
+                Reduced financial risk: Start trading professionally without investing a large sum upfront.
               </li>
               <li>
-                Make money from financial markets: Whether you are a beginner or
-                a professional investor, you have the opportunity to generate
-                stable income.
+                Make money from financial markets: Whether you are a beginner or a professional investor,
+                you have the opportunity to generate stable income.
               </li>
               <li>
-                Flexibility and financial freedom: No need to be tied to a fixed
-                job; I can trade anytime, anywhere.
+                Flexibility and financial freedom: No need to be tied to a fixed job; I can trade anytime,
+                anywhere.
               </li>
               <li>
-                Learn and develop trading skills: Tradeify not only helps me
-                make money but also allows me to enhance my knowledge through
-                smart analysis tools and trading strategies.
+                Learn and develop trading skills: Tradeify not only helps me make money but also allows me to
+                enhance my knowledge through smart analysis tools and trading strategies.
               </li>
             </ul>
-            <img src="health37.jpg" alt="anh" className="w-full my-10" />
+            <img
+              src="benefits-of-using-tradeify-platform.jpg"
+              alt="Benefits of using Tradeify platform"
+              className="w-full my-10"
+            />
+
             <h1
               id="Who"
               className="text-xl work-sans-900 my-5 flex items-center"
@@ -306,10 +303,9 @@ const Tradeify = () => {
               Who Needs Tradeify?
             </h1>
             <p>If you:</p>
-            <ul class="list-disc pl-5 py-5">
+            <ul className="list-disc pl-5 py-5">
               <li>
-                Want to make money from financial markets but lack significant
-                capital.
+                Want to make money from financial markets but lack significant capital.
               </li>
               <li>Fear scams or choosing a poor-quality trading platform.</li>
               <li>
@@ -318,7 +314,12 @@ const Tradeify = () => {
               <li>Need a powerful trading tool to optimize profits.</li>
             </ul>
             <p>Then Tradeify is the perfect choice for you!</p>
-            <img src="health38.jpg" alt="anh" className="w-full my-10" />
+            <img
+              src="who-benefits-from-tradeify.jpg"
+              alt="Who benefits from Tradeify"
+              className="w-full my-10"
+            />
+
             <h1
               id="Don’t"
               className="text-xl work-sans-900 my-5 flex items-center"
@@ -329,32 +330,28 @@ const Tradeify = () => {
               Overcome your fears and start smart trading with Tradeify today!{" "}
               <button
                 onClick={() =>
-                  window.open("https://tradeify.co/ref/6756/", "_blank")
+                  window.open("https://tradeify-smart-trading-solution.co/ref/6756/", "_blank")
                 }
                 className="text-[#3182ce] underline"
               >
                 Click here
               </button>{" "}
-              below to explore Tradeify and receive exclusive offers for new
-              users!
+              below to explore Tradeify and receive exclusive offers for new users!
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
             <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
-              opinions expressed here are our own. This post may contain
-              affiliate links that at no additional cost to you, I may earn a
-              small commission. Read the full privacy policy{" "}
+              Disclosure: I only recommend products I would use myself, and all
+              opinions expressed here are our own. This post may contain affiliate links
+              that at no additional cost to you, I may earn a small commission. Read the
+              full privacy policy{" "}
               <a className="text-[#3182ce] underline">here.</a>
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
                 src="anh33.jpg"
-                alt="anh"
+                alt="Aron Kantor, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
@@ -362,22 +359,22 @@ const Tradeify = () => {
                   Aron Kantor
                 </h1>
                 <h1 className="text-[14px] mt-3 md:text-[16px]">
-                  Hey there! I am Aron, the founder of Thebusinessdive. I
-                  created Thebusinessdive to help you elevate your productivity
-                  to the next level. It is a place where you find the best
-                  tools, ideas, and tips to supercharge your productivity and
-                  performance. Subscribe to my YouTube channel to hear more
-                  about the best productivity tools. Let’s dive in!
+                  Hey there! I am Aron, the founder of Thebusinessdive. I created
+                  Thebusinessdive to help you elevate your productivity to the next level.
+                  It is a place where you find the best tools, ideas, and tips to supercharge
+                  your productivity and performance. Subscribe to my YouTube channel to hear
+                  more about the best productivity tools. Let’s dive in!
                 </h1>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
               <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
               <FaTwitter className="text-xl my-4 mx-1" />
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">

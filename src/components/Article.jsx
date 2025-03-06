@@ -357,7 +357,7 @@ const Article = () => {
         "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
     },
     {
-      url: "/tradeify",
+      url: "/tradeify-smart-trading-solution",
       title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
       categories: [],
       author: "Aron Kantor",

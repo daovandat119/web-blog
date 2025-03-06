@@ -136,7 +136,7 @@ const App = () => {
           <Route path="/pdf-editors-for-windows" element={<PdfEditorsForWindows />} />
           <Route path="/adobe-acrobat-alternatives" element={<AdobeAcrobatAternatives />} />
           <Route path="/goli-ashwagandha" element={<GoliAshwagandha />} />
-          <Route path="/lifestyle" element={<Lifestyle />} />
+          <Route path="/lifestyle-tips-and-guides" element={<Lifestyle />} />
           <Route path="/last-crumb-cookies" element={<LastCrumbCookies />} />
           <Route path="/chronic-pain" element={<ChronicPain />} />
           <Route path="/health" element={<Health />} />
@@ -146,7 +146,7 @@ const App = () => {
           <Route path="/true-dark" element={<TrueDark />} />
           <Route path="/pickleball" element={<Pickleball />} />
           <Route path="/personal-experience" element={<PersonalExperience />} />
-          <Route path="/tradeify" element={<Tradeify />} />
+          <Route path="/tradeify-smart-trading-solution" element={<Tradeify />} />
           <Route path="/comprehensive" element={<Comprehensive />} />
           <Route path="/elevated" element={<Elevated />} />
           <Route path="/the-hydro-jug" element={<TheHydroJug />} />
@@ -154,7 +154,7 @@ const App = () => {
           <Route path="/flaskap" element={<FlasKap />} />
           <Route path="/walter-writes" element={<WalterWrites />} />
           <Route path="/locked-in" element={<LockedIn />} />
-          <Route path="/financial" element={<Financial />} />
+          <Route path="/financial-information" element={<Financial />} />
           <Route path="/lilac" element={<Lilac />} />
           <Route path="/taja" element={<Taja />} />
           <Route path="/four" element={<Four />} />

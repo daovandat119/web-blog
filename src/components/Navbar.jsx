@@ -40,14 +40,14 @@ const Navbar = () => {
         </Link>
         <div className="relative group inline-block">
           <Link
-            to="/financial"
+            to="/financial-information"
             className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
-      active === "/financial"
+      active === "/financial-information"
         ? "text-black after:w-full after:bg-black"
         : "text-gray-500 after:w-0 after:bg-blue-500 hover:text-blue-500 hover:after:w-full"
     }`}
-            onClick={() => setActive("/financial")}
+            onClick={() => setActive("/financial-information")}
           >
             Financial information
           </Link>
@@ -86,14 +86,14 @@ const Navbar = () => {
         </div>
         <div className="relative group inline-block">
           <Link
-            to="/lifestyle"
+            to="/lifestyle-tips-and-guides"
             className={`work-sans-400 relative m-7 text-[21px] transition-all after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:transition-all after:duration-500 after:ease-out
     ${
-      active === "/lifestyle"
+      active === "/lifestyle-tips-and-guides"
         ? "text-black after:w-full after:bg-black"
         : "text-gray-500 after:w-0 after:bg-blue-500 hover:text-blue-500 hover:after:w-full"
     }`}
-            onClick={() => setActive("/lifestyle")}
+            onClick={() => setActive("/lifestyle-tips-and-guides")}
           >
             Lifestyle <FaChevronDown className="inline w3 h-3" />
           </Link>
@@ -355,7 +355,7 @@ const Navbar = () => {
           <li>
             <div className="flex items-center justify-between w-full py-2">
               <Link
-                to="/financial"
+                to="/financial-information"
                 className="hover:text-blue-500 text-sx"
                 onClick={() => setIsOpen(false)}
               >
@@ -367,7 +367,7 @@ const Navbar = () => {
           <li>
             <div className="flex items-center justify-between w-full py-2">
               <Link
-                to="/lifestyle"
+                to="/lifestyle-tips-and-guides"
                 className="hover:text-blue-500 text-sx"
                 onClick={() => setIsOpen(false)}
               >
