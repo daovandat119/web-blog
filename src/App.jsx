@@ -146,7 +146,7 @@ const App = () => {
           <Route path="/true-dark" element={<TrueDark />} />
           <Route path="/pickleball" element={<Pickleball />} />
           <Route path="/personal-experience" element={<PersonalExperience />} />
-          <Route path="/tradeify-smart-trading-solution" element={<Tradeify />} />
+          <Route path="/tradeify-smart-trading" element={<Tradeify />} />
           <Route path="/comprehensive" element={<Comprehensive />} />
           <Route path="/elevated" element={<Elevated />} />
           <Route path="/the-hydro-jug" element={<TheHydroJug />} />

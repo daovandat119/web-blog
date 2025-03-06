@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -131,6 +132,15 @@ const Tradeify = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Tradeify: Smart Trading Solution to Maximize Profits in 2025</title>
+        <meta name="description" content="Tradeify is a smart trading platform designed to maximize profits with modern trading tools, funded accounts, and expert customer support." />
+        <meta name="keywords" content="Tradeify, smart trading, maximize profits, trading technology, funded accounts, trading platform, financial market, risk management" />
+        <meta name="author" content="Aron Kantor, Thebusinessdive" />
+        <meta property="og:title" content="Tradeify: Smart Trading Solution to Maximize Profits in 2025" />
+        <meta property="og:description" content="Tradeify offers smart trading solutions to maximize profits with modern trading tools and funded accounts." />
+        <meta property="og:image" content="smart-trading-tools-with-tradeify.jpg" />
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
