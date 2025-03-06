@@ -5,7 +5,7 @@ import Blog from "../components/Blog";
 
 const articles = [
     {
-        url: "/tradeify-smart-trading-solution",
+        url: "/tradeify-smart-trading-tools-for-profit",
         title: "Tradeify: Smart Trading Tools for Profit",
         categories: [
     
