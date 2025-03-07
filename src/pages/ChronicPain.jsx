@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -39,7 +40,7 @@ const ChronicPain = () => {
         },
       ],
       title:
-        "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
+        "NovaaLab Review: At-Home Pain Relief Solution",
       author: "",
       date: "February 21, 2025",
     },
@@ -111,26 +112,75 @@ const ChronicPain = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>NovaaLab Review: At-Home Pain Relief Solution</title>
+        <meta
+          name="description"
+          content="My NovaaLab review: effective red light therapy for chronic pain, arthritis, and injuries at home."
+        />
+        <meta
+          name="keywords"
+          content="NovaaLab review, red light therapy, chronic pain relief, arthritis treatment, at-home recovery, NovaaLab devices"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/novaalab-pain-relief"
+        />
+        <meta
+          property="og:title"
+          content="NovaaLab Review: At-Home Pain Relief Solution"
+        />
+        <meta
+          property="og:description"
+          content="Discover how NovaaLab’s red light therapy helps with chronic pain and recovery at home."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/novaalab-chronic-pain.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/novaalab-pain-relief"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="NovaaLab Review: At-Home Pain Relief Solution"
+        />
+        <meta
+          name="twitter:description"
+          content="NovaaLab offers red light therapy for chronic pain and arthritis relief at home."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/novaalab-chronic-pain.jpg"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "NovaaLab Review: At-Home Pain Relief Solution",
+              "description": "A detailed review of NovaaLab’s red light therapy devices for chronic pain and recovery.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-21",
+              "image": "https://www.bundlam.com/novaalab-chronic-pain.jpg",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "NovaaLab Red Light Therapy Devices",
+                "brand": {"@type": "Brand", "name": "NovaaLab"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -144,6 +194,9 @@ const ChronicPain = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
+          <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Struggling with Chronic Pain?
+            </h2>
             <h1 className="my-10">
               Do you often suffer from pain caused by movement, arthritis,
               injuries, or muscle strain? Have you tried multiple treatments,
@@ -151,14 +204,18 @@ const ChronicPain = () => {
               expensive, and painkillers only provide temporary relief… So what
               is a safe, effective, and convenient solution you can use at home?
             </h1>
-            <img src="health9.jpg" alt="anh" />
+            <img
+              src="novaalab-chronic-pain.jpg"
+              alt="NovaaLab red light therapy for chronic pain relief"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h1 className="my-10">
               <span className="work-sans-900">NovaaLab</span> brings you
               advanced red light therapy technology, designed to relieve pain,
               support muscle recovery, aid in arthritis treatment, and improve
               blood circulation—all in just a few minutes of use per day.
             </h1>
-            <img src="health10.jpg" alt="anh" />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -219,7 +276,12 @@ const ChronicPain = () => {
                 effects.
               </li>
             </ul>
-            <img src="health11.jpg" alt="anh" />
+            <img
+              src="novaalab-red-light-therapy.jpg"
+              alt="Benefits of NovaaLab red light therapy"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h1
               id="NovaaLab"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -250,7 +312,12 @@ const ChronicPain = () => {
                 discomfort.
               </li>
             </ul>
-            <img src="health12.png" alt="anh" className="w-full" />
+            <img
+              src="novaalab-devices.png"
+              alt="NovaaLab red light therapy devices"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h1
               id="Quality"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -271,15 +338,18 @@ const ChronicPain = () => {
             >
               Is NovaaLab Worth It?
             </h1>
-            <img src="health13.png" alt="anh" />
+            <img
+              src="novaalab-worth-it.png"
+              alt="NovaaLab at-home pain relief review"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h1 className="my-5">
               If you’re looking for a safe, effective way to relieve pain and
               recover at home, <span className="work-sans-900">NovaaLab</span>{" "}
               is definitely worth considering.
             </h1>
-            <h1
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
+            <h1 className="text-xl work-sans-900 my-5 flex items-center">
               Pros:
             </h1>
             <ul className="list-disc pl-5 py-5">
@@ -288,9 +358,7 @@ const ChronicPain = () => {
               <li>Drug-free with no side effects</li>
               <li>Medical-grade and FDA-approved</li>
             </ul>
-            <h1
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
+            <h1 className="text-xl work-sans-900 my-5 flex items-center">
               Cons:
             </h1>
             <ul className="list-disc pl-5 py-5">
@@ -298,8 +366,10 @@ const ChronicPain = () => {
               <li>Requires consistency for optimal results</li>
             </ul>
             <h1 className="my-5">
-            If you’re tired of living with chronic pain, try <span className="work-sans-900">NovaaLab</span> today and experience the difference!
-              </h1>
+              If you’re tired of living with chronic pain, try{" "}
+              <span className="work-sans-900">NovaaLab</span> today and
+              experience the difference!
+            </h1>
             One box, one unforgettable experience—
             <span className="work-sans-900">Last Crumb</span> is the kind of
             luxury everyone should try at least once.
@@ -319,7 +389,7 @@ const ChronicPain = () => {
             >
               Click Here
             </button>{" "}
-            to explore Novaalab ls’ best-selling collection! 
+            to explore Novaalab ls’ best-selling collection!
           </div>
 
           {/* phần bốn */}

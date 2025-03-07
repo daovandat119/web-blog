@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -39,7 +40,7 @@ const Lilac = () => {
         },
       ],
       title:
-        "Lilac St. Lashes – The Perfect Natural False Lashes Experience for Every Girl",
+        "Lilac St. Lashes Review - Natural False Lashes",
       author: "",
       date: "February 25, 2025",
     },
@@ -116,26 +117,76 @@ const Lilac = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Lilac St. Lashes Review: Natural False Lashes</title>
+        <meta
+          name="description"
+          content="Explore my Lilac St. Lashes review: natural, lightweight false lashes with easy application and long-lasting wear."
+        />
+        <meta
+          name="keywords"
+          content="Lilac St. Lashes review, natural false lashes, DIY lash extensions, Lilac St. review, best false lashes 2025"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/lilac-st-lashes"
+        />
+        <meta
+          property="og:title"
+          content="Lilac St. Lashes Review: Natural False Lashes"
+        />
+        <meta
+          property="og:description"
+          content="Discover why Lilac St. Lashes are perfect for a natural lash look in this detailed review."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/lilac-st-lashes-intro.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/lilac-st-lashes"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Lilac St. Lashes Review: Natural False Lashes"
+        />
+        <meta
+          name="twitter:description"
+          content="Lilac St. Lashes: natural false lashes that are easy to apply and last up to 7 days."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/lilac-st-lashes-intro.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "Lilac St. Lashes Review: Natural False Lashes",
+              "description": "A detailed review of Lilac St. Lashes, highlighting their natural look and ease of use.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-25",
+              "image": "https://www.bundlam.com/lilac-st-lashes-intro.png",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "Lilac St. Lashes",
+                "brand": {"@type": "Brand", "name": "Lilac St."}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
+           
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -149,13 +200,20 @@ const Lilac = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <h1 className="text-2xl work-sans-900 my-5">
-            Introduction to Lilac St. Lashes
-            </h1>
+            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Why Try Lilac St. Lashes?
+            </h2>
             <p className="mb-5">
-            In the world of makeup, finding the perfect pair of false lashes that look natural and are easy to use is no easy task. Lilac St. has become one of the top choices thanks to its premium false lash products, offering absolute naturalness and optimal comfort with every lash strand.
+              Looking for natural false lashes? My{" "}
+              <span className="work-sans-900">Lilac St. Lashes review</span>{" "}
+              reveals why they’re a top pick for beauty lovers.
             </p>
-            <img src="health69.png" alt="anh" className="w-full" />
+            <img
+              src="lilac-st-lashes-intro.png"
+              alt="Lilac St. Lashes natural false lashes"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -231,7 +289,12 @@ const Lilac = () => {
               Unlike traditional false lashes that last only a day, Lilac St.
               lashes can stay put for 5–7 days without shifting or falling off.
             </p>
-            <img src="health70.png" alt="anh" className="w-full" />
+            <img
+              src="lilac-st-lashes-experience.png"
+              alt="Lilac St. Lashes long-lasting natural look"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h2 id="Key" class="text-2xl work-sans-900 my-5 flex items-center">
               Key Features of Lilac St.
             </h2>
@@ -253,7 +316,12 @@ const Lilac = () => {
                 natural to glamorous, suitable for any occasion.
               </li>
             </ul>
-                <img src="health71.png" alt="anh" className="w-full" />
+            <img
+              src="lilac-st-lashes-features.png"
+              alt="Key features of Lilac St. natural false lashes"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h2 id="Why" class="text-2xl work-sans-900 my-5 flex items-center">
               Why Choose Lilac St.?
             </h2>

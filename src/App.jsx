@@ -138,7 +138,7 @@ const App = () => {
           <Route path="/goli-ashwagandha-wellness" element={<GoliAshwagandha />} />
           <Route path="/lifestyle-tips-and-guides" element={<Lifestyle />} />
           <Route path="/last-crumb-cookies-review" element={<LastCrumbCookies />} />
-          <Route path="/chronic-pain" element={<ChronicPain />} />
+          <Route path="/novaalab-pain-relief" element={<ChronicPain />} />
           <Route path="/health" element={<Health />} />
           <Route path="/fashion" element={<Fashion />} />
           <Route path="/beauty" element={<Beauty />} />
@@ -155,7 +155,7 @@ const App = () => {
           <Route path="/walter-writes" element={<WalterWrites />} />
           <Route path="/locked-in" element={<LockedIn />} />
           <Route path="/financial-information" element={<Financial />} />
-          <Route path="/lilac" element={<Lilac />} />
+          <Route path="/lilac-st-lashes" element={<Lilac />} />
           <Route path="/taja" element={<Taja />} />
           <Route path="/four-sigmatic-product-review" element={<Four />} />
           <Route path="/seo-content" element={<SEOContent />} />

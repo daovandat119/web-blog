@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -116,26 +117,75 @@ const Gling = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>NovaaLab Review: At-Home Pain Relief Solution</title>
+        <meta
+          name="description"
+          content="My NovaaLab review: effective red light therapy for chronic pain, arthritis, and injuries at home."
+        />
+        <meta
+          name="keywords"
+          content="NovaaLab review, red light therapy, chronic pain relief, arthritis treatment, at-home recovery, NovaaLab devices"
+        />
+        <link
+          rel="canonical"
+          href="https://www.thebusinessdive.com/reviews/novaalab-pain-relief"
+        />
+        <meta
+          property="og:title"
+          content="NovaaLab Review: At-Home Pain Relief Solution"
+        />
+        <meta
+          property="og:description"
+          content="Discover how NovaaLab’s red light therapy helps with chronic pain and recovery at home."
+        />
+        <meta
+          property="og:image"
+          content="https://www.thebusinessdive.com/novaalab-pain-relief.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.thebusinessdive.com/reviews/novaalab-pain-relief"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="NovaaLab Review: At-Home Pain Relief Solution"
+        />
+        <meta
+          name="twitter:description"
+          content="NovaaLab offers red light therapy for chronic pain and arthritis relief at home."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.thebusinessdive.com/novaalab-pain-relief.jpg"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "NovaaLab Review: At-Home Pain Relief Solution",
+              "description": "A detailed review of NovaaLab’s red light therapy devices for chronic pain and recovery.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-21",
+              "image": "https://www.thebusinessdive.com/novaalab-pain-relief.jpg",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "NovaaLab Red Light Therapy Devices",
+                "brand": {"@type": "Brand", "name": "NovaaLab"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -333,7 +383,10 @@ const Gling = () => {
             </p>
             <p className="my-5">
               Try 👉{" "}
-              <a href="https://gling.ai/?via=us-uk" class="text-[#3182ce] underline">
+              <a
+                href="https://gling.ai/?via=us-uk"
+                class="text-[#3182ce] underline"
+              >
                 Gling.ai
               </a>{" "}
               now and revolutionize the way you edit videos!

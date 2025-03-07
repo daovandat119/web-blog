@@ -5,24 +5,24 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
-    url: "/lilac",
+    url: "/lilac-st-lashes",
     title:
-      "Lilac St. Lashes – The Perfect Natural False Lashes Experience for Every Girl",
+      "Lilac St. Lashes Review - Natural False Lashes",
     categories: [],
     author: "Aron Kantor",
     date: "February 25, 2025",
-    image: "health69.png",
+    image: "lilac-st-lashes-intro.png",
     content:
       "In the world of makeup, finding the perfect pair of false lashes that look natural and are easy to use is no easy task. Lilac St. has become one of the top choices thanks to its premium false lash products, offering absolute naturalness and optimal comfort with every lash strand.",
   },
   {
-    url: "/chronic-pain",
+    url: "/novaalab-pain-relief",
     title:
-      "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
+      "NovaaLab Review: At-Home Pain Relief Solution",
     categories: [],
     author: "Aron Kantor",
     date: "February 21, 2025",
-    image: "health9.jpg",
+    image: "novaalab-chronic-pain.jpg",
     content:
       "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
   },
