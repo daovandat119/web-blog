@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -112,26 +113,70 @@ const FlasKap = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>FlasKap Review – Best Thermal Bottle Innovation</title>
+        <meta
+          name="description"
+          content="Discover our FlasKap review – a revolutionary thermal bottle with FreePour and Madic systems for personalized hydration."
+        />
+        <meta
+          name="keywords"
+          content="FlasKap, thermal bottle review, FreePour cap, Madic Collection, BPA-free thermal bottle, FlasKap vs traditional bottles, innovative water bottle"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/flaskap-thermal-bottle"
+        />
+        <meta
+          property="og:title"
+          content="FlasKap Review – Best Thermal Bottle Innovation"
+        />
+        <meta
+          property="og:description"
+          content="Explore why FlasKap stands out with its smart design and durable thermal bottles in this detailed review."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/flaskap-thermal-bottle.jpg"            
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/flaskap-thermal-bottle"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="FlasKap Review – Best Thermal Bottle Innovation"
+        />
+        <meta
+          name="twitter:description"
+          content="Read our FlasKap review to see how it redefines thermal bottles with innovative features."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/flaskap-thermal-bottle.jpg"            
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "FlasKap – Revolutionizing the World of Thermal Bottles",
+              "description": "A review of FlasKap thermal bottles, featuring innovative FreePour and Madic systems for personalized hydration.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-24",
+              "image": "https://www.bundlam.com/flaskap-thermal-bottle.jpg"           "
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -156,7 +201,12 @@ const FlasKap = () => {
               FlasKap – a name that is making a strong impression in the
               community of convenience and innovation lovers.
             </p>
-            <img src="health58.jpg" alt="anh" className="w-full" />
+            <img
+              src="flaskap-thermal-bottle.jpg"
+              alt="FlasKap thermal bottle in use"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -195,12 +245,12 @@ const FlasKap = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h1
+            <h2
               id="What"
               className="text-2xl work-sans-900 my-5 flex items-center"
             >
               What Makes FlasKap Stand Out?
-            </h1>
+            </h2>
             <p>
               FlasKap is not just an ordinary thermal bottle. Its uniqueness
               lies in its smart design and the ability to personalize beverages
@@ -208,10 +258,7 @@ const FlasKap = () => {
               enjoy their drinks in the most convenient and stylish way.
             </p>
 
-            <h2
-              id="Quality"
-              className="text-xl work-sans-900 my-3"
-            >
+            <h2 id="Quality" className="text-xl work-sans-900 my-3">
               Quality & Durability
             </h2>
             <p className="mb-5">
@@ -219,17 +266,23 @@ const FlasKap = () => {
               user safety. Its impressive thermal retention capability keeps
               beverages hot or cold for hours.
             </p>
-                <img src="health59.jpg" alt="anh" className="w-full" />
+            <img
+              src="flaskap-durability.jpg"
+              alt="FlasKap thermal bottle durability"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h2 id="Modern" className="text-xl work-sans-900 my-3">
               Modern & Unique Design
             </h2>
             <p>
-              One of FlasKap’s standout features is the <span className="work-sans-900">FreePour</span> and <span className="work-sans-900">Madic
-              Collection</span> systems – two product lines that allow users to control
-              their drink portions with just the press of a button.
-              Additionally, FlasKap is compatible with many popular thermal
-              bottles on the market, such as the Yeti Rambler, providing more
-              choices for users.
+              One of FlasKap’s standout features is the{" "}
+              <span className="work-sans-900">FreePour</span> and{" "}
+              <span className="work-sans-900">Madic Collection</span> systems –
+              two product lines that allow users to control their drink portions
+              with just the press of a button. Additionally, FlasKap is
+              compatible with many popular thermal bottles on the market, such
+              as the Yeti Rambler, providing more choices for users.
             </p>
 
             <h2 id="A" className="text-xl work-sans-900 my-3">
@@ -237,15 +290,25 @@ const FlasKap = () => {
             </h2>
             <ul className="list-disc pl-5 py-5">
               <li>
-              <span className="work-sans-900">Madic 6 & 9 Ounce:</span> Allows mixing drinks directly in the bottle
-                with flexible capacities.
+                <span className="work-sans-900">Madic 6 & 9 Ounce:</span> Allows
+                mixing drinks directly in the bottle with flexible capacities.
               </li>
-              <img src="health60.jpg" alt="anh" className="w-full" />
+              <img
+                src="flaskap-madic-collection.jpg"
+                alt="FlasKap Madic Collection thermal bottle"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
               <li>
-              <span className="work-sans-900">FreePour Cap:</span> A smart lid that helps control the amount of drink
-                poured each time.
+                <span className="work-sans-900">FreePour Cap:</span> A smart lid
+                that helps control the amount of drink poured each time.
               </li>
-              <img src="health61.jpg" alt="anh" className="w-full" />
+              <img
+                src="flaskap-freepour-cap.jpg"
+                alt="FlasKap FreePour cap feature"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
             </ul>
 
             <h2 id="Reasonable" className="text-xl work-sans-900 my-3">
@@ -263,7 +326,12 @@ const FlasKap = () => {
             >
               Comparison: FlasKap vs. Traditional Thermal Bottles
             </h2>
-            <img src="health62.png" alt="anh" className="w-full" />
+            <img
+              src="flaskap-vs-traditional.png"
+              alt="FlasKap compared to traditional thermal bottles"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h2
               id="Why"
               className="text-xl work-sans-900 my-5 flex items-center"
@@ -279,10 +347,14 @@ const FlasKap = () => {
             </p>
             <p className="mt-5">
               👉Discover{" "}
-              <a href="https://flaskap.com/?sca_ref=7444505.VZral2l47L&utm_source=7444505&utm_medium=do-hung&utm_campaign=193544&utm_term=Elite-Ambassador-Commission" class="text-[#3182ce] underline">
-                 FlasKap 
-              </a>
-              {" "}and experience the difference!
+              <a
+    
+                href="https://flaskap.com/?sca_ref=7444505.VZral2l47L&utm_source=7444505&utm_medium=do-hung&utm_campaign=193544&utm_term=Elite-Ambassador-Commission"
+                class="text-[#3182ce] underline"
+              >
+                FlasKap
+              </a>{" "}
+              and experience the difference!
             </p>
           </div>
 
@@ -290,13 +362,13 @@ const FlasKap = () => {
 
           {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
+            <h2 className="italic my-7">
               Disclosure: I only recommend products I would use myself and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
               <a className="text-[#3182ce] underline">here.</a>
-            </h1>
+            </h2>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
                 src="aron-kantor-profile.jpg"

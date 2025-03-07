@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Posts = () => {
   const posts = [
     {
-      url: "/last-crumb-cookies",
-      title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+      url: "/last-crumb-cookies-review",
+      title: "Last Crumb Cookies - Luxury Worth Every Bite",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health5.png",
+      image: "last-crumb-cookies-box.png",
       content:
         "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
     },
@@ -27,7 +27,7 @@ const Posts = () => {
     {
       url: "/double-oak-essentials",
       title:
-        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+        "Double Oak Essentials Wallet Review: Slim & Stylish",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",

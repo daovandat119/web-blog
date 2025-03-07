@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,7 +39,7 @@ const PersonalExperience = () => {
           url: "/software-reviews",
         },
       ],
-      title: "Personal Experience with Lovense Products",
+      title: "Lovense Review - My Experience with Smart Toys",
       author: "",
       date: "February 23, 2025",
     },
@@ -118,26 +119,70 @@ const PersonalExperience = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Lovense Review – Best App-Controlled Pleasure Devices</title>
+        <meta
+          name="description"
+          content="Read my Lovense review: high-quality, app-controlled pleasure devices with sleek design and great value."
+        />
+        <meta
+          name="keywords"
+          content="Lovense review, app-controlled toys, Lovense Lush 3, Lovense Max 2, best pleasure devices, Lovense Hush, innovative adult toys"
+        />
+        <link
+          rel="canonical"
+          href="https://www.thebusinessdive.com/health/lovense-pleasure-devices"
+        />
+        <meta
+          property="og:title"
+          content="Lovense Review – Best App-Controlled Pleasure Devices"
+        />
+        <meta
+          property="og:description"
+          content="Explore why Lovense stands out with innovative, high-quality pleasure products in this personal review."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/lovense-final-verdict.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.thebusinessdive.com/health/lovense-pleasure-devices"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Lovense Review – Best App-Controlled Pleasure Devices"
+        />
+        <meta
+          name="twitter:description"
+          content="My experience with Lovense: premium quality and tech-savvy adult toys."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/lovense-final-verdict.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Personal Experience with Lovense Products",
+              "description": "A personal review of Lovense products, highlighting their quality, design, and innovative features.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-23",
+              "image": "https://www.bundlam.com/lovense-final-verdict.png"
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -151,14 +196,20 @@ const PersonalExperience = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
+            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              My Journey with Lovense Pleasure Devices
+            </h2>
             <p>
-              When it comes to high-quality, innovative, and tech-integrated
-              pleasure devices, Lovense stands out as a leading brand. As
-              someone who has tested various products in this niche, I was
-              intrigued by the buzz surrounding Lovense and decided to give
-              their products a try. Here’s my personal experience with Lovense:
+              <span className="work-sans-900">Lovense</span> redefines pleasure
+              with innovative, tech-savvy devices. After exploring this niche, I
+              tested their products—here’s my honest take.
             </p>
-            <img src="health34.png" alt="anh" className="w-full my-10" />
+            <img
+              src="lovense-final-verdict.png"
+              alt="Lovense pleasure devices overview"
+              className="w-full mb-5 object-cover mt-5"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -212,7 +263,12 @@ const PersonalExperience = () => {
               offering app-controlled connectivity that enhances the user
               experience.
             </p>
-            <img src="health29.png" alt="anh" className="w-full my-10" />
+            <img
+              src="lovense-product-overview.png"
+              alt="Lovense product quality and innovation"
+              className="w-full mb-5 object-cover my-5"
+              loading="lazy"
+            />
             <h1
               id="Sleek"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -226,7 +282,12 @@ const PersonalExperience = () => {
               comfort and efficiency. The discreet appearance also makes them
               easy to store and travel-friendly.
             </p>
-            <img src="health30.jpg" alt="anh" className="w-full my-10" />
+            <img
+              src="lovense-quality-tech.jpg"
+              alt="Lovense sleek ergonomic design"
+              className="w-full mb-5 object-cover my-5"
+              loading="lazy"
+            />
             <h1
               id="A"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -260,7 +321,12 @@ const PersonalExperience = () => {
               you are looking for solo pleasure or a way to enhance intimacy
               with a partner.
             </p>
-            <img src="health31.png" alt="anh" className="w-full my-10" />
+            <img
+              src="lovense-ergonomic-design.png"
+              alt="Lovense versatile product range"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h1
               id="Competitive"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -274,7 +340,12 @@ const PersonalExperience = () => {
               reasonable price. Plus, frequent promotions and bundle deals make
               their products more accessible to users.
             </p>
-            <img src="health32.png" alt="anh" className="w-full my-10" />
+            <img
+              src="lovense-product-range.png"
+              alt="Lovense competitive pricing value"
+              className="w-full mb-5 object-cover my-5"
+              loading="lazy"
+            />
             <h1
               id="Why"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -316,16 +387,23 @@ const PersonalExperience = () => {
               innovative, app-controlled device that delivers both pleasure and
               convenience, Lovense is undoubtedly the way to go.
             </p>
-            <img src="health33.png" alt="anh" className="w-full my-10" />
-            <p className="my-5">    
+            <img
+              src="lovense-value-pricing.png"
+              alt="Lovense products final verdict"
+              className="w-full mb-5 object-cover my-5"
+              loading="lazy"
+            />
+            <p className="my-5">
               Get yours today and elevate your intimate moments!{" "}
-              <button
-                onClick={() => window.open("https://www.lovense.com/r/04u669", "_blank")}
+              <a
+                onClick={() =>
+                  window.open("https://www.lovense.com/r/04u669", "_blank")
+                }
                 className="text-[#3182ce] underline"
               >
-                Click here 
-              </button>
-              {" "}to explore Lovense’s full product range.
+                Click here
+              </a>{" "}
+              to explore Lovense’s full product range.
             </p>
           </div>
 

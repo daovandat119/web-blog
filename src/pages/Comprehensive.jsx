@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,8 +39,7 @@ const Comprehensive = () => {
           url: "/software-reviews",
         },
       ],
-      title:
-        "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
+      title: "Litime Products Review - Top Energy Storage Solutions",
       author: "",
       date: "February 23, 2025",
     },
@@ -125,26 +125,75 @@ const Comprehensive = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Litime Products Review: Top Energy Storage Solutions</title>
+        <meta
+          name="description"
+          content="Explore my comprehensive Litime review: the best energy storage solutions with LiFePO4 batteries for solar, RV, and more."
+        />
+        <meta
+          name="keywords"
+          content="Litime review, Litime products, energy storage solutions, LiFePO4 batteries, solar power storage, RV batteries, best energy storage 2025"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/litime-battery-performance"
+        />
+        <meta
+          property="og:title"
+          content="Litime Products Review: Top Energy Storage Solutions"
+        />
+        <meta
+          property="og:description"
+          content="Discover why Litime products lead in energy storage with this detailed review."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/litime-modern-technology.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/litime-battery-performance"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Litime Products Review: Top Energy Storage Solutions"
+        />
+        <meta
+          name="twitter:description"
+          content="My Litime review: top-tier energy storage for solar, RV, and beyond."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/litime-modern-technology.jpg"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "Litime Products Review: Top Energy Storage Solutions",
+              "description": "A detailed review of Litime energy storage products, featuring LiFePO4 batteries and smart technology.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-23",
+              "image": "https://www.bundlam.com/litime-modern-technology.jpg",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "Litime Energy Storage Solutions",
+                "brand": {"@type": "Brand", "name": "Litime"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -158,7 +207,20 @@ const Comprehensive = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="health39.png" alt="anh" className="w-full my-10" />
+            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Why Litime Leads in Energy Storage
+            </h2>
+            <p className="my-5">
+              Looking for reliable energy storage? My{" "}
+              <span className="work-sans-900">Litime review</span> dives into
+              why their LiFePO4 batteries stand out.
+            </p>
+            <img
+              src="litime-energy-storage.png"
+              alt="Litime energy storage solutions"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -247,8 +309,12 @@ const Comprehensive = () => {
                 power is always available.
               </li>
             </ul>
-            <img src="health40.png" alt="anh" className="w-full my-10" />
-            <img src="health41.png" alt="anh" className="w-full my-10" />
+            <img
+              src="litime-battery-performance.png"
+              alt="Litime LiFePO4 battery outperforming traditional batteries"
+              className="w-full my-10 object-cover"
+              loading="lazy"
+            />
             <h2 id="Flexible" class="text-lg font-bold">
               Flexible Applications for Various Needs
             </h2>
@@ -257,7 +323,11 @@ const Comprehensive = () => {
                 <strong>RVs & Mobile Homes:</strong> A perfect solution for long
                 trips, ensuring continuous power supply.
               </li>
-              <img src="health42.png" alt="anh" className="w-full my-10" />
+              <img
+                src="rvs-mobile-homes.png"
+                alt="RVs & Mobile Homes"
+                className="w-full my-10"
+              />
               <li>
                 <strong>Home Solar Power Systems:</strong> Saves electricity
                 bills and enhances energy independence.
@@ -266,7 +336,11 @@ const Comprehensive = () => {
                 <strong>Boats & Yachts:</strong> Provides strong and durable
                 power sources even in harsh environments.
               </li>
-              <img src="health43.png" alt="anh" className="w-full my-10" />
+              <img
+                src="boats-yachts.png"
+                alt="Boats & Yachts"
+                className="w-full my-10"
+              />
               <li>
                 <strong>Emergency Power Supply:</strong> Meets power needs
                 during outages, protecting essential electronics.
@@ -294,7 +368,12 @@ const Comprehensive = () => {
                 tracking of battery status, making power management easier.
               </li>
             </ul>
-            <img src="health44.png" alt="anh" className="w-full my-10" />
+            <img
+              src="litime-modern-technology.png"
+              alt="Litime smart energy products including MPPT controllers and inverters"
+              className="w-full my-10 object-cover"
+              loading="lazy"
+            />
             <h1
               id="Choose"
               className="text-xl work-sans-900 my-5 flex items-center"
@@ -341,7 +420,12 @@ const Comprehensive = () => {
             <p className="my-5">
               Have you ever used Litime products?{" "}
               <button
-                onClick={() => window.open("https://www.litime.com/?ref=hshbhrnr&utm_source=affiliate", "_blank")}
+                onClick={() =>
+                  window.open(
+                    "https://www.litime.com/?ref=hshbhrnr&utm_source=affiliate",
+                    "_blank"
+                  )
+                }
                 className="text-[#3182ce] underline"
               >
                 Click here

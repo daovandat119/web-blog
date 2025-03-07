@@ -101,7 +101,7 @@ const Navbar = () => {
             <ul className="">
               <li>
                 <Link
-                  to="/creativity"
+                  to="/creativity-utility"
                   className="block p-4 hover:bg-[#2d3748] border-b border-gray-800 work-sans-400"
                 >
                   Creativity & Utility
@@ -386,7 +386,7 @@ const Navbar = () => {
               <ul className="pl-4 mt-2 space-y-2 text-base">
                 <li>
                   <Link
-                    to="/creativity"
+                    to="/creativity-utility"
                     className="block py-3"
                     onClick={() => setIsOpen(false)}
                   >

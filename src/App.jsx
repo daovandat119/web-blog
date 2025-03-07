@@ -135,33 +135,33 @@ const App = () => {
           <Route path="/evernote-vs-notion" element={<EvernoteVsNotion />} />
           <Route path="/pdf-editors-for-windows" element={<PdfEditorsForWindows />} />
           <Route path="/adobe-acrobat-alternatives" element={<AdobeAcrobatAternatives />} />
-          <Route path="/goli-ashwagandha" element={<GoliAshwagandha />} />
+          <Route path="/goli-ashwagandha-wellness" element={<GoliAshwagandha />} />
           <Route path="/lifestyle-tips-and-guides" element={<Lifestyle />} />
-          <Route path="/last-crumb-cookies" element={<LastCrumbCookies />} />
+          <Route path="/last-crumb-cookies-review" element={<LastCrumbCookies />} />
           <Route path="/chronic-pain" element={<ChronicPain />} />
           <Route path="/health" element={<Health />} />
           <Route path="/fashion" element={<Fashion />} />
           <Route path="/beauty" element={<Beauty />} />
           <Route path="/double-oak-essentials" element={<DoubleOakEssentials />} />
-          <Route path="/true-dark" element={<TrueDark />} />
-          <Route path="/pickleball" element={<Pickleball />} />
-          <Route path="/personal-experience" element={<PersonalExperience />} />
+          <Route path="/truedark-glasses" element={<TrueDark />} />
+          <Route path="/11six24-pickleball-paddle" element={<Pickleball />} />
+          <Route path="/lovense-pleasure-devices" element={<PersonalExperience />} />
           <Route path="/tradeify-smart-trading-tools-for-profit" element={<Tradeify />} />
-          <Route path="/comprehensive" element={<Comprehensive />} />
-          <Route path="/elevated" element={<Elevated />} />
-          <Route path="/the-hydro-jug" element={<TheHydroJug />} />
+          <Route path="/litime-battery-performance" element={<Comprehensive />} />
+          <Route path="/elevated-faith-apparel" element={<Elevated />} />
+          <Route path="/thehydrojug-hydration-solution" element={<TheHydroJug />} />
           <Route path="/gling" element={<Gling />} />
-          <Route path="/flaskap" element={<FlasKap />} />
+          <Route path="/flaskap-thermal-bottle" element={<FlasKap />} />
           <Route path="/walter-writes" element={<WalterWrites />} />
           <Route path="/locked-in" element={<LockedIn />} />
           <Route path="/financial-information" element={<Financial />} />
           <Route path="/lilac" element={<Lilac />} />
           <Route path="/taja" element={<Taja />} />
-          <Route path="/four" element={<Four />} />
+          <Route path="/four-sigmatic-product-review" element={<Four />} />
           <Route path="/seo-content" element={<SEOContent />} />
           <Route path="/anycubic-3d-printers-2025" element={<Anycubic />} />
-          <Route path="/creativity" element={<CreativityUtility />} />
-          <Route path="/goli-triple" element={<GoliTriple />} />
+          <Route path="/creativity-utility" element={<CreativityUtility />} />
+          <Route path="/goli-triple-action-immune-gummies" element={<GoliTriple />} />
         </Routes>
         <Footer />
       </div>

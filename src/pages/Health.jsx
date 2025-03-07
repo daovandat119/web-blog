@@ -5,69 +5,69 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
-    url: "/goli-triple",
+    url: "/goli-triple-action-immune-gummies",
     title:
-      "Goli Triple Action Immune Gummies – The Ultimate Solution for Stronger Immunity",
+      "Goli Triple Action Immune Gummies – Your Ultimate Immune Support Solution",
     categories: [],
     author: "Aron Kantor",
     date: "May 3, 2025",
-    image: "health83.png",
+    image: "goli-triple-action-immune-gummies-review.png",
     content:
       "In today’s fast-paced life, taking care of our immune system is often overlooked. As someone who works under high pressure, I understand the exhaustion and vulnerability to colds when immunity weakens. After researching various supplements, I decided to try Goli Triple Action Immune Gummies – a convenient, delicious, and effective way to support my immune health.",
   },
   {
-    url: "/four",
+    url: "/four-sigmatic-product-review",
     title:
       "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
     categories: [],
     author: "Aron Kantor",
     date: "February 25, 2025",
-    image: "health75.jpg",
+    image: "four-sigmatic-functional-foods.jpg",
     content:
       "Four Sigmatic is a standout brand in the functional food industry, specializing in products that combine medicinal mushrooms with organic ingredients to support both physical and mental health. Let’s explore the features and real user reviews of Four Sigmatic products.",
   },
   {
-    url: "/goli-ashwagandha",
+    url: "/goli-ashwagandha-wellness",
     title:
       "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
     categories: [],
     author: "Aron Kantor",
     date: "February 21, 2025",
-    image: "health.png",
+    image: "goli-ashwagandha-gummies.png",
     content:
       "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
   },
   {
-    url: "/the-hydro-jug",
+    url: "/thehydrojug-hydration-solution",
     title:
       "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
     categories: [],
     author: "Aron Kantor",
     date: "February 24, 2025",
-    image: "health48.png",
+    image: "thehydrojug-water-bottle.png",
     content:
       "TheHydroJug is a standout brand specializing in large-capacity water bottles, making it easier for you to stay properly hydrated throughout the day. With a convenient design, safe materials, and a variety of accessories, TheHydroJug has quickly become the top choice for fitness enthusiasts, office workers, and anyone looking to maintain a healthy lifestyle.",
   },
   {
-    url: "/flaskap",
+    url: "/flaskap-thermal-bottle",
     title:
       "FlasKap – Revolutionizing the World of Thermal Bottles",
     categories: [],
     author: "Aron Kantor",
     date: "February 24, 2025",
-    image: "health58.jpg",
+    image: "flaskap-thermal-bottle.jpg",
     content:
       "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
   },
   {
-    url: "/last-crumb-cookies",
-    title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+    url: "/last-crumb-cookies-review",
+    title: "Last Crumb Cookies - Luxury Worth Every Bite",
     categories: [],
     author: "Aron Kantor",
     date: "February 21, 2025",
-    image: "health5.png",
+    image: "last-crumb-cookies-box.png",
     content:
-      "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
+      "Looking for a gourmet treat? Last Crumb Cookies deliver luxury at $140 for 12 handcrafted masterpieces, perfect for those who crave unique flavors and impeccable quality.",
   },
 ];
 

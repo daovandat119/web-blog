@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -39,7 +40,7 @@ const DoubleOakEssentials = () => {
         },
       ],
       title:
-        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+        "Double Oak Essentials Wallet Review: Slim & Stylish",
       author: "",
       date: "February 21, 2025",
     },
@@ -111,26 +112,75 @@ const DoubleOakEssentials = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Double Oak Essentials Wallet Review: Slim & Stylish</title>
+        <meta
+          name="description"
+          content="My Double Oak Essentials review: slim wallets that replace bulky ones with style and RFID protection."
+        />
+        <meta
+          name="keywords"
+          content="Double Oak Essentials review, slim wallets, Double Oak wallets, minimalist wallets, RFID wallets, best wallets 2025"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/double-oak-essentials"
+        />
+        <meta
+          property="og:title"
+          content="Double Oak Essentials Wallet Review: Slim & Stylish"
+        />
+        <meta
+          property="og:description"
+          content="Discover why Double Oak Essentials offers the perfect slim wallet solution."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/double-oak-essentials-problems.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/double-oak-essentials"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Double Oak Essentials Wallet Review: Slim & Stylish"
+        />
+        <meta
+          name="twitter:description"
+          content="My review of Double Oak Essentials: sleek wallets with RFID protection."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/double-oak-essentials-problems.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "Double Oak Essentials Wallet Review: Slim & Stylish",
+              "description": "A detailed review of Double Oak Essentials slim wallets with RFID protection.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-21",
+              "image": "https://www.bundlam.com/double-oak-essentials-problems.png",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "Double Oak Essentials Wallet",
+                "brand": {"@type": "Brand", "name": "Double Oak Essentials"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -144,11 +194,22 @@ const DoubleOakEssentials = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="health14.png" alt="anh" className="w-full"/>
-            
-            <h1 class="text-2xl work-sans-900 my-5 flex items-center">
-              Are You Facing These Issues with Your Current Wallet?
-            </h1>
+            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Why Switch to Double Oak Essentials?
+            </h2>
+            <p className="my-5">
+              Tired of bulky wallets? My{" "}
+              <span className="work-sans-900">
+                Double Oak Essentials review
+              </span>{" "}
+              shows how these slim wallets solve your problems.
+            </p>
+            <img
+              src="double-oak-essentials-problems.png"
+              alt="Common bulky wallet issues solved by Double Oak Essentials"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <ul class="list-disc pl-5 py-5">
               <li>
                 Is your wallet too thick, making your pocket feel uncomfortably
@@ -164,9 +225,8 @@ const DoubleOakEssentials = () => {
                 a lack of RFID protection?
               </li>
             </ul>
-            <img src="health15.png.jpg" alt="anh" className="w-full"/>
             <h1 class="text-2xl work-sans-900 my-5 flex items-center">
-            RFID protection?
+              RFID protection?
             </h1>
             <p class="my-5">
               If you’ve been dealing with these problems, it’s time to upgrade
@@ -212,8 +272,6 @@ const DoubleOakEssentials = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            
-
             <h2 id="The" class="text-2xl work-sans-900 my-5 flex items-center">
               The Benefits of Using a Double Oak Essentials Wallet
             </h2>
@@ -224,24 +282,32 @@ const DoubleOakEssentials = () => {
             </p>
             <ul class="list-disc pl-10 py-5">
               <li>
-                 Ultra-thin and lightweight – No more bulky, uncomfortable
+                Ultra-thin and lightweight – No more bulky, uncomfortable
                 pockets.
               </li>
               <li>
-                 Smart organization – Well-designed compartments make it easy
-                to access cards and cash.
+                Smart organization – Well-designed compartments make it easy to
+                access cards and cash.
               </li>
               <li>
-                 RFID protection – Keeps your card information safe from
-                digital theft.
+                RFID protection – Keeps your card information safe from digital
+                theft.
               </li>
               <li>
-                 Premium genuine leather – Feels luxurious and gets better
-                with age.
+                Premium genuine leather – Feels luxurious and gets better with
+                age.
               </li>
             </ul>
-            <img src="health16.png" alt="anh" className="w-full"/>
-            <h2 id="Quality" class="text-2xl work-sans-900 my-5 flex items-center">
+            <img
+              src="double-oak-benefits.jpg"
+              alt="Double Oak Essentials slim wallet benefits"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
+            <h2
+              id="Quality"
+              class="text-2xl work-sans-900 my-5 flex items-center"
+            >
               Quality & Design – When Minimalism Meets Luxury
             </h2>
             <p class="my-5">
@@ -254,28 +320,41 @@ const DoubleOakEssentials = () => {
                 perfect for a sophisticated look.
               </li>
               <li>
-                Founder’s Edition Wallet – Classic brown leather for those
-                who love timeless style.
+                Founder’s Edition Wallet – Classic brown leather for those who
+                love timeless style.
               </li>
               <li>
-                Iceberg Edition Wallet – A unique, minimalist white wallet
-                that stands out effortlessly.
+                Iceberg Edition Wallet – A unique, minimalist white wallet that
+                stands out effortlessly.
               </li>
               <li>
                 Wallet Tracker Card – A smart accessory that helps track your
                 wallet’s location via phone, so you never lose it.
               </li>
             </ul>
-            <img src="health17.png" alt="anh" className="w-full"/>
+            <img
+              src="double-oak-designs.png"
+              alt="Double Oak Essentials wallet designs"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <p class="my-5">
               Each wallet is carefully crafted with high-quality leather, fine
               stitching, and a slim yet functional design.
             </p>
 
             <h2 class="text-2xl work-sans-900 my-5 flex items-center">
-              3. Pricing – Is It Worth the Investment?
+              Pricing – Is It Worth the Investment?
             </h2>
-            <iframe className="w-full h-[300px]" src="https://www.youtube.com/embed/UkCkIFcpdpw" title="Double Oak Essentials Slim Edition Wallets #doubleoakessentials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              className="w-full h-[300px]"
+              src="https://www.youtube.com/embed/UkCkIFcpdpw"
+              title="Double Oak Essentials Slim Edition Wallets #doubleoakessentials"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
             <p class="my-5">
               <span class="work-sans-900">Double Oak Essentials</span> wallets
               range from $50 - $150. While they’re not the cheapest wallets out
@@ -286,7 +365,12 @@ const DoubleOakEssentials = () => {
             <h2 class="text-2xl work-sans-900 my-5 flex items-center">
               Final Verdict – Should You Buy a Double Oak Essentials Wallet?
             </h2>
-            <img src="health18.png" alt="anh" className="w-full"/>
+            <img
+              src="double-oak-essentials-final-verdict.png"
+              alt="Double Oak Essentials slim wallet review conclusion"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <p class="my-5">
               If you’re tired of bulky, low-quality wallets that lack security,{" "}
               <span class="work-sans-900">Double Oak Essentials</span> is the
@@ -295,7 +379,7 @@ const DoubleOakEssentials = () => {
             </p>
 
             <p class="my-5">
-              🔥 Upgrade your wallet today! 
+              🔥 Upgrade your wallet today!
               <a
                 href="https://www.doubleoakessentials.com/fr?sca_ref=7430060.WsR706KbDIey"
                 class="text-[#3182ce] underline"

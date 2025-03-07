@@ -5,30 +5,30 @@ import { Link } from "react-router-dom";
 const Lifestyle = () => {
   const blogPosts = [
     {
-      url: "/four",
+      url: "/four-sigmatic-product-review",
       title:
         "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
       categories: [],
       author: "Aron Kantor",
       date: "February 25, 2025",
-      image: "health75.jpg",
+      image: "four-sigmatic-functional-foods.jpg",
       content:
         "Four Sigmatic is a standout brand in the functional food industry, specializing in products that combine medicinal mushrooms with organic ingredients to support both physical and mental health. Let’s explore the features and real user reviews of Four Sigmatic products.",
     },
     {
-      url: "/goli-ashwagandha",
+      url: "/goli-ashwagandha-wellness",
       title:
         "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health.png",
+      image: "goli-ashwagandha-gummies.png",
       content:
         "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
     },
     
     {
-      url: "/the-hydro-jug",
+      url: "/",
       title:
         "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
       categories: [],
@@ -39,7 +39,7 @@ const Lifestyle = () => {
         "TheHydroJug is a standout brand specializing in large-capacity water bottles, making it easier for you to stay properly hydrated throughout the day. With a convenient design, safe materials, and a variety of accessories, TheHydroJug has quickly become the top choice for fitness enthusiasts, office workers, and anyone looking to maintain a healthy lifestyle.",
     },
     {
-      url: "/flaskap",
+      url: "/flaskap-thermal-bottle",
       title:
         "FlasKap – Revolutionizing the World of Thermal Bottles",
       categories: [],
@@ -50,8 +50,8 @@ const Lifestyle = () => {
         "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
     },
     {
-      url: "/last-crumb-cookies",
-      title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+      url: "/last-crumb-cookies-review",
+      title: "Last Crumb Cookies - Luxury Worth Every Bite",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
@@ -60,9 +60,9 @@ const Lifestyle = () => {
         "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
     },
     {
-      url: "/pickleball",
+      url: "/11six24-pickleball-paddle",
       title:
-        "It's Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
+        "11SIX24 Pickleball Paddles - Boost Your Health",
       categories: [],
       author: "Aron Kantor",
       date: "February 23, 2025",
@@ -71,7 +71,7 @@ const Lifestyle = () => {
         " Are You Losing Your Health Without Realizing It? Modern life keeps gradually neglecting the importance of exercise. The result? Declining health, fatigue, and mental stress. But how can we stay active while enjoying the process?",
     },
     {
-      url: "/personal-experience",
+      url: "/lovense-pleasure-devices",
       title: "Personal Experience with Lovense Products",
       categories: [],
       author: "Aron Kantor",
@@ -81,19 +81,19 @@ const Lifestyle = () => {
         "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
     },
     {
-      url: "/true-dark",
+      url: "/truedark-glasses",
       title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health19.png.jpg",
+      image: "truedark-blue-light-impact.png",
       content:
         "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
     },
     {
       url: "/comprehensive",
       title:
-        "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
+        "Litime Products Review - Top Energy Storage Solutions",
       categories: [],
       author: "Aron Kantor",
       date: "February 23, 2025",
@@ -102,9 +102,9 @@ const Lifestyle = () => {
         "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
     },
     {
-      url: "/elevated",
+      url: "/elevated-faith-apparel",
       title:
-        "Elevated Faith Review: Unique Christian Apparel with Purpose & Impact",
+        "Elevated Faith Review - Christian Apparel with Impact",
       categories: [],
       author: "Aron Kantor",
       date: "February 24, 2025",
@@ -115,7 +115,7 @@ const Lifestyle = () => {
     {
       url: "/double-oak-essentials",
       title:
-        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+        "Double Oak Essentials Wallet Review: Slim & Stylish",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",

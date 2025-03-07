@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -39,7 +40,7 @@ const GoliTriple = () => {
         },
       ],
       title:
-        "Goli Triple Action Immune Gummies – The Ultimate Solution for Stronger Immunity",
+        "Goli Triple Action Immune Gummies – Your Ultimate Immune Support Solution",
       author: "",
       date: "May 3, 2025",
     },
@@ -125,26 +126,73 @@ const GoliTriple = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>
+          Goli Triple Action Immune Gummies – Your Ultimate Immune Support
+        </title>
+        <meta
+          name="description"
+          content="Explore Goli Triple Action Immune Gummies – a tasty, science-backed solution for immune support that’s convenient and effective for all."
+        />
+        <meta
+          name="keywords"
+          content="Goli Triple Action Immune Gummies, immune support gummies, Vitamin C supplements, Zinc gummies, vegan immune supplements, Goli review, healthy immunity"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/goli-triple-action-immune-gummies"
+        />
+        <meta
+          property="og:title"
+          content="Goli Triple Action Immune Gummies – Your Ultimate Immune Support"
+        />
+        <meta
+          property="og:description"
+          content="Boost your immunity with Goli Triple Action Immune Gummies – delicious, vegan, and packed with Vitamin C, D, and Zinc."
+        />
+        <meta
+          property="og:image"
+          content="https://www.thebusinessdive.com/goli-triple-action-immune-gummies-review.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/goli-triple-action-immune-gummies"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Goli Triple Action Immune Gummies – Your Ultimate Immune Support"
+        />
+        <meta
+          name="twitter:description"
+          content="Strengthen your immune system with Goli Triple Action Immune Gummies – tasty and effective!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.thebusinessdive.com/goli-triple-action-immune-gummies-review.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Goli Triple Action Immune Gummies – Your Ultimate Immune Support",
+              "description": "Learn how Goli Triple Action Immune Gummies provide top-notch immune support with a delicious, vegan-friendly formula.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-05-03",
+              "image": "https://www.thebusinessdive.com/goli-triple-action-immune-gummies-action-immune-gummies-review.png"
+            }
+        `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
+            <div className="flex gap-2"></div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -208,118 +256,110 @@ const GoliTriple = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h2
-              id="My"
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
-              My Personal Experience with Goli Triple Action Immune Gummies
+            <h2 id="My" className="text-xl lg:text-2xl work-sans-900 my-6">
+              My Experience with Goli Triple Action Immune Gummies
             </h2>
-            <img src="health83.png" alt="anh" className="w-full mb-5 object-cover" />
+            <img
+              src="goli-triple-action-immune-gummies-review.png"
+              alt="Goli Triple Action Immune Gummies boosting immunity"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <p>
-              I initially chose Goli because of its convenience and delicious
-              taste. Unlike traditional pills, Goli’s gummies make taking
-              supplements enjoyable, making it easier to maintain a daily health
-              routine.
+              I chose{" "}
+              <span className="work-sans-900">
+                Goli Triple Action Immune Gummies
+              </span>{" "}
+              for their convenience and delightful taste. Unlike traditional
+              supplements, these gummies turned my daily health routine into
+              something I actually enjoy.
             </p>
             <p className="pt-5">
-              After over a month of use, I noticed significant improvements in
-              my well-being:
+              After using Goli Triple Action Immune Gummies for over a month, I
+              noticed remarkable changes:
             </p>
-
-            <ul className="list-disc pl-5 py-5">
+            <ul className="list-disc pl-6 py-5 space-y-2">
               <li>
-                <span className="work-sans-900">Fewer colds & flu:</span> I used
-                to get sick frequently with weather changes, but since taking
-                Goli, this has drastically reduced.
+                <strong>Fewer colds & flu:</strong> Weather changes used to
+                knock me out, but Goli has kept me healthy and resilient.
               </li>
               <li>
-                <span className="work-sans-900">More energy & alertness:</span>{" "}
-                The combination of{" "}
-                <span className="work-sans-900">Vitamin C, D, and Zinc</span>{" "}
-                strengthened my immune system, helping me feel more energized
-                throughout the day.
+                <strong>More energy & alertness:</strong> Thanks to{" "}
+                <span className="work-sans-900">Vitamin C, D, and Zinc</span>, I
+                feel energized all day long.
               </li>
               <li>
+                <strong>Better digestion & reduced inflammation:</strong> The{" "}
                 <span className="work-sans-900">
-                  Better digestion & anti-inflammatory benefits:
+                  turmeric and ginger extracts
                 </span>{" "}
-                With{" "}
-                <span className="work-sans-900">
-                  turmeric and ginger extracts,
-                </span>{" "}
-                my digestion improved, and bloating became less frequent.
+                eased bloating and improved my gut health.
               </li>
               <li>
-                <span className="work-sans-900">
-                  Delicious taste & easy to consume:
-                </span>{" "}
-                The natural fruit flavor is pleasant, without being overly sweet
-                or chewy.
+                <strong>Delicious & easy to take:</strong> The natural fruit
+                flavor is a treat – no chalky aftertaste or sticky texture.
               </li>
             </ul>
 
             <h2
               id="Outstanding"
-              className="text-xl work-sans-900 my-5 flex items-center"
+              className="text-xl lg:text-2xl work-sans-900 my-6"
             >
-              Outstanding Benefits of Goli Triple Action Immune Gummies
+              Key Benefits of Goli Triple Action Immune Gummies
             </h2>
-            <img src="health84.png" alt="anh" className="w-full object-cover" />
-            <ul className="list-disc pl-5 py-5">
+            <img
+              src="goli-triple-action-benefits.png"
+              alt="Benefits of Goli Triple Action Immune Gummies"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
+            <ul className="list-disc pl-6 py-5 space-y-3">
               <li id="Scientifically">
-                <strong>
-                  Scientifically Backed Formula for Maximum Immune Support
-                </strong>
-                <br />
-                Goli combines{" "}
+                <strong>Science-Backed Immune Support:</strong> Goli Triple
+                Action Immune Gummies combine{" "}
                 <span className="work-sans-900">
                   Vitamin C, D, Zinc, and plant extracts
                 </span>{" "}
-                to boost antibody production and shield the body from harmful
-                agents.
+                to enhance antibody production and protect against harmful
+                pathogens.
               </li>
               <li id="Convenient">
-                <strong>Convenient – Take It Anywhere, Anytime</strong>
-                <br />
-                No water, no mixing required – just chew{" "}
-                <span className="work-sans-900">two gummies a day</span> to get
-                essential immune-boosting nutrients.
+                <strong>Convenient Anytime, Anywhere:</strong> Just chew{" "}
+                <span className="work-sans-900">two gummies daily</span> – no
+                water or prep needed for instant immune support.
               </li>
               <li id="Antioxidant">
-                <strong>Antioxidant & Full-Body Health Support</strong>
-                <br />
-                Ingredients like{" "}
+                <strong>Antioxidant & Full-Body Wellness:</strong> With{" "}
                 <span className="work-sans-900">
-                  elderberry, turmeric, and ginger{" "}
+                  elderberry, turmeric, and ginger
                 </span>
-                help combat free radicals, reduce inflammation, and support
-                healthy skin.
+                , these gummies fight free radicals and promote healthy skin.
               </li>
               <li id="Safe">
-                <strong>100% Safe & Free from Harmful Ingredients</strong>
-                <br />
-                ✔ Gluten-free <br />
-                ✔ Non-GMO <br />
-                ✔ No artificial colors <br />✔ 100% vegan-friendly, suitable for
-                various diets
+                <strong>100% Safe & Clean Ingredients:</strong> Gluten-free,
+                non-GMO, vegan-friendly, and free of artificial colors – perfect
+                for any lifestyle.
               </li>
             </ul>
-            <img src="health85.jpg" alt="anh" className="w-full object-cover" />
-            <h2
-              id="Choose"
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
-              Why Choose Goli Triple Action Immune Gummies?
+            <img src="goli-triple-action-safe-ingredients.jpg" alt="Goli Triple Action Immune Gummies with safe, vegan ingredients" className="w-full object-cover" />
+            <h2 id="Choose" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Why Goli Triple Action Immune Gummies Stand Out
             </h2>
-
-            <table className="table-auto w-full">
+            <p className="mb-5">
+              Looking for a reliable immune supplement? Here’s why{" "}
+              <span className="work-sans-900">
+                Goli Triple Action Immune Gummies
+              </span>{" "}
+              outperform traditional options.
+            </p>
+            <table className="table-auto w-full border-collapse">
               <thead>
-                <tr>
-                  <th className="border px-4 py-2">Feature</th>
-                  <th className="border px-4 py-2">
+                <tr className="bg-gray-100">
+                  <th className="border px-4 py-2 text-left">Feature</th>
+                  <th className="border px-4 py-2 text-left">
                     Goli Triple Action Immune Gummies ✅
                   </th>
-                  <th className="border px-4 py-2">
+                  <th className="border px-4 py-2 text-left">
                     Traditional Immune Supplements ❌
                   </th>
                 </tr>
@@ -328,37 +368,38 @@ const GoliTriple = () => {
                 <tr>
                   <td className="border px-4 py-2">Effectiveness</td>
                   <td className="border px-4 py-2">
-                    ✅ Triple-action formula for full immune support
+                    ✅ Triple-action formula with Vitamin C, D, and Zinc for
+                    full immune support
                   </td>
                   <td className="border px-4 py-2">
-                    ❌ Focuses only on Vitamin C or Zinc
+                    ❌ Often limited to just Vitamin C or Zinc
                   </td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Taste</td>
                   <td className="border px-4 py-2">
-                    ✅ Delicious, easy to chew, no water needed
+                    ✅ Delicious fruit flavor, easy to chew, no water needed
                   </td>
                   <td className="border px-4 py-2">
-                    ❌ Often bland or hard to swallow
+                    ❌ Bland pills or hard-to-swallow tablets
                   </td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Convenience</td>
                   <td className="border px-4 py-2">
-                    ✅ Gummy format, easy to carry anywhere
+                    ✅ Portable gummy format, perfect for on-the-go
                   </td>
                   <td className="border px-4 py-2">
-                    ❌ Requires water, easy to forget
+                    ❌ Requires water and planning
                   </td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Safety</td>
                   <td className="border px-4 py-2">
-                    ✅ Free from preservatives, 100% vegan
+                    ✅ Vegan, gluten-free, no artificial additives
                   </td>
                   <td className="border px-4 py-2">
-                    ❌ Some contain artificial colors & additives
+                    ❌ May include synthetic colors or fillers
                   </td>
                 </tr>
               </tbody>
@@ -384,17 +425,17 @@ const GoliTriple = () => {
 
             <p className="mt-5">
               👉 Try{" "}
-              <button
+              <a
                 onClick={() =>
                   window.open(
                     "https://goli.com/?discount_code=pricings",
                     "_blank"
                   )
                 }
-                className="text-[#3182ce] underline"
+                className="text-[#3182ce] underline word-sans-900"
               >
                 Goli Triple
-              </button>{" "}
+              </a>{" "}
               Action Immune Gummies today and strengthen your immune system
               effortlessly!
             </p>

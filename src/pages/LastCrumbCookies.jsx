@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,7 +39,7 @@ const LastCrumbCookies = () => {
           url: "/software-reviews",
         },
       ],
-      title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+      title: "Last Crumb Cookies - Luxury Worth Every Bite",
       author: "",
       date: "February 21, 2025",
     },
@@ -110,26 +111,70 @@ const LastCrumbCookies = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Last Crumb Cookies Review – Luxury Gourmet Treats</title>
+        <meta
+          name="description"
+          content="Explore our Last Crumb Cookies review – premium, handcrafted cookies offering bold flavors and luxury indulgence."
+        />
+        <meta
+          name="keywords"
+          content="Last Crumb Cookies, luxury cookies, gourmet cookie review, handcrafted cookies, premium desserts, Last Crumb flavors, indulgent treats"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/last-crumb-cookies-review"
+        />
+        <meta
+          property="og:title"
+          content="Last Crumb Cookies Review – Luxury Gourmet Treats"
+        />
+        <meta
+          property="og:description"
+          content="Discover why Last Crumb Cookies are worth every bite with their unique flavors and premium quality."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/last-crumb-cookies-box.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/last-crumb-cookies-review"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Last Crumb Cookies Review – Luxury Gourmet Treats"
+        />
+        <meta
+          name="twitter:description"
+          content="Read our review of Last Crumb Cookies, the ultimate luxury dessert experience."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/last-crumb-cookies-box.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Last Crumb Cookies - Luxury Worth Every Bite",
+              "description": "A detailed review of Last Crumb Cookies, premium handcrafted treats with bold flavors and luxury appeal.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-21",
+              "image": "https://www.bundlam.com/last-crumb-cookies-box.png""
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -143,18 +188,23 @@ const LastCrumbCookies = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <h1 className="mt-10">
-              If you’re searching for a premium culinary experience where each
-              cookie is not just a treat but a masterpiece,{" "}
-              <span className="work-sans-900">Last Crumb</span> is for you. With
-              a price tag of $140 for a box of 12, these aren’t your average
-              cookies—they are a luxurious indulgence, crafted for those who
-              appreciate unique flavors and perfection in every detail.
-            </h1>
-            <br />
-            <img src="health5.png" alt="anh" />
+            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Last Crumb Cookies: A Premium Dessert Experience
+            </h2>
+            <p>
+              Looking for a gourmet treat?{" "}
+              <span className="work-sans-900">Last Crumb Cookies</span> deliver
+              luxury at $140 for 12 handcrafted masterpieces, perfect for those
+              who crave unique flavors and impeccable quality.
+            </p>
+            <img
+              src="last-crumb-cookies-box.png"
+              alt="Last Crumb Cookies luxury packaging"
+              className="w-full mb-5 object-cover py-5"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -191,155 +241,91 @@ const LastCrumbCookies = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h1
-              id="Quality"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Quality – The Pinnacle of Handcrafted Excellence
-            </h1>
-            A box of Last Crumb isn’t just a product—it’s an art piece. Packaged
-            in a sleek, elegant black box, each cookie is individually wrapped
-            to maintain its freshness and texture upon arrival.
-            <br />
-            <br />
-            From texture to ingredients, every element is meticulously crafted:
-            <ul className="list-disc pl-5 py-5">
-              <li>
-                Perfect texture – A delicate crunch on the outside, soft and
-                gooey on the inside.
-              </li>
-              <li>
-                Premium ingredients – Featuring imported butter, high-quality
-                chocolate, and carefully selected nuts.
-              </li>
-              <li>
-                Handmade perfection – Each cookie is crafted with precision,
-                unlike mass-produced alternatives.
-              </li>
-            </ul>
-            <img src="health6.png" alt="anh" />
-            <h1
-              id="Flavor"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Flavor – A Journey of Sensory Delight
-            </h1>
-            What sets <span className="work-sans-900">Last Crumb</span> apart is
-            its collection of bold, innovative flavors, delivering more than
-            just taste—they create a memorable culinary experience:
-            <ul className="list-disc pl-5 py-5">
-              <li>
-                “The Madonna” (Red Velvet) – A rich red velvet cookie infused
-                with velvety white chocolate for a sophisticated and decadent
-                treat.
-              </li>
-              <li>
-                “Better Than Sex” (Chocolate Chip) – A classic taken to the next
-                level, featuring a crisp exterior with a molten, gooey chocolate
-                center that’s downright addictive.
-              </li>
-              <li>
-                “The Floor Is Lava” (Molten Chocolate Lava) – If you love lava
-                cake, this cookie will win your heart with its luxurious melted
-                chocolate filling.
-              </li>
-              <li>
-                “Oh, Baby” (Ube) – A unique twist with a creamy ube (purple yam)
-                filling, delivering a new yet irresistibly satisfying taste.
-              </li>
-            </ul>
-            Each cookie strikes the perfect balance of sweetness, richness, and
-            texture, making it impossible to stop at just one bite.
-            <br />
-            <br />
-            <img src="health7.png" alt="anh" className="w-full" />
-            <h1
-              id="Value"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Value – More Than Just a Cookie, It’s an Experience
-            </h1>
-            Why is
-            <span className="work-sans-900"> Last Crumb</span> worth the
-            investment?
-            <br />
-            <ul className="list-disc pl-5 py-5">
-              <li>
-                A gourmet experience: Unlike ordinary cookies, each Last Crumb
-                cookie feels like a Michelin-star dessert in every bite
-              </li>
-              <li>
-                The perfect gift: With its luxurious packaging and outstanding
-                quality, it’s an impressive gift for colleagues, friends, or
-                loved ones on special occasions.
-              </li>
-              <li>
-                For those who appreciate the finer things: If you have a taste
-                for the extraordinary,{" "}
-                <span className="work-sans-900"> Last Crumb</span> will not
-                disappoint.
-              </li>
-            </ul>
-            <img src="health8.png" alt="anh" />
-            <h1
-              id="Conclusion"
-              className="text-xl work-sans-900 my-5 flex items-center"
-            >
-              Conclusion – A Decadent Choice for Those Who Love Indulgence
-            </h1>
-            <span className="work-sans-900"> Last Crumb</span> is more than just
-            cookies—it’s an experience of pure indulgence. It satisfies your
-            taste buds, excites your senses, and lets you enjoy a touch of
-            luxury right at home.
-            <ul className="list-disc pl-5 pb-5">
-              <li>
-                If you want to treat yourself to something truly special, this
-                is the perfect choice.
-              </li>
-              <li>
-                If you’re looking for a premium gift that will leave a lasting
-                impression, <span className="work-sans-900"> Last Crumb</span>{" "}
-                stands above the rest.
-              </li>
-              <li>
-                If you appreciate craftsmanship, uniqueness, and excellence in
-                every detail, these cookies will exceed your expectations.
-              </li>
-            </ul>
-            One box, one unforgettable experience—
-            <span className="work-sans-900">Last Crumb</span> is the kind of
-            luxury everyone should try at least once.
-            <br />
-            <br />
-            Ready to experience the ultimate luxury in cookies?
-            <br />
-            <br />
-            <button
-              onClick={() =>
-                window.open(
-                  "https://lastcrumb.com/?snowball=ANTONY69667",
-                  "_blank"
-                )
-              }
-              className="text-[#3182ce] underline"
-            >
-              Click Here
-            </button>{" "}
-            below to get your box of Last Crumb and indulge in the most decadent
-            treat ever!
-          </div>
+  <h2 id="Quality" className="text-2xl work-sans-900 my-5 flex items-center">
+    Quality – The Pinnacle of Handcrafted Excellence
+  </h2>
+  <p className="my-5">
+    A box of Last Crumb isn’t just a product—it’s an art piece. Packaged in a sleek, elegant black box, each cookie is individually wrapped to maintain its freshness and texture upon arrival.
+  </p>
+  <p className="my-5">
+    From texture to ingredients, every element is meticulously crafted:
+  </p>
+  <ul className="list-disc pl-5 py-5">
+    <li>Perfect texture – A delicate crunch on the outside, soft and gooey on the inside.</li>
+    <li>Premium ingredients – Featuring imported butter, high-quality chocolate, and carefully selected nuts.</li>
+    <li>Handmade perfection – Each cookie is crafted with precision, unlike mass-produced alternatives.</li>
+  </ul>
+  <img src="last-crumb-cookie-texture.png" alt="Last Crumb Cookies handcrafted quality" className="w-full mb-5 object-cover" loading="lazy" />
+  
+  <h2 id="Flavor" className="text-2xl work-sans-900 my-5 flex items-center">
+    Flavor – A Journey of Sensory Delight
+  </h2>
+  <p className="my-5">
+    What sets <span className="work-sans-900">Last Crumb</span> apart is its collection of bold, innovative flavors, delivering more than just taste—they create a memorable culinary experience:
+  </p>
+  <ul className="list-disc pl-5 py-5">
+    <li>“The Madonna” (Red Velvet) – A rich red velvet cookie infused with velvety white chocolate for a sophisticated and decadent treat.</li>
+    <li>“Better Than Sex” (Chocolate Chip) – A classic taken to the next level, featuring a crisp exterior with a molten, gooey chocolate center that’s downright addictive.</li>
+    <li>“The Floor Is Lava” (Molten Chocolate Lava) – If you love lava cake, this cookie will win your heart with its luxurious melted chocolate filling.</li>
+    <li>“Oh, Baby” (Ube) – A unique twist with a creamy ube (purple yam) filling, delivering a new yet irresistibly satisfying taste.</li>
+  </ul>
+  <p className="my-5">
+    Each cookie strikes the perfect balance of sweetness, richness, and texture, making it impossible to stop at just one bite.
+  </p>
+  <img src="last-crumb-flavors.png" alt="Last Crumb Cookies flavor variety" className="w-full mb-5 object-cover" loading="lazy" />
+  
+  <h2 id="Value" className="text-2xl work-sans-900 my-5 flex items-center">
+    Value – More Than Just a Cookie, It’s an Experience
+  </h2>
+  <p className="my-5">
+    Why is <span className="work-sans-900"> Last Crumb</span> worth the investment?
+  </p>
+  <ul className="list-disc pl-5 py-5">
+    <li>A gourmet experience: Unlike ordinary cookies, each Last Crumb cookie feels like a Michelin-star dessert in every bite.</li>
+    <li>The perfect gift: With its luxurious packaging and outstanding quality, it’s an impressive gift for colleagues, friends, or loved ones on special occasions.</li>
+    <li>For those who appreciate the finer things: If you have a taste for the extraordinary, <span className="work-sans-900"> Last Crumb</span> will not disappoint.</li>
+  </ul>
+  <img src="last-crumb-gift-box.jpg" alt="Last Crumb Cookies as a luxury gift" className="w-full mb-5 object-cover" loading="lazy" />
+  
+  <h2 id="Conclusion" className="text-xl work-sans-900 my-5 flex items-center">
+    Conclusion – A Decadent Choice for Those Who Love Indulgence
+  </h2>
+  <p className="my-5">
+    <span className="work-sans-900"> Last Crumb</span> is more than just cookies—it’s an experience of pure indulgence. It satisfies your taste buds, excites your senses, and lets you enjoy a touch of luxury right at home.
+  </p>
+  <ul className="list-disc pl-5 pb-5">
+    <li>If you want to treat yourself to something truly special, this is the perfect choice.</li>
+    <li>If you’re looking for a premium gift that will leave a lasting impression, <span className="work-sans-900"> Last Crumb</span> stands above the rest.</li>
+    <li>If you appreciate craftsmanship, uniqueness, and excellence in every detail, these cookies will exceed your expectations.</li>
+  </ul>
+  <p className="my-5">
+    One box, one unforgettable experience—<span className="work-sans-900">Last Crumb</span> is the kind of luxury everyone should try at least once.
+  </p>
+  
+    Ready to experience the ultimate luxury in cookies? { " " }
+
+  <a
+    onClick={() =>
+      window.open("https://lastcrumb.com/?snowball=ANTONY69667", "_blank")
+    }
+    className="text-[#3182ce] underline"
+  >
+    Click Here
+  </a>
+</div>
+
 
           {/* phần bốn */}
 
           {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
+            <h2 className="italic my-7">
               Disclosure: I only recommend products I would use myself and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
               <a className="text-[#3182ce] underline">here.</a>
-            </h1>
+            </h2>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
                 src="aron-kantor-profile.jpg"
@@ -347,17 +333,17 @@ const LastCrumbCookies = () => {
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
                   Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
             <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">

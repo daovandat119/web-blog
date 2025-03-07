@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -118,26 +119,72 @@ const GoliAshwagandha = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>
+          Goli Ashwagandha Review – Boost Mental & Physical Wellness
+        </title>
+        <meta
+          name="description"
+          content="Discover how Goli Ashwagandha gummies with KSM-66® support stress relief, focus, sleep, and physical health naturally."
+        />
+        <meta
+          name="keywords"
+          content="Goli Ashwagandha, KSM-66 Ashwagandha, stress relief gummies, mental wellness, physical health supplements, Goli review, natural sleep aid"
+        />
+        <link
+          rel="canonical"
+          href="https://www.thebusinessdive.com/health/goli-ashwagandha-wellness"
+        />
+        <meta
+          property="og:title"
+          content="Goli Ashwagandha Review – Boost Mental & Physical Wellness"
+        />
+        <meta
+          property="og:description"
+          content="Learn how Goli Ashwagandha gummies support stress relief, focus, and sleep with natural KSM-66® Ashwagandha."
+        />
+        <meta
+          property="og:image"
+          content="https://www.thebusinessdive.com/goli-ashwagandha-review.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.thebusinessdive.com/health/goli-ashwagandha-wellness"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Goli Ashwagandha Review – Boost Mental & Physical Wellness"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore Goli Ashwagandha’s benefits for stress, focus, and sleep in this detailed review."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.thebusinessdive.com/goli-ashwagandha-review.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
+              "description": "A review of Goli Ashwagandha gummies, featuring KSM-66® for stress relief, focus, sleep, and physical health.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-21",
+              "image": "https://www.thebusinessdive.com/goli-ashwagandha-review.png"
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -151,14 +198,19 @@ const GoliAshwagandha = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="health.png" alt="anh" className="w-full"/>
-            <h1 className="mt-10">
-              Goli Ashwagandha is a supplement made from Ashwagandha, an herb
-              renowned in Ayurveda for its adaptogenic properties. This product
-              is designed to support overall health, especially helping to
-              improve your body's ability to cope with stress and maintain
-              balance in everyday life.
-            </h1>
+            <img
+              src="goli-ashwagandha-gummies.png"
+              alt="Goli Ashwagandha gummies for wellness"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
+            <p className="mt-5">
+              <span className="work-sans-900">Goli Ashwagandha</span> gummies,
+              powered by KSM-66® Ashwagandha, offer a natural way to support
+              mental and physical wellness. This adaptogenic herb, rooted in
+              Ayurveda, helps reduce stress, boost focus, and improve sleep
+              quality – all in a delicious gummy form.
+            </p>
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -197,252 +249,192 @@ const GoliAshwagandha = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h1
+            <h2
               id="Ashwagandha"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-xl lg:text-2xl work-sans-900 my-6"
             >
-              Ashwagandha – Supporting Stress Reduction
-            </h1>
-            Goli Ashwagandha uses KSM-66® Ashwagandha, a standardized extract of
-            this herb. KSM-66® Ashwagandha has been researched and proven to
-            support stress management. Studies show that Ashwagandha can help
-            the body better adapt to stressors, leading to a sense of relaxation
-            and comfort. It works hand in hand with other Goli products, such as{" "}
-            <span className="work-sans-900">Goli Sleep Gummies</span>
-            , which help enhance your ability to rest and recover, complementing
-            the stress-reducing benefits of Ashwagandha for better mental and
-            physical wellness.
-            <br />
-            <br />
-            <h1
+              Stress Relief with Goli Ashwagandha
+            </h2>
+            <p>
+              <span className="work-sans-900">Goli Ashwagandha</span> harnesses
+              KSM-66® Ashwagandha, a clinically proven extract known for its
+              adaptogenic benefits. Studies show it reduces stress, promotes
+              relaxation, and supports mental wellness. Pair it with{" "}
+              <span className="work-sans-900">Goli Sleep Gummies</span> for
+              enhanced rest and recovery.
+            </p>
+
+            <h2
               id="Supporting"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-xl lg:text-2xl work-sans-900 my-6"
             >
-              Supporting Physical Health with Ashwagandha
-            </h1>
-            KSM-66 Ashwagandha in Goli Ashwagandha may also help improve
-            physical endurance. Research suggests that Ashwagandha extract can
-            help enhance muscle strength and speed up recovery after workouts.
-            If you enjoy physical activities, Ashwagandha can be a natural
-            option to support your training and recovery. This works in synergy
-            with{" "}
-            <span className="work-sans-900">Goli Supergreens Gummies,</span>
-            which provide additional support for overall energy, vitality, and
-            muscle recovery, giving you the fuel to power through your workouts.
-            <br />
-            <br />
-            <img src="health2.png" alt="anh" />
-            <br />
-            <br />
-            <h1
+              Boost Physical Health with Goli Ashwagandha
+            </h2>
+            <p>
+              Featuring KSM-66® Ashwagandha,{" "}
+              <span className="work-sans-900">Goli Ashwagandha</span> supports
+              physical endurance and muscle recovery. Research highlights its
+              ability to improve strength and vitality. Combine it with{" "}
+              <span className="work-sans-900">Goli Supergreens Gummies</span>{" "}
+              for added energy and overall health.
+            </p>
+            <img
+              src="goli-ashwagandha-physical-health.png"
+              alt="Goli Ashwagandha supporting physical endurance"
+              className="w-full mb-5 object-cover py-5"
+              loading="lazy"
+            />
+
+            <h2
               id="Calmness"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-xl lg:text-2xl work-sans-900 my-6"
             >
-              Ashwagandha Helps Maintain Focus and Calmness
-            </h1>
-            Ashwagandha, particularly KSM-66® Ashwagandha, is also known for its
-            ability to support mental wellness. Studies suggest that this
-            extract can help maintain focus and promote a sense of calm, helping
-            you improve your mental clarity for work or daily tasks. Together
-            with{" "}
-            <span className="work-sans-900">
-              Goli Apple Cider Vinegar Gummies,
-            </span>{" "}
-            which support metabolism and digestive health, these supplements can
-            help maintain both your physical and mental wellness, keeping you
-            balanced throughout the day.
-            <br />
-            <br />
-            <h1
-              id="Supporting"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Supporting Better Sleep with Ashwagandha
-            </h1>
+              Focus and Calmness with Goli Ashwagandha
+            </h2>
+            <p>
+              KSM-66® in <span className="work-sans-900">Goli Ashwagandha</span>{" "}
+              enhances mental clarity and calmness. It’s perfect for staying
+              focused during busy days. Pair it with{" "}
+              <span className="work-sans-900">
+                Goli Apple Cider Vinegar Gummies
+              </span>{" "}
+              for digestion and metabolic support.
+            </p>
+
+            <h2 id="Sleep" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Better Sleep with Goli Ashwagandha
+            </h2>
             <iframe
               className="w-full h-[300px]"
               src="https://www.youtube.com/embed/IspjXT2pk-w"
-              title="Naturally Support Your Mental and Physical Wellness #goligummy #goli #goliashwagandha"
-              frameborder="0"
+              title="Goli Ashwagandha Review – Support Mental and Physical Wellness"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <br />
-            One of the side benefits of Ashwagandha is its ability to support
-            sleep. KSM-66® Ashwagandha helps the body relax, which may improve
-            sleep quality, allowing you to achieve a deeper, more restful
-            night’s sleep. This product could be a useful choice for those who
-            struggle to get a good night’s rest. When paired with{" "}
-            <span className="work-sans-900">Goli Sleep Gummies,</span> which
-            feature melatonin and other calming ingredients, your sleep routine
-            is further enhanced, ensuring you wake up refreshed and rejuvenated.
-            <br />
-            <br />
-            <img src="health3.png" alt="anh" />
-            <br />
-            <br />
-            <h1
-              id="Quality"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Quality and Safety
-            </h1>
-            <span className="work-sans-900">Goli Ashwagandha</span>
-            uses KSM-66® Ashwagandha, a well-researched and standardized
-            ingredient to ensure effectiveness and safety for long-term use.
-            This product is designed to support overall wellness without side
-            effects, making it easy to incorporate into your daily health
-            routine. Along with other Goli products like{" "}
-            <span className="work-sans-900">
-              Goli Supergreens Gummies
-            </span> and{" "}
-            <span className="work-sans-900">
-              Goli Apple Cider Vinegar Gummies,
-            </span>{" "}
-            it provides a comprehensive approach to boosting your wellness in a
-            convenient and delicious gummy format.
-            <br />
-            <br />
-            <h1
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              loading="lazy"
+            />
+            <p className="mt-5">
+              <span className="work-sans-900">Goli Ashwagandha</span> with
+              KSM-66® promotes relaxation and better sleep quality. Combined
+              with <span className="work-sans-900">Goli Sleep Gummies</span>,
+              it’s a natural solution for restful nights.
+            </p>
+            <img
+              src="goli-ashwagandha-sleep.png"
+              alt="Goli Ashwagandha for better sleep"
+              className="w-full mb-5 object-cover py-5"
+              loading="lazy"
+            />
+
+            <h2 id="Quality" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Quality and Safety of Goli Ashwagandha
+            </h2>
+            <p>
+              <span className="work-sans-900">Goli Ashwagandha</span> uses
+              KSM-66®, a high-quality, safe extract for long-term use. It’s free
+              of side effects and complements{" "}
+              <span className="work-sans-900">Goli Supergreens</span> and{" "}
+              <span className="work-sans-900">
+                Goli Apple Cider Vinegar Gummies
+              </span>{" "}
+              for holistic wellness.
+            </p>
+            <h2
               id="Conclusion"
-              className="text-xl work-sans-900 my-5 flex items-center"
+              className="text-xl lg:text-2xl work-sans-900 my-6"
             >
-              Conclusion
-            </h1>
-            Goli Ashwagandha is a natural herb supplement that can help reduce
-            stress, maintain physical and mental wellness, and support overall
-            health.If you need this please{" "}
-            <button
-              onClick={() =>
-                window.open(
-                  "https://goli.com/?discount_code=pricings",
-                  "_blank"
-                )
-              }
-              className="text-[#3182ce] underline"
-            >
-              Click Here
-            </button>{" "}
-            With its primary ingredient being KSM-66® Ashwagandha, it could be
-            the perfect addition to your daily routine. Paired with other Goli
-            products,{" "}
-            <span className="work-sans-900">Goli Supergreens Gummies</span> and{" "}
-            <span className="work-sans-900">
-              Goli Apple Cider Vinegar Gummies,
-            </span>{" "}
-            you can create a holistic wellness routine to support all areas of
-            your health. Try Goli Ashwagandha today to experience the benefits
-            it brings to your life!
-            <br />
-            <br />
-            <h1
-              id="Explore"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Explore More Goli Products:
-            </h1>
-            <img src="health4.png" alt="anh" />
-            <br />
-            <br />
-            In addition to{" "}
-            <span className="work-sans-900">Goli Ashwagandha,</span> Goli offers
-            a range of other supplements designed to support various aspects of
-            your wellness journey:
-            <ul className="list-disc pl-5 py-5">
+              Conclusion: Is Goli Ashwagandha Worth It?
+            </h2>
+            <p>
+              <span className="work-sans-900">Goli Ashwagandha</span> offers a
+              natural way to reduce stress, enhance physical health, and improve
+              sleep with KSM-66®. Pair it with{" "}
+              <span className="work-sans-900">Goli Supergreens</span> and{" "}
+              <span className="work-sans-900">
+                Goli Apple Cider Vinegar Gummies
+              </span>{" "}
+              for a complete wellness routine.{" "}
+
+              <a
+                onClick={() =>
+                  window.open(
+                    "https://goli.com/?discount_code=pricings",
+                    "_blank"
+                  )
+                }
+                className="text-[#3182ce] underline word-sans-900"
+              >
+                  Try Goli Ashwagandha Now
+              </a>{" "}
+            </p>
+
+            <h2 id="Explore" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Explore More Goli Wellness Products
+            </h2>
+            <img
+              src="goli-product-range.png"
+              alt="Goli Ashwagandha and other wellness gummies"
+              className="w-full mb-5 object-cover py-5"
+              loading="lazy"
+            />
+            <ul className="list-disc pl-6 py-5 space-y-2">
               <li>
-                <span className="work-sans-900">
-                  Goli Apple Cider Vinegar Gummies:
-                </span>{" "}
-                A convenient way to incorporate apple cider vinegar into your
-                routine, known for supporting digestion, metabolism, and overall
-                health.
+                <strong>Goli Apple Cider Vinegar Gummies:</strong> Supports
+                digestion and metabolism.
               </li>
               <li>
-                <span className="work-sans-900">Goli Supergreens Gummies:</span>{" "}
-                Packed with vitamins and minerals from superfoods, this
-                supplement is designed to support immune health, energy levels,
-                and detoxification.
+                <strong>Goli Supergreens Gummies:</strong> Boosts energy and
+                immunity with superfoods.
               </li>
               <li>
-                <span className="work-sans-900">Goli Sleep Gummies: </span> With
-                melatonin and other natural ingredients, these gummies are
-                formulated to help you wind down and enjoy a restful night’s
-                sleep.
+                <strong>Goli Sleep Gummies:</strong> Enhances rest with
+                melatonin.
               </li>
             </ul>
-            <h1
-              id="Notes"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Notes when using
-            </h1>
-            <ul className="list-disc pl-5 py-5">
-              <li>
-                Do not use for children under 4 years old, pregnant or lactating
-                women.
-              </li>
-              <li>People who are taking medication should consult a doctor.</li>
-              <li>
-                Store in a cool, dry place, tightly closed to prevent the candy
-                from melting and changing color.
-              </li>
-              <li>Do not replace medicine.</li>
+
+            <h2 id="Notes" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Usage Notes for Goli Ashwagandha
+            </h2>
+            <ul className="list-disc pl-6 py-5 space-y-2">
+              <li>Not for children under 4, pregnant, or lactating women.</li>
+              <li>Consult a doctor if on medication.</li>
+              <li>Store in a cool, dry place to maintain quality.</li>
+              <li>Not a substitute for medicine.</li>
             </ul>
-            Whether you're looking to improve your physical endurance, boost
-            your immune system, or enhance your sleep quality, Goli has a
-            product that fits your needs.
-            <h1
-              id="Try"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Try it now and feel the difference!
-            </h1>
-            Don’t miss the opportunity to take care of your health—
-            <button
-              onClick={() =>
-                window.open(
-                  "https://goli.com/?discount_code=pricings",
-                  "_blank"
-                )
-              }
-              className="text-[#3182ce] underline"
-            >
-              Click Here
-            </button>{" "}
-            on the link below to explore now!
-            <br />
-            <br />
-            I truly believe that Goli Nutrition will provide you with incredible
-            results. Their high-quality products are designed to support your
-            health in a simple and enjoyable way, making wellness easier than
-            ever!
-            <br />
-            <br />
-            Wishing you a wonderful day filled with health and energy!
-            <br />
-            <br />
-            Thank you so much for taking the time to explore Goli Nutrition and
-            their incredible products. Your support and interest mean a lot to
-            me.
-            <br />
-            <br />
-            I’d also like to extend a special thank you to Goli for creating
-            innovative, high-quality supplements that make health both simple
-            and enjoyable. Once again, I wish you great health and happiness!
+
+            <h2 id="Try" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Try Goli Ashwagandha Today!
+            </h2>
+            <p>
+              Take charge of your wellness with{" "}
+              <span className="work-sans-900">Goli Ashwagandha</span>.{" "}
+              <a
+                onClick={() =>
+                  window.open(
+                    "https://goli.com/?discount_code=pricings",
+                    "_blank"
+                  )
+                }
+                className="text-[#3182ce] underline word-sans-900"
+              >
+                 Click here
+              </a>{" "}
+              and feel the difference!
+            </p>
           </div>
 
           {/* phần bốn */}
 
           {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
+            <h2 className="italic my-7">
               Disclosure: I only recommend products I would use myself and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
               <a className="text-[#3182ce] underline">here.</a>
-            </h1>
+            </h2>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
                 src="aron-kantor-profile.jpg"
@@ -450,17 +442,17 @@ const GoliAshwagandha = () => {
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
                   Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
             <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">

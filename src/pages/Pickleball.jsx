@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,8 +39,7 @@ const Pickleball = () => {
           url: "/software-reviews",
         },
       ],
-      title:
-        "It's Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
+      title: "11SIX24 Pickleball Paddles - Boost Your Health",
       author: "",
       date: "February 23, 2025",
     },
@@ -112,26 +112,70 @@ const Pickleball = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>11SIX24 Pickleball Paddle Review – Best for Health</title>
+        <meta
+          name="description"
+          content="Discover our 11SIX24 pickleball paddle review – a top choice for health, performance, and value in pickleball."
+        />
+        <meta
+          name="keywords"
+          content="11SIX24, pickleball paddle review, best pickleball paddles, pickleball health benefits, 11SIX24 Hurache-X, 11SIX24 Vapor, affordable pickleball paddles"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com//11six24-pickleball-paddle"
+        />
+        <meta
+          property="og:title"
+          content="11SIX24 Pickleball Paddle Review – Best for Health"
+        />
+        <meta
+          property="og:description"
+          content="Explore why 11SIX24 paddles enhance your pickleball game and health with superior quality and design."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/11six24-pickleball-action.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com//11six24-pickleball-paddle"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="11SIX24 Pickleball Paddle Review – Best for Health"
+        />
+        <meta
+          name="twitter:description"
+          content="Read our 11SIX24 review to see how it boosts your pickleball experience and well-being."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/11six24-pickleball-action.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "It’s Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
+              "description": "A review of 11SIX24 pickleball paddles, designed for performance, health benefits, and value.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-23",
+              "image": "https://www.bundlam.com/11six24-pickleball-action.png"
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -145,9 +189,9 @@ const Pickleball = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <p className="my-5">
+            <h2 className="my-5 work-sans-900 text-2xl">
               Are You Losing Your Health Without Realizing It?
-            </p>
+            </h2>
             <p className="my-5">
               Are You Losing Your Health Without Realizing It? Modern life keeps
               us sitting for long hours, reducing physical activity, and
@@ -166,7 +210,12 @@ const Pickleball = () => {
               the on-court experience. Here’s my real-life experience with this
               product.
             </p>
-            <img src="health25.png" alt="anh" className="w-full my-10" />
+            <img
+              src="11six24-pickleball-action.png"
+              alt="Playing pickleball with 11SIX24 paddle"
+              className="w-full mb-5 object-cover my-5"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -218,8 +267,13 @@ const Pickleball = () => {
               extended periods. Made with a combination of carbon fiber and
               fiberglass, it offers durability while enhancing ball control.
             </p>
-            <img src="health26.png" alt="anh" className="w-full my-10" />
-            <h1 
+            <img
+              src="11six24-paddle-quality.png"
+              alt="11SIX24 pickleball paddle durability"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
+            <h1
               id="ModernDesign"
               className="text-2xl work-sans-900 my-5 flex items-center"
             >
@@ -246,7 +300,12 @@ const Pickleball = () => {
                 designed for tactical players.
               </li>
             </ul>
-                <img src="health27.png" alt="anh" className="w-full my-10" />
+            <img
+              src="11six24-vs-competitors.png"
+              alt="11SIX24 pickleball paddle design variety"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h1
               id="Price"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -259,7 +318,6 @@ const Pickleball = () => {
               paddles range between $130 – $150, offering the best value for
               money.
             </p>
-
             <h1
               id="WhyChoose"
               className="text-2xl work-sans-900 my-5 flex items-center"
@@ -279,7 +337,12 @@ const Pickleball = () => {
                 rallies.
               </li>
             </ul>
-            <img src="health28.png" alt="anh" className="w-full my-10" />
+            <img
+              src="11six24-paddle-design.png"
+              alt="11SIX24 paddle vs other pickleball brands"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h1
               id="Conclusion"
               className="text-xl work-sans-900 my-5 flex items-center"
@@ -293,17 +356,22 @@ const Pickleball = () => {
               looking for a paddle that balances power, control, and
               affordability, 11SIX24 is the brand for you.
             </p>
-            <button
-              onClick={() => window.open("https://11six24.com/?sca_ref=8171389.vTMmGF3ooJ", "_blank")}
-              className="text-[#3182ce] underline"
-            >
-              Buy now
-            </button>
-
-            <br />
-            <br />
+            <p className="mt-5">
+              <a
+                onClick={() =>
+                  window.open(
+                    "https://11six24.com/?sca_ref=8171389.vTMmGF3ooJ",
+                    "_blank"
+                  )
+                }
+                className="text-[#3182ce] underline"
+              >
+                Click here
+              </a>{" "}
+              to explore the 11SIX24 collection and elevate your pickleball
+              game!
+            </p>
           </div>
-
           {/* phần bốn */}
 
           {/* phần cuối */}

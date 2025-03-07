@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,8 +39,7 @@ const TrueDark = () => {
           url: "/software-reviews",
         },
       ],
-      title:
-        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+      title: "TrueDark Glasses Review – Boost Sleep & Eye Health",
       author: "",
       date: "February 21, 2025",
     },
@@ -107,26 +107,75 @@ const TrueDark = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>TrueDark Glasses Review – Sleep & Eye Health Boost</title>
+        <meta
+          name="description"
+          content="My TrueDark glasses review: top blue light blockers for better sleep and eye comfort."
+        />
+        <meta
+          name="keywords"
+          content="TrueDark review, blue light blocking glasses, TrueDark Daylights, TrueDark Twilights, sleep improvement, eye strain relief, best blue light glasses"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/truedark-glasses"
+        />
+        <meta
+          property="og:title"
+          content="TrueDark Glasses Review – Sleep & Eye Health Boost"
+        />
+        <meta
+          property="og:description"
+          content="Discover how TrueDark glasses enhance sleep and protect eyes in this personal review."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/truedark-blue-light-impact.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/truedark-glasses"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="TrueDark Glasses Review – Sleep & Eye Health Boost"
+        />
+        <meta
+          name="twitter:description"
+          content="TrueDark glasses: my experience with sleep and eye health benefits."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/truedark-blue-light-impact.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
+              "description": "A personal review of TrueDark glasses, designed to block blue light for better sleep and eye health.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-21",
+              "image": "https://www.bundlam.com/truedark-blue-light-impact.png",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "TrueDark Glasses",
+                "brand": {"@type": "Brand", "name": "TrueDark"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -140,25 +189,20 @@ const TrueDark = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <h2 class="text-2xl work-sans-900 my-5 flex items-center">
-              TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes
+            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Why TrueDark Glasses Boost Sleep & Eye Health
             </h2>
-            <img
-              src="health19.png.jpg"
-              alt="anh"
-              className="w-full object-cover"
-            />
             <p className="my-5">
-              Blue light from computer screens, phones, and LED lights
-              negatively impacts our sleep and eye health every day.
+              Blue light from screens harms sleep and eyes.{" "}
+              <span className="work-sans-900">TrueDark glasses</span> offer a
+              solution—here’s my take.
             </p>
-            <img src="health20.png" alt="anh" className="w-full object-cover" />
-            <p className="mt-5">
-              If you often experience eye strain, difficulty sleeping, or lack
-              of focus while working, TrueDark glasses might be the solution
-              you’re looking for. I’ve tested several TrueDark glasses, and
-              here’s my personal experience.
-            </p>
+            <img
+              src="truedark-blue-light-impact.png"
+              alt="TrueDark glasses blocking blue light"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -205,7 +249,11 @@ const TrueDark = () => {
             >
               Immediate Benefits After Use
             </h2>
-            <img src="health21.png" alt="anh" className="w-full object-cover" />
+            <img
+              src="immediate-benefits-after-use.png"
+              alt=" Immediate Benefits After Use"
+              className="w-full object-cover"
+            />
             <p>
               Before using <span className="work-sans-900">TrueDark</span>, I
               often experienced:
@@ -238,9 +286,10 @@ const TrueDark = () => {
               </li>
             </ul>
             <img
-              src="health22.png.jpg"
-              alt="anh"
-              className="w-full object-cover"
+              src="truedark-benefits.jpg"
+              alt="TrueDark glasses benefits for sleep and eyes"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
             />
             <h2
               id="Quality"
@@ -248,7 +297,12 @@ const TrueDark = () => {
             >
               Quality and Design – A Variety of Options for Every Need
             </h2>
-            <img src="health23.png" alt="anh" className="w-full object-cover" />
+            <img
+              src="truedark-design-variety.png"
+              alt="TrueDark glasses design variety"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <p>
               <span className="work-sans-900">TrueDark</span> not only delivers
               high performance but also offers multiple product lines tailored
@@ -281,7 +335,11 @@ const TrueDark = () => {
                 for those moving between indoor and outdoor environments.
               </li>
             </ul>
-            <img src="health24.png" alt="anh" className="w-full object-cover" />
+            <img
+              src="trueDark-transition-lenses.png"
+              alt="TrueDark Transition Lenses"
+              className="w-full object-cover mb-5"
+            />
             <p>
               Each product is lightweight, comfortable, and snug-fitting, making
               them easy to wear for extended periods. The high-quality lenses
@@ -315,7 +373,12 @@ const TrueDark = () => {
                 safeguard your sleep and eye health every day.
               </li>
             </ul>
-            <img src="health25.jpg" alt="anh" className="w-full object-cover" />
+            <img
+              src="truedark-value.jpg"
+              alt="TrueDark glasses pricing value"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h3 className="mt-5">
               Conclusion – If You’re Struggling with These Issues,{" "}
               <span className="work-sans-900">TrueDark</span> Is the Best
@@ -338,13 +401,14 @@ const TrueDark = () => {
             </p>
 
             <p className="my-5">
-            <a
+              <a
                 href="https://truedark.com/?ref=zwi1mta"
                 class="text-[#3182ce] underline"
               >
                 Click here
-              </a>{" "} below to explore{" "}
-              <span className="work-sans-900">TrueDark</span> now!
+              </a>{" "}
+              below to explore <span className="work-sans-900">TrueDark</span>{" "}
+              now!
             </p>
           </div>
 

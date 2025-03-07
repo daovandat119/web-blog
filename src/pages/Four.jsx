@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -112,26 +113,70 @@ const Four = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Four Sigmatic Review – Best Medicinal Mushroom Products</title>
+        <meta
+          name="description"
+          content="Explore our Four Sigmatic product review – functional foods with medicinal mushrooms for immunity, focus, and wellness."
+        />
+        <meta
+          name="keywords"
+          content="Four Sigmatic, medicinal mushrooms, functional foods, mushroom coffee, health supplements, Four Sigmatic review, organic wellness"
+        />
+        <link
+          rel="canonical"
+          href="https://www.thebusinessdive.com/health-supplements/four-sigmatic-product-review"
+        />
+        <meta
+          property="og:title"
+          content="Four Sigmatic Review – Best Medicinal Mushroom Products"
+        />
+        <meta
+          property="og:description"
+          content="Discover Four Sigmatic’s functional foods made with medicinal mushrooms – perfect for immunity, focus, and energy."
+        />
+        <meta
+          property="og:image"
+          content="https://www.thebusinessdive.com/four-sigmatic-mushroom-products.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.thebusinessdive.com/health-supplements/four-sigmatic-product-review"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Four Sigmatic Review – Best Medicinal Mushroom Products"
+        />
+        <meta
+          name="twitter:description"
+          content="Read our review of Four Sigmatic’s medicinal mushroom products for health and wellness."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.thebusinessdive.com/four-sigmatic-mushroom-products.jpg"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
+              "description": "A detailed review of Four Sigmatic products featuring medicinal mushrooms for health, focus, and energy.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-25",
+              "image": "https://www.thebusinessdive.com/four-sigmatic-mushroom-products.jpg"
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -146,13 +191,19 @@ const Four = () => {
           {/* phần một */}
           <div>
             <p className="my-5">
-              Four Sigmatic is a standout brand in the functional food industry,
-              specializing in products that combine medicinal mushrooms with
-              organic ingredients to support both physical and mental health.
-              Let’s explore the features and real user reviews of Four Sigmatic
-              products.
+              <span className="work-sans-900">Four Sigmatic</span> stands out in
+              the functional food world, blending{" "}
+              <span className="work-sans-900">medicinal mushrooms</span> with
+              organic ingredients to boost immunity, focus, and overall
+              wellness. In this review, we dive into its key features and real
+              user feedback.
             </p>
-            <img src="health75.jpg" alt="anh" className="w-full" />
+            <img
+              src="four-sigmatic-functional-foods.jpg"
+              alt="Four Sigmatic medicinal mushroom products"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -191,87 +242,90 @@ const Four = () => {
           {/* phần hai */}
           {/* phần ba */}
           <div>
-            <h2
-              id="Key"
-              class="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Key Features and Highlights
+            <h2 id="Key" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Key Features of Four Sigmatic Products
             </h2>
-            <h3 id="Main" class="text-xl work-sans-900 my-3">Main Ingredients</h3>
-            <p>Four Sigmatic products use medicinal mushrooms such as:</p>
-            <ul class="list-disc pl-5 py-5">
-              <li>
-                <span class="work-sans-900">Lion’s Mane:</span> Supports memory,
-                focus, and brain health.
-              </li>
-              <li>
-                <span class="work-sans-900">Chaga:</span> Rich in antioxidants,
-                helping to boost the immune system.
-              </li>
-              <li>
-                <span class="work-sans-900">Cordyceps:</span> Enhances energy
-                levels and endurance.
-              </li>
-              <li>
-                <span class="work-sans-900">Reishi:</span> Promotes relaxation
-                and supports sleep quality.
-              </li>
-            </ul>
-
-            <h3 id="Unique" class="text-xl work-sans-900 my-3">Unique Formulations</h3>
-            <ul class="list-disc pl-5 py-5">
-              <li>
-                <span class="work-sans-900">Mushroom Coffee:</span> A blend of
-                organic coffee and mushrooms that enhances alertness without
-                causing jitters.
-              </li>
-              <li>
-                <span class="work-sans-900">Plant-based Protein:</span> Vegan
-                protein supplemented with mushrooms to promote muscle health and
-                immunity.
-              </li>
-              <li>
-                <span class="work-sans-900">Adaptogen Blends:</span> Formulas
-                designed to reduce stress, boost energy, and help the body adapt
-                to daily challenges.
-              </li>
-            </ul>
-
-            <h3 id="Free" class="text-xl work-sans-900 my-3">
-              Free from Harmful Ingredients
+            <h3 id="Main" className="text-lg lg:text-xl work-sans-900 my-4">
+              Main Ingredients in Four Sigmatic
             </h3>
             <p>
-              Four Sigmatic ensures their products contain no preservatives,
-              refined sugars, or artificial flavors. All products are tested for
-              quality and certified organic by USDA.
+              Four Sigmatic products harness the power of medicinal mushrooms,
+              including:
             </p>
-                <img src="health76.jpg" alt="anh" className="w-full" />
-            <h2
-              id="User"
-              class="text-2xl work-sans-900 my-5 flex items-center"
-            >
+            <ul className="list-disc pl-6 py-5 space-y-2">
+              <li>
+                <strong>Lion’s Mane:</strong> Boosts memory, focus, and brain
+                health with its neuroprotective properties.
+              </li>
+              <li>
+                <strong>Chaga:</strong> Packed with antioxidants to strengthen
+                immunity and fight inflammation.
+              </li>
+              <li>
+                <strong>Cordyceps:</strong> Enhances energy and endurance,
+                perfect for active lifestyles.
+              </li>
+              <li>
+                <strong>Reishi:</strong> Promotes relaxation and improves sleep
+                quality naturally.
+              </li>
+            </ul>
+
+            <h3 id="Unique" className="text-lg lg:text-xl work-sans-900 my-4">
+              Unique Four Sigmatic Formulations
+            </h3>
+            <ul className="list-disc pl-6 py-5 space-y-2">
+              <li>
+                <strong>Mushroom Coffee:</strong> Organic coffee blended with
+                mushrooms for jitter-free alertness.
+              </li>
+              <li>
+                <strong>Plant-Based Protein:</strong> Vegan protein with
+                mushrooms to support muscle health and immunity.
+              </li>
+              <li>
+                <strong>Adaptogen Blends:</strong> Stress-reducing formulas to
+                boost energy and resilience.
+              </li>
+            </ul>
+
+            <h3 id="Free" className="text-lg lg:text-xl work-sans-900 my-4">
+              No Harmful Ingredients
+            </h3>
+            <p>
+              <span className="work-sans-900">Four Sigmatic</span> products are
+              free from preservatives, refined sugars, and artificial flavors.
+              Certified organic by USDA, they ensure top quality and safety.
+            </p>
+            <img
+              src="four-sigmatic-organic-quality.jpg"
+              alt="Four Sigmatic products with organic ingredients"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
+            <h2 id="User" class="text-2xl work-sans-900 my-5 flex items-center">
               User Reviews
             </h2>
             <h3 class="text-xl work-sans-900 my-3">Pros</h3>
             <ul class="list-disc pl-5 py-5">
               <li>
                 <span class="work-sans-900">
-                   Enhances alertness and focus without causing stress.
+                  Enhances alertness and focus without causing stress.
                 </span>
               </li>
               <li>
                 <span class="work-sans-900">
-                   Supports immunity and overall health.
+                  Supports immunity and overall health.
                 </span>
               </li>
               <li>
                 <span class="work-sans-900">
-                   Natural, safe ingredients, easy to prepare.
+                  Natural, safe ingredients, easy to prepare.
                 </span>
               </li>
               <li>
                 <span class="work-sans-900">
-                   Pleasant taste without any strong or unpleasant odors.
+                  Pleasant taste without any strong or unpleasant odors.
                 </span>
               </li>
             </ul>
@@ -285,37 +339,46 @@ const Four = () => {
               </li>
               <li>
                 <span class="work-sans-900">
-                  Some products may have a slightly bitter taste if you are
-                  not accustomed to them.
+                  Some products may have a slightly bitter taste if you are not
+                  accustomed to them.
                 </span>
               </li>
             </ul>
 
-            <h2
-              id="Should"
-              class="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Should You Buy Four Sigmatic Products?
+            <h2 id="Should" className="text-xl lg:text-2xl work-sans-900 my-6">
+              Should You Buy Four Sigmatic Mushroom Products?
             </h2>
             <p>
-              If you are looking for a healthier alternative to coffee or daily
-              supplements, Four Sigmatic is a brand worth trying. With
-              high-quality ingredients and unique medicinal mushroom
-              formulations, these products offer significant health benefits
-              without negative side effects.
+              If you’re seeking a healthier alternative to coffee or
+              supplements, <span className="work-sans-900">Four Sigmatic</span>{" "}
+              is worth considering. Its unique medicinal mushroom blends offer
+              benefits like improved focus, immunity, and energy without harmful
+              additives.
             </p>
             <p className="mt-5">
-            <span className="work-sans-900">You can purchase Four Sigmatic products at: </span>{" "}
-              <a href="https://us.foursigmatic.com/?snowball=ANHTUAN66381" class="text-[#3182ce] underline">
-                Click here
-              </a>
+              <strong>Get Four Sigmatic Products:</strong>{" "}
+              <a
+                onClick={() =>
+                  window.open(
+                    "https://us.foursigmatic.com/?snowball=ANHTUAN66381",
+                    "_blank"
+                  )
+                }
+                className="text-[#3182ce] underline word-sans-900"
+              >
+                 Click here
+              </a>{" "}
             </p>
-
-            <p class="my-5">
-              Have you tried Four Sigmatic products? Share your experience in
-              the comments!
+            <p className="my-5">
+              Tried <span className="work-sans-900">Four Sigmatic</span>? Share
+              your thoughts in the comments below!
             </p>
-            <img src="health77.jpg" alt="anh" className="w-full" />
+            <img
+              src="four-sigmatic-buy-now.jpg"
+              alt="Four Sigmatic functional mushroom products"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
           </div>
 
           {/* phần bốn */}
@@ -323,7 +386,7 @@ const Four = () => {
           {/* phần cuối */}
           <div>
             <h1 className="italic my-7">
-            Disclaimer: This is an objective review of Four Sigmatic products.
+              Disclaimer: This is an objective review of Four Sigmatic products.
               I am not the manufacturer or owner of this brand, but I may
               receive a commission if you purchase through the link above.
             </h1>

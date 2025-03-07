@@ -338,7 +338,7 @@ const Article = () => {
     {
       url: "/comprehensive",
       title:
-        "Comprehensive Review of Litime Products – The Top Choice for Energy Storage Solutions",
+        "Litime Products Review - Top Energy Storage Solutions",
       categories: [],
       author: "Aron Kantor",
       date: "February 23, 2025",
@@ -369,7 +369,7 @@ const Article = () => {
     {
       url: "/double-oak-essentials",
       title:
-        "Double Oak Essentials – The Perfect Solution for Those Tired of Bulky Wallets",
+        "Double Oak Essentials Wallet Review: Slim & Stylish",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
@@ -378,12 +378,12 @@ const Article = () => {
         "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
     },
     {
-      url: "/true-dark",
+      url: "/truedark-glasses",
       title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health19.png.jpg",
+      image: "truedark-blue-light-impact.png",
       content:
         "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
     },

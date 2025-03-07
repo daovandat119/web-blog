@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,8 +39,7 @@ const Elevated = () => {
           url: "/software-reviews",
         },
       ],
-      title:
-        "Elevated Faith Review: Unique Christian Apparel with Purpose & Impact",
+      title: "Elevated Faith Review - Christian Apparel with Impact",
       author: "",
       date: "February 24, 2025",
     },
@@ -119,26 +119,75 @@ const Elevated = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Elevated Faith Review: Christian Apparel with Impact</title>
+        <meta
+          name="description"
+          content="My Elevated Faith review: unique Christian apparel with quality, purpose, and charity impact."
+        />
+        <meta
+          name="keywords"
+          content="Elevated Faith review, Christian apparel, faith-based clothing, Elevated Faith jewelry, Christian gifts, best Christian brands 2025"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/elevated-faith-apparel"
+        />
+        <meta
+          property="og:title"
+          content="Elevated Faith Review: Christian Apparel with Impact"
+        />
+        <meta
+          property="og:description"
+          content="Explore why Elevated Faith stands out in Christian apparel with this detailed review."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/elevated-faith-collection.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/elevated-faith-apparel"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Elevated Faith Review: Christian Apparel with Impact"
+        />
+        <meta
+          name="twitter:description"
+          content="My take on Elevated Faith: stylish Christian clothing that gives back."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/elevated-faith-collection.png"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "Elevated Faith Review - Christian Apparel with Impact",
+              "description": "A detailed review of Elevated Faith’s faith-inspired apparel and accessories.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-24",
+              "image": "https://www.bundlam.com/elevated-faith-collection.png",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "Elevated Faith Apparel",
+                "brand": {"@type": "Brand", "name": "Elevated Faith"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2">
-              {/* {item.subcategory.map((sub, i) => (
-                <Link
-                  key={i}
-                  to={sub.url}
-                  className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed text-center"
-                >
-                  {sub.name}
-                  {i !== item.subcategory.length - 1 && (
-                    <span className="text-gray-700 px-1">|</span>
-                  )}
-                </Link>
-              ))} */}
-            </div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -152,18 +201,21 @@ const Elevated = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <h1 className="my-5">
-              If you're looking for faith-inspired clothing and accessories that
-              make a real difference,
-              <span className="work-sans-900"> Elevated Faith </span>
-              is a brand that stands out. More than just a clothing line, it’s a
-              movement designed to spark conversations about faith while giving
-              back to those in need. After exploring their products, mission,
-              and customer experience, here’s why
-              <span className="work-sans-900"> Elevated Faith</span> is worth
-              your attention.
-            </h1>
-            <img src="health45.jpg" alt="anh" className="w-full" />
+            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Why Elevated Faith Stands Out
+            </h2>
+            <p className="my-5">
+              Seeking <span className="work-sans-900">Christian apparel</span>{" "}
+              with purpose? My{" "}
+              <span className="work-sans-900">Elevated Faith review</span>{" "}
+              explores its unique designs and impact.
+            </p>
+            <img
+              src="elevated-faith-collection.png"
+              alt="Elevated Faith Christian apparel collection"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -263,23 +315,37 @@ const Elevated = () => {
               <span className="work-sans-900">premium fabrics</span> that feel
               soft, comfortable, and last through repeated wear.
             </p>
-            <ul className="list-disc pl-5 py-5">
+            <ul className="list-disc pl-6 py-5 space-y-4">
               <li>
-                <span className="work-sans-900">Super-soft cotton blends </span>
-                – Their shirts and hoodies are lightweight yet cozy.
+                <span className="work-sans-900">Super-soft cotton blends</span>{" "}
+                – Elevated Faith shirts and hoodies are lightweight yet cozy.
               </li>
-              <img src="health46.jpg" alt="anh" className="w-full" />
+
+              <img
+                src="elevated-faith-cotton-apparel.jpg"
+                alt="Elevated Faith super-soft cotton shirts and hoodies"
+                className="w-full object-cover"
+                loading="lazy"
+              />
+
               <li>
                 <span className="work-sans-900">
-                  High-quality engraving on jewelry{" "}
-                </span>
+                  High-quality engraving on jewelry
+                </span>{" "}
                 – No fading, peeling, or tarnishing over time.
               </li>
-              <img src="health47.jpg" alt="anh" className="w-full" />
+
+              <img
+                src="elevated-faith-jewelry-engraving.png"
+                alt="Elevated Faith jewelry with high-quality engraving"
+                className="w-full object-cover"
+                loading="lazy"
+              />
+
               <li>
                 <span className="work-sans-900">
-                  Stretchable & durable accessories{" "}
-                </span>
+                  Stretchable & durable accessories
+                </span>{" "}
                 – Especially their beaded bracelets and silicone wristbands.
               </li>
             </ul>
@@ -436,7 +502,7 @@ const Elevated = () => {
             </p>
             <p>
               <span className="work-sans-900">Pro Tip:</span> Sign up for their
-              newsletter to {" "}
+              newsletter to{" "}
               <a
                 href="https://elevatedfaith.com/?aff=63832"
                 class="text-[#3182ce] underline"
