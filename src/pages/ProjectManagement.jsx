@@ -77,75 +77,7 @@ const articles = [
     content:
       "Coda turned out to be quite an interesting tool, and it genuinely exceeded my expectations. After spending several weeks exploring its features, I wanted to share my experience and insights in this Coda.io review, explaining why it caught me by surprise.",
   },
-  {
-    url: "/taskade-vs-coda",
-    title: "Taskade Vs Coda: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "January 30, 2025",
-    image: "best-ai-meeting-managers-202500.webp",
-    content:
-      "In this comparison of Taskade vs Coda, I'll walk you through the key differences between these two project management tools. I'll analyze both Taskade and Coda based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time using both tools, I’m excited to share my insights to help you make an informed decision.",
-  },
-  {
-    url: "/notion-vs-notebooklm",
-    title: "Notion Vs NotebookLM: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "December 19, 2024",
-    image: "best-ai-meeting-managers-202507.webp",
-    content:
-      "In this comparison of Notion and NotebookLM, I’ll be diving into the key distinctions between these two productivity tools. I’ll examine NotebookLM and Notion in terms of their features, pricing, user interfaces, and their pros and cons. After spending considerable time with both of these note-taking apps, I’m excited to share their strengths and limitations to help you make the best choice for your needs.",
-  },
-  {
-    url: "/xtiles-vs-notion",
-    title: "Xtiles Vs Notion: All Features Compared (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "January 6, 2025",
-    image: "best-ai-meeting-managers-202514.webp",
-    content:
-      "In this Xtiles vs Notion comparison, I'll walk you through the key distinctions between these two powerful productivity tools. I'll break down the differences between Xtiles and Notion, covering their features, pricing, user interfaces, integration options, and the pros and cons of each. After spending extensive time with both note-taking apps over the last two years, I’m here to share my insights to help you make an informed decision.",
-  },
+
   
 ];
 

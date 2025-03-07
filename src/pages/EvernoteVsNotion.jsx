@@ -206,7 +206,7 @@ const EvernoteVsNotion = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="best-ai-meeting-managers-202570.webp" alt="anh" className="w-full" />
+            <img src="best-ai-meeting-managers-2025.webp" alt="anh" className="w-full" />
             <p class="mt-6">
               In this Evernote vs Notion comparison, I’ll outline the key
               differences between these two productivity tools. I will compare

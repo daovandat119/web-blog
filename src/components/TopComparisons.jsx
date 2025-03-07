@@ -5,111 +5,69 @@ const TopComparisons = () => {
 
   const topComparisons = [
     {
-      url: "/adobe-acrobat-vs-updf",
-      image: "anh294.webp",
-      categories: [
-        {
-          name: "PDF Tools",
-          link: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          link: "/software-reviews",
-        }
-      ],
+      url: "/goli-triple",
       title:
-        "Adobe Acrobat Vs UPDF: A Honest Comparison (2025)",
+        "Goli Triple Action Immune Gummies – The Ultimate Solution for Stronger Immunity",
+      categories: [],
+      author: "Aron Kantor",
+      date: "May 3, 2025",
+      image: "health83.png",
+      content:
+        "In today’s fast-paced life, taking care of our immune system is often overlooked. As someone who works under high pressure, I understand the exhaustion and vulnerability to colds when immunity weakens. After researching various supplements, I decided to try Goli Triple Action Immune Gummies – a convenient, delicious, and effective way to support my immune health.",
     },
     {
-      url: "/taskade-vs-coda",
-      image: "best-ai-meeting-managers-202500.webp",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps",
-        },
-        {
-          name: "Project management",
-          link: "/project-management",
-        },
-        {
-          name: "Software Reviews",
-          link: "/software-reviews",
-        }
-      ],
-      title: "Taskade Vs Coda: Side-by-Side Comparison (2025)",
+      url: "/four",
+      title:
+        "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 25, 2025",
+      image: "health75.jpg",
+      content:
+        "Four Sigmatic is a standout brand in the functional food industry, specializing in products that combine medicinal mushrooms with organic ingredients to support both physical and mental health. Let’s explore the features and real user reviews of Four Sigmatic products.",
     },
     {
-      url: "/notion-vs-notebooklm",
-      image: "best-ai-meeting-managers-202507.webp",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps"
-        },
-        {
-          name: "Project management",
-          link: "/project-management"
-        },
-        {
-          name: "Software Reviews",
-          link: "/software-reviews"
-        }
-      ],
+      url: "/goli-ashwagandha",
       title:
-        "Notion Vs NotebookLM: Side-by-Side Comparison (2025)",
+        "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health.png",
+      content:
+        "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
     },
     {
-      url: "/xtiles-vs-notion",
-      image: "best-ai-meeting-managers-202514.webp",
-      categories: [
-        {
-          name: "Note-Taking Apps",
-          link: "/note-taking-apps"
-        },
-        {
-          name: "Project management",
-          link: "/project-management",
-        },
-        {
-          name: "Software Reviews",
-          link: "/article-category"
-        }
-      ],
+      url: "/the-hydro-jug",
       title:
-        "Xtiles Vs Notion: All Features Compared (2025)",
-    },
-    { 
-      url: "/otter-ai-vs-fathom",
-      image: "best-ai-meeting-managers-202523.webp",
-      categories: [
-        {
-          name: "Meeting tools",
-          link: "/article-category"
-        },
-        {
-          name: "Software Reviews",
-          link: "/article-category"
-        }
-      ],
-      title:
-        "Otter AI vs Fathom: Which AI Note-Taker Is The Best? (2025)",
+        "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health48.png",
+      content:
+        "TheHydroJug is a standout brand specializing in large-capacity water bottles, making it easier for you to stay properly hydrated throughout the day. With a convenient design, safe materials, and a variety of accessories, TheHydroJug has quickly become the top choice for fitness enthusiasts, office workers, and anyone looking to maintain a healthy lifestyle.",
     },
     {
-      url: "/fireflies-ai-vs-otter-ai",
-      image: "best-ai-meeting-managers-202528.webp",
-      categories: [
-        {
-          name: "Meeting tools",
-          link: "/article-category"
-        },
-        {
-          name: "Software Reviews",
-          link: "/article-category"
-        }
-      ],
+      url: "/flaskap",
       title:
-        "Fireflies AI vs Otter AI: A REAL Comparison With No Fluff (2025)",
+        "FlasKap – Revolutionizing the World of Thermal Bottles",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health58.jpg",
+      content:
+        "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
+    },
+    {
+      url: "/last-crumb-cookies",
+      title: "Last Crumb Cookies – A Luxurious Indulgence Worth Every Bite",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 21, 2025",
+      image: "health5.png",
+      content:
+        "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
     },
   ];
 

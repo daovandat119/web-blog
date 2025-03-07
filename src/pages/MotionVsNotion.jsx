@@ -206,7 +206,7 @@ const MotionVsNotion = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="best-ai-meeting-managers-202551.webp" alt="anh" className="w-full" />
+            <img src="best-ai-meeting-managers-2025.webp" alt="anh" className="w-full" />
             <p class="mt-6">
               In this Motion vs Notion comparison, I’ll highlight the key
               differences between these two productivity tools. I’ll be

@@ -666,7 +666,7 @@ const BestAiTaskManager = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="anh110.webp" alt="anh" className="w-full" />
+            <img src="best-ai-task-manager-tools.webp" alt="anh" className="w-full" />
             <h1 className="mt-10">
               Are you ready to revolutionize the way you manage tasks and boost
               your team’s productivity? AI task management tools are here to

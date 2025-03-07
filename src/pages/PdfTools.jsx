@@ -42,63 +42,6 @@ const articles = [
     content:
       "In this review of MinutesLink, I’ll provide all the essential details you need to know about this AI-powered tool. I'll walk you through its key features, user interface, pricing structure, pros and cons, and offer insights to help you decide if it’s the right fit for your needs.",
   },
-  {
-    url: "/foxit-vs-pdfelement",
-    title: "Foxit Vs PDFelement: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "PDF Tools",
-        link: "/pdf-tools",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "February 13, 2025",
-    image: "best-ai-meeting-managers-202544.webp",
-    content:
-      "In this comparison between Foxit and PDFelement, I’ll break down the essential differences between these two powerful PDF editors. I’ll compare their features, pricing, user interfaces, my personal experience, and the pros and cons of each. After spending hours working with both, I’m excited to share the strengths and weaknesses of each tool to help you make the right choice.",
-  },
-  {
-    url: "/pdf-editors-for-windows",
-    title: "I Tested +30 PDF editors for Windows | Here Are The 8 Best",
-    categories: [
-      {
-        name: "PDF Tools",
-        link: "/pdf-tools",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "February 6, 2025",
-    image: "best-ai-meeting-managers-202571.webp",
-    content:
-      "Finding the right PDF editor for Windows can be a daunting task. With over 100 PDF editing tools available on the market, the real question is: which one is worth your time?",
-  },
-  {
-    url: "/adobe-acrobat-alternatives",
-    title: "The 7 Best Adobe Acrobat Alternatives: 30+ PDF Editors Tested",
-    categories: [
-      {
-        name: "Pdf Tools",
-        link: "/pdf-tools",
-      },
-      {
-       name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "January 23, 2025",
-    image: "best-ai-meeting-managers-202581.webp",
-    content:
-      "I totally get it. Adobe Acrobat can be pricey, and you're probably wondering if there are any affordable alternatives. I had the same thoughts, so I decided to do some serious research and find the top Adobe Acrobat alternatives for 2025.",
-  },
 ];
 
 const PdfTools = () => {

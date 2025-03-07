@@ -160,7 +160,7 @@ const EvernoteVsXtiles = () => {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "best-ai-productivity-tools.webp",
+      image: "best-ai-productivity-tools.webp.webp",
     },
     {
       url: "/best-email-productivity-apps",
@@ -179,7 +179,7 @@ const EvernoteVsXtiles = () => {
             className="lg:w-4/7 flex flex-col justify-center items-center mx-auto"
           >
             
-            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
@@ -193,7 +193,7 @@ const EvernoteVsXtiles = () => {
           {/* phần một */}
           <div>
             <img
-              src="aron-kantor-profile5.webp"
+              src="anh335.webp"
               alt="AI Task Management"
               className="w-full"
             />
@@ -419,7 +419,7 @@ const EvernoteVsXtiles = () => {
                 <h2 id="evernote-features" class="text-xl work-sans-900 my-5">
                   Evernote's features
                 </h2>
-                <img src="aron-kantor-profile6.webp" alt="Evernote" className="w-full" />
+                <img src="anh336.webp" alt="Evernote" className="w-full" />
                 <p class="my-5">
                   Evernote is a versatile note-taking app that offers a range of
                   features designed to help users capture and organize
@@ -451,7 +451,7 @@ const EvernoteVsXtiles = () => {
                 <h2 id="xtiles-features" class="text-xl work-sans-900 my-5">
                   Xtiles' features
                 </h2>
-                <img src="aron-kantor-profile7.webp" alt="Xtiles" className="w-full" />
+                <img src="anh337.webp" alt="Xtiles" className="w-full" />
                 <p class="my-5">
                   Xtiles offers a more visual approach to organizing
                   information. Instead of traditional note-taking, it allows
@@ -490,7 +490,7 @@ const EvernoteVsXtiles = () => {
                 <h2 id="evernote-ui" class="text-xl work-sans-900 my-5">
                   Evernote's user interface
                 </h2>
-                <img src="aron-kantor-profile9.webp" alt="Evernote" className="w-full" />
+                <img src="anh336.webp" alt="Evernote" className="w-full" />
                 <p class="my-5">
                   Evernote’s user interface is designed to be straightforward
                   and efficient. The layout is simple, with a sidebar on the
@@ -512,7 +512,7 @@ const EvernoteVsXtiles = () => {
                 <h2 id="xtiles-ui" class="text-xl work-sans-900 my-5">
                   Xtiles' user interface
                 </h2>
-                <img src="best-ai-meeting-managers-202540.webp" alt="Xtiles" className="w-full" />
+                <img src="anh337.webp" alt="Xtiles" className="w-full" />
                 <p class="my-5">
                   Xtiles' user interface is focused on providing a
                   visually-driven workspace. The design is modern, clean, and
@@ -547,7 +547,7 @@ const EvernoteVsXtiles = () => {
                 >
                   Evernote's integrations
                 </h2>
-                <img src="aron-kantor-profile8.webp" alt="Evernote" className="w-full" />
+                <img src="anh338.webp" alt="Evernote" className="w-full" />
                 <p class="my-5">
                   Evernote is well-integrated with a wide range of third-party
                   apps, enhancing its functionality beyond just note-taking. For
@@ -571,7 +571,7 @@ const EvernoteVsXtiles = () => {
                 <h2 id="xtiles-integrations" class="text-xl work-sans-900 my-5">
                   Xtiles' integrations
                 </h2>
-                <img src="best-ai-meeting-managers-202541.webp" alt="Xtiles" className="w-full" />
+                <img src="anh339.webp" alt="Xtiles" className="w-full" />
                 <p class="my-5">
                   Xtiles also integrates with several popular tools, including
                   Google Drive and Slack. These integrations make it easy for
@@ -600,7 +600,7 @@ const EvernoteVsXtiles = () => {
                 <h2 id="evernote-pricing" class="text-xl work-sans-900 my-5">
                   Evernote's pricing
                 </h2>
-                <img src="best-ai-meeting-managers-202542.webp" alt="Evernote" className="w-full" />
+                <img src="anh340.webp" alt="Evernote" className="w-full" />
                 <p class="my-5">
                   Evernote offers a free plan, which provides basic note-taking
                   functionality, including the ability to create and organize
@@ -622,7 +622,7 @@ const EvernoteVsXtiles = () => {
                 <h2 id="xtiles-pricing" class="text-xl work-sans-900 my-5">
                   Xtiles' pricing
                 </h2>
-                <img src="best-ai-meeting-managers-202543.webp" alt="Xtiles" className="w-full" />
+                <img src="anh341.webp" alt="Xtiles" className="w-full" />
                 <p class="my-5">
                   Xtiles offers a free plan that provides basic access to the
                   platform’s features. For users who need additional

@@ -24,51 +24,6 @@ const articles = [
       "As a content creator, video editing has always been a time-consuming process for me. However, after discovering Gling.ai, I’ve completely changed the way I approach editing. This AI-powered tool has optimized my workflow, allowing me to focus on content creation rather than spending hours cutting and adjusting videos manually.",
   },
   {
-    url: "/evernote-vs-xtiles",
-    title: "Evernote Vs Xtiles: Side-by-Side Comparison (2025)",
-    author: "Aron Kantor",
-    date: "February 17, 2025",
-    image: "aron-kantor-profile5.webp",
-    content:
-      "In this comparison between Evernote and Xtiles, I'll walk you through the major differences between these two productivity tools. I'll be comparing Evernote and Xtiles across features, pricing, user interfaces, and their pros and cons. After spending countless hours with both apps over the past two years, I'm here to break down the advantages and limitations of each, helping you make an informed decision.",
-  },
-  {
-    url: "/motion-vs-notion",
-    title: "Motion vs Notion: Why I use BOTH (2025)",
-    author: "Jane Doe",
-    date: "February 4, 2025",
-    image: "best-ai-meeting-managers-202551.webp",
-    content:
-      "In this Motion vs Notion comparison, I’ll highlight the key differences between these two productivity tools. I’ll be evaluating Motion and Notion based on features, pricing, user interfaces, and the pros and cons of each. After spending countless hours with both apps over the past two years, I’m here to provide you with insights to help you make the best decision.",
-  },
-  {
-    url: "/evernote-vs-obsidian",
-    title: "Evernote vs Obsidian: A REAL Comparison With No Fluff (2025)",
-    author: "John Smith",
-    date: "February 3, 2025",
-    image: "best-ai-meeting-managers-202562.webp",
-    content:
-      "In this Evernote vs Obsidian comparison, I’ll highlight the key differences between these two popular note-taking tools. I'll be comparing Evernote with Obsidian based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time with both apps over the past two years, I’m here to share my findings so you can make the best choice for your needs.",
-  },
-  {
-    url: "/evernote-vs-notion",
-    title: "Evernote Vs Notion: An Easier Decision That You Think (2025)",
-    author: "John Smith",
-    date: "February 3, 2025",
-    image: "best-ai-meeting-managers-202570.webp",
-    content:
-      "In this Evernote vs Notion comparison, I’ll outline the key differences between these two productivity tools. I will compare Evernote with Notion across features, pricing, user interfaces, and pros and cons. After spending many hours using both note-taking apps over the last two years, I’m here to share the strengths and weaknesses of each tool to help you make the right choice.",
-  },
-  {
-    url: "/evernote-review",
-    title: "Evernote Review: My Unfiltered Opinion (2025)",
-    author: "John Smith",
-    date: "January 30, 2025",
-    image: "anh181.webp",
-    content:
-      "Lately, I have spent a lot of time with Evernote and have mixed feelings about it. In the past two years, I have had a chance to review many note-taking apps to put Evernote into perspective. And I want to share my experience with you in this Evernote review.",
-  },
-  {
     url: "/notion-alternatives",
     title: "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
     author: "John Smith",
@@ -76,24 +31,6 @@ const articles = [
     image: "anh1.webp",
     content:
       "Looking for the perfect Notion alternative? Here are the best picks for 2025! I’ll be honest—Notion is a fantastic tool. I've been using it for years, and it has greatly optimized my workflow. But let's face it—Notion isn't the perfect fit for everyone. The good news? There are hundreds of productivity tools out there, each offering unique features and advantages.",
-  },
-  {
-    url: "/notion-alternatives",
-    title: "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
-    author: "John Smith",
-    date: "January 30, 2025",
-    image: "anh1.webp",
-    content:
-      "Looking for the perfect Notion alternative? Here are the best picks for 2025! I’ll be honest—Notion is a fantastic tool. I've been using it for years, and it has greatly optimized my workflow. But let's face it—Notion isn't the perfect fit for everyone. The good news? There are hundreds of productivity tools out there, each offering unique features and advantages.",
-  },
-  {
-    url: "/taskade-vs-coda",
-    title: "Taskade Vs Coda: Side-by-Side Comparison (2025)",
-    author: "John Smith",
-    date: "January 30, 2025",
-    image: "best-ai-meeting-managers-202500.webp",
-    content:
-      "In this comparison of Taskade vs Coda, I'll walk you through the key differences between these two project management tools. I'll analyze both Taskade and Coda based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time using both tools, I’m excited to share my insights to help you make an informed decision.",
   },
   {
     url: "/notion-review",
@@ -104,24 +41,7 @@ const articles = [
     content:
       "I've been using Notion for over two years, and during that time, I’ve explored a variety of other note-taking tools. This has allowed me to gain a unique perspective on how Notion stands out. Combining my two years of personal experience with insights from the note-taking industry, I’ll share a comprehensive review covering all the essential details—from features to pros and cons—about Notion.",
   },
-  {
-    url: "/notion-vs-notebooklm",
-    title: "Notion Vs NotebookLM: Side-by-Side Comparison (2025)",
-    author: "John Smith",
-    date: "December 19, 2024",
-    image: "best-ai-meeting-managers-202507.webp",
-    content:
-      "In this comparison of Notion and NotebookLM, I’ll be diving into the key distinctions between these two productivity tools. I’ll examine NotebookLM and Notion in terms of their features, pricing, user interfaces, and their pros and cons. After spending considerable time with both of these note-taking apps, I’m excited to share their strengths and limitations to help you make the best choice for your needs.",
-  },
-  {
-    url: "/xtiles-vs-notion",
-    title: "Xtiles Vs Notion: All Features Compared (2025)",
-    author: "John Smith",
-    date: "January 6, 2025",
-    image: "best-ai-meeting-managers-202514.webp",
-    content:
-      "In this Xtiles vs Notion comparison, I'll walk you through the key distinctions between these two powerful productivity tools. I'll break down the differences between Xtiles and Notion, covering their features, pricing, user interfaces, integration options, and the pros and cons of each. After spending extensive time with both note-taking apps over the last two years, I’m here to share my insights to help you make an informed decision.",
-  },
+
   {
     url: "/obsidian-review",
     title: "Obsidian Review: What Nobody Tells You About This App (2025)",

@@ -362,7 +362,7 @@ const Article = () => {
       categories: [],
       author: "Aron Kantor",
       date: "February 23, 2025",
-      image: "health35.jpg",
+      image: "smart-trading-tools-with-tradeify.jpg",
       content:
         "Financial trading can bring enormous profits, but most people fear losing money, lack experience, or worry about choosing the wrong trading platform. These concerns are completely valid because the financial market is not for the unprepared. I was once like that – doubting my abilities and struggling to find a reliable platform to start. But then I found Tradeify, a modern trading platform that helped me overcome my fears and maximize my earning potential in the market.",
     },

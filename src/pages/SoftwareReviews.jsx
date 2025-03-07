@@ -4,29 +4,7 @@ import { Search } from "lucide-react";
 import Blog from "../components/Blog";
 
 const articles = [
-  {
-    url: "/taskade-vs-coda",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    title: "Taskade Vs Coda: Side-by-Side Comparison (2025)",
-    author: "By Aron Kantor",
-    date: "January 6, 2025",
-    image: "best-ai-meeting-managers-202500.webp",
-    content:
-      "In this Taskade vs Coda comparison, I will show you the key differences between these two project management tools. I will compare Taskade to Coda based on features, pricing, user interfaces, and pros and cons. I spent numerous hours with both project management apps, and I am here to share the benefits and limitations of each tool to ensure you make the right choice.",
-  },
+
   {
     url: "/adobe-acrobat-vs-updf",
     categories: [
@@ -65,29 +43,7 @@ const articles = [
     content:
       "In this Xtiles review, I'll walk you through how this powerful note-taking app functions, highlight its standout features, and weigh its pros and cons. As someone who is a big fan of Notion, I also enjoy exploring other productivity tools. I dedicated quite a bit of time to experimenting with Xtiles, uncovering its capabilities, and understanding how it could enhance my workflow. And I have to say, I was pleasantly surprised.",
   },
-  {
-    url: "/xtiles-vs-notion",
-    title: "Xtiles Vs Notion: All Features Compared (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "January 6, 2025",
-    image: "best-ai-meeting-managers-202514.webp",
-    content:
-      "In this Xtiles vs Notion comparison, I'll walk you through the key distinctions between these two powerful productivity tools. I'll break down the differences between Xtiles and Notion, covering their features, pricing, user interfaces, integration options, and the pros and cons of each. After spending extensive time with both note-taking apps over the last two years, I’m here to share my insights to help you make an informed decision.",
-  },
+
   {
     url: "/notebooklm-review",
     title: "NotebookLM Review: A Promising AI Tool For Note-Taking (2025)",
@@ -107,29 +63,7 @@ const articles = [
     content:
       "Google has recently introduced a new note-taking tool called NotebookLM. Powered by AI, this app is designed to help users better understand complex documents. Unlike popular note-taking apps like Notion, Obsidian, or Evernote, NotebookLM operates in a completely unique way. In this NotebookLM review, I’ll walk you through its features, pros, and cons.",
   },
-  {
-    url: "/notion-vs-notebooklm",
-    title: "Notion Vs NotebookLM: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Project Management",
-        link: "/project-management",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "December 19, 2024",
-    image: "best-ai-meeting-managers-202507.webp",
-    content:
-      "In this comparison of Notion and NotebookLM, I’ll be diving into the key distinctions between these two productivity tools. I’ll examine NotebookLM and Notion in terms of their features, pricing, user interfaces, and their pros and cons. After spending considerable time with both of these note-taking apps, I’m excited to share their strengths and limitations to help you make the best choice for your needs.",
-  },
+
   {
     url: "/best-pdf-editors",
     title: "The 8 Best PDF Editors In 2025 | 30+ Personally Tested PDF Tools",
@@ -172,63 +106,7 @@ const articles = [
     content:
       "Navigating back-to-back meetings can be a real struggle. It is challenging to balance speaking, manual note-taking, and managing meetings while staying engaged. The advancement of artificial intelligence can be an answer to these challenges. You can offload many tasks with an AI meeting manager during online meetings.",
   },
-  {
-    url: "/otter-ai-vs-fathom",
-    title: "Otter AI vs Fathom: Which AI Note-Taker Is The Best? (2025)",
-    categories: [
-      {
-        name: "Meeting tools",
-        link: "/meeting-tools",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "Aron Kantor",
-    date: "November 4, 2024",
-    image: "best-ai-meeting-managers-202523.webp",
-    content:
-      "In this Otter AI vs Fathom comparison, I’ll highlight the essential differences between these two AI-powered meeting assistants, including features, pricing, and the pros and cons of each. After spending considerable time using both tools over the past two years, I’m here to share my insights on how each one can benefit or limit your workflow, helping you make an informed decision.",
-  },
-  {
-    url: "/evernote-vs-xtiles",
-    title: "Evernote Vs Xtiles: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "Note-Taking Apps",
-        link: "/note-taking-apps",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "Aron Kantor",
-    date: "February 17, 2025",
-    image: "aron-kantor-profile5.webp",
-    content:
-      "In this comparison between Evernote and Xtiles, I'll walk you through the major differences between these two productivity tools. I'll be comparing Evernote and Xtiles across features, pricing, user interfaces, and their pros and cons. After spending countless hours with both apps over the past two years, I'm here to break down the advantages and limitations of each, helping you make an informed decision.",
-  },
-  {
-    url: "/fireflies-ai-vs-otter-ai",
-    title: "Fireflies AI vs Otter AI: A REAL Comparison With No Fluff (2025)",
-    categories: [
-      {
-        name: "Meeting tools",
-        link: "/meeting-tools",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "Jane Doe",
-    date: "January 25, 2024",
-    image: "best-ai-meeting-managers-202528.webp",
-    content:
-      "In this comparison of Fireflies AI vs Otter AI, I’ll walk you through all the essential differences between these two AI-driven meeting assistants, covering features, pricing, and the pros and cons of each tool. Over the past few years, I’ve dedicated significant time testing and using both Fireflies AI and Otter AI.",
-  },
+
   {
     url: "/fireflies-ai-review",
     title: "Fireflies AI Review: Why is EVERYONE using it for meeting notes?",
@@ -294,25 +172,7 @@ const articles = [
     content:
       "Coda turned out to be quite an interesting tool, and it genuinely exceeded my expectations. After spending several weeks exploring its features, I wanted to share my experience and insights in this Coda.io review, explaining why it caught me by surprise.",
   },
-  {
-    url: "/adobe-acrobat-alternatives",
-    title: "The 7 Best Adobe Acrobat Alternatives: 30+ PDF Editors Tested",
-    categories: [
-      {
-        name: "Pdf Tools",
-        link: "/pdf-tools",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "January 23, 2025",
-    image: "best-ai-meeting-managers-202581.webp",
-    content:
-      "I totally get it. Adobe Acrobat can be pricey, and you're probably wondering if there are any affordable alternatives. I had the same thoughts, so I decided to do some serious research and find the top Adobe Acrobat alternatives for 2025.",
-  },
+  
   {
     url: "/evernote-review",
     categories: [
@@ -332,25 +192,7 @@ const articles = [
     content:
       " Evernote is a note-taking app that helps you to capture and store ideas, notes, tasks, and documents. It offers numerous tools for creating and organizing notes quickly and syncing them across multiple devices.",
   },
-  {
-    url: "/pdf-editors-for-windows",
-    title: "I Tested +30 PDF editors for Windows | Here Are The 8 Best",
-    categories: [
-      {
-        name: "PDF Tools",
-        link: "/pdf-tools",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "February 6, 2025",
-    image: "best-ai-meeting-managers-202571.webp",
-    content:
-      "Finding the right PDF editor for Windows can be a daunting task. With over 100 PDF editing tools available on the market, the real question is: which one is worth your time?",
-  },
+
   {
     url: "/meetgeek-review",
     title: "MeetGeek Review: Is It The Best AI Note-Taker For You? (2025)",
@@ -428,25 +270,7 @@ const articles = [
     content:
       "In this review of Fathom, I'll cover everything you need to know, including its features, pricing, and the pros and cons of using it. After spending hundreds of hours testing a wide range of AI note-taking apps, including Fathom, I’m equipped with valuable insights to help you decide if this tool is the right fit for your online meetings.",
   },
-  {
-    url: "/foxit-vs-pdfelement",
-    title: "Foxit Vs PDFelement: Side-by-Side Comparison (2025)",
-    categories: [
-      {
-        name: "PDF Tools",
-        link: "/pdf-tools",
-      },
-      {
-        name: "Software Reviews",
-        link: "/software-reviews",
-      },
-    ],
-    author: "John Smith",
-    date: "February 13, 2025",
-    image: "best-ai-meeting-managers-202544.webp",
-    content:
-      "In this comparison between Foxit and PDFelement, I’ll break down the essential differences between these two powerful PDF editors. I’ll compare their features, pricing, user interfaces, my personal experience, and the pros and cons of each. After spending hours working with both, I’m excited to share the strengths and weaknesses of each tool to help you make the right choice.",
-  },
+
   {
     url: "/minuteslink-review",
     title: "MinutesLink Review: An exciting AI note-taker (2025)",

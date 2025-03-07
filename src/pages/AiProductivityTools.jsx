@@ -705,7 +705,7 @@ const AiProductivityTools = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="best-ai-productivity-tools.webp.webp" alt="anh" />
+            <img src="best-ai-productivity-tools.webp" alt="anh" />
             <h1 className="mt-10">
               If you are reading this, it is likely that you are someone who is
               always looking for ways to be more productive. Productivity is not
