@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
