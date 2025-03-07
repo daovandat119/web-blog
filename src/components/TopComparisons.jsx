@@ -5,70 +5,68 @@ const TopComparisons = () => {
 
   const topComparisons = [
     {
-      url: "/goli-triple-action-immune-gummies",
+      url: "/11six24-pickleball-paddle",
       title:
-        "Goli Triple Action Immune Gummies – The Ultimate Solution for Stronger Immunity",
+        "11SIX24 Pickleball Paddles - Boost Your Health",
       categories: [],
       author: "Aron Kantor",
-      date: "May 3, 2025",
-      image: "goli-triple-action-immune-gummies-review.png",
+      date: "February 23, 2025",
+      image: "11six24-pickleball-action.png",
       content:
-        "In today’s fast-paced life, taking care of our immune system is often overlooked. As someone who works under high pressure, I understand the exhaustion and vulnerability to colds when immunity weakens. After researching various supplements, I decided to try Goli Triple Action Immune Gummies – a convenient, delicious, and effective way to support my immune health.",
+        " Are You Losing Your Health Without Realizing It? Modern life keeps gradually neglecting the importance of exercise. The result? Declining health, fatigue, and mental stress. But how can we stay active while enjoying the process?",
     },
     {
-      url: "/four",
-      title:
-        "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
+      url: "/lovense-pleasure-devices",
+      title: "Lovense Review - My Experience with Smart Toys",
       categories: [],
       author: "Aron Kantor",
-      date: "February 25, 2025",
-      image: "four-sigmatic-functional-foods.jpg",
+      date: "February 23, 2025",
+      image: "lovense-final-verdict.png",
       content:
-        "Four Sigmatic is a standout brand in the functional food industry, specializing in products that combine medicinal mushrooms with organic ingredients to support both physical and mental health. Let’s explore the features and real user reviews of Four Sigmatic products.",
+        "Lovense products are known for their superior craftsmanship, made with body-safe, medical-grade silicone that feels smooth and comfortable on the skin. The durability is impressive, ensuring long-term usage without degradation in performance. Another standout feature is their seamless integration with technology, offering app-controlled connectivity that enhances the user experience. ",
     },
     {
-      url: "/goli-ashwagandha-wellness",
-      title:
-        "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
+      url: "/truedark-glasses",
+      title: "TrueDark Glasses Review – Boost Sleep & Eye Health",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "goli-ashwagandha-gummies.png",
+      image: "truedark-blue-light-impact.png",
       content:
-        "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
+        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
     },
     {
-      url: "/thehydrojug-hydration-solution",
+      url: "/litime-battery-performance",
       title:
-        "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
-      categories: [],
-      image: "thehydrojug-water-bottle.png",
-      author: "Aron Kantor",
-      date: "February 24, 2025",
-      image: "health48.png",
-      content:
-        "TheHydroJug is a standout brand specializing in large-capacity water bottles, making it easier for you to stay properly hydrated throughout the day. With a convenient design, safe materials, and a variety of accessories, TheHydroJug has quickly become the top choice for fitness enthusiasts, office workers, and anyone looking to maintain a healthy lifestyle.",
-    },
-    {
-      url: "/flaskap",
-      title:
-        "FlasKap – Revolutionizing the World of Thermal Bottles",
+        "Litime Products Review - Top Energy Storage Solutions",
       categories: [],
       author: "Aron Kantor",
-      date: "February 24, 2025",
-      image: "health58.jpg",
+      date: "February 23, 2025",
+      image: "litime-energy-storage.png",
       content:
-        "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
+        "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
     },
     {
-      url: "/last-crumb-cookies-review",
-      title: "Last Crumb Cookies - Luxury Worth Every Bite",
+      url: "/elevated-faith-apparel",
+      title:
+        "Elevated Faith Review - Christian Apparel with Impact",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "elevated-faith-collection.png",
+      content:
+        "If you're looking for faith-inspired clothing and accessories that make a real difference, Elevated Faith is a brand that stands out. More than just a clothing line, it’s a movement designed to spark conversations about faith while giving back to those in need. After exploring their products, mission, and customer experience, here’s why Elevated Faith is worth your attention.",
+    },
+    {
+      url: "/double-oak-essentials",
+      title:
+        "Double Oak Essentials Wallet Review: Slim & Stylish",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health5.png",
+      image: "double-oak-essentials-problems.png",
       content:
-        "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
+        "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
     },
   ];
 

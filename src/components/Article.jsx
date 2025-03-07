@@ -325,67 +325,66 @@ const Article = () => {
 
   const articles = [
     {
-      url: "/goli-ashwagandha",
+      url: "/taja",
+      title: "Taja AI – The Ultimate AI Tool for YouTube Content Optimization",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health72.png",
+      content:
+        "Are you a YouTube creator struggling with SEO optimization, writing video descriptions, designing eye-catching thumbnails, and increasing visibility? Taja AI is the solution you've been looking for! Having personally experienced this tool, I want to share how it has completely transformed my content creation process—saving time, boosting efficiency, and taking my videos to the next level.",
+    },
+    {
+      url: "/walter-writes",
+      title: "WalterWrites.ai – Elevating Writing with AI Innovation",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health63.jpg",
+      content:
+        "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
+    },
+    {
+      url: "/locked-in",
       title:
-        "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
+        "LockedIn AI - The Most Effective Interview Preparation Solution Today",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health66.png",
+      content:
+        "As someone who frequently faces stressful interviews, I was always looking for a tool to help me prepare effectively. When I discovered LockedIn AI, I decided to give it a try, and I was truly surprised by what it had to offer.",
+    },
+    {
+      url: "/gling",
+      title: "Gling.ai – Transforming Video Editing with AI Efficiency",
+      author: "Aron Kantor",
+      date: "February 24, 2025",
+      image: "health52.png",
+      content:
+        "As a content creator, video editing has always been a time-consuming process for me. However, after discovering Gling.ai, I’ve completely changed the way I approach editing. This AI-powered tool has optimized my workflow, allowing me to focus on content creation rather than spending hours cutting and adjusting videos manually.",
+    },
+    {
+      url: "/lilac",
+      title:
+        "Lilac St. Lashes – The Perfect Natural False Lashes Experience for Every Girl",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 25, 2025",
+      image: "health69.png",
+      content:
+        "In the world of makeup, finding the perfect pair of false lashes that look natural and are easy to use is no easy task. Lilac St. has become one of the top choices thanks to its premium false lash products, offering absolute naturalness and optimal comfort with every lash strand.",
+    },
+    {
+      url: "/chronic-pain",
+      title:
+        "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
       categories: [],
       author: "Aron Kantor",
       date: "February 21, 2025",
-      image: "health.png",
+      image: "health9.jpg",
       content:
-        "Goli Ashwagandha is a supplement made from Ashwagandha, an herb renowned in Ayurveda for its adaptogenic properties. This product is designed to support overall health, especially helping to improve your body's ability to cope with stress and maintain balance in everyday life.",
-    },
-    {
-      url: "/comprehensive",
-      title:
-        "Litime Products Review - Top Energy Storage Solutions",
-      categories: [],
-      author: "Aron Kantor",
-      date: "February 23, 2025",
-      image: "health39.png",
-      content:
-        "If you are looking for a durable, high-performance, and reliable energy storage solution, Litime is the answer. After using LiFePO4 batteries and other energy devices from Litime for a long time, I am completely convinced of their outstanding quality and efficiency. Not only do they save costs in the long run, but they also provide absolute peace of mind when in use.",
-    },
-    {
-      url: "/personal-experience",
-      title: "Personal Experience with Lovense Products",
-      categories: [],
-      author: "Aron Kantor",
-      date: "February 23, 2025",
-      image: "health34.png",
-      content:
-        "When it comes to high-quality, innovative, and tech-integrated pleasure devices, Lovense stands out as a leading brand. As someone who has tested various products in this niche, I was intrigued by the buzz surrounding Lovense and decided to give their products a try. ",
-    },
-    {
-      url: "/tradeify-smart-trading-tools-for-profit",
-      title: "TRADEIFY – SMART TRADING SOLUTION FOR MODERN INVESTORS",
-      categories: [],
-      author: "Aron Kantor",
-      date: "February 23, 2025",
-      image: "smart-trading-tools-with-tradeify.jpg",
-      content:
-        "Financial trading can bring enormous profits, but most people fear losing money, lack experience, or worry about choosing the wrong trading platform. These concerns are completely valid because the financial market is not for the unprepared. I was once like that – doubting my abilities and struggling to find a reliable platform to start. But then I found Tradeify, a modern trading platform that helped me overcome my fears and maximize my earning potential in the market.",
-    },
-    {
-      url: "/double-oak-essentials",
-      title:
-        "Double Oak Essentials Wallet Review: Slim & Stylish",
-      categories: [],
-      author: "Aron Kantor",
-      date: "February 21, 2025",
-      image: "health14.png",
-      content:
-        "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
-    },
-    {
-      url: "/truedark-glasses",
-      title: "TrueDark – The Perfect Solution for Deep Sleep and Healthy Eyes",
-      categories: [],
-      author: "Aron Kantor",
-      date: "February 21, 2025",
-      image: "truedark-blue-light-impact.png",
-      content:
-        "Blue light from computer screens, phones, and LED lights negatively impacts our sleep and eye health every day. If you often experience eye strain, difficulty sleeping, or lack of focus while working, TrueDark glasses might be the solution you’re looking for. I’ve tested several TrueDark glasses, and here’s my personal experience.",
+        "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
     },
   ];
 

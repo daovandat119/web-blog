@@ -4,6 +4,17 @@ import { Link } from "react-router-dom";
 const Posts = () => {
   const posts = [
     {
+      url: "/four-sigmatic-product-review",
+      title:
+        "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
+      categories: [],
+      author: "Aron Kantor",
+      date: "February 25, 2025",
+      image: "four-sigmatic-functional-foods.jpg",
+      content:
+        "Four Sigmatic is a standout brand in the functional food industry, specializing in products that combine medicinal mushrooms with organic ingredients to support both physical and mental health. Let’s explore the features and real user reviews of Four Sigmatic products.",
+    },
+    {
       url: "/last-crumb-cookies-review",
       title: "Last Crumb Cookies - Luxury Worth Every Bite",
       categories: [],
@@ -11,29 +22,18 @@ const Posts = () => {
       date: "February 21, 2025",
       image: "last-crumb-cookies-box.png",
       content:
-        "If you’re searching for a premium culinary experience where each cookie is not just a treat but a masterpiece, Last Crumb is for you. With a price tag of $140 for a box of 12, these aren’t your average cookies—they are a luxurious indulgence, crafted for those who appreciate unique flavors and perfection in every detail.",
+        "Looking for a gourmet treat? Last Crumb Cookies deliver luxury at $140 for 12 handcrafted masterpieces, perfect for those who crave unique flavors and impeccable quality.",
     },
     {
-      url: "/chronic-pain",
+      url: "/thehydrojug-hydration-solution",
       title:
-        "Chronic Pain, Arthritis, or Lingering Injuries? NovaaLab – Your At-Home Recovery Solution!",
+        "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
       categories: [],
       author: "Aron Kantor",
-      date: "February 21, 2025",
-      image: "health9.png",
+      date: "February 24, 2025",
+      image: "thehydrojug-water-bottle.png",
       content:
-        "Do you often suffer from pain caused by movement, arthritis, injuries, or muscle strain? Have you tried multiple treatments, but the pain just won’t go away? Physical therapy sessions can be expensive, and painkillers only provide temporary relief… So what is a safe, effective, and convenient solution you can use at home?",
-    },
-    {
-      url: "/double-oak-essentials",
-      title:
-        "Double Oak Essentials Wallet Review: Slim & Stylish",
-      categories: [],
-      author: "Aron Kantor",
-      date: "February 21, 2025",
-      image: "health14.png",
-      content:
-        "If you’ve been dealing with these problems, it’s time to upgrade to a sleek, stylish, and functional wallet – and Double Oak Essentials is the answer.",
+        "TheHydroJug is a standout brand specializing in large-capacity water bottles, making it easier for you to stay properly hydrated throughout the day. With a convenient design, safe materials, and a variety of accessories, TheHydroJug has quickly become the top choice for fitness enthusiasts, office workers, and anyone looking to maintain a healthy lifestyle.",
     },
   ];
 
