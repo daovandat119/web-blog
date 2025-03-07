@@ -125,44 +125,44 @@ const NotionVsNotebooklm = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-       image: "anh3.webp",
+       image: "best-ai-meeting-managers-2025.webp",
       date: "October 5, 2023",
     },
     {
       url: "/best-ai-note-taking-app",
       title: "8 Best AI Note-Taking Apps to Boost Your Productivity (2025)",
       date: "October 19, 2023",
-      image: "anh122.webp",
+      image: "best-ai-note-taking-apps-2025.webp",
     },
     {
       url: "/best-ai-task-manager",
       title: "Best 8 AI Task Manager Tools to Get More Work Done",
       date: "October 26, 2023",
-      image: "anh3.webp",
+      image: "best-ai-task-manager-tools.webp",
     },
     {
       url: "/best-ai-scheduling-assistant",
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       date: "January 2, 2024",
-      image: "anh137.webp",
+      image: "best-ai-scheduling-assistants-2025.webp",
     },
     {
       url: "/best-collaboration-tools-for-remote-teams",
       title: "13 Best Collaboration Tools For Remote Teams In 2025",
       date: "January 2, 2024",
-      image: "anh158.webp",
+      image: "best-remote-collaboration-tools-2025.webp",
     },
     {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp",
     },
     {
       url: "/best-email-productivity-apps",
       title: "Best 5 Email Productivity Apps To Accomplish More In 2025",
       date: "April 4, 2024",
-      image: "anh171.webp",
+      image: "best-email-productivity-apps-2025.webp",
     },
   ];
 
@@ -175,7 +175,7 @@ const NotionVsNotebooklm = () => {
             className="lg:w-4/7 flex flex-col justify-center items-center mx-auto"
           >
             
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">{item.date}</p>
@@ -186,7 +186,7 @@ const NotionVsNotebooklm = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="anh307.webp" alt="anh" />
+            <img src="best-ai-meeting-managers-202507.webp" alt="anh" />
             <h1 className="mt-10">
               In this comparison of Notion and NotebookLM, I’ll be diving into
               the key distinctions between these two productivity tools. I’ll
@@ -421,7 +421,7 @@ const NotionVsNotebooklm = () => {
             <h1 id="notionsfeatures" className="text-xl work-sans-900 my-5">
               Note-taking
             </h1>
-            <img src="anh308.webp" alt="Notion Features" />
+            <img src="best-ai-meeting-managers-202508.webp" alt="Notion Features" />
             <p className="my-5">
               Notion is an incredibly versatile platform that lets users build
               personalized workflows and document management systems. It allows
@@ -456,7 +456,7 @@ const NotionVsNotebooklm = () => {
             <h1 id="notionsfeatures" className="text-xl work-sans-900 my-5">
               Notebook Guide
             </h1>
-            <img src="anh309.webp" alt="NotebookLM Features" />
+            <img src="best-ai-meeting-managers-202509.webp" alt="NotebookLM Features" />
             <p className="my-5">
               NotebookLM is designed to streamline knowledge management by
               integrating AI technology that can automatically classify,
@@ -479,7 +479,7 @@ const NotionVsNotebooklm = () => {
             <h1 id="notionui" className="text-xl work-sans-900 my-5">
               Notion's User Interface
             </h1>
-            <img src="anh310.webp" alt="Notion UI" />
+            <img src="best-ai-meeting-managers-202510.webp" alt="Notion UI" />
             <p className="my-5">
               Notion’s user interface is clean, modern, and highly customizable.
               It provides a minimalist design that allows users to focus on
@@ -496,7 +496,7 @@ const NotionVsNotebooklm = () => {
             <h1 id="notebooklmui" className="text-xl work-sans-900 my-5">
               NotebookLM's User Interface
             </h1>
-            <img src="anh311.webp" alt="NotebookLM UI" />
+            <img src="best-ai-meeting-managers-202511.webp" alt="NotebookLM UI" />
             <p className="my-5">
               NotebookLM’s interface is simpler and more streamlined compared to
               Notion’s, as it focuses more on content discovery and organization
@@ -517,7 +517,7 @@ const NotionVsNotebooklm = () => {
             <h1 id="notionintegrations" className="text-xl work-sans-900 my-5">
               Notion's Integrations
             </h1>
-            <img src="anh312.webp" alt="Notion Integrations" />
+            <img src="best-ai-meeting-managers-202512.webp" alt="Notion Integrations" />
             <p className="my-5">
               Notion integrates with a wide variety of tools, including Google
               Drive, Slack, Trello, and Zapier. These integrations allow users
@@ -556,7 +556,7 @@ const NotionVsNotebooklm = () => {
             <h1 id="notionpricing" className="text-xl work-sans-900 my-5">
               Notion's Pricing
             </h1>
-            <img src="anh313.webp" alt="Notion Pricing" />
+            <img src="best-ai-meeting-managers-202513.webp" alt="Notion Pricing" />
             <p className="my-5">
               Notion offers a free plan with core features for individual users.
               The premium plan starts at $4 per month, providing access to
@@ -722,7 +722,7 @@ const NotionVsNotebooklm = () => {
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
-                src="anh33.jpg"
+                src="aron-kantor-profile.jpg"
                 alt="anh"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />

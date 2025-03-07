@@ -100,44 +100,44 @@ const PdfEditorsForWindows = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "October 5, 2023",
     },
     {
       url: "/best-ai-note-taking-app",
       title: "8 Best AI Note-Taking Apps to Boost Your Productivity (2025)",
       date: "October 19, 2023",
-      image: "anh122.webp",
+      image: "best-ai-note-taking-apps-2025.webp",
     },
     {
       url: "/best-ai-task-manager",
       title: "Best 8 AI Task Manager Tools to Get More Work Done",
       date: "October 26, 2023",
-      image: "anh3.webp",
+      image: "best-ai-task-manager-tools.webp",
     },
     {
       url: "/best-ai-scheduling-assistant",
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       date: "January 2, 2024",
-      image: "anh137.webp",
+      image: "best-ai-scheduling-assistants-2025.webp",
     },
     {
       url: "/best-collaboration-tools-for-remote-teams",
       title: "13 Best Collaboration Tools For Remote Teams In 2025",
       date: "January 2, 2024",
-      image: "anh158.webp",
+      image: "best-remote-collaboration-tools-2025.webp",
     },
     {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp",
     },
     {
       url: "/best-email-productivity-apps",
       title: "Best 5 Email Productivity Apps To Accomplish More In 2025",
       date: "April 4, 2024",
-      image: "anh171.webp",
+      image: "best-email-productivity-apps-2025.webp",
     },
   ];
 
@@ -150,7 +150,7 @@ const PdfEditorsForWindows = () => {
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
             
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
@@ -163,7 +163,7 @@ const PdfEditorsForWindows = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="anh371.webp" alt="anh" />
+            <img src="best-ai-meeting-managers-202571.webp" alt="anh" />
             <h1 className="mt-10">
               Finding the right PDF editor for Windows can be a daunting task.
               With over 100 PDF editing tools available on the market, the real
@@ -729,7 +729,7 @@ const PdfEditorsForWindows = () => {
               <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                 An Affordable Solution
               </h1>
-              <img src="anh372.webp" alt="anh" className="my-5" />
+              <img src="best-ai-meeting-managers-202572.webp" alt="anh" className="my-5" />
               <button
                 onClick={() =>
                   window.open("https://www.pdfgear.com/", "_blank")
@@ -759,7 +759,7 @@ const PdfEditorsForWindows = () => {
               <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                 Key Features
               </h1>
-              <img src="anh373.webp" alt="anh" />
+              <img src="best-ai-meeting-managers-202573.webp" alt="anh" />
               <div className="mt-10">
                 <div className="flex flex-col lg:flex-row gap-4">
                   <FaRegStickyNote className="text-green-500 text-3xl lg:text-8xl" />
@@ -871,7 +871,7 @@ const PdfEditorsForWindows = () => {
               <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                 Pricing
               </h1>
-              <img src="anh374.webp" alt="anh" className="mb-10" />
+              <img src="best-ai-meeting-managers-202574.webp" alt="anh" className="mb-10" />
               The free version of PDFGear lets you view and read PDFs, as well
               as access basic tools. There are two premium plans available.
               <br></br>
@@ -1558,7 +1558,7 @@ const PdfEditorsForWindows = () => {
               <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                 A Comprehensive and Free PDF Tool Suite
               </h1>
-              <img src="anh375.webp" alt="anh" className="my-5" />
+              <img src="best-ai-meeting-managers-202575.webp" alt="anh" className="my-5" />
               <button
                 onClick={() => window.open("https://pdfcandy.com/", "_blank")}
                 className="text-[#3182ce] underline"
@@ -1583,7 +1583,7 @@ const PdfEditorsForWindows = () => {
               <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                 Key features
               </h1>
-              <img src="anh376.webp" alt="anh" />
+              <img src="best-ai-meeting-managers-202576.webp" alt="anh" />
               <div className="mt-10">
                 <div className="flex flex-col lg:flex-row gap-4">
                   <FaRegStickyNote className="text-green-500 text-3xl lg:text-7xl" />
@@ -1644,7 +1644,7 @@ const PdfEditorsForWindows = () => {
               <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                 My experience with PDF Candy
               </h1>
-              <img src="anh379.webp" alt="anh" className="mb-10" />
+              <img src="best-ai-meeting-managers-202579.webp" alt="anh" className="mb-10" />
               PDF Candy offers an impressive range of tools for free. The
               user-friendly interface makes it perfect for quick edits or
               conversions. Although it’s online-based, it is fast and efficient
@@ -1653,7 +1653,7 @@ const PdfEditorsForWindows = () => {
               <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
                 Pricing
               </h1>
-              <img src="anh380.webp" alt="anh" className="mb-10" />
+              <img src="best-ai-meeting-managers-202580.webp" alt="anh" className="mb-10" />
               PDF Candy has a free version that includes basic tools. For
               additional premium features, PDF Candy also offers a subscription
               plan starting at $6.99 per month with access to all features, such
@@ -2041,7 +2041,7 @@ const PdfEditorsForWindows = () => {
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
-                src="anh33.jpg"
+                src="aron-kantor-profile.jpg"
                 alt="anh"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />

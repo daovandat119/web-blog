@@ -5,15 +5,15 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
-    url: "/anycubic",
+    url: "/anycubic-3d-printers-2025",
     title:
-      "Anycubic - A Reliable 3D Printing Solution for Everyone",
+      "Anycubic 3D Printers: Your Reliable Choice for High-Quality Printing in 2025",
     categories: [],
     author: "Aron Kantor",
     date: "February 26, 2025",
-    image: "health79.jpg",
+    image: "personal-experience-anycubic-photon.jpg",
     content:
-      "As a 3D printing enthusiast, I have tried many different machines. However, when I used Anycubic 3D printers, I was truly impressed by their outstanding print quality, stability, and affordability.",
+      "As a passionate 3D printing enthusiast, I’ve tested numerous machines, but Anycubic 3D printers stand out in 2025 for their exceptional print quality, unmatched stability, and budget-friendly pricing – perfect for beginners and pros alike",
   },
 ];
 

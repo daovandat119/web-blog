@@ -22,7 +22,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "October 5, 2023",
-    image: "anh3.webp",
+    image: "best-ai-meeting-managers-2025.webp",
     content:
       "Navigating back-to-back meetings can be a real struggle. It is challenging to balance speaking, manual note-taking, and managing meetings while staying engaged. The advancement of artificial intelligence can be an answer to these challenges. You can offload many tasks with an AI meeting manager during online meetings.",
   },

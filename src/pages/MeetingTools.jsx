@@ -19,7 +19,7 @@ const articles = [
     ],
     author: "Aron Kantor",
     date: "November 4, 2024",
-    image: "anh323.webp",
+    image: "best-ai-meeting-managers-202523.webp",
     content:
       "In this Otter AI vs Fathom comparison, I’ll highlight the essential differences between these two AI-powered meeting assistants, including features, pricing, and the pros and cons of each. After spending considerable time using both tools over the past two years, I’m here to share my insights on how each one can benefit or limit your workflow, helping you make an informed decision.",
   },
@@ -38,7 +38,7 @@ const articles = [
     ],
     author: "Jane Doe",
     date: "January 25, 2024",
-    image: "anh328.webp",
+    image: "best-ai-meeting-managers-202528.webp",
     content:
       "In this comparison of Fireflies AI vs Otter AI, I’ll walk you through all the essential differences between these two AI-driven meeting assistants, covering features, pricing, and the pros and cons of each tool. Over the past few years, I’ve dedicated significant time testing and using both Fireflies AI and Otter AI.",
   },
@@ -194,7 +194,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "October 5, 2023",
-    image: "anh3.webp",
+    image: "best-ai-meeting-managers-2025.webp",
     content:
       "Navigating back-to-back meetings can be a real struggle. It is challenging to balance speaking, manual note-taking, and managing meetings while staying engaged. The advancement of artificial intelligence can be an answer to these challenges. You can offload many tasks with an AI meeting manager during online meetings.",
   },

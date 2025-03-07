@@ -143,44 +143,44 @@ const OtterAiVsFathom = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-       image: "anh3.webp",
+       image: "best-ai-meeting-managers-2025.webp",
       date: "October 5, 2023",
     },
     {
       url: "/best-ai-note-taking-app",
       title: "8 Best AI Note-Taking Apps to Boost Your Productivity (2025)",
       date: "October 19, 2023",
-      image: "anh122.webp",
+      image: "best-ai-note-taking-apps-2025.webp",
     },
     {
       url: "/best-ai-task-manager",
       title: "Best 8 AI Task Manager Tools to Get More Work Done",
       date: "October 26, 2023",
-      image: "anh3.webp",
+      image: "best-ai-task-manager-tools.webp",
     },
     {
       url: "/best-ai-scheduling-assistant",
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       date: "January 2, 2024",
-      image: "anh137.webp",
+      image: "best-ai-scheduling-assistants-2025.webp",
     },
     {
       url: "/best-collaboration-tools-for-remote-teams",
       title: "13 Best Collaboration Tools For Remote Teams In 2025",
       date: "January 2, 2024",
-      image: "anh158.webp",
+      image: "best-remote-collaboration-tools-2025.webp",
     },
     {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp",
     },
     {
       url: "/best-email-productivity-apps",
       title: "Best 5 Email Productivity Apps To Accomplish More In 2025",
       date: "April 4, 2024",
-      image: "anh171.webp",
+      image: "best-email-productivity-apps-2025.webp",
     },
   ];
 
@@ -193,7 +193,7 @@ const OtterAiVsFathom = () => {
             className="lg:w-4/7 flex flex-col justify-center items-center mx-auto"
           >
             
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">{item.date}</p>
@@ -204,7 +204,7 @@ const OtterAiVsFathom = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="anh323.webp" alt="anh" />
+            <img src="best-ai-meeting-managers-202523.webp" alt="anh" />
             <h1 className="mt-10">
               In this Otter AI vs Fathom comparison, I’ll highlight the
               essential differences between these two AI-powered meeting
@@ -443,7 +443,7 @@ const OtterAiVsFathom = () => {
             <h1 id="otterfeatures" class="text-xl work-sans-900 my-5">
               Otter AI's features
             </h1>
-            <img src="anh324.webp" alt="anh" />
+            <img src="best-ai-meeting-managers-202524.webp" alt="anh" />
             <p class="my-5">
               Otter AI is known for its robust transcription features. It can
               capture live audio from meetings, webinars, and interviews, and
@@ -471,7 +471,7 @@ const OtterAiVsFathom = () => {
               Fathom's features
             </h1>
             <p className="my-5">Let’s see Fathom’s features!</p>
-            <img src="anh325.webp" alt="anh" />
+            <img src="best-ai-meeting-managers-202525.webp" alt="anh" />
             <p class="my-5">
               Fathom distinguishes itself with features that go beyond simple
               transcription. Its AI-powered capabilities allow it to provide
@@ -579,7 +579,7 @@ const OtterAiVsFathom = () => {
             <h1 id="otterpricing" class="text-xl work-sans-900 my-5">
               Otter AI's pricing
             </h1>
-            <img src="anh326.webp" alt="anh" />
+            <img src="best-ai-meeting-managers-202526.webp" alt="anh" />
             <p class="my-5">
               Otter AI offers a free plan with basic transcription features,
               which is ideal for individuals or small teams. The free plan
@@ -600,7 +600,7 @@ const OtterAiVsFathom = () => {
             <h1 id="fathompricing" class="text-xl work-sans-900 my-5">
               Fathom's pricing
             </h1>
-            <img src="anh327.webp" alt="anh" />
+            <img src="best-ai-meeting-managers-202527.webp" alt="anh" />
             <p class="my-5">
               Fathom offers a free version of its tool, which includes the core
               meeting summarization and transcription features. For teams
@@ -907,7 +907,7 @@ const OtterAiVsFathom = () => {
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
-                src="anh33.jpg"
+                src="aron-kantor-profile.jpg"
                 alt="anh"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />

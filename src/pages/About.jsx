@@ -6,7 +6,7 @@ const About = () => {
       <div className="w-6/7 mx-auto pl-5 mt-8 pb-10 mb-15 shadow-[0px_10px_10px_-5px_rgba(0,0,0,0.1)]">
         <div className="flex flex-col lg:flex-row lg:items-center gap-1 my-15">
           <img
-            src="anh33.jpg"
+            src="aron-kantor-profile.jpg"
             alt="avatar"
             className="w-48 h-53 object-cover rounded-full"
           />

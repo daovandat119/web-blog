@@ -92,44 +92,44 @@ const BestAIMeetingManagers = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "October 5, 2023",
     },
     {
       url: "/best-ai-note-taking-app",
       title: "8 Best AI Note-Taking Apps to Boost Your Productivity (2025)",
       date: "October 19, 2023",
-      image: "anh122.webp",
+      image: "best-ai-note-taking-apps-2025.webp",
     },
     {
       url: "/best-ai-task-manager",
       title: "Best 8 AI Task Manager Tools to Get More Work Done",
       date: "October 26, 2023",
-      image: "anh3.webp",
+      image: "best-ai-task-manager-tools.webp",
     },
     {
       url: "/best-ai-scheduling-assistant",
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       date: "January 2, 2024",
-      image: "anh137.webp",
+      image: "best-ai-scheduling-assistants-2025.webp",
     },
     {
       url: "/best-collaboration-tools-for-remote-teams",
       title: "13 Best Collaboration Tools For Remote Teams In 2025",
       date: "January 2, 2024",
-      image: "anh158.webp",
+      image: "best-remote-collaboration-tools-2025.webp",
     },
     {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp",
     },
     {
       url: "/best-email-productivity-apps",
       title: "Best 5 Email Productivity Apps To Accomplish More In 2025",
       date: "April 4, 2024",
-      image: "anh171.webp",
+      image: "best-email-productivity-apps-2025.webp",
     },
   ];
 
@@ -142,7 +142,7 @@ const BestAIMeetingManagers = () => {
             className="w-full lg:w-4/7 flex flex-col justify-center items-center mx-auto"
           >
             
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
@@ -155,7 +155,7 @@ const BestAIMeetingManagers = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="anh3.webp" alt="anh" className="w-full" />
+            <img src="best-ai-meeting-managers-2025.webp" alt="anh" className="w-full" />
             <h1 className="mt-10">
               Navigating back-to-back meetings can be a real struggle. It is
               challenging to balance speaking, manual note-taking, and managing
@@ -410,7 +410,7 @@ const BestAIMeetingManagers = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best AI Meeting Manager Overall
             </h1>
-            <img src="anh30.webp" alt="anh" className="my-5" />
+            <img src="best-ai-meeting-managers-20250.webp" alt="anh" className="my-5" />
             MeetGeek is an AI meeting manager that records videos, transcribes,
             summarizes, and delivers key points from each meeting. After the
             online meeting, you can seamlessly share the summaries and the
@@ -473,7 +473,7 @@ const BestAIMeetingManagers = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pricing:
             </h1>
-            <img src="anh31.webp" alt="anh" className="mb-10" />
+            <img src="best-ai-meeting-managers-20251.webp" alt="anh" className="mb-10" />
             <ul className="list-disc pb-10 px-10">
               <li>Free plan</li>
               <li>Pro: $15/month per user</li>
@@ -1963,7 +1963,7 @@ const BestAIMeetingManagers = () => {
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
-                src="anh33.jpg"
+                src="aron-kantor-profile.jpg"
                 alt="anh"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />

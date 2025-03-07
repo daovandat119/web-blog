@@ -10,38 +10,38 @@ const BlogTopPicks = () => {
     {
       title:
         "Best 4 Automatic Note-Takers You Must Try in 2025 (Tested & Ranked)",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "August 8, 2024",
       author: "Aron Kantor",
     },
     {
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "January 2, 2024",
       author: "Aron Kantor",
     },
     {
       title: "Adobe Acrobat Vs PDFelement: Which One Is Better In 2025?",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "January 21, 2025",
       author: "Aron Kantor",
     },
     {
       title:
         "Best 4 Automatic Note-Takers You Must Try in 2025 (Tested & Ranked)",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "August 8, 2024",
       author: "Aron Kantor",
     },
     {
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "January 2, 2024",
       author: "Aron Kantor",
     },
     {
       title: "Adobe Acrobat Vs PDFelement: Which One Is Better In 2025?",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "January 21, 2025",
       author: "Aron Kantor",
     },

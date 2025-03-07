@@ -114,44 +114,44 @@ const FoxitVsPdfelement = () => {
         {
             url: "/best-ai-meeting-manager",
             title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-            image: "anh3.webp",
+            image: "best-ai-meeting-managers-2025.webp",
             date: "October 5, 2023",
         },
         {
             url: "/best-ai-note-taking-app",
             title: "8 Best AI Note-Taking Apps to Boost Your Productivity (2025)",
             date: "October 19, 2023",
-            image: "anh122.webp",
+            image: "best-ai-note-taking-apps-2025.webp",
         },
         {
             url: "/best-ai-task-manager",
             title: "Best 8 AI Task Manager Tools to Get More Work Done",
             date: "October 26, 2023",
-            image: "anh3.webp",
+            image: "best-ai-meeting-managers-2025.webp",
         },
         {
             url: "/best-ai-scheduling-assistant",
             title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
             date: "January 2, 2024",
-            image: "anh137.webp",
+            image: "best-ai-scheduling-assistants-2025.webp",
         },
         {
             url: "/best-collaboration-tools-for-remote-teams",
             title: "13 Best Collaboration Tools For Remote Teams In 2025",
             date: "January 2, 2024",
-            image: "anh158.webp",
+            image: "best-remote-collaboration-tools-2025.webp",
         },
         {
             url: "/ai-productivity-tools",
             title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
             date: "March 13, 2024",
-            image: "anh91.webp",
+            image: "best-ai-productivity-tools.webp",
         },
         {
             url: "/best-email-productivity-apps",
             title: "Best 5 Email Productivity Apps To Accomplish More In 2025",
             date: "April 4, 2024",
-            image: "anh171.webp",
+            image: "best-email-productivity-apps-2025.webp",
         },
     ];
 
@@ -190,7 +190,7 @@ const FoxitVsPdfelement = () => {
                 <div className="text-[16.95px] my-10 work-sans-400">
                     {/* phần một */}
                     <div>
-                        <img src="anh344.webp" alt="anh" className="w-full" />
+                        <img src="best-ai-meeting-managers-202544.webp" alt="anh" className="w-full" />
                         <p class="mt-6">
                             In this comparison between Foxit and PDFelement, I’ll break down
                             the essential differences between these two powerful PDF editors.
@@ -382,7 +382,7 @@ const FoxitVsPdfelement = () => {
                                 <h2 id="foxit-features" class="text-xl work-sans-900 my-5">
                                     Foxit's features
                                 </h2>
-                                <img src="anh345.webp" alt="Foxit" class="w-full" />
+                                <img src="best-ai-meeting-managers-202545.webp" alt="Foxit" class="w-full" />
                                 <p class="my-5">
                                     Foxit offers a set of powerful features aimed at making PDF
                                     editing fast and easy. Users can easily edit text, images, and
@@ -412,7 +412,7 @@ const FoxitVsPdfelement = () => {
                                 <h2 id="pdfelement-features" class="text-xl work-sans-900 my-5">
                                     PDFelement's features
                                 </h2>
-                                <img src="anh346.webp" alt="PDFelement" class="w-full" />
+                                <img src="best-ai-meeting-managers-202546.webp" alt="PDFelement" class="w-full" />
                                 <p class="my-5">
                                     PDFelement is packed with advanced PDF features that go beyond
                                     basic editing. It offers optical character recognition (OCR)
@@ -450,7 +450,7 @@ const FoxitVsPdfelement = () => {
                                 <h2 id="foxit-ui" class="text-xl work-sans-900 my-5">
                                     Foxit's user interface
                                 </h2>
-                                <img src="anh339.webp" alt="Foxit" class="w-full" />
+                                <img src="aron-kantor-profile9.webp" alt="Foxit" class="w-full" />
                                 <p class="my-5">
                                     Foxit’s interface is designed to be straightforward and
                                     intuitive. The ribbon-style toolbar provides easy access to
@@ -473,7 +473,7 @@ const FoxitVsPdfelement = () => {
                                 <h2 id="pdfelement-ui" class="text-xl work-sans-900 my-5">
                                     PDFelement's user interface
                                 </h2>
-                                <img src="anh340.webp" alt="PDFelement" class="w-full" />
+                                <img src="best-ai-meeting-managers-202540.webp" alt="PDFelement" class="w-full" />
                                 <p class="my-5">
                                     PDFelement offers a more complex interface compared to Foxit,
                                     but it’s still user-friendly. The ribbon-style toolbar
@@ -504,7 +504,7 @@ const FoxitVsPdfelement = () => {
                                 <h2 id="foxit-experience" class="text-xl work-sans-900 my-5">
                                 My experience with Foxit PDF editor
                                 </h2>
-                                <img src="anh347.webp" alt="Foxit" class="w-full" />
+                                <img src="best-ai-meeting-managers-202547.webp" alt="Foxit" class="w-full" />
                                 <p class="my-5">
                                     Foxit offers integrations with several popular cloud storage
                                     services like Google Drive, OneDrive, and Dropbox, allowing
@@ -526,7 +526,7 @@ const FoxitVsPdfelement = () => {
                                 >
                                     My experience with Foxit PDF editor
                                 </h2>
-                                <img src="anh348.webp" alt="PDFelement" class="w-full" />
+                                <img src="best-ai-meeting-managers-202548.webp" alt="PDFelement" class="w-full" />
                                 <p class="my-5">
                                     PDFelement also integrates with several major cloud storage
                                     services, including Google Drive, Dropbox, and OneDrive.
@@ -554,7 +554,7 @@ const FoxitVsPdfelement = () => {
                                 <h2 id="foxit-pricing" class="text-xl work-sans-900 my-5">
                                     Foxit's pricing
                                 </h2>
-                                <img src="anh349.webp" alt="Foxit" class="w-full" />
+                                <img src="best-ai-meeting-managers-202549.webp" alt="Foxit" class="w-full" />
                                 <p class="my-5">
                                     Foxit offers several pricing plans, including a free version
                                     that covers basic PDF editing and annotation features. For
@@ -574,7 +574,7 @@ const FoxitVsPdfelement = () => {
                                 <h2 id="pdfelement-pricing" class="text-xl work-sans-900 my-5">
                                     PDFelement's pricing
                                 </h2>
-                                <img src="anh350.webp" alt="PDFelement" class="w-full" />
+                                <img src="best-ai-meeting-managers-202550.webp" alt="PDFelement" class="w-full" />
                                 <p class="my-5">
                                     PDFelement’s pricing model is similar, offering a free version
                                     for basic PDF tasks and paid plans for users who require
@@ -704,7 +704,7 @@ const FoxitVsPdfelement = () => {
                         </h1>
                         <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
                             <img
-                                src="anh33.jpg"
+                                src="aron-kantor-profile.jpg"
                                 alt="anh"
                                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
                             />

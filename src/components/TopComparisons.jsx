@@ -22,7 +22,7 @@ const TopComparisons = () => {
     },
     {
       url: "/taskade-vs-coda",
-      image: "anh300.webp",
+      image: "best-ai-meeting-managers-202500.webp",
       categories: [
         {
           name: "Note-Taking Apps",
@@ -41,7 +41,7 @@ const TopComparisons = () => {
     },
     {
       url: "/notion-vs-notebooklm",
-      image: "anh307.webp",
+      image: "best-ai-meeting-managers-202507.webp",
       categories: [
         {
           name: "Note-Taking Apps",
@@ -61,7 +61,7 @@ const TopComparisons = () => {
     },
     {
       url: "/xtiles-vs-notion",
-      image: "anh314.webp",
+      image: "best-ai-meeting-managers-202514.webp",
       categories: [
         {
           name: "Note-Taking Apps",
@@ -81,7 +81,7 @@ const TopComparisons = () => {
     },
     { 
       url: "/otter-ai-vs-fathom",
-      image: "anh323.webp",
+      image: "best-ai-meeting-managers-202523.webp",
       categories: [
         {
           name: "Meeting tools",
@@ -97,7 +97,7 @@ const TopComparisons = () => {
     },
     {
       url: "/fireflies-ai-vs-otter-ai",
-      image: "anh328.webp",
+      image: "best-ai-meeting-managers-202528.webp",
       categories: [
         {
           name: "Meeting tools",

@@ -68,7 +68,7 @@ const ArticleCategory = () => {
       ],
       author: "John Smith",
       date: "April 15, 2025",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       content:
         "Finding the best PDF editor for Windows is tough. There are +100 PDF editors for Windows on the market. The question is, which one you should try? I invested over 200 hours in this project and tested more than 30 PDF tools to find the best PDF editors for Windows. In this article, I will…",
     },
@@ -91,7 +91,7 @@ const ArticleCategory = () => {
       ],
       author: "Mark Taylor",
       date: "May 20, 2025",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       content:
         "PDF editing is a crucial part of digital documentation. This article explores some lesser-known tools that are worth checking out.",
     },

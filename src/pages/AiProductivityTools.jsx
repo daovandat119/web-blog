@@ -97,44 +97,44 @@ const AiProductivityTools = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "October 5, 2023",
     },
     {
       url: "/best-ai-note-taking-app",
       title: "8 Best AI Note-Taking Apps to Boost Your Productivity (2025)",
       date: "October 19, 2023",
-      image: "anh122.webp",
+      image: "best-ai-note-taking-apps-2025.webp",
     },
     {
       url: "/best-ai-task-manager",
       title: "Best 8 AI Task Manager Tools to Get More Work Done",
       date: "October 26, 2023",
-      image: "anh3.webp",
+      image: "best-ai-task-manager-tools.webp",
     },
     {
       url: "/best-ai-scheduling-assistant",
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       date: "January 2, 2024",
-      image: "anh137.webp",
+      image: "best-ai-scheduling-assistants-2025.webp",
     },
     {
       url: "/best-collaboration-tools-for-remote-teams",
       title: "13 Best Collaboration Tools For Remote Teams In 2025",
       date: "January 2, 2024",
-      image: "anh158.webp",
+      image: "best-remote-collaboration-tools-2025.webp",
     },
     {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp",
     },
     {
       url: "/best-email-productivity-apps",
       title: "Best 5 Email Productivity Apps To Accomplish More In 2025",
       date: "April 4, 2024",
-      image: "anh171.webp",
+      image: "best-email-productivity-apps-2025.webp",
     },
   ];
 
@@ -205,7 +205,7 @@ const AiProductivityTools = () => {
     {
       link: "meetgeek",
       title: "MeetGeek",
-      imgSrc: "anh30.webp", // Replace with the actual logo URL
+      imgSrc: "best-ai-meeting-managers-20250.webp", // Replace with the actual logo URL
       bestFor:
         "MeetGeek is ideal for freelancers, startups, agencies, SMBs, and enterprises that want to streamline meeting productivity, enhance communication, and automate note-taking.",
       keyFeatures: [
@@ -429,7 +429,7 @@ const AiProductivityTools = () => {
     {
       link: "timehero",
       title: "TimeHero",
-      imgSrc: "anh100.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools0.webp", // Replace with actual logo link
       bestFor:
         "TimeHero is great for teams and individuals who want to manage time, automate project planning, and stay organized with intelligent scheduling.",
       keyFeatures: [
@@ -458,7 +458,7 @@ const AiProductivityTools = () => {
     {
       link: "sanebox",
       title: "SaneBox",
-      imgSrc: "anh101.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools1.webp", // Replace with actual logo link
       bestFor:
         "SaneBox is perfect for professionals and teams looking to reduce email clutter and improve productivity by organizing and filtering emails intelligently.",
       keyFeatures: [
@@ -485,7 +485,7 @@ const AiProductivityTools = () => {
     {
       link: "notion-ai",
       title: "Notion",
-      imgSrc: "anh102.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools2.webp", // Replace with actual logo link
       bestFor:
         "Notion is great for individuals and teams looking to organize notes, tasks, projects, and knowledge in a single customizable workspace.",
       keyFeatures: [
@@ -515,7 +515,7 @@ const AiProductivityTools = () => {
     {
       link: "geekbot",
       title: "Geekbot",
-      imgSrc: "anh103.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools3.webp", // Replace with actual logo link
       bestFor:
         "Geekbot is ideal for remote teams looking to automate standups, gather feedback, and ensure regular communication across team members.",
       keyFeatures: [
@@ -541,7 +541,7 @@ const AiProductivityTools = () => {
     {
       link: "flexclip",
       title: "Flexclip",
-      imgSrc: "anh104.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools4.webp", // Replace with actual logo link
       bestFor:
         "Flexclip is perfect for anyone looking to create stunning videos quickly and easily, whether you're a content creator, business owner, or marketer.",
       keyFeatures: [
@@ -571,7 +571,7 @@ const AiProductivityTools = () => {
     {
       link: "krisp",
       title: "Krisp",
-      imgSrc: "anh105.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools5.webp", // Replace with actual logo link
       bestFor:
         "Krisp is best for remote workers, professionals, and teams looking to eliminate background noise during calls and improve audio quality.",
       keyFeatures: [
@@ -598,7 +598,7 @@ const AiProductivityTools = () => {
     {
       link: "jasper",
       title: "Jasper.ai",
-      imgSrc: "anh106.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools6.webp", // Replace with actual logo link
       bestFor:
         "Jasper.ai is ideal for marketers, copywriters, and content creators looking to automate content creation and generate high-quality text with AI assistance.",
       keyFeatures: [
@@ -628,7 +628,7 @@ const AiProductivityTools = () => {
     {
       link: "grammarly",
       title: "Grammarly",
-      imgSrc: "anh107.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools7.webp", // Replace with actual logo link
       bestFor:
         "Grammarly is designed for individuals, students, and professionals who want to enhance their writing by improving grammar, punctuation, and style.",
       keyFeatures: [
@@ -658,7 +658,7 @@ const AiProductivityTools = () => {
     {
       link: "dall-e",
       title: "DALL·E 2",
-      imgSrc: "anh109.webp", // Replace with actual logo link
+      imgSrc: "best-ai-task-manager-tools9.webp", // Replace with actual logo link
       bestFor:
         "DALL·E 2 is perfect for creative professionals, designers, and anyone interested in generating high-quality images from text descriptions using AI.",
       keyFeatures: [
@@ -692,7 +692,7 @@ const AiProductivityTools = () => {
             className="lg:w-4/7 flex flex-col justify-center items-center mx-auto"
           >
             
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
@@ -705,7 +705,7 @@ const AiProductivityTools = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
-            <img src="anh91.webp" alt="anh" />
+            <img src="best-ai-productivity-tools.webp.webp" alt="anh" />
             <h1 className="mt-10">
               If you are reading this, it is likely that you are someone who is
               always looking for ways to be more productive. Productivity is not
@@ -1027,7 +1027,7 @@ const AiProductivityTools = () => {
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
-                src="anh33.jpg"
+                src="aron-kantor-profile.jpg"
                 alt="anh"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />

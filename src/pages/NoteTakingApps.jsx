@@ -28,7 +28,7 @@ const articles = [
     title: "Evernote Vs Xtiles: Side-by-Side Comparison (2025)",
     author: "Aron Kantor",
     date: "February 17, 2025",
-    image: "anh335.webp",
+    image: "aron-kantor-profile5.webp",
     content:
       "In this comparison between Evernote and Xtiles, I'll walk you through the major differences between these two productivity tools. I'll be comparing Evernote and Xtiles across features, pricing, user interfaces, and their pros and cons. After spending countless hours with both apps over the past two years, I'm here to break down the advantages and limitations of each, helping you make an informed decision.",
   },
@@ -37,7 +37,7 @@ const articles = [
     title: "Motion vs Notion: Why I use BOTH (2025)",
     author: "Jane Doe",
     date: "February 4, 2025",
-    image: "anh351.webp",
+    image: "best-ai-meeting-managers-202551.webp",
     content:
       "In this Motion vs Notion comparison, I’ll highlight the key differences between these two productivity tools. I’ll be evaluating Motion and Notion based on features, pricing, user interfaces, and the pros and cons of each. After spending countless hours with both apps over the past two years, I’m here to provide you with insights to help you make the best decision.",
   },
@@ -46,7 +46,7 @@ const articles = [
     title: "Evernote vs Obsidian: A REAL Comparison With No Fluff (2025)",
     author: "John Smith",
     date: "February 3, 2025",
-    image: "anh362.webp",
+    image: "best-ai-meeting-managers-202562.webp",
     content:
       "In this Evernote vs Obsidian comparison, I’ll highlight the key differences between these two popular note-taking tools. I'll be comparing Evernote with Obsidian based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time with both apps over the past two years, I’m here to share my findings so you can make the best choice for your needs.",
   },
@@ -55,7 +55,7 @@ const articles = [
     title: "Evernote Vs Notion: An Easier Decision That You Think (2025)",
     author: "John Smith",
     date: "February 3, 2025",
-    image: "anh370.webp",
+    image: "best-ai-meeting-managers-202570.webp",
     content:
       "In this Evernote vs Notion comparison, I’ll outline the key differences between these two productivity tools. I will compare Evernote with Notion across features, pricing, user interfaces, and pros and cons. After spending many hours using both note-taking apps over the last two years, I’m here to share the strengths and weaknesses of each tool to help you make the right choice.",
   },
@@ -91,7 +91,7 @@ const articles = [
     title: "Taskade Vs Coda: Side-by-Side Comparison (2025)",
     author: "John Smith",
     date: "January 30, 2025",
-    image: "anh300.webp",
+    image: "best-ai-meeting-managers-202500.webp",
     content:
       "In this comparison of Taskade vs Coda, I'll walk you through the key differences between these two project management tools. I'll analyze both Taskade and Coda based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time using both tools, I’m excited to share my insights to help you make an informed decision.",
   },
@@ -109,7 +109,7 @@ const articles = [
     title: "Notion Vs NotebookLM: Side-by-Side Comparison (2025)",
     author: "John Smith",
     date: "December 19, 2024",
-    image: "anh307.webp",
+    image: "best-ai-meeting-managers-202507.webp",
     content:
       "In this comparison of Notion and NotebookLM, I’ll be diving into the key distinctions between these two productivity tools. I’ll examine NotebookLM and Notion in terms of their features, pricing, user interfaces, and their pros and cons. After spending considerable time with both of these note-taking apps, I’m excited to share their strengths and limitations to help you make the best choice for your needs.",
   },
@@ -118,7 +118,7 @@ const articles = [
     title: "Xtiles Vs Notion: All Features Compared (2025)",
     author: "John Smith",
     date: "January 6, 2025",
-    image: "anh314.webp",
+    image: "best-ai-meeting-managers-202514.webp",
     content:
       "In this Xtiles vs Notion comparison, I'll walk you through the key distinctions between these two powerful productivity tools. I'll break down the differences between Xtiles and Notion, covering their features, pricing, user interfaces, integration options, and the pros and cons of each. After spending extensive time with both note-taking apps over the last two years, I’m here to share my insights to help you make an informed decision.",
   },

@@ -94,44 +94,44 @@ const BestPDFEditors = () => {
     {
       url: "/best-ai-meeting-manager",
       title: "13 Best AI Meeting Managers in 2025: Ranked & Reviewed",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       date: "October 5, 2023",
     },
     {
       url: "/best-ai-note-taking-app",
       title: "8 Best AI Note-Taking Apps to Boost Your Productivity (2025)",
       date: "October 19, 2023",
-      image: "anh122.webp",
+      image: "best-ai-note-taking-apps-2025.webp",
     },
     {
       url: "/best-ai-task-manager",
       title: "Best 8 AI Task Manager Tools to Get More Work Done",
       date: "October 26, 2023",
-      image: "anh3.webp",
+      image: "best-ai-task-manager-tools.webp",
     },
     {
       url: "/best-ai-scheduling-assistant",
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       date: "January 2, 2024",
-      image: "anh137.webp",
+      image: "best-ai-scheduling-assistants-2025.webp",
     },
     {
       url: "/best-collaboration-tools-for-remote-teams",
       title: "13 Best Collaboration Tools For Remote Teams In 2025",
       date: "January 2, 2024",
-      image: "anh158.webp",
+      image: "best-remote-collaboration-tools-2025.webp",
     },
     {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp",
     },
     {
       url: "/best-email-productivity-apps",
       title: "Best 5 Email Productivity Apps To Accomplish More In 2025",
       date: "April 4, 2024",
-      image: "anh171.webp",
+      image: "best-email-productivity-apps-2025.webp",
     },
   ];
 
@@ -144,7 +144,7 @@ const BestPDFEditors = () => {
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
             
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
@@ -460,7 +460,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pros and Cons of Foxit PDF Editor
             </h1>
-            <img src="anh10.webp" alt="anh" className="mb-10" />
+            <img src="best-ai-task-manager-tools.webp" alt="anh" className="mb-10" />
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best for
             </h1>
@@ -670,7 +670,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pros and Cons of UPDF
             </h1>
-            <img src="anh10.webp" alt="anh" className="mb-10" />
+            <img src="best-ai-task-manager-tools.webp" alt="anh" className="mb-10" />
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best for
             </h1>
@@ -869,7 +869,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pros and Cons of PDFGear PDF Editor
             </h1>
-            <img src="anh10.webp" alt="anh" className="mb-10" />
+            <img src="best-ai-task-manager-tools.webp" alt="anh" className="mb-10" />
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best For
             </h1>
@@ -1080,7 +1080,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pros and Cons of Nitro PDF Editor
             </h1>
-            <img src="anh10.webp" alt="anh" className="mb-10" />
+            <img src="best-ai-task-manager-tools.webp" alt="anh" className="mb-10" />
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best for
             </h1>
@@ -1287,7 +1287,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pros and Cons of PDFelement PDF Editor
             </h1>
-            <img src="anh10.webp" alt="anh" className="mb-10" />
+            <img src="best-ai-task-manager-tools.webp" alt="anh" className="mb-10" />
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best for
             </h1>
@@ -1329,7 +1329,7 @@ const BestPDFEditors = () => {
             <h1  className="text-xl work-sans-900 my-5 text-[#3182ce]">
               An affordable PDF editor for Windows users
             </h1>
-            <img src="anh382.webp" alt="image" className="my-5" />
+            <img src="best-ai-meeting-managers-202582.webp" alt="image" className="my-5" />
             <button
               onClick={() => window.open("https://www.easeus.com/", "_blank")}
               className="text-[#3182ce] underline"
@@ -1356,7 +1356,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Key features
             </h1>
-            <img src="anh383.webp" alt="image" />
+            <img src="best-ai-meeting-managers-202583.webp" alt="image" />
             <div className="mt-10">
               <div className="flex flex-col lg:flex-row gap-4">
                 <FaRegStickyNote className="text-green-500 text-3xl lg:text-7xl" />
@@ -1459,7 +1459,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               My experience with EaseUS PDF Editor
             </h1>
-            <img src="anh384.webp" alt="image" className="mb-10" />
+            <img src="best-ai-meeting-managers-202584.webp" alt="image" className="mb-10" />
             EaseUS PDF offers similar features to other PDF editors but at a
             significantly lower price. One of the standout features is its speed
             – even with large files, it opens quickly without any lag.
@@ -1472,7 +1472,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pricing
             </h1>
-            <img src="anh385.webp" alt="image" className="mb-10" />
+            <img src="best-ai-meeting-managers-202585.webp" alt="image" className="mb-10" />
             EaseUS PDF offers a free version for reading and viewing PDFs. For
             more advanced features, it provides two paid plans.
             <br />
@@ -1488,7 +1488,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pros and Cons of EaseUS PDF Editor
             </h1>
-            <img src="anh10.webp" alt="image" className="mb-10" />
+            <img src="best-ai-task-manager-tools.webp" alt="image" className="mb-10" />
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best for
             </h1>
@@ -1683,7 +1683,7 @@ const BestPDFEditors = () => {
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Pros and Cons of Adobe Acrobat Reader
             </h1>
-            <img src="anh10.webp" alt="image" className="mb-10" />
+            <img src="best-ai-task-manager-tools.webp" alt="image" className="mb-10" />
             <h1 className="text-xl work-sans-900 my-5 text-[#3182ce]">
               Best for
             </h1>
@@ -1769,7 +1769,7 @@ const BestPDFEditors = () => {
             </h1>
             <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
               <img
-                src="anh33.jpg"
+                src="aron-kantor-profile.jpg"
                 alt="anh"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
               />

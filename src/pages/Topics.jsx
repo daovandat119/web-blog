@@ -59,7 +59,7 @@ const Topics = () => {
       ],
       author: "Aron Kantor",
       date: "February 17, 2025",
-      image: "anh335.webp",
+      image: "aron-kantor-profile5.webp",
       content:
         "In this comparison between Evernote and Xtiles, I'll walk you through the major differences between these two productivity tools. I'll be comparing Evernote and Xtiles across features, pricing, user interfaces, and their pros and cons. After spending countless hours with both apps over the past two years, I'm here to break down the advantages and limitations of each, helping you make an informed decision.",
     },
@@ -78,7 +78,7 @@ const Topics = () => {
       ],
       author: "Jane Doe",
       date: "February 4, 2025",
-      image: "anh351.webp",
+      image: "best-ai-meeting-managers-202551.webp",
       content:
         "In this Motion vs Notion comparison, I’ll highlight the key differences between these two productivity tools. I’ll be evaluating Motion and Notion based on features, pricing, user interfaces, and the pros and cons of each. After spending countless hours with both apps over the past two years, I’m here to provide you with insights to help you make the best decision.",
     },
@@ -97,7 +97,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "February 3, 2025",
-      image: "anh362.webp",
+      image: "best-ai-meeting-managers-202562.webp",
       content:
         "In this Evernote vs Obsidian comparison, I’ll highlight the key differences between these two popular note-taking tools. I'll be comparing Evernote with Obsidian based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time with both apps over the past two years, I’m here to share my findings so you can make the best choice for your needs.",
     },
@@ -116,7 +116,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "February 3, 2025",
-      image: "anh370.webp",
+      image: "best-ai-meeting-managers-202570.webp",
       content:
         "In this Evernote vs Notion comparison, I’ll outline the key differences between these two productivity tools. I will compare Evernote with Notion across features, pricing, user interfaces, and pros and cons. After spending many hours using both note-taking apps over the last two years, I’m here to share the strengths and weaknesses of each tool to help you make the right choice.",
     },
@@ -204,7 +204,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "January 30, 2025",
-      image: "anh300.webp",
+      image: "best-ai-meeting-managers-202500.webp",
       content:
         "In this comparison of Taskade vs Coda, I'll walk you through the key differences between these two project management tools. I'll analyze both Taskade and Coda based on their features, pricing, user interfaces, and pros and cons. After spending a significant amount of time using both tools, I’m excited to share my insights to help you make an informed decision.",
     },
@@ -227,7 +227,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "December 19, 2024",
-      image: "anh307.webp",
+      image: "best-ai-meeting-managers-202507.webp",
       content:
         "In this comparison of Notion and NotebookLM, I’ll be diving into the key distinctions between these two productivity tools. I’ll examine NotebookLM and Notion in terms of their features, pricing, user interfaces, and their pros and cons. After spending considerable time with both of these note-taking apps, I’m excited to share their strengths and limitations to help you make the best choice for your needs.",
     },
@@ -250,7 +250,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "January 6, 2025",
-      image: "anh314.webp",
+      image: "best-ai-meeting-managers-202514.webp",
       content:
         "In this Xtiles vs Notion comparison, I'll walk you through the key distinctions between these two powerful productivity tools. I'll break down the differences between Xtiles and Notion, covering their features, pricing, user interfaces, integration options, and the pros and cons of each. After spending extensive time with both note-taking apps over the last two years, I’m here to share my insights to help you make an informed decision.",
     },
@@ -361,7 +361,7 @@ const Topics = () => {
       ],
       author: "Aron Kantor",
       date: "October 5, 2023",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       content:
         "Navigating back-to-back meetings can be a real struggle. It is challenging to balance speaking, manual note-taking, and managing meetings while staying engaged. The advancement of artificial intelligence can be an answer to these challenges. You can offload many tasks with an AI meeting manager during online meetings.",
     },
@@ -384,7 +384,7 @@ const Topics = () => {
       ],
       author: "Jane Doe",
       date: "October 19, 2023",
-      image: "anh122.webp",
+      image: "best-ai-note-taking-apps-2025.webp",
       content:
         "Choosing the best AI note-taking app requires careful consideration of various factors like features, pricing, reliability, and platform compatibility. After spending over a year exploring different AI note-taking tools, I realized there are some key questions we need to answer before diving in. The main question is: What exactly is an AI note-taker?",
     },
@@ -403,7 +403,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "October 26, 2023",
-      image: "anh3.webp",
+      image: "best-ai-meeting-managers-2025.webp",
       content:
         "Are you ready to revolutionize the way you manage tasks and boost your team’s productivity? AI task management tools are here to reshape the landscape of work efficiency!",
     },
@@ -422,7 +422,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "January 2, 2024",
-      image: "anh137.webp",
+      image: "best-ai-scheduling-assistants-2025.webp",
       content:
         "We’ve all been there — juggling too many tasks, not knowing where to start. When your calendar is packed and every minute counts, an AI scheduling assistant could be the game-changer you need. Imagine not having to manually schedule meetings, check time zones, or worry about overlapping events.",
     },
@@ -437,7 +437,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "January 2, 2024",
-      image: "anh158.webp",
+      image: "best-remote-collaboration-tools-2025.webp",
       content:
         "Remote collaboration is rising globally, offering a great way to connect with others and find the best colleagues, regardless of location. However, remote work comes with challenges, including time management issues, team communication, and unproductive workdays. Staying focused is crucial during such times, and having the right remote team collaboration tools can make all the difference.",
     },
@@ -456,7 +456,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp",
       content:
         "If you are reading this, it is likely that you are someone who is always looking for ways to be more productive. Productivity is not just about getting more work done in less time; it is about pushing yourself to achieve new goals and become a better version of yourself. While having the right mindset is important, it is not enough on its own. You also need the right tools to help you along the way to succeed. That is why I have compiled a list of the best AI productivity tools for each workflow.",
     },
@@ -475,7 +475,7 @@ const Topics = () => {
       ],
       author: "John Smith",
       date: "April 4, 2024",
-      image: "anh171.webp",
+      image: "best-email-productivity-apps-2025.webp",
       content:
         "Tired of spending more time managing your emails than actually working? Does your inbox feel like an endless pit that keeps pulling you back in? If so, I have great news – there are powerful email productivity tools that can take care of the heavy lifting for you. To make it easier for you to choose the best options, I’ve put together a list of the top email productivity apps based on their features and pricing. With these tools, you’ll spend less time sorting through your inbox and more time getting work done.",
     },

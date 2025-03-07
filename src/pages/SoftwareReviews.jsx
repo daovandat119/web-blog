@@ -23,7 +23,7 @@ const articles = [
     title: "Taskade Vs Coda: Side-by-Side Comparison (2025)",
     author: "By Aron Kantor",
     date: "January 6, 2025",
-    image: "anh300.webp",
+    image: "best-ai-meeting-managers-202500.webp",
     content:
       "In this Taskade vs Coda comparison, I will show you the key differences between these two project management tools. I will compare Taskade to Coda based on features, pricing, user interfaces, and pros and cons. I spent numerous hours with both project management apps, and I am here to share the benefits and limitations of each tool to ensure you make the right choice.",
   },
@@ -84,7 +84,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "January 6, 2025",
-    image: "anh314.webp",
+    image: "best-ai-meeting-managers-202514.webp",
     content:
       "In this Xtiles vs Notion comparison, I'll walk you through the key distinctions between these two powerful productivity tools. I'll break down the differences between Xtiles and Notion, covering their features, pricing, user interfaces, integration options, and the pros and cons of each. After spending extensive time with both note-taking apps over the last two years, I’m here to share my insights to help you make an informed decision.",
   },
@@ -126,7 +126,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "December 19, 2024",
-    image: "anh307.webp",
+    image: "best-ai-meeting-managers-202507.webp",
     content:
       "In this comparison of Notion and NotebookLM, I’ll be diving into the key distinctions between these two productivity tools. I’ll examine NotebookLM and Notion in terms of their features, pricing, user interfaces, and their pros and cons. After spending considerable time with both of these note-taking apps, I’m excited to share their strengths and limitations to help you make the best choice for your needs.",
   },
@@ -168,7 +168,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "October 5, 2023",
-    image: "anh3.webp",
+    image: "best-ai-meeting-managers-2025.webp",
     content:
       "Navigating back-to-back meetings can be a real struggle. It is challenging to balance speaking, manual note-taking, and managing meetings while staying engaged. The advancement of artificial intelligence can be an answer to these challenges. You can offload many tasks with an AI meeting manager during online meetings.",
   },
@@ -187,7 +187,7 @@ const articles = [
     ],
     author: "Aron Kantor",
     date: "November 4, 2024",
-    image: "anh323.webp",
+    image: "best-ai-meeting-managers-202523.webp",
     content:
       "In this Otter AI vs Fathom comparison, I’ll highlight the essential differences between these two AI-powered meeting assistants, including features, pricing, and the pros and cons of each. After spending considerable time using both tools over the past two years, I’m here to share my insights on how each one can benefit or limit your workflow, helping you make an informed decision.",
   },
@@ -206,7 +206,7 @@ const articles = [
     ],
     author: "Aron Kantor",
     date: "February 17, 2025",
-    image: "anh335.webp",
+    image: "aron-kantor-profile5.webp",
     content:
       "In this comparison between Evernote and Xtiles, I'll walk you through the major differences between these two productivity tools. I'll be comparing Evernote and Xtiles across features, pricing, user interfaces, and their pros and cons. After spending countless hours with both apps over the past two years, I'm here to break down the advantages and limitations of each, helping you make an informed decision.",
   },
@@ -225,7 +225,7 @@ const articles = [
     ],
     author: "Jane Doe",
     date: "January 25, 2024",
-    image: "anh328.webp",
+    image: "best-ai-meeting-managers-202528.webp",
     content:
       "In this comparison of Fireflies AI vs Otter AI, I’ll walk you through all the essential differences between these two AI-driven meeting assistants, covering features, pricing, and the pros and cons of each tool. Over the past few years, I’ve dedicated significant time testing and using both Fireflies AI and Otter AI.",
   },
@@ -309,7 +309,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "January 23, 2025",
-    image: "anh381.webp",
+    image: "best-ai-meeting-managers-202581.webp",
     content:
       "I totally get it. Adobe Acrobat can be pricey, and you're probably wondering if there are any affordable alternatives. I had the same thoughts, so I decided to do some serious research and find the top Adobe Acrobat alternatives for 2025.",
   },
@@ -347,7 +347,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "February 6, 2025",
-    image: "anh371.webp",
+    image: "best-ai-meeting-managers-202571.webp",
     content:
       "Finding the right PDF editor for Windows can be a daunting task. With over 100 PDF editing tools available on the market, the real question is: which one is worth your time?",
   },
@@ -443,7 +443,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "February 13, 2025",
-    image: "anh344.webp",
+    image: "best-ai-meeting-managers-202544.webp",
     content:
       "In this comparison between Foxit and PDFelement, I’ll break down the essential differences between these two powerful PDF editors. I’ll compare their features, pricing, user interfaces, my personal experience, and the pros and cons of each. After spending hours working with both, I’m excited to share the strengths and weaknesses of each tool to help you make the right choice.",
   },

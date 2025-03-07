@@ -159,7 +159,7 @@ const App = () => {
           <Route path="/taja" element={<Taja />} />
           <Route path="/four" element={<Four />} />
           <Route path="/seo-content" element={<SEOContent />} />
-          <Route path="/anycubic" element={<Anycubic />} />
+          <Route path="/anycubic-3d-printers-2025" element={<Anycubic />} />
           <Route path="/creativity" element={<CreativityUtility />} />
           <Route path="/goli-triple" element={<GoliTriple />} />
         </Routes>

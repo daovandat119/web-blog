@@ -57,7 +57,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "February 13, 2025",
-    image: "anh344.webp",
+    image: "best-ai-meeting-managers-202544.webp",
     content:
       "In this comparison between Foxit and PDFelement, I’ll break down the essential differences between these two powerful PDF editors. I’ll compare their features, pricing, user interfaces, my personal experience, and the pros and cons of each. After spending hours working with both, I’m excited to share the strengths and weaknesses of each tool to help you make the right choice.",
   },
@@ -76,7 +76,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "February 6, 2025",
-    image: "anh371.webp",
+    image: "best-ai-meeting-managers-202571.webp",
     content:
       "Finding the right PDF editor for Windows can be a daunting task. With over 100 PDF editing tools available on the market, the real question is: which one is worth your time?",
   },
@@ -95,7 +95,7 @@ const articles = [
     ],
     author: "John Smith",
     date: "January 23, 2025",
-    image: "anh381.webp",
+    image: "best-ai-meeting-managers-202581.webp",
     content:
       "I totally get it. Adobe Acrobat can be pricey, and you're probably wondering if there are any affordable alternatives. I had the same thoughts, so I decided to do some serious research and find the top Adobe Acrobat alternatives for 2025.",
   },
