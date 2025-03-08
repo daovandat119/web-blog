@@ -7,7 +7,7 @@ const articles = [
   {
     url: "/goli-triple-action-immune-gummies",
     title:
-      "Goli Triple Action Immune Gummies – Your Ultimate Immune Support Solution",
+      "Goli Triple Action Immune Gummies: Boost Immunity in 2025",
     categories: [],
     author: "Aron Kantor",
     date: "May 3, 2025",

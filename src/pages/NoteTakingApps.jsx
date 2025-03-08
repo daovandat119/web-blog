@@ -6,11 +6,11 @@ import Blog from "../components/Blog";
 const articles = [
   {
     url: "/taja",
-    title: "Taja AI – The Ultimate AI Tool for YouTube Content Optimization",
+    title: "Taja AI Review: Best YouTube Optimization Tool in 2025",
     categories: [],
     author: "Aron Kantor",
     date: "February 24, 2025",
-    image: "health72.png",
+    image: "taja-ai-youtube.png",
     content:
       "Are you a YouTube creator struggling with SEO optimization, writing video descriptions, designing eye-catching thumbnails, and increasing visibility? Taja AI is the solution you've been looking for! Having personally experienced this tool, I want to share how it has completely transformed my content creation process—saving time, boosting efficiency, and taking my videos to the next level.",
   },

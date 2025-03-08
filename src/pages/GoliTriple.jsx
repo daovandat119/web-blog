@@ -40,7 +40,7 @@ const GoliTriple = () => {
         },
       ],
       title:
-        "Goli Triple Action Immune Gummies – Your Ultimate Immune Support Solution",
+        "Goli Triple Action Immune Gummies: Boost Immunity in 2025",
       author: "",
       date: "May 3, 2025",
     },
@@ -206,6 +206,7 @@ const GoliTriple = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
+          <h1 className="text-2xl work-sans-900 my-5">Boosting Immunity with Goli Gummies</h1>
             <p>
               In today’s fast-paced life, taking care of our immune system is
               often overlooked. As someone who works under high pressure, I

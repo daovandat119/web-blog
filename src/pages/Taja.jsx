@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,7 +39,7 @@ const Taja = () => {
           url: "/software-reviews",
         },
       ],
-      title: "Taja AI – The Ultimate AI Tool for YouTube Content Optimization",
+      title: "Taja AI Review: Best YouTube Optimization Tool in 2025",
       author: "",
       date: "February 25, 2025",
     },
@@ -121,13 +122,75 @@ const Taja = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Taja AI Review: Ultimate YouTube Optimization Tool</title>
+        <meta
+          name="description"
+          content="My Taja AI review: the best AI tool for YouTube SEO, metadata, and thumbnails to boost visibility."
+        />
+        <meta
+          name="keywords"
+          content="Taja AI review, YouTube optimization tool, AI YouTube SEO, video metadata, thumbnail design, content creation"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/taja-ai-youtube-optimization"
+        />
+        <meta
+          property="og:title"
+          content="Taja AI Review: Ultimate YouTube Optimization Tool"
+        />
+        <meta
+          property="og:description"
+          content="Discover how Taja AI enhances YouTube content with SEO, metadata, and thumbnail tools."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/taja-ai-youtube.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/taja-ai-youtube-optimization"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Taja AI Review: Ultimate YouTube Optimization Tool"
+        />
+        <meta
+          name="twitter:description"
+          content="Taja AI: AI-powered YouTube SEO and content optimization made easy."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/taja-ai-youtube.jpg"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "Taja AI Review: Ultimate YouTube Optimization Tool",
+              "description": "A detailed review of Taja AI, an AI tool for YouTube SEO and content optimization.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-25",
+              "image": "https://www.bundlam.com/taja-ai-youtube.jpg",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "Taja AI",
+                "brand": {"@type": "Brand", "name": "Taja"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-           
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
@@ -141,6 +204,9 @@ const Taja = () => {
         <div className="text-[16.95px] my-10 work-sans-400">
           {/* phần một */}
           <div>
+          <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+              Struggling with YouTube Optimization?
+            </h2>
             <p className="my-5">
               Are you a YouTube creator struggling with SEO optimization,
               writing video descriptions, designing eye-catching thumbnails, and
@@ -149,7 +215,12 @@ const Taja = () => {
               it has completely transformed my content creation process—saving
               time, boosting efficiency, and taking my videos to the next level.
             </p>
-            <img src="health72.png" alt="anh" className="w-full" />
+            <img
+              src="taja-ai-youtube.png"
+              alt="Taja AI YouTube optimization tool"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -227,7 +298,12 @@ const Taja = () => {
                 focus more on content creation rather than SEO struggles.
               </li>
             </ul>
-            <img src="health73.png" alt="anh" className="w-full" />
+            <img
+              src="taja-ai-experience.png"
+              alt="My experience with Taja AI for YouTube"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h2 id="Key" class="text-2xl work-sans-900 my-5 flex items-center">
               Key Features of Taja AI
             </h2>
@@ -296,7 +372,12 @@ const Taja = () => {
                 everything is covered.
               </li>
             </ul>
-            <img src="health74.png" alt="anh" className="w-full" />
+            <img
+              src="taja-ai-features.png"
+              alt="Taja AI key features for YouTube optimization"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h2
               id="Conclusion"
               class="text-2xl work-sans-900 my-5 flex items-center"
@@ -312,7 +393,7 @@ const Taja = () => {
             </p>
             <p class="my-5">
               Have you tried Taja AI yet? If not, don’t wait—this could be your
-              secret weapon for YouTube success! 🚀
+              secret weapon for YouTube success! 
             </p>
             <p>
               👉Try{" "}

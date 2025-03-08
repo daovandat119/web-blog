@@ -156,7 +156,7 @@ const App = () => {
           <Route path="/locked-in" element={<LockedIn />} />
           <Route path="/financial-information" element={<Financial />} />
           <Route path="/lilac-st-lashes" element={<Lilac />} />
-          <Route path="/taja" element={<Taja />} />
+          <Route path="/taja-ai-youtube-optimization" element={<Taja />} />
           <Route path="/four-sigmatic-product-review" element={<Four />} />
           <Route path="/seo-content" element={<SEOContent />} />
           <Route path="/anycubic-3d-printers-2025" element={<Anycubic />} />
