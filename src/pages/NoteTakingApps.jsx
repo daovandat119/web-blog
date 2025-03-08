@@ -15,11 +15,11 @@ const articles = [
       "Are you a YouTube creator struggling with SEO optimization, writing video descriptions, designing eye-catching thumbnails, and increasing visibility? Taja AI is the solution you've been looking for! Having personally experienced this tool, I want to share how it has completely transformed my content creation process—saving time, boosting efficiency, and taking my videos to the next level.",
   },
   {
-    url: "/gling",
-    title: "Gling.ai – Transforming Video Editing with AI Efficiency",
+    url: "/gling-ai-video-editing",
+    title: "Gling.ai Review: Best AI Video Editing Tool in 2025",
     author: "Aron Kantor",
     date: "February 24, 2025",
-    image: "health52.png",
+    image: "gling-ai-experience.png",
     content:
       "As a content creator, video editing has always been a time-consuming process for me. However, after discovering Gling.ai, I’ve completely changed the way I approach editing. This AI-powered tool has optimized my workflow, allowing me to focus on content creation rather than spending hours cutting and adjusting videos manually.",
   },

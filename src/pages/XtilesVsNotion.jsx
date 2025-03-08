@@ -448,7 +448,7 @@ const XtilesVsNotion = () => {
               <h1 id="notionfeatures" className="text-xl work-sans-900 my-5">
                 Notion's Features
               </h1>
-              <img src="/public/best-ai-meeting-managers-202516.webp" alt="anh" />
+              <img src="best-ai-meeting-managers-202516.webp" alt="anh" />
               <p className="my-5">
                 Notion is a powerhouse when it comes to customization and
                 flexibility. It allows users to create pages with various types

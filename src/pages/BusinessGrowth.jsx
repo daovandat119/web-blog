@@ -4,13 +4,13 @@ import Blog from "../components/Blog";
 import { useState, useEffect } from "react";
 const articles = [
   {
-    url: "/locked-in",
+    url: "/lockedin-ai-interview-prep",
     title:
-      "LockedIn AI - The Most Effective Interview Preparation Solution Today",
+      "LockedIn AI Review: Best Interview Prep Tool in 2025",
     categories: [],
     author: "Aron Kantor",
     date: "February 24, 2025",
-    image: "health66.png",
+    image: "lockedin-ai-experience.png",
     content:
       "As someone who frequently faces stressful interviews, I was always looking for a tool to help me prepare effectively. When I discovered LockedIn AI, I decided to give it a try, and I was truly surprised by what it had to offer.",
   },

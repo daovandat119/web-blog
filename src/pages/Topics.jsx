@@ -15,32 +15,32 @@ const Topics = () => {
         "Are you a YouTube creator struggling with SEO optimization, writing video descriptions, designing eye-catching thumbnails, and increasing visibility? Taja AI is the solution you've been looking for! Having personally experienced this tool, I want to share how it has completely transformed my content creation process—saving time, boosting efficiency, and taking my videos to the next level.",
     },
     {
-      url: "/walter-writes",
-      title: "WalterWrites.ai – Elevating Writing with AI Innovation",
+      url: "/walterwrites-ai-writing-tool",
+      title: "WalterWrites.ai Review: Best AI Writing Tool in 2025",
       categories: [],
       author: "Aron Kantor",
       date: "February 24, 2025",
-      image: "health63.jpg",
+      image: "walterwrites-ai-experience.jpg",
       content:
         "As someone who is constantly on the move and appreciates convenient products, I am always on the lookout for a thermal bottle that not only ensures durability but also offers outstanding features. After testing several brands, I discovered FlasKap – a name that is making a strong impression in the community of convenience and innovation lovers.",
     },
     {
-      url: "/locked-in",
+      url: "/lockedin-ai-interview-prep",
       title:
-        "LockedIn AI - The Most Effective Interview Preparation Solution Today",
+        "LockedIn AI Review: Best Interview Prep Tool in 2025",
       categories: [],
       author: "Aron Kantor",
       date: "February 24, 2025",
-      image: "health66.png",
+      image: "lockedin-ai-experience.png",
       content:
         "As someone who frequently faces stressful interviews, I was always looking for a tool to help me prepare effectively. When I discovered LockedIn AI, I decided to give it a try, and I was truly surprised by what it had to offer.",
     },
     {
-      url: "/gling",
-      title: "Gling.ai – Transforming Video Editing with AI Efficiency",
+      url: "/gling-ai-video-editing",
+      title: "Gling.ai Review: Best AI Video Editing Tool in 2025",
       author: "Aron Kantor",
       date: "February 24, 2025",
-      image: "health52.png",
+      image: "gling-ai-experience.png",
       content:
         "As a content creator, video editing has always been a time-consuming process for me. However, after discovering Gling.ai, I’ve completely changed the way I approach editing. This AI-powered tool has optimized my workflow, allowing me to focus on content creation rather than spending hours cutting and adjusting videos manually.",
     },

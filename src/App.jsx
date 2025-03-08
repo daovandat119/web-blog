@@ -150,10 +150,10 @@ const App = () => {
           <Route path="/litime-battery-performance" element={<Comprehensive />} />
           <Route path="/elevated-faith-apparel" element={<Elevated />} />
           <Route path="/thehydrojug-hydration-solution" element={<TheHydroJug />} />
-          <Route path="/gling" element={<Gling />} />
+          <Route path="/gling-ai-video-editing" element={<Gling />} />
           <Route path="/flaskap-thermal-bottle" element={<FlasKap />} />
-          <Route path="/walter-writes" element={<WalterWrites />} />
-          <Route path="/locked-in" element={<LockedIn />} />
+          <Route path="/walterwrites-ai-writing-tool" element={<WalterWrites />} />
+          <Route path="/lockedin-ai-interview-prep" element={<LockedIn />} />
           <Route path="/financial-information" element={<Financial />} />
           <Route path="/lilac-st-lashes" element={<Lilac />} />
           <Route path="/taja-ai-youtube-optimization" element={<Taja />} />

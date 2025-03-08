@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaTwitter } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -38,7 +39,7 @@ const WalterWrites = () => {
           url: "/software-reviews",
         },
       ],
-      title: "WalterWrites.ai – Elevating Writing with AI Innovation",
+      title: "WalterWrites.ai Review: Best AI Writing Tool in 2025",
       author: "",
       date: "February 24, 2025",
     },
@@ -126,6 +127,69 @@ const WalterWrites = () => {
 
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>WalterWrites.ai Review: Best AI Writing Tool in 2025</title>
+        <meta
+          name="description"
+          content="My WalterWrites.ai review: the top AI writing tool for content creation, SEO, and editing in 2025."
+        />
+        <meta
+          name="keywords"
+          content="WalterWrites.ai review, AI writing tool, best AI writer, SEO content creation, writing assistant, 2025"
+        />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/walterwrites-ai-writing-tool"
+        />
+        <meta
+          property="og:title"
+          content="WalterWrites.ai Review: Best AI Writing Tool in 2025"
+        />
+        <meta
+          property="og:description"
+          content="Explore how WalterWrites.ai boosts writing with AI-powered content creation and SEO tools."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bundlam.com/walterwrites-ai-experience.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/walterwrites-ai-writing-tool"
+        />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="WalterWrites.ai Review: Best AI Writing Tool in 2025"
+        />
+        <meta
+          name="twitter:description"
+          content="WalterWrites.ai: the ultimate AI writing assistant for 2025."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/walterwrites-ai-experience.jpg"
+        />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "ProductReview",
+              "headline": "WalterWrites.ai Review: Best AI Writing Tool in 2025",
+              "description": "A detailed review of WalterWrites.ai, an AI-powered writing tool for content creation and SEO.",
+              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "datePublished": "2025-02-24",
+              "image": "https://www.bundlam.com/walterwrites-ai-experience.jpg",
+              "itemReviewed": {
+                "@type": "Product",
+                "name": "WalterWrites.ai",
+                "brand": {"@type": "Brand", "name": "WalterWrites"}
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -147,7 +211,7 @@ const WalterWrites = () => {
           {/* phần một */}
           <div>
             <h1 className="text-2xl work-sans-900 my-5">
-              Personal Experience with WalterWrites.ai
+            My Experience with WalterWrites.ai
             </h1>
             <p className="mb-5">
               As a content creator, I am always looking for tools to improve my
@@ -156,7 +220,12 @@ const WalterWrites = () => {
               but it also enhances the quality of writing with remarkable
               accuracy and creativity.
             </p>
-            <img src="health78.jpg" alt="anh" className="w-full" />
+            <img
+              src="walterwrites-ai-experience.jpg"
+              alt="WalterWrites.ai AI writing tool experience"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <div className="ml-10 my-15 text-gray-800">
               <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
               <ol className="list-decimal pl-5 underline">
@@ -223,9 +292,14 @@ const WalterWrites = () => {
                 Multi-Language Writing Support –</span> Translates and optimizes
                 content in multiple languages.
               </li>
-              <img src="health63.jpg" alt="anh" className="w-full" />
+            
             </ul>
-
+            <img
+              src="walterwrites-ai-benefits.jpg"
+              alt="Benefits of WalterWrites.ai writing tool"
+              className="w-full mb-5 object-cover mt-5"
+              loading="lazy"
+            />
             <h2 id="In" className="text-2xl work-sans-900 my-3">
               In-Depth Features of WalterWrites.ai
             </h2>
@@ -308,16 +382,26 @@ const WalterWrites = () => {
                 Enterprise Plan –</span> Large-scale writing solutions for businesses
                 and content teams.
               </li>
-              <img src="health64.jpg" alt="anh" className="w-full" />
+             
             </ul>
-
+            <img
+              src="walterwrites-ai-features.jpg"
+              alt="WalterWrites.ai key features"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
             <h2
               id="Comparison"
               className="text-2xl work-sans-900 my-5 flex items-center"
             >
               Comparison: WalterWrites.ai vs. Other Writing Tools
             </h2>
-            <img src="health65.png" alt="anh" className="w-full" />
+            <img
+              src="walterwrites-ai-comparison.png"
+              alt="WalterWrites.ai vs other AI writing tools"
+              className="w-full mb-5 object-cover"
+              loading="lazy"
+            />
 
             <h2
               id="Final"

@@ -5,8 +5,8 @@ import Blog from "../components/Blog";
 
 const articles = [
   {
-    url: "/walter-writes",
-    title: "WalterWrites.ai – Elevating Writing with AI Innovation",
+    url: "/walterwrites-ai-writing-tool",
+    title: "WalterWrites.ai Review: Best AI Writing Tool in 2025",
     categories: [],
     author: "Aron Kantor",
     date: "February 24, 2025",
