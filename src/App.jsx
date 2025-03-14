@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import About from "./pages/About.jsx";
@@ -28,9 +33,9 @@ import CodaIoReview from "./pages/CodaIoReview";
 import EvernoteReview from "./pages/EvernoteReview";
 import FirefliesAiReview from "./pages/FirefliesAiReview";
 import MeetgeekReview from "./pages/MeetgeekReview";
-import TldvReview from "./pages/TldvReview"
-import FellowAppReview from "./pages/FellowAppReview"
-import FathomReview from "./pages/FathomReview"
+import TldvReview from "./pages/TldvReview";
+import FellowAppReview from "./pages/FellowAppReview";
+import FathomReview from "./pages/FathomReview";
 import MinuteslinkReview from "./pages/MinuteslinkReview";
 import KrispReview from "./pages/KrispReview";
 import SoftwareReviews from "./pages/SoftwareReviews";
@@ -76,97 +81,160 @@ import Lilac from "./pages/Lilac";
 import Taja from "./pages/Taja";
 import Four from "./pages/Four";
 import SEOContent from "./pages/SEOContent";
-import Anycubic  from "./pages/Anycubic";
+import Anycubic from "./pages/Anycubic";
 import CreativityUtility from "./pages/CreativityUtility";
 import GoliTriple from "./pages/GoliTriple";
-const App = () => {
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+
+function AppContent() {
+  const location = useLocation();
+  const showFooter = location.pathname !== "/privacy-policy";
+
+  return (
+    <div className="">
+      {showFooter && <Header />}
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/top-picks" element={<TopPicks />} />
+        <Route path="/blog-top-picks" element={<BlogTopPicks />} />
+        <Route path="/topics" element={<Topics />} />
+        <Route path="/note-taking-apps" element={<NoteTakingApps />} />
+        <Route path="/article-category" element={<ArticleCategory />} />
+        <Route path="/notion-alternatives" element={<NotionAlternatives />} />
+        <Route path="/best-pdf-editors" element={<BestPDFEditors />} />
+        <Route
+          path="/best-ai-meeting-manager"
+          element={<BestAIMeetingManagers />}
+        />
+        <Route
+          path="/ai-productivity-tools"
+          element={<AiProductivityTools />}
+        />
+        <Route path="/best-ai-task-manager" element={<BestAiTaskManager />} />
+        <Route
+          path="/best-ai-note-taking-app"
+          element={<BestAiNoteTakingApp />}
+        />
+        <Route
+          path="/best-ai-scheduling-assistant"
+          element={<BestAisChedulingAssistant />}
+        />
+        <Route
+          path="/best-collaboration-tools-for-remote-teams"
+          element={<BestCollAborationToolsForRemoteTeams />}
+        />
+        <Route
+          path="/best-email-productivity-apps"
+          element={<BestEmailProductivityApps />}
+        />
+        <Route path="/notion-review" element={<NotionReview />} />
+        <Route path="/obsidian-review" element={<ObsidianReview />} />
+        <Route path="/anytype-review" element={<AnytypeReview />} />
+        <Route path="/xtiles-review" element={<XtilesReview />} />
+        <Route path="/notebooklm-review" element={<NotebooklmReview />} />
+        <Route path="/coda-io-review" element={<CodaIoReview />} />
+        <Route path="/evernote-review" element={<EvernoteReview />} />
+        <Route path="/fireflies-ai-review" element={<FirefliesAiReview />} />
+        <Route path="/meetgeek-review" element={<MeetgeekReview />} />
+        <Route path="/tldv-review" element={<TldvReview />} />
+        <Route path="/fellow-app-review" element={<FellowAppReview />} />
+        <Route path="/fathom-review" element={<FathomReview />} />
+        <Route path="/minuteslink-review" element={<MinuteslinkReview />} />
+        <Route path="/krisp-review" element={<KrispReview />} />
+        <Route path="/software-reviews" element={<SoftwareReviews />} />
+        <Route path="/meeting-tools" element={<MeetingTools />} />
+        <Route path="/pdf-tools" element={<PdfTools />} />
+        <Route path="/project-management" element={<ProjectManagement />} />
+        <Route path="/productivity-guides" element={<ProductivityGuides />} />
+        <Route path="/business-growth" element={<BusinessGrowth />} />
+        <Route path="/adobe-acrobat-vs-updf" element={<AdobeAcrobatVsUpdf />} />
+        <Route path="/taskade-vs-coda" element={<TaskadeVsCoda />} />
+        <Route path="/notion-vs-notebooklm" element={<NotionVsNotebooklm />} />
+        <Route path="/xtiles-vs-notion" element={<XtilesVsNotion />} />
+        <Route path="/otter-ai-vs-fathom" element={<OtterAiVsFathom />} />
+        <Route
+          path="/fireflies-ai-vs-otter-ai"
+          element={<FirefliesAiVsOterAi />}
+        />
+        <Route path="/evernote-vs-xtiles" element={<EvernoteVsXtiles />} />
+        <Route path="/foxit-vs-pdfelement" element={<FoxitVsPdfelement />} />
+        <Route path="/motion-vs-notion" element={<MotionVsNotion />} />
+        <Route path="/evernote-vs-obsidian" element={<EvernoteVsObsidian />} />
+        <Route path="/evernote-vs-notion" element={<EvernoteVsNotion />} />
+        <Route
+          path="/pdf-editors-for-windows"
+          element={<PdfEditorsForWindows />}
+        />
+        <Route
+          path="/adobe-acrobat-alternatives"
+          element={<AdobeAcrobatAternatives />}
+        />
+        <Route
+          path="/goli-ashwagandha-wellness"
+          element={<GoliAshwagandha />}
+        />
+        <Route path="/lifestyle-tips-and-guides" element={<Lifestyle />} />
+        <Route
+          path="/last-crumb-cookies-review"
+          element={<LastCrumbCookies />}
+        />
+        <Route path="/novaalab-pain-relief" element={<ChronicPain />} />
+        <Route path="/health" element={<Health />} />
+        <Route path="/fashion" element={<Fashion />} />
+        <Route path="/beauty" element={<Beauty />} />
+        <Route
+          path="/double-oak-essentials"
+          element={<DoubleOakEssentials />}
+        />
+        <Route path="/truedark-glasses" element={<TrueDark />} />
+        <Route path="/11six24-pickleball-paddle" element={<Pickleball />} />
+        <Route
+          path="/lovense-pleasure-devices"
+          element={<PersonalExperience />}
+        />
+        <Route
+          path="/tradeify-smart-trading-tools-for-profit"
+          element={<Tradeify />}
+        />
+        <Route path="/litime-battery-performance" element={<Comprehensive />} />
+        <Route path="/elevated-faith-apparel" element={<Elevated />} />
+        <Route
+          path="/thehydrojug-hydration-solution"
+          element={<TheHydroJug />}
+        />
+        <Route path="/gling-ai-video-editing" element={<Gling />} />
+        <Route path="/flaskap-thermal-bottle" element={<FlasKap />} />
+        <Route
+          path="/walterwrites-ai-writing-tool"
+          element={<WalterWrites />}
+        />
+        <Route path="/lockedin-ai-interview-prep" element={<LockedIn />} />
+        <Route path="/financial-information" element={<Financial />} />
+        <Route path="/lilac-st-lashes" element={<Lilac />} />
+        <Route path="/taja-ai-youtube-optimization" element={<Taja />} />
+        <Route path="/four-sigmatic-product-review" element={<Four />} />
+        <Route path="/seo-content" element={<SEOContent />} />
+        <Route path="/anycubic-3d-printers-2025" element={<Anycubic />} />
+        <Route path="/creativity-utility" element={<CreativityUtility />} />
+        <Route
+          path="/goli-triple-action-immune-gummies"
+          element={<GoliTriple />}
+        />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
+      {showFooter && <Footer />}
+    </div>
+  );
+}
+
+function App() {
   return (
     <Router>
-      <div className="container mx-auto">
-        <Header />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/top-picks" element={<TopPicks />} />
-          <Route path="/blog-top-picks" element={<BlogTopPicks />} />
-          <Route path="/topics" element={<Topics />} />
-          <Route path="/note-taking-apps" element={<NoteTakingApps />} />
-          <Route path="/article-category" element={<ArticleCategory />} />
-          <Route path="/notion-alternatives" element={<NotionAlternatives />} />
-          <Route path="/best-pdf-editors" element={<BestPDFEditors />} />
-          <Route path="/best-ai-meeting-manager" element={<BestAIMeetingManagers />} />
-          <Route path="/ai-productivity-tools" element={<AiProductivityTools />} />
-          <Route path="/best-ai-task-manager" element={<BestAiTaskManager />} />
-          <Route path="/best-ai-note-taking-app" element={<BestAiNoteTakingApp />} />
-          <Route path="/best-ai-scheduling-assistant" element={<BestAisChedulingAssistant />} />
-          <Route path="/best-collaboration-tools-for-remote-teams" element={<BestCollAborationToolsForRemoteTeams />} />
-          <Route path="/best-email-productivity-apps" element={<BestEmailProductivityApps />} />
-          <Route path="/notion-review" element={<NotionReview />} />
-          <Route path="/obsidian-review" element={<ObsidianReview />} />
-          <Route path="/anytype-review" element={<AnytypeReview />} />
-          <Route path="/xtiles-review" element={<XtilesReview />} />
-          <Route path="/notebooklm-review" element={<NotebooklmReview />} />
-          <Route path="/coda-io-review" element={<CodaIoReview />} />
-          <Route path="/evernote-review" element={<EvernoteReview />} />
-          <Route path="/fireflies-ai-review" element={<FirefliesAiReview />} />
-          <Route path="/meetgeek-review" element={<MeetgeekReview />} />
-          <Route path="/tldv-review" element={<TldvReview />} />
-          <Route path="/fellow-app-review" element={<FellowAppReview />} />
-          <Route path="/fathom-review" element={<FathomReview />} />
-          <Route path="/minuteslink-review" element={<MinuteslinkReview />} />
-          <Route path="/krisp-review" element={<KrispReview />} />
-          <Route path="/software-reviews" element={<SoftwareReviews />} />
-          <Route path="/meeting-tools" element={<MeetingTools />} />
-          <Route path="/pdf-tools" element={<PdfTools />} />
-          <Route path="/project-management" element={<ProjectManagement />} />
-          <Route path="/productivity-guides" element={<ProductivityGuides />} />
-          <Route path="/business-growth" element={<BusinessGrowth />} />
-          <Route path="/adobe-acrobat-vs-updf" element={<AdobeAcrobatVsUpdf />} />
-          <Route path="/taskade-vs-coda" element={<TaskadeVsCoda />} />
-          <Route path="/notion-vs-notebooklm" element={<NotionVsNotebooklm />} />
-          <Route path="/xtiles-vs-notion" element={<XtilesVsNotion />} />
-          <Route path="/otter-ai-vs-fathom" element={<OtterAiVsFathom />} />
-          <Route path="/fireflies-ai-vs-otter-ai" element={<FirefliesAiVsOterAi />} />
-          <Route path="/evernote-vs-xtiles" element={<EvernoteVsXtiles />} />
-          <Route path="/foxit-vs-pdfelement" element={<FoxitVsPdfelement />} />
-          <Route path="/motion-vs-notion" element={<MotionVsNotion />} />
-          <Route path="/evernote-vs-obsidian" element={<EvernoteVsObsidian />} />
-          <Route path="/evernote-vs-notion" element={<EvernoteVsNotion />} />
-          <Route path="/pdf-editors-for-windows" element={<PdfEditorsForWindows />} />
-          <Route path="/adobe-acrobat-alternatives" element={<AdobeAcrobatAternatives />} />
-          <Route path="/goli-ashwagandha-wellness" element={<GoliAshwagandha />} />
-          <Route path="/lifestyle-tips-and-guides" element={<Lifestyle />} />
-          <Route path="/last-crumb-cookies-review" element={<LastCrumbCookies />} />
-          <Route path="/novaalab-pain-relief" element={<ChronicPain />} />
-          <Route path="/health" element={<Health />} />
-          <Route path="/fashion" element={<Fashion />} />
-          <Route path="/beauty" element={<Beauty />} />
-          <Route path="/double-oak-essentials" element={<DoubleOakEssentials />} />
-          <Route path="/truedark-glasses" element={<TrueDark />} />
-          <Route path="/11six24-pickleball-paddle" element={<Pickleball />} />
-          <Route path="/lovense-pleasure-devices" element={<PersonalExperience />} />
-          <Route path="/tradeify-smart-trading-tools-for-profit" element={<Tradeify />} />
-          <Route path="/litime-battery-performance" element={<Comprehensive />} />
-          <Route path="/elevated-faith-apparel" element={<Elevated />} />
-          <Route path="/thehydrojug-hydration-solution" element={<TheHydroJug />} />
-          <Route path="/gling-ai-video-editing" element={<Gling />} />
-          <Route path="/flaskap-thermal-bottle" element={<FlasKap />} />
-          <Route path="/walterwrites-ai-writing-tool" element={<WalterWrites />} />
-          <Route path="/lockedin-ai-interview-prep" element={<LockedIn />} />
-          <Route path="/financial-information" element={<Financial />} />
-          <Route path="/lilac-st-lashes" element={<Lilac />} />
-          <Route path="/taja-ai-youtube-optimization" element={<Taja />} />
-          <Route path="/four-sigmatic-product-review" element={<Four />} />
-          <Route path="/seo-content" element={<SEOContent />} />
-          <Route path="/anycubic-3d-printers-2025" element={<Anycubic />} />
-          <Route path="/creativity-utility" element={<CreativityUtility />} />
-          <Route path="/goli-triple-action-immune-gummies" element={<GoliTriple />} />
-        </Routes>
-        <Footer />
-      </div>
+      <AppContent />
     </Router>
   );
-};
+}
 
 export default App;
