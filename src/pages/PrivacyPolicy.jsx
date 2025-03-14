@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
           <button
             onClick={() => {
               window.open(
-                "https://www.instagram.com/linkshim/?u=https%3A%2F%2Fevryjewels.com%2F%3Fref%3DDOHUNG%26fbclid%3DPAZXh0bgNhZW0CMTEAAabuF2RPMVwg4fwJW6BmUUxLr9PCNhatcO82FlFXSvRF9GW987gBLunqMOY_aem_P1ypI-tilujeB4-ua0TRmA&e=AT0vXlQlTAnbp1IYVcMoo8jauSGdrtvHed7dQuRqm924v6qD-Kws3olxLCW6CaL_he2xu2Xa780XgU5yLmOocdCY-AQNA5RKtD9tV3xQrUQQ12Fs_b1CVrSZ8Rfq"
+                "https://evryjewels.com/?ref=EMMAGREER&fbclid=IwY2xjawJAtPlleHRuA2FlbQIxMAABHcy5QNlvbmnfPU2v20z3aCwVu92lb5uYxTj6GEwgg1PeUiFNbItoCLVobw_aem_Bg4mIDvUFHjISRsZPeNhrw"
               );
             }}
             className="bg-blue-500 px-3 py-2 rounded-md mt-5 text-white"
