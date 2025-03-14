@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
           <button
             onClick={() => {
               window.open(
-                "https://evryjewels.com/?ref=EMMAGREER&fbclid=IwY2xjawJAtPlleHRuA2FlbQIxMAABHcy5QNlvbmnfPU2v20z3aCwVu92lb5uYxTj6GEwgg1PeUiFNbItoCLVobw_aem_Bg4mIDvUFHjISRsZPeNhrw"
+                "https://l.facebook.com/l.php?u=https%3A%2F%2Fevryjewels.com%2F%3Fref%3DDOHUNG%26fbclid%3DIwZXh0bgNhZW0CMTAAAR36Gc8E7oOV5f7XiVES_3tdfWdsSvdC46wyt9I9iVB-tV2OFYzNv9fWgKU_aem_M7AixG_UlON1eHB4JpAkHQ&h=AT3ebaSm6MeKMSy7Vgy9CBc4zlFAVEgBS2jPdP2tCD1xee7gGTVEWglnUX_b0W1qC-elhkfgLS_QD-m93E0GSmMWzKNrSI2031y4SEJFxXQY_UTCcqaU2DDFuMms-X7DJywGS1UIAwuUHS9kPd-AAO4RmMcRkbg3&__tn__=-UK-R&c[0]=AT1axO_m2mIy34cdUe2E-kOU-N1SEWIjzwk4B8azU_HxLZ98YYaJu4qG6cu8Zd-IaEwNDJzEn4qn0VlAxaZw6rDUPjuGmPGtP_kTGGZhzlU9_-lGk1Vf_Y_wbWhfYWBy7shT3hsgu0tfJOKUw_KAE_ux_gFZ8IW3yx9PjeT4RUNidUbaQdLvN4jhz0BRom-J"
               );
             }}
             className="bg-blue-500 px-3 py-2 rounded-md mt-5 text-white"
