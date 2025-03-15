@@ -8,7 +8,7 @@ const articles = [
     url: "/taja",
     title: "Taja AI Review: Best YouTube Optimization Tool in 2025",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 24, 2025",
     image: "taja-ai-youtube.png",
     content:
@@ -17,7 +17,7 @@ const articles = [
   {
     url: "/gling-ai-video-editing",
     title: "Gling.ai Review: Best AI Video Editing Tool in 2025",
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 24, 2025",
     image: "gling-ai-experience.png",
     content:

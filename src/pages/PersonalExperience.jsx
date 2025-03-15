@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,19 +27,13 @@ const PersonalExperience = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Health & Wellness",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Intimate Wellness", url: "/intimate-wellness" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
       title: "Lovense Review - My Experience with Smart Toys",
-      author: "",
+      author: "Peak of Destiny",
       date: "February 23, 2025",
     },
   ];
@@ -56,7 +49,7 @@ const PersonalExperience = () => {
     },
     {
       title: "A Versatile Product Range",
-      link: "#A",
+      link: "#Versatile",
     },
     {
       title: "Competitive Pricing and Great Value",
@@ -120,14 +113,14 @@ const PersonalExperience = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>Lovense Review – Best App-Controlled Pleasure Devices</title>
+        <title>Lovense Review – Best App-Controlled Pleasure Devices in 2025</title>
         <meta
           name="description"
-          content="Read my Lovense review: high-quality, app-controlled pleasure devices with sleek design and great value."
+          content="Read my 2025 Lovense review: high-quality, app-controlled pleasure devices with sleek design, versatility, and great value."
         />
         <meta
           name="keywords"
-          content="Lovense review, app-controlled toys, Lovense Lush 3, Lovense Max 2, best pleasure devices, Lovense Hush, innovative adult toys"
+          content="Lovense review, app-controlled toys, Lovense Lush 3, Lovense Max 2, best pleasure devices, Lovense Hush, innovative adult toys 2025, intimate wellness"
         />
         <link
           rel="canonical"
@@ -135,11 +128,11 @@ const PersonalExperience = () => {
         />
         <meta
           property="og:title"
-          content="Lovense Review – Best App-Controlled Pleasure Devices"
+          content="Lovense Review – Best App-Controlled Pleasure Devices in 2025"
         />
         <meta
           property="og:description"
-          content="Explore why Lovense stands out with innovative, high-quality pleasure products in this personal review."
+          content="Explore why Lovense stands out with innovative, high-quality pleasure products in this 2025 personal review."
         />
         <meta
           property="og:image"
@@ -153,11 +146,11 @@ const PersonalExperience = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Lovense Review – Best App-Controlled Pleasure Devices"
+          content="Lovense Review – Best App-Controlled Pleasure Devices in 2025"
         />
         <meta
           name="twitter:description"
-          content="My experience with Lovense: premium quality and tech-savvy adult toys."
+          content="My 2025 experience with Lovense: premium quality and tech-savvy adult toys."
         />
         <meta
           name="twitter:image"
@@ -168,15 +161,33 @@ const PersonalExperience = () => {
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              "headline": "Personal Experience with Lovense Products",
-              "description": "A personal review of Lovense products, highlighting their quality, design, and innovative features.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "headline": "Lovense Review - My Experience with Smart Toys",
+              "description": "A personal review of Lovense products, highlighting their quality, design, and innovative features in 2025.",
+              "author": {
+                "@type": "Person",
+                "name": "By Peak of Destiny"
+              },
               "datePublished": "2025-02-23",
-              "image": "https://www.bundlam.com/lovense-final-verdict.png"
+              "dateModified": "2025-02-23",
+              "image": "https://www.bundlam.com/lovense-final-verdict.png",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.thebusinessdive.com/health/lovense-pleasure-devices"
+              },
+              "articleSection": "Health & Wellness"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -187,16 +198,16 @@ const PersonalExperience = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 className="text-2xl work-sans-900 my-6">
               My Journey with Lovense Pleasure Devices
             </h2>
             <p>
@@ -204,14 +215,19 @@ const PersonalExperience = () => {
               with innovative, tech-savvy devices. After exploring this niche, I
               tested their products—here’s my honest take.
             </p>
-            <img
-              src="lovense-final-verdict.png"
-              alt="Lovense pleasure devices overview"
-              className="w-full mb-5 object-cover mt-5"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="lovense-final-verdict.png"
+                alt="Lovense pleasure devices overview showcasing smart toys"
+                className="w-full mb-5 object-cover mt-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Lovense – A smart and innovative approach to pleasure devices.
+              </figcaption>
+            </figure>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -245,15 +261,14 @@ const PersonalExperience = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h1
+            <h2
               id="Unparalleled"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Unparalleled Quality and Innovation
-            </h1>
+            </h2>
             <p>
               Lovense products are known for their superior craftsmanship, made
               with body-safe, medical-grade silicone that feels smooth and
@@ -263,18 +278,24 @@ const PersonalExperience = () => {
               offering app-controlled connectivity that enhances the user
               experience.
             </p>
-            <img
-              src="lovense-product-overview.png"
-              alt="Lovense product quality and innovation"
-              className="w-full mb-5 object-cover my-5"
-              loading="lazy"
-            />
-            <h1
+            <figure>
+              <img
+                src="lovense-product-overview.png"
+                alt="Lovense product showcasing quality and innovation"
+                className="w-full mb-5 object-cover my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Lovense – Unparalleled quality with cutting-edge technology.
+              </figcaption>
+            </figure>
+
+            <h2
               id="Sleek"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Sleek and Ergonomic Design
-            </h1>
+            </h2>
             <p>
               One of the first things I noticed about Lovense devices is their
               ergonomic and aesthetically pleasing design. Each product is
@@ -282,23 +303,29 @@ const PersonalExperience = () => {
               comfort and efficiency. The discreet appearance also makes them
               easy to store and travel-friendly.
             </p>
-            <img
-              src="lovense-quality-tech.jpg"
-              alt="Lovense sleek ergonomic design"
-              className="w-full mb-5 object-cover my-5"
-              loading="lazy"
-            />
-            <h1
-              id="A"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+            <figure>
+              <img
+                src="lovense-quality-tech.jpg"
+                alt="Lovense sleek and ergonomic design for comfort"
+                className="w-full mb-5 object-cover my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Lovense – Sleek design for enhanced comfort and discretion.
+              </figcaption>
+            </figure>
+
+            <h2
+              id="Versatile"
+              className="text-2xl work-sans-900 my-6"
             >
               A Versatile Product Range
-            </h1>
+            </h2>
             <p>
               Lovense offers a wide range of products to cater to different
               preferences:
             </p>
-            <ul class="list-disc pl-5 py-5">
+            <ul className="list-disc pl-5 py-5 space-y-2">
               <li>
                 <strong>Lush 3:</strong> A powerful wearable bullet vibrator
                 with app control.
@@ -321,18 +348,24 @@ const PersonalExperience = () => {
               you are looking for solo pleasure or a way to enhance intimacy
               with a partner.
             </p>
-            <img
-              src="lovense-ergonomic-design.png"
-              alt="Lovense versatile product range"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1
+            <figure>
+              <img
+                src="lovense-ergonomic-design.png"
+                alt="Lovense versatile product range for different preferences"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Lovense – A versatile range for every need.
+              </figcaption>
+            </figure>
+
+            <h2
               id="Competitive"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Competitive Pricing and Great Value
-            </h1>
+            </h2>
             <p>
               While Lovense products are positioned in the premium segment, they
               offer excellent value for money. Compared to other luxury brands,
@@ -340,45 +373,66 @@ const PersonalExperience = () => {
               reasonable price. Plus, frequent promotions and bundle deals make
               their products more accessible to users.
             </p>
-            <img
-              src="lovense-product-range.png"
-              alt="Lovense competitive pricing value"
-              className="w-full mb-5 object-cover my-5"
-              loading="lazy"
-            />
-            <h1
+            <figure>
+              <img
+                src="lovense-product-range.png"
+                alt="Lovense competitive pricing and value comparison"
+                className="w-full mb-5 object-cover my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Lovense – Great value with competitive pricing.
+              </figcaption>
+            </figure>
+
+            <h2
               id="Why"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Why Choose Lovense Over Other Brands?
-            </h1>
+            </h2>
             <p>
               Many brands claim to offer smart pleasure products, but Lovense
               takes it to another level with:
             </p>
-            <ul class="list-disc pl-5 py-5">
-              <li>
-                Reliable app connectivity that enables real-time control from
-                anywhere.
-              </li>
-              <li>
-                High-performance motors that provide deep and satisfying
-                sensations.
-              </li>
-              <li>
-                A strong community and compatibility with interactive content.
-              </li>
-              <li>
-                Long battery life and quick charging for uninterrupted
-                experiences.
-              </li>
-            </ul>
-            <h1
+            <table className="table-auto w-full border-collapse mt-5">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border px-4 py-2 text-left">Feature</th>
+                  <th className="border px-4 py-2 text-left">Lovense ✅</th>
+                  <th className="border px-4 py-2 text-left">Other Brands ❌</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2">App Connectivity</td>
+                  <td className="border px-4 py-2">✅ Real-time control</td>
+                  <td className="border px-4 py-2">❌ Limited or laggy</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Performance</td>
+                  <td className="border px-4 py-2">✅ High-performance motors</td>
+                  <td className="border px-4 py-2">❌ Weaker vibrations</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Community & Content</td>
+                  <td className="border px-4 py-2">✅ Strong support</td>
+                  <td className="border px-4 py-2">❌ Minimal engagement</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Battery Life</td>
+                  <td className="border px-4 py-2">✅ Long-lasting</td>
+                  <td className="border px-4 py-2">❌ Shorter duration</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h2
               id="Final"
-              className="text-xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Final Verdict – Is Lovense Worth It?
-            </h1>
+            </h2>
             <p>
               After testing multiple Lovense products, I can confidently say
               that this brand is a game-changer. The blend of quality,
@@ -387,64 +441,88 @@ const PersonalExperience = () => {
               innovative, app-controlled device that delivers both pleasure and
               convenience, Lovense is undoubtedly the way to go.
             </p>
-            <img
-              src="lovense-value-pricing.png"
-              alt="Lovense products final verdict"
-              className="w-full mb-5 object-cover my-5"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="lovense-value-pricing.png"
+                alt="Lovense final verdict on quality and value"
+                className="w-full mb-5 object-cover my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Lovense – A worthy investment for an enhanced experience.
+              </figcaption>
+            </figure>
             <p className="my-5">
               Get yours today and elevate your intimate moments!{" "}
               <a
-                onClick={() =>
-                  window.open("https://www.lovense.com/r/04u669", "_blank")
-                }
-                className="text-[#3182ce] underline"
+                href="https://www.lovense.com/r/04u669"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block rounded-lg work-sans-900 text-[#2b6cb0]"
               >
-                Click here
-              </a>{" "}
-              to explore Lovense’s full product range.
+                Explore Lovense Products Now
+              </a>
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="By Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  By Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -467,8 +545,9 @@ const PersonalExperience = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

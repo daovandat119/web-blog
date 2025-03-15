@@ -9,7 +9,7 @@ const articles = [
     title:
       "Goli Triple Action Immune Gummies: Boost Immunity in 2025",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "May 3, 2025",
     image: "goli-triple-action-immune-gummies-review.png",
     content:
@@ -20,7 +20,7 @@ const articles = [
     title:
       "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 25, 2025",
     image: "four-sigmatic-functional-foods.jpg",
     content:
@@ -31,7 +31,7 @@ const articles = [
     title:
       "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 21, 2025",
     image: "goli-ashwagandha-gummies.png",
     content:
@@ -42,7 +42,7 @@ const articles = [
     title:
       "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 24, 2025",
     image: "thehydrojug-water-bottle.png",
     content:
@@ -53,7 +53,7 @@ const articles = [
     title:
       "FlasKap – Revolutionizing the World of Thermal Bottles",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 24, 2025",
     image: "flaskap-thermal-bottle.jpg",
     content:
@@ -63,7 +63,7 @@ const articles = [
     url: "/last-crumb-cookies-review",
     title: "Last Crumb Cookies - Luxury Worth Every Bite",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 21, 2025",
     image: "last-crumb-cookies-box.png",
     content:

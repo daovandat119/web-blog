@@ -8,7 +8,7 @@ const Topics = () => {
       url: "/taja-ai-youtube-optimization",
       title: "Taja AI Review: Best YouTube Optimization Tool in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "taja-ai-youtube.png",
       content:
@@ -18,7 +18,7 @@ const Topics = () => {
       url: "/walterwrites-ai-writing-tool",
       title: "WalterWrites.ai Review: Best AI Writing Tool in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "walterwrites-ai-experience.jpg",
       content:
@@ -29,7 +29,7 @@ const Topics = () => {
       title:
         "LockedIn AI Review: Best Interview Prep Tool in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "lockedin-ai-experience.png",
       content:
@@ -38,7 +38,7 @@ const Topics = () => {
     {
       url: "/gling-ai-video-editing",
       title: "Gling.ai Review: Best AI Video Editing Tool in 2025",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "gling-ai-experience.png",
       content:
@@ -57,7 +57,7 @@ const Topics = () => {
           link: "/software-reviews",
         },
       ],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 17, 2025",
       image: "anh335.webp",
       content:
@@ -210,7 +210,7 @@ const Topics = () => {
           link: "/software-reviews",
         },
       ],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "October 5, 2023",
       image: "best-ai-meeting-managers-2025.webp",
       content:

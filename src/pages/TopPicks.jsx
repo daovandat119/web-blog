@@ -18,7 +18,7 @@ const articles = [
         link: "/software-reviews",
       },
     ],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "October 5, 2023",
     image: "best-ai-meeting-managers-2025.webp",
     content:

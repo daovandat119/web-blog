@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,13 @@ const LockedIn = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Career & Productivity",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Interview Preparation", url: "/interview-preparation" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
-      title:
-        "LockedIn AI Review: Best Interview Prep Tool in 2025",
-      author: "",
+      title: "LockedIn AI Review: Best Interview Prep Tool in 2025",
+      author: "Peak of Destiny",
       date: "February 24, 2025",
     },
   ];
@@ -51,18 +43,9 @@ const LockedIn = () => {
       title: "Outstanding Features of LockedIn AI",
       link: "#Outstanding",
       items: [
-        {
-          name: "Realistic Interview Simulations",
-          link: "#Realistic",
-        },
-        {
-          name: "Real-Time Answer Analysis",
-          link: "#Real",
-        },
-        {
-          name: "SEO Optimization Feature",
-          link: "#SEO",
-        },
+        { name: "Realistic Interview Simulations", link: "#Realistic" },
+        { name: "Real-Time Answer Analysis", link: "#Real" },
+        { name: "SEO Optimization Feature", link: "#SEO" },
         { name: "Multi-Industry and Multi-Language Support", link: "#Multi" },
       ],
     },
@@ -127,11 +110,11 @@ const LockedIn = () => {
         <title>LockedIn AI Review: Best Interview Prep Tool in 2025</title>
         <meta
           name="description"
-          content="My LockedIn AI review: the top AI tool for interview preparation with simulations and real-time feedback in 2025."
+          content="My 2025 LockedIn AI review: the top AI tool for interview preparation with realistic simulations and real-time feedback."
         />
         <meta
           name="keywords"
-          content="LockedIn AI review, AI interview prep tool, best interview preparation, real-time feedback, 2025"
+          content="LockedIn AI review, AI interview prep tool, best interview preparation 2025, real-time feedback, job interview practice"
         />
         <link
           rel="canonical"
@@ -143,36 +126,62 @@ const LockedIn = () => {
         />
         <meta
           property="og:description"
-          content="Discover how LockedIn AI enhances interview prep with realistic simulations and instant feedback."
+          content="Explore my 2025 LockedIn AI review to see how it enhances interview prep with realistic simulations and instant feedback."
         />
         <meta
           property="og:image"
-          content="https://www.thebusinessdive.com/lockedin-ai-review.jpg"
+          content="https://www.bundlam.com/lockedin-ai-review.jpg"
         />
         <meta
           property="og:url"
           content="https://www.bundlam.com/lockedin-ai-interview-prep"
         />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="LockedIn AI Review: Best Interview Prep Tool in 2025"
+        />
+        <meta
+          name="twitter:description"
+          content="My 2025 take on LockedIn AI: the ultimate AI tool for job interview preparation."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bundlam.com/lockedin-ai-review.jpg"
+        />
         <script type="application/ld+json">
           {`
             {
               "@context": "https://schema.org",
-              "@type": "ProductReview",
+              "@type": "Article",
               "headline": "LockedIn AI Review: Best Interview Prep Tool in 2025",
-              "description": "A review of LockedIn AI, an AI-powered tool for interview preparation.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "description": "A detailed 2025 review of LockedIn AI, an AI-powered tool for interview preparation with realistic simulations and real-time feedback.",
+              "author": {
+                "@type": "Person",
+                "name": "By Peak of Destiny"
+              },
               "datePublished": "2025-02-24",
-              "image": "https://www.thebusinessdive.com/lockedin-ai-review.jpg",
-              "itemReviewed": {
-                "@type": "Product",
-                "name": "LockedIn AI",
-                "brand": {"@type": "Brand", "name": "LockedIn"}
-              }
+              "dateModified": "2025-02-24",
+              "image": "https://www.bundlam.com/lockedin-ai-review.jpg",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/lockedin-ai-interview-prep"
+              },
+              "articleSection": "Career & Productivity"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -183,18 +192,18 @@ const LockedIn = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <h1 className="text-2xl work-sans-900 my-5">
+            <h2 className="text-2xl work-sans-900 my-6">
               My Experience with LockedIn AI
-            </h1>
+            </h2>
             <p className="my-5">
               As someone who frequently faces stressful interviews, I was always
               looking for a tool to help me prepare effectively. When I
@@ -203,21 +212,24 @@ const LockedIn = () => {
             </p>
             <p className="mb-5">
               From the very first use, LockedIn AI provided{" "}
-              <span className="work-sans-900">
-                precise interview simulations
-              </span>{" "}
+              <span className="work-sans-900">precise interview simulations</span>{" "}
               that closely mirrored real-life interview scenarios. The questions
               were customized based on my resume and job descriptions, helping
               me respond with greater confidence and minimize mistakes.
             </p>
-            <img
-              src="lockedin-ai-experience.png"
-              alt="LockedIn AI interview preparation experience"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="lockedin-ai-experience.png"
+                alt="LockedIn AI interview preparation experience"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                LockedIn AI – Realistic interview preparation experience.
+              </figcaption>
+            </figure>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -251,16 +263,15 @@ const LockedIn = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h1
+            <h2
               id="Outstanding"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Outstanding Features of LockedIn AI
-            </h1>
-            <h3 id="Realistic" className="text-lg work-sans-900 my-3">
+            </h2>
+            <h3 id="Realistic" className="text-xl work-sans-900 my-4">
               Realistic Interview Simulations
             </h3>
             <p>
@@ -269,15 +280,15 @@ const LockedIn = () => {
               easier for users to practice and enhances their ability to respond
               in challenging situations.
             </p>
-            <h3 id="Real" className="text-lg work-sans-900 my-3">
+            <h3 id="Real" className="text-xl work-sans-900 my-4">
               Real-Time Answer Analysis
             </h3>
             <p>
               The AI analyzes responses and provides{" "}
-              <span className="work-sans-900">instant feedback,</span> allowing
+              <span className="work-sans-900">instant feedback</span>, allowing
               me to adjust my delivery and become more confident in my answers.
             </p>
-            <h3 id="SEO" className="text-lg work-sans-900 my-3">
+            <h3 id="SEO" className="text-xl work-sans-900 my-4">
               SEO Optimization Feature
             </h3>
             <p>
@@ -286,7 +297,7 @@ const LockedIn = () => {
               content, ensuring their written responses perform well on search
               engines.
             </p>
-            <h3 id="Multi" className="text-lg work-sans-900 my-3">
+            <h3 id="Multi" className="text-xl work-sans-900 my-4">
               Multi-Industry and Multi-Language Support
             </h3>
             <p className="mb-5">
@@ -295,19 +306,22 @@ const LockedIn = () => {
               offering language enhancement features, improving communication
               skills in an international setting.
             </p>
-            <img
-              src="lockedin-ai-features.png"
-              alt="Key features of LockedIn AI interview tool"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h2
-              id="Why"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
+            <figure>
+              <img
+                src="lockedin-ai-features.png"
+                alt="Key features of LockedIn AI interview tool"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                LockedIn AI – Key features for interview preparation.
+              </figcaption>
+            </figure>
+
+            <h2 id="Why" className="text-2xl work-sans-900 my-6">
               Why Choose LockedIn AI?
             </h2>
-            <ul className="list-disc pl-5 pb-5">
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
                 <span className="work-sans-900">Saves time –</span> Quickly and
                 efficiently prepares you for interviews.
@@ -322,75 +336,97 @@ const LockedIn = () => {
                 Tailors responses based on individual skills and experiences.
               </li>
             </ul>
-            <img
-              src="lockedin-ai-benefits.png"
-              alt="Why choose LockedIn AI for interview prep"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h2
-              id="Conclusion"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
+            <figure>
+              <img
+                src="lockedin-ai-benefits.png"
+                alt="Why choose LockedIn AI for interview prep"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                LockedIn AI – Benefits for job seekers.
+              </figcaption>
+            </figure>
+
+            <h2 id="Conclusion" className="text-2xl work-sans-900 my-6">
               Conclusion
             </h2>
             <p>
               For anyone looking for an{" "}
-              <span className="work-sans-900">
-                effective interview preparation tool,{" "}
-              </span>
-              LockedIn AI is definitely worth considering.
+              <span className="work-sans-900">effective interview preparation tool</span>,{" "}
+              LockedIn AI is definitely worth considering. Its realistic simulations, real-time feedback, and personalized approach make it a game-changer for job seekers.
             </p>
-            <p className="mt-5">
-              👉Try{" "}
+            <p className="my-5">
+              Ready to elevate your interview preparation? Try{" "}
               <a
                 href="https://www.lockedinai.com/?via=bebe"
-                class="text-[#3182ce] underline"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block rounded-lg work-sans-900 text-[#2b6cb0]"
               >
-                LockedIn AI
-              </a>{" "}
-              now and elevate your interview preparation!
+                LockedIn AI Now
+              </a>
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="By Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  By Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -413,8 +449,9 @@ const LockedIn = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

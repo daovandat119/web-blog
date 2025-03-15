@@ -10,7 +10,7 @@ const articles = [
         categories: [
     
         ],
-        author: "Aron Kantor",
+        author: "Peak of Destiny" ,
         date: "February 23, 2025",
         image: "smart-trading-tools-with-tradeify.jpg",
         content:

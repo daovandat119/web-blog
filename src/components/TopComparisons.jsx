@@ -9,7 +9,7 @@ const TopComparisons = () => {
       title:
         "11SIX24 Pickleball Paddles - Boost Your Health",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 23, 2025",
       image: "11six24-pickleball-action.png",
       content:
@@ -19,7 +19,7 @@ const TopComparisons = () => {
       url: "/lovense-pleasure-devices",
       title: "Lovense Review - My Experience with Smart Toys",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 23, 2025",
       image: "lovense-final-verdict.png",
       content:
@@ -29,7 +29,7 @@ const TopComparisons = () => {
       url: "/truedark-glasses",
       title: "TrueDark Glasses Review – Boost Sleep & Eye Health",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "truedark-blue-light-impact.png",
       content:
@@ -40,7 +40,7 @@ const TopComparisons = () => {
       title:
         "Litime Products Review - Top Energy Storage Solutions",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 23, 2025",
       image: "litime-energy-storage.png",
       content:
@@ -51,7 +51,7 @@ const TopComparisons = () => {
       title:
         "Elevated Faith Review - Christian Apparel with Impact",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "elevated-faith-collection.png",
       content:
@@ -62,7 +62,7 @@ const TopComparisons = () => {
       title:
         "Double Oak Essentials Wallet Review: Slim & Stylish",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "double-oak-essentials-problems.png",
       content:

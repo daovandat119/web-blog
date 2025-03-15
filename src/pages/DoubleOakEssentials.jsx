@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,13 @@ const DoubleOakEssentials = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Accessories & Gear",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Wallets & Organizers", url: "/wallets-organizers" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
-      title:
-        "Double Oak Essentials Wallet Review: Slim & Stylish",
-      author: "",
+      title: "Double Oak Essentials Wallet Review: Slim & Stylish",
+      author: "Peak of Destiny",
       date: "February 21, 2025",
     },
   ];
@@ -113,14 +105,14 @@ const DoubleOakEssentials = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>Double Oak Essentials Wallet Review: Slim & Stylish</title>
+        <title>Double Oak Essentials Wallet Review: Slim & Stylish in 2025</title>
         <meta
           name="description"
-          content="My Double Oak Essentials review: slim wallets that replace bulky ones with style and RFID protection."
+          content="My 2025 Double Oak Essentials review: slim wallets that replace bulky ones with style, RFID protection, and luxury design."
         />
         <meta
           name="keywords"
-          content="Double Oak Essentials review, slim wallets, Double Oak wallets, minimalist wallets, RFID wallets, best wallets 2025"
+          content="Double Oak Essentials review, slim wallets, Double Oak wallets, minimalist wallets, RFID wallets, best wallets 2025, luxury wallets"
         />
         <link
           rel="canonical"
@@ -128,11 +120,11 @@ const DoubleOakEssentials = () => {
         />
         <meta
           property="og:title"
-          content="Double Oak Essentials Wallet Review: Slim & Stylish"
+          content="Double Oak Essentials Wallet Review: Slim & Stylish in 2025"
         />
         <meta
           property="og:description"
-          content="Discover why Double Oak Essentials offers the perfect slim wallet solution."
+          content="Discover why Double Oak Essentials offers the perfect slim wallet solution with luxury and RFID protection in 2025."
         />
         <meta
           property="og:image"
@@ -146,11 +138,11 @@ const DoubleOakEssentials = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Double Oak Essentials Wallet Review: Slim & Stylish"
+          content="Double Oak Essentials Wallet Review: Slim & Stylish in 2025"
         />
         <meta
           name="twitter:description"
-          content="My review of Double Oak Essentials: sleek wallets with RFID protection."
+          content="My 2025 review of Double Oak Essentials: sleek wallets with RFID protection and luxury design."
         />
         <meta
           name="twitter:image"
@@ -160,21 +152,34 @@ const DoubleOakEssentials = () => {
           {`
             {
               "@context": "https://schema.org",
-              "@type": "ProductReview",
+              "@type": "Article",
               "headline": "Double Oak Essentials Wallet Review: Slim & Stylish",
-              "description": "A detailed review of Double Oak Essentials slim wallets with RFID protection.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "description": "A detailed review of Double Oak Essentials slim wallets with RFID protection and luxury design in 2025.",
+              "author": {
+                "@type": "Person",
+                "name": "By Peak of Destiny"
+              },
               "datePublished": "2025-02-21",
+              "dateModified": "2025-02-21",
               "image": "https://www.bundlam.com/double-oak-essentials-problems.png",
-              "itemReviewed": {
-                "@type": "Product",
-                "name": "Double Oak Essentials Wallet",
-                "brand": {"@type": "Brand", "name": "Double Oak Essentials"}
-              }
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/double-oak-essentials"
+              },
+              "articleSection": "Accessories & Gear"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -185,32 +190,35 @@ const DoubleOakEssentials = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 className="text-2xl work-sans-900 my-6">
               Why Switch to Double Oak Essentials?
             </h2>
             <p className="my-5">
               Tired of bulky wallets? My{" "}
-              <span className="work-sans-900">
-                Double Oak Essentials review
-              </span>{" "}
+              <span className="work-sans-900">Double Oak Essentials review</span>{" "}
               shows how these slim wallets solve your problems.
             </p>
-            <img
-              src="double-oak-essentials-problems.png"
-              alt="Common bulky wallet issues solved by Double Oak Essentials"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <ul class="list-disc pl-5 py-5">
+            <figure>
+              <img
+                src="double-oak-essentials-problems.png"
+                alt="Common bulky wallet issues solved by Double Oak Essentials"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Double Oak Essentials – Solving bulky wallet problems.
+              </figcaption>
+            </figure>
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
                 Is your wallet too thick, making your pocket feel uncomfortably
                 bulky?
@@ -225,17 +233,15 @@ const DoubleOakEssentials = () => {
                 a lack of RFID protection?
               </li>
             </ul>
-            <h1 class="text-2xl work-sans-900 my-5 flex items-center">
-              RFID protection?
-            </h1>
-            <p class="my-5">
+            <h3 className="text-xl work-sans-900 my-4">RFID Protection?</h3>
+            <p className="my-5">
               If you’ve been dealing with these problems, it’s time to upgrade
               to a sleek, stylish, and functional wallet – and{" "}
-              <span class="work-sans-900">Double Oak Essentials</span> is the
+              <span className="work-sans-900">Double Oak Essentials</span> is the
               answer.
             </p>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -269,18 +275,20 @@ const DoubleOakEssentials = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h2 id="The" class="text-2xl work-sans-900 my-5 flex items-center">
+            <h2
+              id="The"
+              className="text-2xl work-sans-900 my-6"
+            >
               The Benefits of Using a Double Oak Essentials Wallet
             </h2>
             <p>
               Ever since I switched to a{" "}
-              <span class="work-sans-900">Double Oak Essentials</span> wallet,
+              <span className="work-sans-900">Double Oak Essentials</span> wallet,
               I’ve noticed a huge improvement:
             </p>
-            <ul class="list-disc pl-10 py-5">
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
                 Ultra-thin and lightweight – No more bulky, uncomfortable
                 pockets.
@@ -298,23 +306,29 @@ const DoubleOakEssentials = () => {
                 age.
               </li>
             </ul>
-            <img
-              src="double-oak-benefits.jpg"
-              alt="Double Oak Essentials slim wallet benefits"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="double-oak-benefits.jpg"
+                alt="Double Oak Essentials slim wallet benefits"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Double Oak Essentials – Key benefits of slim wallets.
+              </figcaption>
+            </figure>
+
             <h2
               id="Quality"
-              class="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Quality & Design – When Minimalism Meets Luxury
             </h2>
-            <p class="my-5">
-              <span class="work-sans-900">Double Oak Essentials</span> offers a
+            <p className="my-5">
+              <span className="work-sans-900">Double Oak Essentials</span> offers a
               range of high-quality wallets to match any style:
             </p>
-            <ul class="list-disc pl-10 py-5">
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
                 Midnight Edition Wallet – Sleek and elegant in deep black,
                 perfect for a sophisticated look.
@@ -332,102 +346,138 @@ const DoubleOakEssentials = () => {
                 wallet’s location via phone, so you never lose it.
               </li>
             </ul>
-            <img
-              src="double-oak-designs.png"
-              alt="Double Oak Essentials wallet designs"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <p class="my-5">
+            <figure>
+              <img
+                src="double-oak-designs.png"
+                alt="Double Oak Essentials wallet designs"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Double Oak Essentials – Luxury minimalist designs.
+              </figcaption>
+            </figure>
+            <p className="my-5">
               Each wallet is carefully crafted with high-quality leather, fine
               stitching, and a slim yet functional design.
             </p>
 
-            <h2 class="text-2xl work-sans-900 my-5 flex items-center">
+            <h2
+              id="Pricing"
+              className="text-2xl work-sans-900 my-6"
+            >
               Pricing – Is It Worth the Investment?
             </h2>
             <iframe
               className="w-full h-[300px]"
               src="https://www.youtube.com/embed/UkCkIFcpdpw"
               title="Double Oak Essentials Slim Edition Wallets #doubleoakessentials"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
-            <p class="my-5">
-              <span class="work-sans-900">Double Oak Essentials</span> wallets
+            <p className="my-5">
+              <span className="work-sans-900">Double Oak Essentials</span> wallets
               range from $50 - $150. While they’re not the cheapest wallets out
               there, if you’re looking for durability, elegance, and
               convenience, this is an investment worth making.
             </p>
 
-            <h2 class="text-2xl work-sans-900 my-5 flex items-center">
+            <h2
+              id="Final"
+              className="text-2xl work-sans-900 my-6"
+            >
               Final Verdict – Should You Buy a Double Oak Essentials Wallet?
             </h2>
-            <img
-              src="double-oak-essentials-final-verdict.png"
-              alt="Double Oak Essentials slim wallet review conclusion"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <p class="my-5">
+            <figure>
+              <img
+                src="double-oak-essentials-final-verdict.png"
+                alt="Double Oak Essentials slim wallet review conclusion"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Double Oak Essentials – Final verdict on slim wallets.
+              </figcaption>
+            </figure>
+            <p className="my-5">
               If you’re tired of bulky, low-quality wallets that lack security,{" "}
-              <span class="work-sans-900">Double Oak Essentials</span> is the
+              <span className="work-sans-900">Double Oak Essentials</span> is the
               perfect upgrade. It keeps your essentials organized, enhances your
               style, and provides premium protection.
             </p>
-
-            <p class="my-5">
-              🔥 Upgrade your wallet today!
+            <p className="my-5">
+              🔥 Upgrade your wallet today!{" "}
               <a
                 href="https://www.doubleoakessentials.com/fr?sca_ref=7430060.WsR706KbDIey"
-                class="text-[#3182ce] underline"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block rounded-lg work-sans-900 text-[#2b6cb0]"
               >
-                Click here
-              </a>{" "}
-              to explore Double Oak Essentials’ best-selling collection!
+                Shop Double Oak Essentials Now
+              </a>
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="By Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  By Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -450,8 +500,9 @@ const DoubleOakEssentials = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

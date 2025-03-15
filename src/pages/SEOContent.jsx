@@ -8,7 +8,7 @@ const articles = [
     url: "/walterwrites-ai-writing-tool",
     title: "WalterWrites.ai Review: Best AI Writing Tool in 2025",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 24, 2025",
     image: "health63.png",
     content:

@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,14 @@ const TheHydroJug = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Health & Wellness",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Hydration Solutions", url: "/hydration-solutions" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
       title:
         "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
-      author: "",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
     },
   ];
@@ -106,7 +99,7 @@ const TheHydroJug = () => {
       url: "/ai-productivity-tools",
       title: "Best 18 AI Productivity Tools That Will Change The Way You Work",
       date: "March 13, 2024",
-      image: "anh91.webp",
+      image: "best-ai-productivity-tools.webp", // Đã sửa từ "anh91.webp" thành tên hợp lệ
     },
     {
       url: "/best-email-productivity-apps",
@@ -119,14 +112,14 @@ const TheHydroJug = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>TheHydroJug Review – Best Water Bottle for Hydration</title>
+        <title>TheHydroJug Review – Best Water Bottle for Hydration in 2025</title>
         <meta
           name="description"
-          content="Explore our TheHydroJug review – a durable, large-capacity water bottle designed to maintain your daily hydration habit effortlessly."
+          content="Explore our TheHydroJug review – a durable, large-capacity water bottle designed to maintain your daily hydration habit effortlessly in 2025."
         />
         <meta
           name="keywords"
-          content="TheHydroJug, water bottle review, hydration habit, large capacity water bottle, BPA-free bottle, TheHydroJug vs other brands, fitness water bottle"
+          content="TheHydroJug, water bottle review, hydration habit, large capacity water bottle, BPA-free bottle, TheHydroJug vs other brands, fitness water bottle 2025, daily hydration"
         />
         <link
           rel="canonical"
@@ -134,11 +127,11 @@ const TheHydroJug = () => {
         />
         <meta
           property="og:title"
-          content="TheHydroJug Review – Best Water Bottle for Hydration"
+          content="TheHydroJug Review – Best Water Bottle for Hydration in 2025"
         />
         <meta
           property="og:description"
-          content="Discover why TheHydroJug is the perfect water bottle for daily hydration with its durable design and large capacity."
+          content="Discover why TheHydroJug is the perfect water bottle for daily hydration with its durable design and large capacity in 2025."
         />
         <meta
           property="og:image"
@@ -152,14 +145,14 @@ const TheHydroJug = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="TheHydroJug Review – Best Water Bottle for Hydration"
+          content="TheHydroJug Review – Best Water Bottle for Hydration in 2025"
         />
         <meta
           name="twitter:description"
-          content="Read our review of TheHydroJug, the ultimate solution for staying hydrated daily."
+          content="Read our 2025 review of TheHydroJug, the ultimate solution for staying hydrated daily."
         />
         <meta
-          name="twitter:image"
+          property="twitter:image"
           content="https://www.bundlam.com/thehydrojug-water-bottle.png"
         />
         <script type="application/ld+json">
@@ -168,40 +161,63 @@ const TheHydroJug = () => {
               "@context": "https://schema.org",
               "@type": "Article",
               "headline": "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
-              "description": "A detailed review of TheHydroJug water bottles, designed for hydration with durable, user-friendly features.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "description": "A detailed review of TheHydroJug water bottles, designed for hydration with durable, user-friendly features in 2025.",
+              "author": {
+                "@type": "Person",
+                "name": "Peak of Destiny"
+              },
               "datePublished": "2025-02-24",
-              "image": "https://www.bundlam.com/thehydrojug-water-bottle.png"
+              "dateModified": "2025-02-24",
+              "image": "https://www.bundlam.com/thehydrojug-water-bottle.png",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/thehydrojug-hydration-solution"
+              },
+              "articleSection": "Health & Wellness"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <h1 className="w-80 lg:w-full text-[40px] work-sans-900 text-center">
+            <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <img
-              src="thehydrojug-water-bottle.png"
-              alt="TheHydroJug large capacity water bottle"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+            <figure>
+              <img
+                src="thehydrojug-water-bottle.png"
+                alt="TheHydroJug large capacity water bottle for daily hydration"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                TheHydroJug – Your ultimate companion for daily hydration.
+              </figcaption>
+            </figure>
+            <h2 className="text-2xl work-sans-900 my-6">
               Introduction to TheHydroJug: Your Hydration Companion
             </h2>
             <p>
@@ -212,7 +228,7 @@ const TheHydroJug = () => {
               anyone prioritizing a healthy lifestyle.
             </p>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -246,12 +262,11 @@ const TheHydroJug = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
             <h2
               id="Why"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Why Do You Need a TheHydroJug Bottle?
             </h2>
@@ -260,13 +275,12 @@ const TheHydroJug = () => {
               you find it inconvenient to refill your bottle repeatedly?
               TheHydroJug is designed to solve these problems:
             </p>
-            <ul className="list-disc pl-5 py-5">
+            <ul className="list-disc pl-5 py-5 space-y-2">
               <li>
                 <span className="work-sans-900">
                   Provides enough water for the entire day –
                 </span>{" "}
-                With a large
-                <span className="work-sans-900">2.2-liter capacity,</span> you
+                With a large <span className="work-sans-900">2.2-liter capacity</span>, you
                 don’t need to refill frequently.
               </li>
               <li>
@@ -281,22 +295,27 @@ const TheHydroJug = () => {
                 Whether at the office, gym, or on the go, TheHydroJug is your
                 reliable companion.
               </li>
+            </ul>
+            <figure>
               <img
                 src="thehydrojug-hydration-habit.jpg"
-                alt="TheHydroJug bottle for daily hydration"
+                alt="TheHydroJug bottle encouraging a daily hydration habit"
                 className="w-full mb-5 object-cover"
                 loading="lazy"
               />
-            </ul>
+              <figcaption className="text-center text-gray-600">
+                TheHydroJug makes staying hydrated easy and convenient.
+              </figcaption>
+            </figure>
 
             <h2
               id="Detailed"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Detailed Review of TheHydroJug Products
             </h2>
 
-            <h3 id="Quality" className="text-xl work-sans-900 my-3">
+            <h3 id="Quality" className="text-xl work-sans-900 my-4">
               Quality – Safe & Durable
             </h3>
             <p>
@@ -306,86 +325,149 @@ const TheHydroJug = () => {
               bottle highly durable, resistant to impact, and leak-proof.
             </p>
 
-            <h3 id="Design" className="text-xl work-sans-900 my-3">
+            <h3 id="Design" className="text-xl work-sans-900 my-4">
               Design – Modern & User-Friendly
             </h3>
-            <ul className="list-disc pl-5 py-5">
+            <ul className="list-disc pl-5 py-5 space-y-2">
               <li>
-                <span className="work-sans-900">Wide mouth opening,</span>{" "}
-                making it easy to pour water, add ice, or clean.
+                <span className="work-sans-900">Wide mouth opening:</span>{" "}
+                Makes it easy to pour water, add ice, or clean.
               </li>
               <li>
-                <span className="work-sans-900">Sturdy handle,</span> ensuring a
+                <span className="work-sans-900">Sturdy handle:</span> Ensures a
                 secure grip while carrying.
               </li>
               <li>
-                <span className="work-sans-900">Leak-proof lid,</span>{" "}
-                preventing spills when placed in a bag or car.
+                <span className="work-sans-900">Leak-proof lid:</span>{" "}
+                Prevents spills when placed in a bag or car.
               </li>
               <li>
-                <span className="work-sans-900">Convenient straw,</span>{" "}
-                allowing you to drink quickly without opening the lid
-                frequently.
+                <span className="work-sans-900">Convenient straw:</span>{" "}
+                Allows you to drink quickly without opening the lid frequently.
               </li>
             </ul>
 
-            <h3 id="Product" className="text-xl work-sans-900 my-3">
+            <h3 id="Product" className="text-xl work-sans-900 my-4">
               Product Variety – Catering to All Needs
             </h3>
-            <ul className="list-disc pl-5 py-5">
+            <ul className="list-disc pl-5 py-5 space-y-2">
               <li>
-                <span className="work-sans-900">Plastic HydroJug Bottle –</span>{" "}
+                <span className="work-sans-900">Plastic HydroJug Bottle:</span>{" "}
                 Lightweight, durable, and available in multiple unique colors.
               </li>
               <li>
-                <span className="work-sans-900">Stainless Steel Bottle –</span>{" "}
+                <span className="work-sans-900">Stainless Steel Bottle:</span>{" "}
                 Keeps water cold for longer, perfect for outdoor activities.
               </li>
               <li>
-                <span className="work-sans-900">Neoprene Sleeve –</span>{" "}
+                <span className="work-sans-900">Neoprene Sleeve:</span>{" "}
                 Insulated, scratch-resistant, and equipped with a pocket for
                 phones and keys.
               </li>
               <li>
                 <span className="work-sans-900">
-                  Replacement Lids & Straws –
+                  Replacement Lids & Straws:
                 </span>{" "}
                 Customizable for individual user needs.
               </li>
+            </ul>
+            <figure>
               <img
                 src="thehydrojug-variety.jpg"
-                alt="TheHydroJug product range"
+                alt="TheHydroJug product range including plastic and stainless steel bottles"
                 className="w-full mb-5 object-cover"
                 loading="lazy"
               />
-            </ul>
+              <figcaption className="text-center text-gray-600">
+                TheHydroJug offers a variety of products to suit all hydration needs.
+              </figcaption>
+            </figure>
 
-            <h3 id="Pricing" className="text-xl work-sans-900 my-3">
+            <h3 id="Pricing" className="text-xl work-sans-900 my-4">
               Pricing – Reasonable for the Quality
             </h3>
             <p>
               While TheHydroJug is not the cheapest option on the market, its
-              <span className="work-sans-900"> high-value usability</span>,
+              <span className="work-sans-900">high-value usability</span>,
               long-lasting durability, and multiple features make it well worth
               the price.
             </p>
 
             <h2
               id="Comparison"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Comparison: TheHydroJug vs. Other Brands
             </h2>
-            <img
-              src="thehydrojug-comparison.png"
-              alt="TheHydroJug vs other water bottles"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <p className="mb-5">
+              How does TheHydroJug stack up against other popular water bottle brands like Yeti and Hydro Flask? Let’s compare:
+            </p>
+            <table className="table-auto w-full border-collapse">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border px-4 py-2 text-left">Feature</th>
+                  <th className="border px-4 py-2 text-left">
+                    TheHydroJug ✅
+                  </th>
+                  <th className="border px-4 py-2 text-left">
+                    Other Brands (Yeti, Hydro Flask) ❌
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2">Capacity</td>
+                  <td className="border px-4 py-2">
+                    ✅ 2.2 liters – Ideal for all-day hydration
+                  </td>
+                  <td className="border px-4 py-2">
+                    ❌ Typically 1 liter or less
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Material</td>
+                  <td className="border px-4 py-2">
+                    ✅ BPA-free plastic or stainless steel
+                  </td>
+                  <td className="border px-4 py-2">
+                    ✅ Stainless steel (but heavier)
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Design Features</td>
+                  <td className="border px-4 py-2">
+                    ✅ Wide mouth, sturdy handle, straw included
+                  </td>
+                  <td className="border px-4 py-2">
+                    ❌ Often lacks handle or straw
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Price</td>
+                  <td className="border px-4 py-2">
+                    ✅ Affordable for the capacity and features
+                  </td>
+                  <td className="border px-4 py-2">
+                    ❌ More expensive for smaller capacity
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <figure>
+              <img
+                src="thehydrojug-comparison.png"
+                alt="Comparison of TheHydroJug with other water bottle brands"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                TheHydroJug vs. other brands – A clear winner for daily hydration.
+              </figcaption>
+            </figure>
 
             <h2
               id="Conclusion"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Conclusion – Should You Buy TheHydroJug?
             </h2>
@@ -396,8 +478,8 @@ const TheHydroJug = () => {
               </span>{" "}
               that supports you in{" "}
               <span className="work-sans-900">
-                maintaining a hydration habit{" "}
-              </span>
+                maintaining a hydration habit
+              </span>{" "}
               every day, TheHydroJug is an excellent choice. It’s not just a
               product—it’s an investment in your health.
             </p>
@@ -405,56 +487,76 @@ const TheHydroJug = () => {
               👉{" "}
               <a
                 href="https://www.thehydrojug.com/?aff=27717&utm_campaign=AMB&utm_source=affiliatly&utm_medium=link&utm_term=link"
-                class="text-[#3182ce] underline"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block rounded-lg work-sans-900 text-[#2b6cb0]"
               >
-                Click here
-              </a>
+                Explore TheHydroJug Now
+              </a>{" "}
               <span className="work-sans-900">
-                {" "}
-                to explore TheHydroJug and receive exclusive offers for new
-                users!
+                and receive exclusive offers for new users!
               </span>
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -477,8 +579,9 @@ const TheHydroJug = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

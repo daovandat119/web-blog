@@ -20,7 +20,7 @@ const ArticleCategory = () => {
           link: "/article-category"
         }
       ],      
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 6, 2025",
       image: "anh1.webp",
       content:

@@ -9,7 +9,7 @@ const Lifestyle = () => {
       title:
         "Anycubic 3D Printers: Your Reliable Choice for High-Quality Printing in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 26, 2025",
       image: "personal-experience-anycubic-photon.jpg",
       content:
@@ -21,7 +21,7 @@ const Lifestyle = () => {
       title:
         "Goli Triple Action Immune Gummies: Boost Immunity in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "May 3, 2025",
       image: "goli-triple-action-immune-gummies-review.png",
       content:
@@ -32,7 +32,7 @@ const Lifestyle = () => {
       title:
         "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 25, 2025",
       image: "four-sigmatic-functional-foods.jpg",
       content:
@@ -43,7 +43,7 @@ const Lifestyle = () => {
       title:
         "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "goli-ashwagandha-gummies.png",
       content:
@@ -54,7 +54,7 @@ const Lifestyle = () => {
       title:
         "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "thehydrojug-water-bottle.png",
       content:
@@ -65,7 +65,7 @@ const Lifestyle = () => {
       title:
         "FlasKap – Revolutionizing the World of Thermal Bottles",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "flaskap-thermal-bottle.jpg",
       content:
@@ -75,7 +75,7 @@ const Lifestyle = () => {
       url: "/last-crumb-cookies-review",
       title: "Last Crumb Cookies - Luxury Worth Every Bite",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "last-crumb-cookies-box.png",
       content:
@@ -86,7 +86,7 @@ const Lifestyle = () => {
       title:
         "11SIX24 Pickleball Paddles - Boost Your Health",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 23, 2025",
       image: "11six24-pickleball-action.png",
       content:
@@ -96,7 +96,7 @@ const Lifestyle = () => {
       url: "/lovense-pleasure-devices",
       title: "Lovense Review - My Experience with Smart Toys",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 23, 2025",
       image: "lovense-final-verdict.png",
       content:
@@ -106,7 +106,7 @@ const Lifestyle = () => {
       url: "/truedark-glasses",
       title: "TrueDark Glasses Review – Boost Sleep & Eye Health",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "truedark-blue-light-impact.png",
       content:
@@ -117,7 +117,7 @@ const Lifestyle = () => {
       title:
         "Litime Products Review - Top Energy Storage Solutions",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 23, 2025",
       image: "litime-energy-storage.png",
       content:
@@ -128,7 +128,7 @@ const Lifestyle = () => {
       title:
         "Elevated Faith Review - Christian Apparel with Impact",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "elevated-faith-collection.png",
       content:
@@ -139,7 +139,7 @@ const Lifestyle = () => {
       title:
         "Double Oak Essentials Wallet Review: Slim & Stylish",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "double-oak-essentials-problems.png",
       content:
@@ -150,7 +150,7 @@ const Lifestyle = () => {
       title:
         "Lilac St. Lashes Review - Natural False Lashes",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 25, 2025",
       image: "lilac-st-lashes-intro.png",
       content:
@@ -161,7 +161,7 @@ const Lifestyle = () => {
       title:
         "NovaaLab Review: At-Home Pain Relief Solution",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "novaalab-chronic-pain.jpg",
       content:
@@ -196,7 +196,8 @@ const Lifestyle = () => {
             <img
               src={post.image}
               alt="featured"
-              className="w-full h-[350px] rounded-t-lg"
+              className="w-full object-cover"
+              loading="lazy"
             />
             <div className="px-6 py-4">
               <h5 className="uppercase text-xs text-[#3182ce] work-sans-900 leading-relaxed pt-4">

@@ -9,7 +9,7 @@ const articles = [
     title:
       "Anycubic 3D Printers: Your Reliable Choice for High-Quality Printing in 2025",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 26, 2025",
     image: "personal-experience-anycubic-photon.jpg",
     content:

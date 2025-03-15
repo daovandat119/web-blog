@@ -91,7 +91,7 @@ function AppContent() {
   const showFooter = location.pathname !== "/privacy-policy";
 
   return (
-    <div className="">
+    <div>
       {showFooter && <Header />}
       <ScrollToTop />
       <Routes>

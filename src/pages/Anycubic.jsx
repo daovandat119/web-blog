@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,14 @@ const Anycubic = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "3D Printing",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "3D Printers", url: "/3d-printers" },
+        { name: "Technology Reviews", url: "/technology-reviews" },
       ],
       title:
         "Anycubic 3D Printers: Your Reliable Choice for High-Quality Printing in 2025",
-      author: "",
+      author: "Peak of Destiny" ,
       date: "February 26, 2025",
     },
   ];
@@ -119,16 +112,14 @@ const Anycubic = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>
-          Anycubic 3D Printers: Reliable Solutions for Everyone in 2025
-        </title>
+        <title>Anycubic 3D Printers: Reliable Choice for High-Quality Printing in 2025</title>
         <meta
           name="description"
-          content="Explore why Anycubic 3D printers are the best choice for beginners and experts alike with top-notch quality, affordability, and ease of use."
+          content="Explore why Anycubic 3D printers are the best choice for beginners and experts in 2025, with top-notch quality, affordability, and ease of use."
         />
         <meta
           name="keywords"
-          content="Anycubic, 3D printers, best 3D printers 2025, affordable 3D printing, beginner-friendly 3D printers, Anycubic Photon, Anycubic Kobra, high-quality 3D printing"
+          content="Anycubic, 3D printers, best 3D printers 2025, affordable 3D printing, beginner-friendly 3D printers, Anycubic Photon, Anycubic Kobra, high-quality 3D printing, 3D printing technology"
         />
         <link
           rel="canonical"
@@ -136,11 +127,11 @@ const Anycubic = () => {
         />
         <meta
           property="og:title"
-          content="Anycubic 3D Printers: Reliable Solutions for Everyone in 2025"
+          content="Anycubic 3D Printers: Reliable Choice for High-Quality Printing in 2025"
         />
         <meta
           property="og:description"
-          content="Discover Anycubic's exceptional 3D printers – perfect for beginners and pros with high quality and affordable pricing."
+          content="Discover Anycubic's exceptional 3D printers – perfect for beginners and pros with high quality, affordability, and user-friendly design."
         />
         <meta
           property="og:image"
@@ -154,11 +145,11 @@ const Anycubic = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Anycubic 3D Printers: Reliable Solutions for Everyone in 2025"
+          content="Anycubic 3D Printers: Reliable Choice for High-Quality Printing in 2025"
         />
         <meta
           name="twitter:description"
-          content="Anycubic offers high-quality, affordable 3D printers for all skill levels. Read our review!"
+          content="Anycubic offers high-quality, affordable 3D printers for all skill levels. Read our 2025 review!"
         />
         <meta
           name="twitter:image"
@@ -169,48 +160,71 @@ const Anycubic = () => {
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              "headline": "Anycubic - A Reliable 3D Printing Solution for Everyone",
-              "description": "Explore why Anycubic 3D printers stand out with exceptional quality, affordability, and user-friendly design.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "headline": "Anycubic 3D Printers: Reliable Choice for High-Quality Printing in 2025",
+              "description": "Explore why Anycubic 3D printers stand out with exceptional quality, affordability, and user-friendly design for beginners and experts in 2025.",
+              "author": {
+                "@type": "Person",
+                "name": "Peak of Destiny"
+              },
               "datePublished": "2025-02-26",
-              "image": "https://www.bundlam.com/personal-experience-anycubic-photon.jpg"
+              "dateModified": "2025-02-26",
+              "image": "https://www.bundlam.com/personal-experience-anycubic-photon.jpg",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/anycubic-3d-printers-2025"
+              },
+              "articleSection": "3D Printing"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-           
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <h1 className="text-2xl work-sans-900 my-5">
+            <h2 className="text-2xl work-sans-900 my-5">
               Personal Experience with Anycubic
-            </h1>
-            <img
-              src="personal-experience-anycubic-photon.jpg"
-              alt="My Experience with Anycubic Photon Series 3D Printer"
-              className="w-full my-5"
-            />
+            </h2>
+            <figure>
+              <img
+                src="personal-experience-anycubic-photon.jpg"
+                alt="My personal experience using the Anycubic Photon Series 3D Printer in 2025"
+                className="w-full my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                My experience using the Anycubic Photon Series for high-quality 3D printing.
+              </figcaption>
+            </figure>
             <p className="mt-5">
               As a passionate 3D printing enthusiast, I’ve tested numerous
               machines, but Anycubic 3D printers stand out in 2025 for their
               exceptional print quality, unmatched stability, and
-              budget-friendly pricing – perfect for beginners and pros alike."
+              budget-friendly pricing – perfect for beginners and pros alike.
             </p>
             <p className="mt-5">
               Anycubic provides a seamless experience from setup and calibration
@@ -218,6 +232,7 @@ const Anycubic = () => {
               high-quality, reliable 3D printing solution without breaking the
               bank, Anycubic is the perfect choice.
             </p>
+
             <div className="ml-10 my-15 text-gray-800">
               <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
@@ -253,8 +268,7 @@ const Anycubic = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
             <h2
               id="Why"
@@ -276,7 +290,8 @@ const Anycubic = () => {
               </li>
               <li>
                 Advanced resin (SLA) and FDM (filament-based) printing
-                technologies ensure high-precision models.
+                technologies ensure high-precision models, ideal for detailed
+                projects.
               </li>
             </ul>
 
@@ -287,14 +302,14 @@ const Anycubic = () => {
               User-Friendly – Ideal for Beginners
             </h3>
             <ul className="list-disc pl-5 py-5">
-              <li> Intuitive interface, easy operation.</li>
+              <li>Intuitive interface and easy operation for all skill levels.</li>
               <li>
                 Pre-assembled or detailed instructions make it
-                beginner-friendly.
+                beginner-friendly, reducing the learning curve.
               </li>
               <li>
                 Comes with slicing software for quick and optimized print
-                preparation.
+                preparation, saving time for users.
               </li>
             </ul>
 
@@ -305,8 +320,8 @@ const Anycubic = () => {
               Affordable with High Performance
             </h3>
             <ul className="list-disc pl-5 py-5">
-              <li>Delivers outstanding performance at a competitive price.</li>
-              <li>Saves material costs with efficient printing processes.</li>
+              <li>Delivers outstanding performance at a competitive price point.</li>
+              <li>Saves material costs with efficient printing processes, maximizing value.</li>
             </ul>
 
             <h3
@@ -316,12 +331,12 @@ const Anycubic = () => {
               Durable and Stable
             </h3>
             <ul className="list-disc pl-5 py-5">
-              <li> Smooth operation with minimal technical issues.</li>
+              <li>Smooth operation with minimal technical issues over long use.</li>
               <li>
                 Cooling and calibration systems enable continuous, error-free
-                printing.
+                printing for complex projects.
               </li>
-              <li> Long-lasting durability for extended use.</li>
+              <li>Long-lasting durability ensures reliability for extended use.</li>
             </ul>
 
             <h2
@@ -330,14 +345,12 @@ const Anycubic = () => {
             >
               Comparison: Anycubic vs. Other Brands
             </h2>
-            <table className="table-auto w-full">
+            <table className="table-auto w-full border-collapse">
               <thead>
-                <tr>
+                <tr className="bg-gray-200">
                   <th className="border px-4 py-2">Feature</th>
                   <th className="border px-4 py-2">Anycubic 3D Printers ✅</th>
-                  <th className="border px-4 py-2">
-                    Other 3D Printer Brands ❌
-                  </th>
+                  <th className="border px-4 py-2">Other 3D Printer Brands ❌</th>
                 </tr>
               </thead>
               <tbody>
@@ -354,9 +367,7 @@ const Anycubic = () => {
                 <tr>
                   <td className="border px-4 py-2">Ease of Use</td>
                   <td className="border px-4 py-2">✅ User-friendly</td>
-                  <td className="border px-4 py-2">
-                    ⚠️ Requires complex setup
-                  </td>
+                  <td className="border px-4 py-2">⚠️ Requires complex setup</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Print Speed</td>
@@ -379,32 +390,47 @@ const Anycubic = () => {
             </h2>
             <ul className="list-disc pl-5 py-5">
               <li>
-                <strong>Anycubic Photon Series (Resin Printing)</strong> –
-                Exceptional detail for small prints.
+                <strong>Anycubic Photon Series (Resin Printing)</strong> – Exceptional detail for small prints, perfect for intricate designs.
               </li>
-              <img
-                src="personal-experience-anycubic-kobra.jpg"
-                alt="Using Anycubic Kobra Series for Fast and Budget-Friendly Printing"
-                className="w-full my-5"
-              />
+              <figure>
+                <img
+                  src="personal-experience-anycubic-kobra.jpg"
+                  alt="Using Anycubic Kobra Series for fast and budget-friendly 3D printing in 2025"
+                  className="w-full my-5"
+                  loading="lazy"
+                />
+                <figcaption className="text-center text-gray-600 mb-5">
+                  Anycubic Kobra Series – Ideal for fast and budget-friendly printing.
+                </figcaption>
+              </figure>
               <li>
-                <strong>Anycubic Kobra Series (FDM Printing)</strong> – Fast
-                printing, budget-friendly, ideal for beginners.
+                <strong>Anycubic Kobra Series (FDM Printing)</strong> – Fast printing, budget-friendly, and ideal for beginners.
               </li>
-              <img
-                src="personal-experience-anycubic-vyper.png"
-                alt="anh"
-                className="w-full my-5"
-              />
+              <figure>
+                <img
+                  src="personal-experience-anycubic-vyper.png"
+                  alt="Anycubic Vyper 3D Printer with advanced features"
+                  className="w-full my-5"
+                  loading="lazy"
+                />
+                <figcaption className="text-center text-gray-600 mb-5">
+                  Anycubic Vyper – Featuring advanced auto-bed leveling technology.
+                </figcaption>
+              </figure>
               <li>
-                <strong>Anycubic Vyper</strong> – Auto-bed leveling technology
-                for effortless setup.
+                <strong>Anycubic Vyper</strong> – Auto-bed leveling technology for effortless setup, making printing easier.
               </li>
-              <img
-                src="personal-experience-anycubic-vyper-leveling.png"
-                alt="anh"
-                className="w-full my-5"
-              />
+              <figure>
+                <img
+                  src="personal-experience-anycubic-vyper-leveling.png"
+                  alt="Auto-bed leveling technology in Anycubic Vyper for seamless setup"
+                  className="w-full my-5"
+                  loading="lazy"
+                />
+                <figcaption className="text-center text-gray-600">
+                  Auto-bed leveling technology in Anycubic Vyper simplifies the setup process.
+                </figcaption>
+              </figure>
             </ul>
 
             <h2
@@ -417,60 +443,81 @@ const Anycubic = () => {
               If you’re looking for a 3D printer that offers high quality, ease
               of use, and an affordable price, Anycubic is undoubtedly a great
               option. Whether you're a beginner or an expert, Anycubic has a
-              model that fits your needs.
+              model that fits your needs, from the Photon Series for detailed
+              resin prints to the Kobra Series for budget-friendly FDM printing.
             </p>
             <p className="mt-5">
-              👉Experience{" "}
+              👉 Experience{" "}
               <a
                 href="https://store.anycubic.com/?ref=zignjkjw"
                 target="_blank"
                 rel="nofollow"
-                className="text-[#3182ce] underline work-sans-900"
+                className="inline-block rounded-lg work-sans-900 text-[#3182ce]"
               >
-                Anycubic
+                Anycubic Now
               </a>{" "}
-              today and unlock the endless possibilities of 3D printing! 🚀
+              and unlock the endless possibilities of 3D printing! 🚀
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
             <p className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
             </p>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -493,8 +540,9 @@ const Anycubic = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

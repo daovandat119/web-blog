@@ -30,7 +30,7 @@ const Article = () => {
         },
       ],
       title: "My Honest Notion Review After Using It For +2 Years (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "November 28, 2024",
       image: "blog1.webp",
       content:
@@ -51,7 +51,7 @@ const Article = () => {
         },
       ],
       title: "Obsidian Review: What Nobody Tells You About This App (2025)",
-      author: "ByAron Kantor",
+      author: "ByPeak of Destiny",
       date: "December 10, 2024",
       image: "blog2.webp",
       content:
@@ -72,7 +72,7 @@ const Article = () => {
         },
       ],
       title: "Anytype Review: The Best Note-Taking App In 2025?",
-      author: "ByAron Kantor",
+      author: "ByPeak of Destiny",
       date: "November 28, 2024",
       image: "anh177.webp",
       content:
@@ -93,7 +93,7 @@ const Article = () => {
         },
       ],
       title: "Xtiles Review: Is It The Best Notion Alternative In 2025?",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "November 28, 2024",
       image: "anh178.webp",
       content:
@@ -118,7 +118,7 @@ const Article = () => {
         },
       ],
       title: "NotebookLM Review: A Promising AI Tool For Note-Taking (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "November 28, 2024",
       image: "anh179.webp",
       content:
@@ -143,7 +143,7 @@ const Article = () => {
         },
       ],
       title: "My Honest Coda.io Review: Here’s What Surprised Me! (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "December 10, 2024",
       image: "anh180.webp",
       content:
@@ -164,7 +164,7 @@ const Article = () => {
         },
       ],
       title: "Evernote Review: My Unfiltered Opinion (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "January 30, 2025",
       image: "anh181.webp",
       content:
@@ -188,7 +188,7 @@ const Article = () => {
         },
       ],
       title: "Fireflies AI Review: Why is EVERYONE using it for meeting notes?",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "August 15, 2024",
       image: "anh239.webp",
       content:
@@ -209,7 +209,7 @@ const Article = () => {
         },
       ],
       title: "MeetGeek Review: Is It The Best AI Note-Taker For You? (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "October 24, 2024",
       image: "anh251.webp",
       content:
@@ -230,7 +230,7 @@ const Article = () => {
         },
       ],
       title: "My Honest Tl;dv Review After Using It For +18 Months (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "September 12, 2024",
       image: "anh258.webp",
       content:
@@ -252,7 +252,7 @@ const Article = () => {
       ],
       title:
         "In-Depth Fellow App Review: Is It The Right AI Note-Taker For You In 2025?",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "October 10, 2024",
       image: "anh269.webp",
       content:
@@ -273,7 +273,7 @@ const Article = () => {
         },
       ],
       title: "My Honest Fathom Review After Using It For +3 Months (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "November 21, 2024",
       image: "anh277.webp",
       content:
@@ -294,7 +294,7 @@ const Article = () => {
         },
       ],
       title: "MinutesLink Review: An exciting AI note-taker (2025)",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "January 10, 2025",
       image: "anh284.webp",
       content:
@@ -315,7 +315,7 @@ const Article = () => {
         },
       ],
       title: "Krisp Review 2025: Is It Still The Best Noise Cancellation App?",
-      author: "By Aron Kantor",
+      author: "Peak of Destiny ",
       date: "December 28, 2023",
       image: "anh290.webp",
       content:
@@ -328,7 +328,7 @@ const Article = () => {
       url: "/taja-ai-youtube-optimization",
       title: "Taja AI Review: Best YouTube Optimization Tool in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "taja-ai-youtube.png",
       content:
@@ -338,7 +338,7 @@ const Article = () => {
       url: "/walterwrites-ai-writing-tool",
       title: "WalterWrites.ai Review: Best AI Writing Tool in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "walterwrites-ai-experience.jpg",
       content:
@@ -349,7 +349,7 @@ const Article = () => {
       title:
         "LockedIn AI Review: Best Interview Prep Tool in 2025",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "lockedin-ai-experience.png",
       content:
@@ -358,7 +358,7 @@ const Article = () => {
     {
       url: "/gling-ai-video-editing",
       title: "Gling.ai Review: Best AI Video Editing Tool in 2025",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "gling-ai-experience.png",
       content:
@@ -369,7 +369,7 @@ const Article = () => {
       title:
         "Lilac St. Lashes Review - Natural False Lashes",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 25, 2025",
       image: "lilac-st-lashes-intro.png",
       content:
@@ -380,7 +380,7 @@ const Article = () => {
       title:
         "NovaaLab Review: At-Home Pain Relief Solution",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "novaalab-chronic-pain.jpg",
       content:

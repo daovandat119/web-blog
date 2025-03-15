@@ -8,7 +8,7 @@ const Posts = () => {
       title:
         "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 25, 2025",
       image: "four-sigmatic-functional-foods.jpg",
       content:
@@ -18,7 +18,7 @@ const Posts = () => {
       url: "/last-crumb-cookies-review",
       title: "Last Crumb Cookies - Luxury Worth Every Bite",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
       image: "last-crumb-cookies-box.png",
       content:
@@ -29,7 +29,7 @@ const Posts = () => {
       title:
         "TheHydroJug – The Perfect Solution to Maintain Your Daily Hydration Habit",
       categories: [],
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "February 24, 2025",
       image: "thehydrojug-water-bottle.png",
       content:

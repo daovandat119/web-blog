@@ -55,7 +55,7 @@ const NotionAlternatives = () => {
       ],
       title:
         "Best 6 Notion Alternatives In 2025 | 100+ Personally Tested Tools",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
       date: "January 27, 2025",
     },
   ];
@@ -1594,7 +1594,7 @@ const NotionAlternatives = () => {
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
                 <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
+                  Peak of Destiny
                 </h1>
                 <h1 className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I

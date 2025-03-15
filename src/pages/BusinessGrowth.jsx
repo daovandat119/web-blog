@@ -8,7 +8,7 @@ const articles = [
     title:
       "LockedIn AI Review: Best Interview Prep Tool in 2025",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 24, 2025",
     image: "lockedin-ai-experience.png",
     content:

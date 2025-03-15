@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,19 +27,13 @@ const Pickleball = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Sports & Fitness",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Pickleball Gear", url: "/pickleball-gear" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
       title: "11SIX24 Pickleball Paddles - Boost Your Health",
-      author: "",
+      author: "Peak of Destiny",
       date: "February 23, 2025",
     },
   ];
@@ -113,26 +106,26 @@ const Pickleball = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>11SIX24 Pickleball Paddle Review – Best for Health</title>
+        <title>11SIX24 Pickleball Paddle Review – Best for Health in 2025</title>
         <meta
           name="description"
-          content="Discover our 11SIX24 pickleball paddle review – a top choice for health, performance, and value in pickleball."
+          content="Discover our 2025 11SIX24 pickleball paddle review – a top choice for health, performance, and value in pickleball equipment."
         />
         <meta
           name="keywords"
-          content="11SIX24, pickleball paddle review, best pickleball paddles, pickleball health benefits, 11SIX24 Hurache-X, 11SIX24 Vapor, affordable pickleball paddles"
+          content="11SIX24, pickleball paddle review, best pickleball paddles, pickleball health benefits, 11SIX24 Hurache-X, 11SIX24 Vapor, affordable pickleball paddles 2025, pickleball gear"
         />
         <link
           rel="canonical"
-          href="https://www.bundlam.com//11six24-pickleball-paddle"
+          href="https://www.bundlam.com/11six24-pickleball-paddle"
         />
         <meta
           property="og:title"
-          content="11SIX24 Pickleball Paddle Review – Best for Health"
+          content="11SIX24 Pickleball Paddle Review – Best for Health in 2025"
         />
         <meta
           property="og:description"
-          content="Explore why 11SIX24 paddles enhance your pickleball game and health with superior quality and design."
+          content="Explore why 11SIX24 paddles enhance your pickleball game and health with superior quality and design in 2025."
         />
         <meta
           property="og:image"
@@ -140,20 +133,20 @@ const Pickleball = () => {
         />
         <meta
           property="og:url"
-          content="https://www.bundlam.com//11six24-pickleball-paddle"
+          content="https://www.bundlam.com/11six24-pickleball-paddle"
         />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="11SIX24 Pickleball Paddle Review – Best for Health"
+          content="11SIX24 Pickleball Paddle Review – Best for Health in 2025"
         />
         <meta
           name="twitter:description"
-          content="Read our 11SIX24 review to see how it boosts your pickleball experience and well-being."
+          content="Read our 2025 11SIX24 review to see how it boosts your pickleball experience and well-being."
         />
         <meta
-          name="twitter:image"
+          property="twitter:image"
           content="https://www.bundlam.com/11six24-pickleball-action.png"
         />
         <script type="application/ld+json">
@@ -161,15 +154,33 @@ const Pickleball = () => {
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              "headline": "It’s Time to Take Care of Your Health – And Pickleball with 11SIX24 is the Perfect Solution!",
-              "description": "A review of 11SIX24 pickleball paddles, designed for performance, health benefits, and value.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "headline": "11SIX24 Pickleball Paddles - Boost Your Health",
+              "description": "A review of 11SIX24 pickleball paddles, designed for performance, health benefits, and value in 2025.",
+              "author": {
+                "@type": "Person",
+                "name": "By Peak of Destiny"
+              },
               "datePublished": "2025-02-23",
-              "image": "https://www.bundlam.com/11six24-pickleball-action.png"
+              "dateModified": "2025-02-23",
+              "image": "https://www.bundlam.com/11six24-pickleball-action.png",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/11six24-pickleball-paddle"
+              },
+              "articleSection": "Sports & Fitness"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -180,24 +191,23 @@ const Pickleball = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <h2 className="my-5 work-sans-900 text-2xl">
+            <h2 className="text-2xl work-sans-900 my-6">
               Are You Losing Your Health Without Realizing It?
             </h2>
             <p className="my-5">
-              Are You Losing Your Health Without Realizing It? Modern life keeps
-              us sitting for long hours, reducing physical activity, and
-              gradually neglecting the importance of exercise. The result?
-              Declining health, fatigue, and mental stress. But how can we stay
-              active while enjoying the process?{" "}
+              Modern life keeps us sitting for long hours, reducing physical
+              activity, and gradually neglecting the importance of exercise. The
+              result? Declining health, fatigue, and mental stress. But how can
+              we stay active while enjoying the process?{" "}
               <span className="work-sans-900">
                 Pickleball is the perfect answer,
               </span>{" "}
@@ -210,14 +220,19 @@ const Pickleball = () => {
               the on-court experience. Here’s my real-life experience with this
               product.
             </p>
-            <img
-              src="11six24-pickleball-action.png"
-              alt="Playing pickleball with 11SIX24 paddle"
-              className="w-full mb-5 object-cover my-5"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="11six24-pickleball-action.png"
+                alt="Playing pickleball with 11SIX24 paddle for health benefits"
+                className="w-full mb-5 object-cover my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                11SIX24 pickleball paddle in action – Boost your health and game!
+              </figcaption>
+            </figure>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -251,15 +266,14 @@ const Pickleball = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h1
+            <h2
               id="Superior"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Superior Quality – The 11SIX24 Difference
-            </h1>
+            </h2>
             <p>
               The first time I held an 11SIX24 pickleball paddle, I immediately
               noticed the difference. The paddle has a solid build, a
@@ -267,18 +281,24 @@ const Pickleball = () => {
               extended periods. Made with a combination of carbon fiber and
               fiberglass, it offers durability while enhancing ball control.
             </p>
-            <img
-              src="11six24-paddle-quality.png"
-              alt="11SIX24 pickleball paddle durability"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1
-              id="ModernDesign"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+            <figure>
+              <img
+                src="11six24-paddle-quality.png"
+                alt="11SIX24 pickleball paddle showcasing superior quality"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                11SIX24 paddle – Built for durability and performance.
+              </figcaption>
+            </figure>
+
+            <h2
+              id="Modern"
+              className="text-2xl work-sans-900 my-6"
             >
               Modern Design – Perfect for All Playing Styles
-            </h1>
+            </h2>
             <p>
               11SIX24 doesn’t just focus on quality but also prioritizes
               innovative design. The grip feels just right, and the textured
@@ -286,7 +306,7 @@ const Pickleball = () => {
               Moreover, the brand offers paddles optimized for different playing
               styles:
             </p>
-            <ul className="list-disc pl-5 py-5">
+            <ul className="list-disc pl-5 py-5 space-y-2">
               <li>
                 <strong>Hurache-X:</strong> Provides extra power and reach,
                 ideal for aggressive players.
@@ -300,56 +320,37 @@ const Pickleball = () => {
                 designed for tactical players.
               </li>
             </ul>
-            <img
-              src="11six24-vs-competitors.png"
-              alt="11SIX24 pickleball paddle design variety"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1
+            <figure>
+              <img
+                src="11six24-vs-competitors.png"
+                alt="11SIX24 pickleball paddle design variety compared to competitors"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                11SIX24 paddle designs – Tailored for every playing style.
+              </figcaption>
+            </figure>
+
+            <h2
               id="Price"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Price – Excellent Value for Quality
-            </h1>
+            </h2>
             <p>
               One of the biggest advantages of 11SIX24 is its reasonable
               pricing. While high-end brands can cost up to $250, 11SIX24
               paddles range between $130 – $150, offering the best value for
               money.
             </p>
-            <h1
-              id="WhyChoose"
-              className="text-2xl work-sans-900 my-5 flex items-center"
-            >
-              Why Choose 11SIX24 Over Other Brands?
-            </h1>
-            <p>
-              The pickleball world is filled with big names like JOOLA, Selkirk,
-              and Paddletek, but 11SIX24 stands out due to:
-            </p>
-            <ul className="list-disc pl-5 py-5">
-              <li>High quality at an affordable price.</li>
-              <li>Optimized designs for different playing styles.</li>
-              <li>Durable materials that enhance performance.</li>
-              <li>
-                A well-balanced paddle for better control and fast-paced
-                rallies.
-              </li>
-            </ul>
-            <img
-              src="11six24-paddle-design.png"
-              alt="11SIX24 paddle vs other pickleball brands"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1
+
+            <h2
               id="Conclusion"
-              className="text-xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
-              Conclusion – A Worthy Investment for the Best Pickleball
-              Experience
-            </h1>
+              Conclusion – A Worthy Investment for the Best Pickleball Experience
+            </h2>
             <p>
               After using 11SIX24 paddles, I can confidently say that this is
               one of the best choices for pickleball enthusiasts. If you’re
@@ -358,58 +359,75 @@ const Pickleball = () => {
             </p>
             <p className="mt-5">
               <a
-                onClick={() =>
-                  window.open(
-                    "https://11six24.com/?sca_ref=8171389.vTMmGF3ooJ",
-                    "_blank"
-                  )
-                }
-                className="text-[#3182ce] underline"
+                href="https://11six24.com/?sca_ref=8171389.vTMmGF3ooJ"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block rounded-lg work-sans-900 text-[#2b6cb0]"
               >
-                Click here
+                Explore 11SIX24 Paddles Now
               </a>{" "}
-              to explore the 11SIX24 collection and elevate your pickleball
-              game!
+              and elevate your pickleball game!
             </p>
           </div>
-          {/* phần bốn */}
 
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="By Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  By Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -432,8 +450,9 @@ const Pickleball = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

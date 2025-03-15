@@ -1293,7 +1293,7 @@ const BestAiTaskManager = () => {
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
                 <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
+                  Peak of Destiny
                 </h1>
                 <h1 className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I

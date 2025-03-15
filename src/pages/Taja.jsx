@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,19 +27,13 @@ const Taja = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Technology & Tools",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Content Optimization Tools", url: "/content-optimization-tools" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
       title: "Taja AI Review: Best YouTube Optimization Tool in 2025",
-      author: "",
+      author: "Peak of Destiny",
       date: "February 25, 2025",
     },
   ];
@@ -55,8 +48,8 @@ const Taja = () => {
       link: "#Key",
     },
     {
-      title: "Why Choose Lilac St.?",
-      link: "#Why",
+      title: "Why Choose Taja AI?",
+      link: "#WhyChooseTaja",
       items: [
         { name: "AI-Powered SEO Analysis", link: "#AI" },
         { name: "Automatic Video Metadata Creation", link: "#Automatic" },
@@ -64,10 +57,6 @@ const Taja = () => {
         { name: "Multi-Language & Industry-Specific Support", link: "#Multi" },
         { name: "Easy to Use – No Installation Required", link: "#Easy" },
       ],
-    },
-    {
-      title: "Why Choose Taja AI?",
-      link: "#Why",
     },
     {
       title: "Conclusion",
@@ -123,14 +112,14 @@ const Taja = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>Taja AI Review: Ultimate YouTube Optimization Tool</title>
+        <title>Taja AI Review: Best YouTube Optimization Tool in 2025</title>
         <meta
           name="description"
-          content="My Taja AI review: the best AI tool for YouTube SEO, metadata, and thumbnails to boost visibility."
+          content="My 2025 Taja AI review: the best AI tool for YouTube SEO, metadata, and thumbnails to boost visibility and growth."
         />
         <meta
           name="keywords"
-          content="Taja AI review, YouTube optimization tool, AI YouTube SEO, video metadata, thumbnail design, content creation"
+          content="Taja AI review, YouTube optimization tool, AI YouTube SEO, video metadata, thumbnail design, content creation 2025, best YouTube tools"
         />
         <link
           rel="canonical"
@@ -138,11 +127,11 @@ const Taja = () => {
         />
         <meta
           property="og:title"
-          content="Taja AI Review: Ultimate YouTube Optimization Tool"
+          content="Taja AI Review: Best YouTube Optimization Tool in 2025"
         />
         <meta
           property="og:description"
-          content="Discover how Taja AI enhances YouTube content with SEO, metadata, and thumbnail tools."
+          content="Explore my 2025 Taja AI review to see how it enhances YouTube content with AI-powered SEO, metadata, and thumbnails."
         />
         <meta
           property="og:image"
@@ -156,11 +145,11 @@ const Taja = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Taja AI Review: Ultimate YouTube Optimization Tool"
+          content="Taja AI Review: Best YouTube Optimization Tool in 2025"
         />
         <meta
           name="twitter:description"
-          content="Taja AI: AI-powered YouTube SEO and content optimization made easy."
+          content="My 2025 take on Taja AI: AI-powered YouTube SEO and content optimization made easy."
         />
         <meta
           name="twitter:image"
@@ -170,21 +159,34 @@ const Taja = () => {
           {`
             {
               "@context": "https://schema.org",
-              "@type": "ProductReview",
-              "headline": "Taja AI Review: Ultimate YouTube Optimization Tool",
-              "description": "A detailed review of Taja AI, an AI tool for YouTube SEO and content optimization.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "@type": "Article",
+              "headline": "Taja AI Review: Best YouTube Optimization Tool in 2025",
+              "description": "A detailed 2025 review of Taja AI, an AI tool for YouTube SEO, metadata, and thumbnail optimization.",
+              "author": {
+                "@type": "Person",
+                "name": "By Peak of Destiny"
+              },
               "datePublished": "2025-02-25",
+              "dateModified": "2025-02-25",
               "image": "https://www.bundlam.com/taja-ai-youtube.jpg",
-              "itemReviewed": {
-                "@type": "Product",
-                "name": "Taja AI",
-                "brand": {"@type": "Brand", "name": "Taja"}
-              }
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/taja-ai-youtube-optimization"
+              },
+              "articleSection": "Technology & Tools"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -195,16 +197,16 @@ const Taja = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-          <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 className="text-2xl work-sans-900 my-6">
               Struggling with YouTube Optimization?
             </h2>
             <p className="my-5">
@@ -215,14 +217,19 @@ const Taja = () => {
               it has completely transformed my content creation process—saving
               time, boosting efficiency, and taking my videos to the next level.
             </p>
-            <img
-              src="taja-ai-youtube.png"
-              alt="Taja AI YouTube optimization tool"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="taja-ai-youtube.png"
+                alt="Taja AI YouTube optimization tool interface"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Taja AI – Revolutionizing YouTube optimization.
+              </figcaption>
+            </figure>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -256,10 +263,12 @@ const Taja = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h2 id="My" class="text-2xl work-sans-900 my-5 flex items-center">
+            <h2
+              id="My"
+              className="text-2xl work-sans-900 my-6"
+            >
               My Experience with Taja AI
             </h2>
             <p>
@@ -270,117 +279,119 @@ const Taja = () => {
               handle in minutes!
             </p>
             <p>With Taja AI, I can:</p>
-            <ul class="list-disc pl-5 py-5">
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
-                <span class="work-sans-900">
-                  Generate perfect video metadata:
-                </span>{" "}
+                <span className="work-sans-900">Generate perfect video metadata:</span>{" "}
                 Simply enter your video topic, and AI will suggest SEO-friendly
                 titles, engaging descriptions, and the most relevant tags.
               </li>
               <li>
-                <span class="work-sans-900">Increase YouTube visibility:</span>{" "}
+                <span className="work-sans-900">Increase YouTube visibility:</span>{" "}
                 Taja AI analyzes YouTube's algorithm, optimizing your videos to
                 reach the right audience and boost recommendations.
               </li>
               <li>
-                <span class="work-sans-900">
-                  Create professional thumbnails in seconds:
-                </span>{" "}
+                <span className="work-sans-900">Create professional thumbnails in seconds:</span>{" "}
                 No design skills required—AI automatically generates attractive
                 thumbnails to increase click-through rates (CTR).
               </li>
               <li>
-                <span class="work-sans-900">
-                  Save time and maximize productivity:
-                </span>{" "}
+                <span className="work-sans-900">Save time and maximize productivity:</span>{" "}
                 Tasks that once took hours now take just minutes, allowing me to
                 focus more on content creation rather than SEO struggles.
               </li>
             </ul>
-            <img
-              src="taja-ai-experience.png"
-              alt="My experience with Taja AI for YouTube"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h2 id="Key" class="text-2xl work-sans-900 my-5 flex items-center">
+            <figure>
+              <img
+                src="taja-ai-experience.png"
+                alt="My experience with Taja AI for YouTube optimization"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Taja AI – Transforming my YouTube workflow.
+              </figcaption>
+            </figure>
+
+            <h2
+              id="Key"
+              className="text-2xl work-sans-900 my-6"
+            >
               Key Features of Taja AI
             </h2>
-            <ul class="list-disc pl-5 py-5">
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li id="AI">
-                <span class="work-sans-900">AI-Powered SEO Analysis:</span> Taja
+                <span className="work-sans-900">AI-Powered SEO Analysis:</span> Taja
                 AI uses advanced artificial intelligence to analyze search
                 trends, suggest high-ranking keywords, and help your videos rank
                 higher on YouTube.
               </li>
               <li id="Automatic">
-                <span class="work-sans-900">
-                  Automatic Video Metadata Creation:
-                </span>{" "}
+                <span className="work-sans-900">Automatic Video Metadata Creation:</span>{" "}
                 Simply enter your video topic, and AI will instantly generate
                 optimized titles, compelling descriptions, and the best keyword
                 tags.
               </li>
               <li id="Eye">
-                <span class="work-sans-900">
-                  Eye-Catching Thumbnail Design:
-                </span>{" "}
+                <span className="work-sans-900">Eye-Catching Thumbnail Design:</span>{" "}
                 Taja AI offers customizable, professional-looking thumbnail
                 templates that grab attention and increase click-through rates.
               </li>
               <li id="Multi">
-                <span class="work-sans-900">
-                  Multi-Language & Industry-Specific Support:
-                </span>{" "}
+                <span className="work-sans-900">Multi-Language & Industry-Specific Support:</span>{" "}
                 Whether you're a travel vlogger, product reviewer, or
                 educational content creator, Taja AI has tailored solutions for
                 every niche.
               </li>
               <li id="Easy">
-                <span class="work-sans-900">
-                  Easy to Use – No Installation Required:
-                </span>{" "}
+                <span className="work-sans-900">Easy to Use – No Installation Required:</span>{" "}
                 Taja AI works directly from your web browser—no need for
                 downloads or complex installations. It’s accessible on both
                 desktop and mobile devices.
               </li>
             </ul>
 
-            <h2 id="Why" class="text-2xl work-sans-900 my-5 flex items-center">
+            <h2
+              id="WhyChooseTaja"
+              className="text-2xl work-sans-900 my-6"
+            >
               Why Choose Taja AI?
             </h2>
-            <ul class="list-disc pl-5 py-5">
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
-                <span class="work-sans-900">Boost video rankings quickly:</span>{" "}
+                <span className="work-sans-900">Boost video rankings quickly:</span>{" "}
                 AI optimizes your content according to YouTube's algorithm,
                 increasing your chances of appearing in recommendations.
               </li>
               <li>
-                <span class="work-sans-900">Save time and effort:</span> No need
+                <span className="work-sans-900">Save time and effort:</span> No need
                 to spend hours researching SEO or designing thumbnails.
               </li>
               <li>
-                <span class="work-sans-900">Powerful yet user-friendly:</span>{" "}
+                <span className="work-sans-900">Powerful yet user-friendly:</span>{" "}
                 Even beginners can master Taja AI in just a few minutes.
               </li>
               <li>
-                <span class="work-sans-900">
-                  All-in-One solution for YouTubers:
-                </span>{" "}
+                <span className="work-sans-900">All-in-One solution for YouTubers:</span>{" "}
                 From SEO optimization and descriptions to thumbnail design,
                 everything is covered.
               </li>
             </ul>
-            <img
-              src="taja-ai-features.png"
-              alt="Taja AI key features for YouTube optimization"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="taja-ai-features.png"
+                alt="Taja AI key features for YouTube optimization"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Taja AI – Comprehensive YouTube optimization features.
+              </figcaption>
+            </figure>
+
             <h2
               id="Conclusion"
-              class="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Conclusion
             </h2>
@@ -391,57 +402,78 @@ const Taja = () => {
               get buried on YouTube just because of poor optimization! Let Taja
               AI help you reach millions of viewers effortlessly.
             </p>
-            <p class="my-5">
+            <p className="my-5">
               Have you tried Taja AI yet? If not, don’t wait—this could be your
-              secret weapon for YouTube success! 
-            </p>
-            <p>
-              👉Try{" "}
-              <a href="https://www.trytaja.ai" class="text-[#3182ce] underline">
-                Taja.AI
-              </a>{" "}
-              now
+              secret weapon for YouTube success!{" "}
+              <a
+                href="https://www.trytaja.ai"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block  rounded-lg work-sans-900 text-[#2b6cb0]"
+              >
+                Try Taja AI Now
+              </a>
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="By Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  By Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -464,8 +496,9 @@ const Taja = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

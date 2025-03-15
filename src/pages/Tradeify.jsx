@@ -12,12 +12,12 @@ const Tradeify = () => {
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
-  // Hàm toggle FAQ (nếu cần mở rộng chi tiết)
+  // Function to toggle FAQ (if needed for expanding details)
   const toggleFaq = (index) => {
     setFaq(faq === index ? null : index);
   };
 
-  // Cuộn mượt đến phần FAQ khi được chọn
+  // Smooth scroll to FAQ section when selected
   useEffect(() => {
     if (faq !== null && faqRefs.current[faq]) {
       faqRefs.current[faq].scrollIntoView({
@@ -27,21 +27,21 @@ const Tradeify = () => {
     }
   }, [faq]);
 
-  // Dữ liệu nội dung bài viết
+  // Article content data
   const content = [
     {
-      category: "PDF Tools",
+      category: "Trading Tools",
       subcategory: [
-        { name: "PDF Tools", url: "/pdf-tools" },
-        { name: "Software Reviews", url: "/software-reviews" },
+        { name: "Trading Platforms", url: "/trading-platforms" },
+        { name: "Financial Tools", url: "/financial-tools" },
       ],
       title: "Tradeify: Smart Trading Tools for Profit",
-      author: "",
+      author: "Peak of Destiny" ,
       date: "February 23, 2025",
     },
   ];
 
-  // Các mục trong mục lục
+  // Table of contents sections
   const sections = [
     { title: "Are You Losing Wealth Because of Fear?", link: "#Are" },
     {
@@ -68,7 +68,7 @@ const Tradeify = () => {
     { title: "Don’t Let the Opportunity Slip Away!", link: "#Don’t" },
   ];
 
-  // Dữ liệu bài viết tương tự
+  // Related posts data
   const posts = [
     {
       url: "/best-ai-meeting-manager",
@@ -116,40 +116,46 @@ const Tradeify = () => {
 
   return (
     <div className="container mx-auto">
-      {/* Tối ưu SEO với Helmet */}
+      {/* SEO optimization with Helmet */}
       <Helmet>
-        <title>Tradeify: Smart Trading Tools for Profit</title>
+        <title>Tradeify: Smart Trading Tools for Profit in 2025</title>
         <meta
           name="description"
-          content="trading platform built to maximize profits with funded accounts, advanced tools, and expert support. Start trading today!"
+          content="Discover Tradeify, a smart trading platform built to maximize profits with funded accounts, advanced tools, and expert support. Start trading today!"
         />
         <meta
           name="keywords"
-          content="Tradeify, smart trading platform, maximize profits, funded trading accounts, advanced trading tools, financial markets, risk management, trading for beginners"
+          content="Tradeify, smart trading platform, maximize profits, funded trading accounts, advanced trading tools, financial markets, risk management, trading for beginners, best trading platforms 2025"
         />
-        <link rel="canonical" href="https://www.bundlam.com/tradeify-smart-trading" />
+        <link
+          rel="canonical"
+          href="https://www.bundlam.com/tradeify-smart-trading-tools-for-profit"
+        />
         <meta
           property="og:title"
-          content="Tradeify: Smart Trading Solution to Maximize Profits in 2025"
+          content="Tradeify: Smart Trading Tools for Profit in 2025"
         />
         <meta
           property="og:description"
-          content="Tradeify empowers traders with funded accounts, cutting-edge tools, and top-notch support to boost profits in 2025."
+          content="Tradeify empowers traders with funded accounts, cutting-edge tools, and top-notch support to boost profits in 2025. Start your journey now!"
         />
         <meta
           property="og:image"
           content="https://www.bundlam.com/smart-trading-tools-with-tradeify.jpg"
         />
-        <meta property="og:url" content="https://www.bundlam.com/tradeify-smart-trading" />
+        <meta
+          property="og:url"
+          content="https://www.bundlam.com/tradeify-smart-trading-tools-for-profit"
+        />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Tradeify: Smart Trading Solution to Maximize Profits in 2025"
+          content="Tradeify: Smart Trading Tools for Profit in 2025"
         />
         <meta
           name="twitter:description"
-          content="Tradeify offers funded accounts and advanced tools to help you succeed in trading. Join now!"
+          content="Explore Tradeify, a platform offering funded accounts and advanced tools to maximize your trading profits in 2025."
         />
         <meta
           name="twitter:image"
@@ -160,17 +166,34 @@ const Tradeify = () => {
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              "headline": "Tradeify Smart Trading Solution",
-              "description": "Discover Tradeify – a smart trading platform built to maximize profits.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
-              "datePublished": "2025-02-23"
-              "image": "https://www.bundlam.com/smart-trading-tools-with-tradeify.jpg"
-              }
+              "headline": "Tradeify: Smart Trading Tools for Profit in 2025",
+              "description": "Discover Tradeify, a smart trading platform built to maximize profits with funded accounts, advanced tools, and expert support.",
+              "author": {
+                "@type": "Person",
+                "name": "Peak of Destiny"
+              },
+              "datePublished": "2025-02-23",
+              "dateModified": "2025-02-23",
+              "image": "https://www.bundlam.com/smart-trading-tools-with-tradeify.jpg",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/tradeify-smart-trading-tools-for-profit"
+              },
+              "articleSection": "Trading Tools"
+            }
           `}
         </script>
       </Helmet>
 
-      {/* Tiêu đề bài viết */}
+      {/* Article header */}
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -181,24 +204,30 @@ const Tradeify = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
 
-      {/* Nội dung chính */}
+      {/* Main content */}
       <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          <img
-            src="smart-trading-tools-with-tradeify.jpg"
-            alt="Smart trading tools with Tradeify"
-            className="w-full my-10"
-          />
+          <figure>
+            <img
+              src="smart-trading-tools-with-tradeify.jpg"
+              alt="Smart trading tools with Tradeify for maximizing profits in 2025"
+              className="w-full my-5"
+              loading="lazy"
+            />
+            <figcaption className="text-center text-gray-600">
+              Tradeify – Smart trading tools designed to maximize your profits.
+            </figcaption>
+          </figure>
 
-          {/* Mục lục */}
+          {/* Table of contents */}
           <div className="ml-10 my-15 text-gray-800">
-            <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+            <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
             <ol className="list-decimal pl-5 underline">
               {sections.map((section, index) => (
                 <li key={index}>
@@ -219,7 +248,7 @@ const Tradeify = () => {
             </ol>
           </div>
 
-          {/* Các phần nội dung */}
+          {/* Content sections */}
           <div>
             <h2
               id="Are"
@@ -237,11 +266,17 @@ const Tradeify = () => {
               that helped me overcome my fears and maximize my earning potential
               in the market.
             </p>
-            <img
-              src="overcoming-fear-of-losing-money-with-tradeify.jpg"
-              alt="Overcoming fear of losing money with Tradeify"
-              className="w-full my-10"
-            />
+            <figure>
+              <img
+                src="overcoming-fear-of-losing-money-with-tradeify.jpg"
+                alt="Overcoming fear of losing money with Tradeify's smart tools"
+                className="w-full my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Tradeify helps you overcome the fear of losing money in trading.
+              </figcaption>
+            </figure>
 
             <h2
               id="Why"
@@ -252,7 +287,8 @@ const Tradeify = () => {
             <p>
               Unlike many other trading platforms, Tradeify gave me a sense of
               security and control right from the start. Here are the key
-              reasons why I was completely convinced:
+              reasons why I was completely convinced by this smart trading
+              platform:
             </p>
             <ul className="list-disc pl-5 py-5">
               <li id="Funded">
@@ -276,16 +312,14 @@ const Tradeify = () => {
                 <strong>Simple and Hassle-Free Process:</strong> Unlike other
                 complicated platforms, Tradeify streamlines the registration and
                 trading process. It only took me a few minutes to create an
-                account and start my journey to making money. No complex
-                verification procedures, no long waiting times for a funded
-                account.
+                account and start my journey to making money.
               </li>
               <li id="Professional">
                 <strong>Professional and Responsive Customer Support:</strong>{" "}
                 One aspect that impressed me the most was Tradeify's customer
                 support team. Whenever I faced difficulties, I received quick
-                responses from experts. This helped me avoid many mistakes and
-                enhance my trading efficiency.
+                responses from experts, helping me avoid mistakes and enhance my
+                trading efficiency.
               </li>
             </ul>
 
@@ -303,28 +337,36 @@ const Tradeify = () => {
             <ul className="list-disc pl-5 py-5">
               <li>
                 Reduced financial risk: Start trading professionally without
-                investing a large sum upfront.
+                investing a large sum upfront, thanks to Tradeify’s funded
+                accounts.
               </li>
               <li>
                 Make money from financial markets: Whether you are a beginner or
                 a professional investor, you have the opportunity to generate
-                stable income.
+                stable income with Tradeify’s advanced tools.
               </li>
               <li>
                 Flexibility and financial freedom: No need to be tied to a fixed
-                job; I can trade anytime, anywhere.
+                job; I can trade anytime, anywhere using Tradeify’s mobile app
+                or web platform.
               </li>
               <li>
                 Learn and develop trading skills: Tradeify not only helps me
-                make money but also allows me to enhance my knowledge through
-                smart analysis tools and trading strategies.
+                make money but also enhances my knowledge through smart analysis
+                tools and educational resources.
               </li>
             </ul>
-            <img
-              src="benefits-of-using-tradeify-platform.jpg"
-              alt="Benefits of using Tradeify platform"
-              className="w-full my-10"
-            />
+            <figure>
+              <img
+                src="benefits-of-using-tradeify-platform.jpg"
+                alt="Benefits of using Tradeify platform for trading success"
+                className="w-full my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Key benefits of using the Tradeify platform for trading.
+              </figcaption>
+            </figure>
 
             <h2
               id="Who"
@@ -336,20 +378,34 @@ const Tradeify = () => {
             <ul className="list-disc pl-5 py-5">
               <li>
                 Want to make money from financial markets but lack significant
-                capital.
+                capital to start.
               </li>
               <li>Fear scams or choosing a poor-quality trading platform.</li>
               <li>
-                Are looking for a simple, effective, and easy-to-use platform.
+                Are looking for a simple, effective, and easy-to-use platform to
+                begin your trading journey.
               </li>
-              <li>Need a powerful trading tool to optimize profits.</li>
+              <li>
+                Need a powerful trading tool to optimize profits and manage
+                risks effectively.
+              </li>
             </ul>
-            <p>Then Tradeify is the perfect choice for you!</p>
-            <img
-              src="who-benefits-from-tradeify.jpg"
-              alt="Who benefits from Tradeify"
-              className="w-full my-10"
-            />
+            <p>
+              Then Tradeify is the perfect choice for you! Whether you’re a
+              beginner or an experienced trader, Tradeify offers the tools and
+              support you need.
+            </p>
+            <figure>
+              <img
+                src="who-benefits-from-tradeify.jpg"
+                alt="Who benefits from Tradeify trading platform"
+                className="w-full my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Tradeify is ideal for beginners and professional traders alike.
+              </figcaption>
+            </figure>
 
             <h2
               id="Don’t"
@@ -359,51 +415,79 @@ const Tradeify = () => {
             </h2>
             <p>
               Overcome your fears and start smart trading with Tradeify today!{" "}
-              <a href="https://tradeify.co/ref/6756/" target="_blank" rel="nofollow" className="text-[#3182ce] underline work-sans-900">Click here</a>
-              {" "}
-              below to explore Tradeify and receive exclusive offers for new
-              users!
+              <a
+                href="https://tradeify.co/ref/6756/"
+                target="_blank"
+                rel="nofollow"
+                className="inline-blockrounded-lg work-sans-900 text-[#3182ce]"
+              >
+                Start Trading Now
+              </a>{" "}
+              By joining Tradeify, you gain access to exclusive offers for new
+              users, including funded accounts and expert guidance.
             </p>
           </div>
 
-          {/* Thông tin tác giả */}
+          {/* Author information */}
           <div>
-            <h1 className="italic my-7">
+            <p className="italic my-7">
               Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="Aron Kantor, founder of Thebusinessdive"
+                alt="Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
             <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Bài viết tương tự với Swiper */}
+      {/* Related posts with Swiper */}
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -426,8 +510,9 @@ const Tradeify = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
-                        className="w-full h-48 object-cover"
+                        alt={`${post.title} illustration`}
+                        className="w-full my-5"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

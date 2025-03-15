@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,14 @@ const Four = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Health & Wellness",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Functional Foods", url: "/functional-foods" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
       title:
         "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
-      author: "",
+      author: "Peak of Destiny" ,
       date: "February 25, 2025",
     },
   ];
@@ -114,48 +107,48 @@ const Four = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>Four Sigmatic Review – Best Medicinal Mushroom Products</title>
+        <title>Four Sigmatic Review – Functional Foods from Medicinal Mushrooms in 2025</title>
         <meta
           name="description"
-          content="Explore our Four Sigmatic product review – functional foods with medicinal mushrooms for immunity, focus, and wellness."
+          content="Explore our Four Sigmatic product review – functional foods with medicinal mushrooms to boost immunity, focus, and wellness in 2025."
         />
         <meta
           name="keywords"
-          content="Four Sigmatic, medicinal mushrooms, functional foods, mushroom coffee, health supplements, Four Sigmatic review, organic wellness"
+          content="Four Sigmatic, medicinal mushrooms, functional foods, mushroom coffee, health supplements, Four Sigmatic review 2025, organic wellness, natural energy"
         />
         <link
           rel="canonical"
-          href="https://www.thebusinessdive.com/health-supplements/four-sigmatic-product-review"
+          href="https://www.bundlam.com/four-sigmatic-product-review"
         />
         <meta
           property="og:title"
-          content="Four Sigmatic Review – Best Medicinal Mushroom Products"
+          content="Four Sigmatic Review – Functional Foods from Medicinal Mushrooms in 2025"
         />
         <meta
           property="og:description"
-          content="Discover Four Sigmatic’s functional foods made with medicinal mushrooms – perfect for immunity, focus, and energy."
+          content="Discover Four Sigmatic’s functional foods made with medicinal mushrooms – perfect for immunity, focus, and energy in 2025."
         />
         <meta
           property="og:image"
-          content="https://www.thebusinessdive.com/four-sigmatic-mushroom-products.jpg"
+          content="https://www.bundlam.com/four-sigmatic-mushroom-products.jpg"
         />
         <meta
           property="og:url"
-          content="https://www.thebusinessdive.com/health-supplements/four-sigmatic-product-review"
+          content="https://www.bundlam.com/four-sigmatic-product-review"
         />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Four Sigmatic Review – Best Medicinal Mushroom Products"
+          content="Four Sigmatic Review – Functional Foods from Medicinal Mushrooms in 2025"
         />
         <meta
           name="twitter:description"
-          content="Read our review of Four Sigmatic’s medicinal mushroom products for health and wellness."
+          content="Read our 2025 review of Four Sigmatic’s medicinal mushroom products for health, focus, and wellness."
         />
         <meta
-          name="twitter:image"
-          content="https://www.thebusinessdive.com/four-sigmatic-mushroom-products.jpg"
+          property="twitter:image"
+          content="https://www.bundlam.com/four-sigmatic-mushroom-products.jpg"
         />
         <script type="application/ld+json">
           {`
@@ -163,14 +156,32 @@ const Four = () => {
               "@context": "https://schema.org",
               "@type": "Article",
               "headline": "Four Sigmatic Product Review – Functional Foods from Medicinal Mushrooms",
-              "description": "A detailed review of Four Sigmatic products featuring medicinal mushrooms for health, focus, and energy.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "description": "A detailed review of Four Sigmatic products featuring medicinal mushrooms for health, focus, and energy in 2025.",
+              "author": {
+                "@type": "Person",
+                "name": "Peak of Destiny"
+              },
               "datePublished": "2025-02-25",
-              "image": "https://www.thebusinessdive.com/four-sigmatic-mushroom-products.jpg"
+              "dateModified": "2025-02-25",
+              "image": "https://www.bundlam.com/four-sigmatic-mushroom-products.jpg",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/four-sigmatic-product-review"
+              },
+              "articleSection": "Health & Wellness"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -181,14 +192,14 @@ const Four = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
             <p className="my-5">
               <span className="work-sans-900">Four Sigmatic</span> stands out in
@@ -198,14 +209,19 @@ const Four = () => {
               wellness. In this review, we dive into its key features and real
               user feedback.
             </p>
-            <img
-              src="four-sigmatic-functional-foods.jpg"
-              alt="Four Sigmatic medicinal mushroom products"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="four-sigmatic-functional-foods.jpg"
+                alt="Four Sigmatic functional foods with medicinal mushrooms"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Four Sigmatic functional foods – Harnessing the power of medicinal mushrooms.
+              </figcaption>
+            </figure>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -239,13 +255,12 @@ const Four = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h2 id="Key" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 id="Key" className="text-2xl work-sans-900 my-6">
               Key Features of Four Sigmatic Products
             </h2>
-            <h3 id="Main" className="text-lg lg:text-xl work-sans-900 my-4">
+            <h3 id="Main" className="text-xl work-sans-900 my-4">
               Main Ingredients in Four Sigmatic
             </h3>
             <p>
@@ -271,7 +286,7 @@ const Four = () => {
               </li>
             </ul>
 
-            <h3 id="Unique" className="text-lg lg:text-xl work-sans-900 my-4">
+            <h3 id="Unique" className="text-xl work-sans-900 my-4">
               Unique Four Sigmatic Formulations
             </h3>
             <ul className="list-disc pl-6 py-5 space-y-2">
@@ -289,7 +304,7 @@ const Four = () => {
               </li>
             </ul>
 
-            <h3 id="Free" className="text-lg lg:text-xl work-sans-900 my-4">
+            <h3 id="Free" className="text-xl work-sans-900 my-4">
               No Harmful Ingredients
             </h3>
             <p>
@@ -297,55 +312,61 @@ const Four = () => {
               free from preservatives, refined sugars, and artificial flavors.
               Certified organic by USDA, they ensure top quality and safety.
             </p>
-            <img
-              src="four-sigmatic-organic-quality.jpg"
-              alt="Four Sigmatic products with organic ingredients"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h2 id="User" class="text-2xl work-sans-900 my-5 flex items-center">
+            <figure>
+              <img
+                src="four-sigmatic-organic-quality.jpg"
+                alt="Four Sigmatic products with organic and clean ingredients"
+                className="w-full mb-5 object-cover my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Four Sigmatic ensures organic quality with no harmful ingredients.
+              </figcaption>
+            </figure>
+
+            <h2 id="User" className="text-2xl work-sans-900 my-6">
               User Reviews
             </h2>
-            <h3 class="text-xl work-sans-900 my-3">Pros</h3>
-            <ul class="list-disc pl-5 py-5">
+            <h3 className="text-xl work-sans-900 my-3">Pros</h3>
+            <ul className="list-disc pl-5 py-5 space-y-2">
               <li>
-                <span class="work-sans-900">
+                <span className="work-sans-900">
                   Enhances alertness and focus without causing stress.
                 </span>
               </li>
               <li>
-                <span class="work-sans-900">
+                <span className="work-sans-900">
                   Supports immunity and overall health.
                 </span>
               </li>
               <li>
-                <span class="work-sans-900">
+                <span className="work-sans-900">
                   Natural, safe ingredients, easy to prepare.
                 </span>
               </li>
               <li>
-                <span class="work-sans-900">
+                <span className="work-sans-900">
                   Pleasant taste without any strong or unpleasant odors.
                 </span>
               </li>
             </ul>
 
-            <h3 class="text-xl work-sans-900 my-3">Cons</h3>
-            <ul class="list-disc pl-5 py-5">
+            <h3 className="text-xl work-sans-900 my-3">Cons</h3>
+            <ul className="list-disc pl-5 py-5 space-y-2">
               <li>
-                <span class="work-sans-900">
+                <span className="work-sans-900">
                   More expensive compared to regular coffee.
                 </span>
               </li>
               <li>
-                <span class="work-sans-900">
+                <span className="work-sans-900">
                   Some products may have a slightly bitter taste if you are not
                   accustomed to them.
                 </span>
               </li>
             </ul>
 
-            <h2 id="Should" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 id="Should" className="text-2xl work-sans-900 my-6">
               Should You Buy Four Sigmatic Mushroom Products?
             </h2>
             <p>
@@ -358,65 +379,89 @@ const Four = () => {
             <p className="mt-5">
               <strong>Get Four Sigmatic Products:</strong>{" "}
               <a
-                onClick={() =>
-                  window.open(
-                    "https://us.foursigmatic.com/?snowball=ANHTUAN66381",
-                    "_blank"
-                  )
-                }
-                className="text-[#3182ce] underline word-sans-900"
+                href="https://us.foursigmatic.com/?snowball=ANHTUAN66381"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block text-[#3182ce] rounded-lg work-sans-900"
               >
-                 Click here
-              </a>{" "}
+                Buy Now
+              </a>
             </p>
             <p className="my-5">
               Tried <span className="work-sans-900">Four Sigmatic</span>? Share
               your thoughts in the comments below!
             </p>
-            <img
-              src="four-sigmatic-buy-now.jpg"
-              alt="Four Sigmatic functional mushroom products"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="four-sigmatic-buy-now.jpg"
+                alt="Explore Four Sigmatic functional mushroom products for wellness"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Start your wellness journey with Four Sigmatic mushroom products.
+              </figcaption>
+            </figure>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
+            <p className="italic my-7">
               Disclaimer: This is an objective review of Four Sigmatic products.
               I am not the manufacturer or owner of this brand, but I may
-              receive a commission if you purchase through the link above.
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              receive a commission if you purchase through the link above. Read
+              the full privacy policy{" "}
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -439,8 +484,9 @@ const Four = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

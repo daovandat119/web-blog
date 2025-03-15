@@ -9,7 +9,7 @@ const articles = [
     title:
       "Lilac St. Lashes Review - Natural False Lashes",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 25, 2025",
     image: "lilac-st-lashes-intro.png",
     content:
@@ -20,7 +20,7 @@ const articles = [
     title:
       "NovaaLab Review: At-Home Pain Relief Solution",
     categories: [],
-    author: "Aron Kantor",
+    author: "Peak of Destiny" ,
     date: "February 21, 2025",
     image: "novaalab-chronic-pain.jpg",
     content:

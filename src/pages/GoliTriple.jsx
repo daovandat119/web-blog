@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,13 @@ const GoliTriple = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Health & Wellness",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Immune Supplements", url: "/immune-supplements" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
-      title:
-        "Goli Triple Action Immune Gummies: Boost Immunity in 2025",
-      author: "",
+      title: "Goli Triple Action Immune Gummies: Boost Immunity in 2025",
+      author: "Peak of Destiny" ,
       date: "May 3, 2025",
     },
   ];
@@ -67,7 +59,6 @@ const GoliTriple = () => {
         { name: "100% Safe & Free from Harmful Ingredients", link: "#Safe" },
       ],
     },
-
     {
       title: "Why Choose Goli Triple Action Immune Gummies?",
       link: "#Choose",
@@ -127,16 +118,14 @@ const GoliTriple = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>
-          Goli Triple Action Immune Gummies – Your Ultimate Immune Support
-        </title>
+        <title>Goli Triple Action Immune Gummies: Boost Immunity in 2025</title>
         <meta
           name="description"
-          content="Explore Goli Triple Action Immune Gummies – a tasty, science-backed solution for immune support that’s convenient and effective for all."
+          content="Discover Goli Triple Action Immune Gummies – a tasty, science-backed solution to boost immunity with Vitamin C, D, Zinc, and natural ingredients in 2025."
         />
         <meta
           name="keywords"
-          content="Goli Triple Action Immune Gummies, immune support gummies, Vitamin C supplements, Zinc gummies, vegan immune supplements, Goli review, healthy immunity"
+          content="Goli Triple Action Immune Gummies, immune support gummies, Vitamin C supplements, Zinc gummies, vegan immune supplements, Goli review 2025, healthy immunity, natural wellness"
         />
         <link
           rel="canonical"
@@ -144,15 +133,15 @@ const GoliTriple = () => {
         />
         <meta
           property="og:title"
-          content="Goli Triple Action Immune Gummies – Your Ultimate Immune Support"
+          content="Goli Triple Action Immune Gummies: Boost Immunity in 2025"
         />
         <meta
           property="og:description"
-          content="Boost your immunity with Goli Triple Action Immune Gummies – delicious, vegan, and packed with Vitamin C, D, and Zinc."
+          content="Boost your immunity with Goli Triple Action Immune Gummies – delicious, vegan, and packed with Vitamin C, D, Zinc, and natural extracts."
         />
         <meta
           property="og:image"
-          content="https://www.thebusinessdive.com/goli-triple-action-immune-gummies-review.png"
+          content="https://www.bundlam.com/goli-triple-action-immune-gummies-review.png"
         />
         <meta
           property="og:url"
@@ -162,51 +151,70 @@ const GoliTriple = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Goli Triple Action Immune Gummies – Your Ultimate Immune Support"
+          content="Goli Triple Action Immune Gummies: Boost Immunity in 2025"
         />
         <meta
           name="twitter:description"
-          content="Strengthen your immune system with Goli Triple Action Immune Gummies – tasty and effective!"
+          content="Strengthen your immune system with Goli Triple Action Immune Gummies – tasty, effective, and vegan-friendly!"
         />
         <meta
-          name="twitter:image"
-          content="https://www.thebusinessdive.com/goli-triple-action-immune-gummies-review.png"
+          property="twitter:image"
+          content="https://www.bundlam.com/goli-triple-action-immune-gummies-review.png"
         />
         <script type="application/ld+json">
           {`
             {
               "@context": "https://schema.org",
               "@type": "Article",
-              "headline": "Goli Triple Action Immune Gummies – Your Ultimate Immune Support",
-              "description": "Learn how Goli Triple Action Immune Gummies provide top-notch immune support with a delicious, vegan-friendly formula.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "headline": "Goli Triple Action Immune Gummies: Boost Immunity in 2025",
+              "description": "Learn how Goli Triple Action Immune Gummies provide top-notch immune support with a delicious, vegan-friendly formula packed with Vitamin C, D, and Zinc.",
+              "author": {
+                "@type": "Person",
+                "name": "Peak of Destiny"
+              },
               "datePublished": "2025-05-03",
-              "image": "https://www.thebusinessdive.com/goli-triple-action-immune-gummies-action-immune-gummies-review.png"
+              "dateModified": "2025-05-03",
+              "image": "https://www.bundlam.com/goli-triple-action-immune-gummies-review.png",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/goli-triple-action-immune-gummies"
+              },
+              "articleSection": "Health & Wellness"
             }
-        `}
+          `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
             key={index}
             className="w-4/7 flex flex-col justify-center items-center mx-auto"
           >
-            <div className="flex gap-2"></div>
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-          <h1 className="text-2xl work-sans-900 my-5">Boosting Immunity with Goli Gummies</h1>
+            <h2 className="text-2xl work-sans-900 my-5">
+              Boosting Immunity with Goli Gummies
+            </h2>
             <p>
               In today’s fast-paced life, taking care of our immune system is
               often overlooked. As someone who works under high pressure, I
@@ -220,7 +228,7 @@ const GoliTriple = () => {
               health.
             </p>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -254,18 +262,23 @@ const GoliTriple = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h2 id="My" className="text-xl lg:text-2xl work-sans-900 my-6">
-              My Experience with Goli Triple Action Immune Gummies
+            <h2 id="My" className="text-2xl work-sans-900 my-6">
+              My Personal Experience with Goli Triple Action Immune Gummies
             </h2>
-            <img
-              src="goli-triple-action-immune-gummies-review.png"
-              alt="Goli Triple Action Immune Gummies boosting immunity"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="goli-triple-action-immune-gummies-review.png"
+                alt="My personal experience with Goli Triple Action Immune Gummies boosting immunity"
+                className="w-full my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600 mb-5">
+                My journey with Goli Triple Action Immune Gummies for better
+                health.
+              </figcaption>
+            </figure>
             <p>
               I chose{" "}
               <span className="work-sans-900">
@@ -302,18 +315,21 @@ const GoliTriple = () => {
               </li>
             </ul>
 
-            <h2
-              id="Outstanding"
-              className="text-xl lg:text-2xl work-sans-900 my-6"
-            >
+            <h2 id="Outstanding" className="text-2xl work-sans-900 my-6">
               Key Benefits of Goli Triple Action Immune Gummies
             </h2>
-            <img
-              src="goli-triple-action-benefits.png"
-              alt="Benefits of Goli Triple Action Immune Gummies"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="goli-triple-action-benefits.png"
+                alt="Key benefits of Goli Triple Action Immune Gummies for immunity"
+                className="w-full my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Benefits of Goli Triple Action Immune Gummies for overall
+                wellness.
+              </figcaption>
+            </figure>
             <ul className="list-disc pl-6 py-5 space-y-3">
               <li id="Scientifically">
                 <strong>Science-Backed Immune Support:</strong> Goli Triple
@@ -342,8 +358,19 @@ const GoliTriple = () => {
                 for any lifestyle.
               </li>
             </ul>
-            <img src="goli-triple-action-safe-ingredients.jpg" alt="Goli Triple Action Immune Gummies with safe, vegan ingredients" className="w-full object-cover" />
-            <h2 id="Choose" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <figure>
+              <img
+                src="goli-triple-action-safe-ingredients.jpg"
+                alt="Safe and vegan ingredients in Goli Triple Action Immune Gummies"
+                className="w-full my-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Safe and clean ingredients in Goli Triple Action Immune Gummies.
+              </figcaption>
+            </figure>
+
+            <h2 id="Choose" className="text-2xl work-sans-900 my-6">
               Why Goli Triple Action Immune Gummies Stand Out
             </h2>
             <p className="mb-5">
@@ -406,80 +433,94 @@ const GoliTriple = () => {
               </tbody>
             </table>
 
-            <h1
+            <h2
               id="Final"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6 flex items-center"
             >
               Final Verdict – Should You Buy Goli Triple Action Immune Gummies?
-            </h1>
-
+            </h2>
             <p>
               If you’re looking for a{" "}
               <span className="work-sans-900">
-                safe, effective, and convenient immune support solution, Goli
-                Triple Action Immune Gummies{" "}
+                safe, effective, and convenient immune support solution
               </span>
-              is an excellent choice. With a scientifically backed formula, ease
-              of use, and great taste, this product has helped me improve my
-              overall health and maintain my daily energy levels.
+              , Goli Triple Action Immune Gummies is an excellent choice. With a
+              scientifically backed formula, ease of use, and great taste, this
+              product has helped me improve my overall health and maintain my
+              daily energy levels.
             </p>
-
             <p className="mt-5">
               👉 Try{" "}
               <a
-                onClick={() =>
-                  window.open(
-                    "https://goli.com/?discount_code=pricings",
-                    "_blank"
-                  )
-                }
-                className="text-[#3182ce] underline word-sans-900"
+                href="https://goli.com/?discount_code=pricings"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block text-[#3182ce] rounded-lg work-sans-900"
               >
-                Goli Triple
+                Goli Triple Action Immune Gummies
               </a>{" "}
-              Action Immune Gummies today and strengthen your immune system
-              effortlessly!
+              today and strengthen your immune system effortlessly!
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -502,8 +543,9 @@ const GoliTriple = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

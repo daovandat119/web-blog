@@ -18,7 +18,7 @@ const articles = [
       },
     ],
     title: "Adobe Acrobat Vs UPDF: A Honest Comparison (2025)",
-    author: "By Aron Kantor",
+    author: "Peak of Destiny ",
     date: "January 10, 2025",
     image: "anh294.webp",
     content:
@@ -37,7 +37,7 @@ const articles = [
       },
     ],
     title: "Xtiles Review: Is It The Best Notion Alternative In 2025?",
-    author: "By Aron Kantor",
+    author: "Peak of Destiny ",
     date: "November 28, 2024",
     image: "anh178.webp",
     content:
@@ -166,7 +166,7 @@ const articles = [
       },
     ],
     title: "My Honest Coda.io Review: Here’s What Surprised Me! (2025)",
-    author: "By Aron Kantor",
+    author: "Peak of Destiny ",
     date: "December 10, 2024",
     image: "anh180.webp",
     content:
@@ -186,7 +186,7 @@ const articles = [
       },
     ],
     title: "Evernote Review: My Unfiltered Opinion (2025)",
-    author: "By Aron Kantor",
+    author: "Peak of Destiny ",
     date: "January 30, 2025",
     image: "anh181.webp",
     content:

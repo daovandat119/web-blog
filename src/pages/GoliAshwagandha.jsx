@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,14 @@ const GoliAshwagandha = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Health & Wellness",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Stress Relief", url: "/stress-relief" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
       title:
         "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
-      author: "",
+      author: "Peak of Destiny" ,
       date: "February 21, 2025",
     },
   ];
@@ -53,21 +46,24 @@ const GoliAshwagandha = () => {
     },
     {
       title: "Supporting Physical Health with Ashwagandha",
-      link: "#Supporting",
+      link: "#PhysicalHealth",
     },
     {
       title: "Ashwagandha Helps Maintain Focus and Calmness",
       link: "#Calmness",
     },
-    { title: "Supporting Better Sleep with Ashwagandha", link: "#Supporting" },
+    {
+      title: "Supporting Better Sleep with Ashwagandha",
+      link: "#Sleep",
+    },
     {
       title: "Quality and Safety",
       link: "#Quality",
       items: [
         { name: "Conclusion", link: "#Conclusion" },
         { name: "Explore More Goli Products", link: "#Explore" },
-        { name: "Notes when using", link: "#Notes" },
-        { name: "Try it now and feel the difference!", link: "#Try" },
+        { name: "Notes When Using", link: "#Notes" },
+        { name: "Try It Now and Feel the Difference!", link: "#Try" },
       ],
     },
   ];
@@ -120,50 +116,48 @@ const GoliAshwagandha = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>
-          Goli Ashwagandha Review – Boost Mental & Physical Wellness
-        </title>
+        <title>Goli Ashwagandha Review – Boost Mental & Physical Wellness in 2025</title>
         <meta
           name="description"
-          content="Discover how Goli Ashwagandha gummies with KSM-66® support stress relief, focus, sleep, and physical health naturally."
+          content="Discover how Goli Ashwagandha gummies with KSM-66® support stress relief, focus, sleep, and physical health naturally in 2025."
         />
         <meta
           name="keywords"
-          content="Goli Ashwagandha, KSM-66 Ashwagandha, stress relief gummies, mental wellness, physical health supplements, Goli review, natural sleep aid"
+          content="Goli Ashwagandha, KSM-66 Ashwagandha, stress relief gummies, mental wellness, physical health supplements, Goli review 2025, natural sleep aid, holistic wellness"
         />
         <link
           rel="canonical"
-          href="https://www.thebusinessdive.com/health/goli-ashwagandha-wellness"
+          href="https://www.bundlam.com/goli-ashwagandha-wellness"
         />
         <meta
           property="og:title"
-          content="Goli Ashwagandha Review – Boost Mental & Physical Wellness"
+          content="Goli Ashwagandha Review – Boost Mental & Physical Wellness in 2025"
         />
         <meta
           property="og:description"
-          content="Learn how Goli Ashwagandha gummies support stress relief, focus, and sleep with natural KSM-66® Ashwagandha."
+          content="Learn how Goli Ashwagandha gummies support stress relief, focus, and sleep with natural KSM-66® Ashwagandha in 2025."
         />
         <meta
           property="og:image"
-          content="https://www.thebusinessdive.com/goli-ashwagandha-review.png"
+          content="https://www.bundlam.com/goli-ashwagandha-review.png"
         />
         <meta
           property="og:url"
-          content="https://www.thebusinessdive.com/health/goli-ashwagandha-wellness"
+          content="https://www.bundlam.com/goli-ashwagandha-wellness"
         />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Goli Ashwagandha Review – Boost Mental & Physical Wellness"
+          content="Goli Ashwagandha Review – Boost Mental & Physical Wellness in 2025"
         />
         <meta
           name="twitter:description"
-          content="Explore Goli Ashwagandha’s benefits for stress, focus, and sleep in this detailed review."
+          content="Explore Goli Ashwagandha’s benefits for stress, focus, and sleep in this detailed 2025 review."
         />
         <meta
-          name="twitter:image"
-          content="https://www.thebusinessdive.com/goli-ashwagandha-review.png"
+          property="twitter:image"
+          content="https://www.bundlam.com/goli-ashwagandha-review.png"
         />
         <script type="application/ld+json">
           {`
@@ -171,14 +165,32 @@ const GoliAshwagandha = () => {
               "@context": "https://schema.org",
               "@type": "Article",
               "headline": "Goli Ashwagandha – Naturally Support Your Mental and Physical Wellness",
-              "description": "A review of Goli Ashwagandha gummies, featuring KSM-66® for stress relief, focus, sleep, and physical health.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "description": "A review of Goli Ashwagandha gummies, featuring KSM-66® for stress relief, focus, sleep, and physical health in 2025.",
+              "author": {
+                "@type": "Person",
+                "name": "Peak of Destiny"
+              },
               "datePublished": "2025-02-21",
-              "image": "https://www.thebusinessdive.com/goli-ashwagandha-review.png"
+              "dateModified": "2025-02-21",
+              "image": "https://www.bundlam.com/goli-ashwagandha-review.png",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/goli-ashwagandha-wellness"
+              },
+              "articleSection": "Health & Wellness"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -189,21 +201,26 @@ const GoliAshwagandha = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-            <img
-              src="goli-ashwagandha-gummies.png"
-              alt="Goli Ashwagandha gummies for wellness"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="goli-ashwagandha-gummies.png"
+                alt="Goli Ashwagandha gummies for mental and physical wellness"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Goli Ashwagandha gummies – A natural way to support wellness.
+              </figcaption>
+            </figure>
             <p className="mt-5">
               <span className="work-sans-900">Goli Ashwagandha</span> gummies,
               powered by KSM-66® Ashwagandha, offer a natural way to support
@@ -212,7 +229,7 @@ const GoliAshwagandha = () => {
               quality – all in a delicious gummy form.
             </p>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -246,12 +263,11 @@ const GoliAshwagandha = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
             <h2
               id="Ashwagandha"
-              className="text-xl lg:text-2xl work-sans-900 my-6"
+              className="text-2xl work-sans-900 my-6"
             >
               Stress Relief with Goli Ashwagandha
             </h2>
@@ -265,8 +281,8 @@ const GoliAshwagandha = () => {
             </p>
 
             <h2
-              id="Supporting"
-              className="text-xl lg:text-2xl work-sans-900 my-6"
+              id="PhysicalHealth"
+              className="text-2xl work-sans-900 my-6"
             >
               Boost Physical Health with Goli Ashwagandha
             </h2>
@@ -278,16 +294,21 @@ const GoliAshwagandha = () => {
               <span className="work-sans-900">Goli Supergreens Gummies</span>{" "}
               for added energy and overall health.
             </p>
-            <img
-              src="goli-ashwagandha-physical-health.png"
-              alt="Goli Ashwagandha supporting physical endurance"
-              className="w-full mb-5 object-cover py-5"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="goli-ashwagandha-physical-health.png"
+                alt="Goli Ashwagandha gummies supporting physical endurance and recovery"
+                className="w-full mb-5 object-cover py-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Goli Ashwagandha supports physical health and vitality.
+              </figcaption>
+            </figure>
 
             <h2
               id="Calmness"
-              className="text-xl lg:text-2xl work-sans-900 my-6"
+              className="text-2xl work-sans-900 my-6"
             >
               Focus and Calmness with Goli Ashwagandha
             </h2>
@@ -301,33 +322,43 @@ const GoliAshwagandha = () => {
               for digestion and metabolic support.
             </p>
 
-            <h2 id="Sleep" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 id="Sleep" className="text-2xl work-sans-900 my-6">
               Better Sleep with Goli Ashwagandha
             </h2>
-            <iframe
-              className="w-full h-[300px]"
-              src="https://www.youtube.com/embed/IspjXT2pk-w"
-              title="Goli Ashwagandha Review – Support Mental and Physical Wellness"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-              loading="lazy"
-            />
+            <figure>
+              <iframe
+                className="w-full h-[300px]"
+                src="https://www.youtube.com/embed/IspjXT2pk-w"
+                title="Goli Ashwagandha Review – How It Supports Mental and Physical Wellness in 2025"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600 my-5">
+                Watch this video to learn how Goli Ashwagandha supports wellness.
+              </figcaption>
+            </figure>
             <p className="mt-5">
               <span className="work-sans-900">Goli Ashwagandha</span> with
               KSM-66® promotes relaxation and better sleep quality. Combined
               with <span className="work-sans-900">Goli Sleep Gummies</span>,
               it’s a natural solution for restful nights.
             </p>
-            <img
-              src="goli-ashwagandha-sleep.png"
-              alt="Goli Ashwagandha for better sleep"
-              className="w-full mb-5 object-cover py-5"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="goli-ashwagandha-sleep.png"
+                alt="Goli Ashwagandha gummies promoting better sleep quality"
+                className="w-full mb-5 object-cover py-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Goli Ashwagandha helps improve sleep with KSM-66®.
+              </figcaption>
+            </figure>
 
-            <h2 id="Quality" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 id="Quality" className="text-2xl work-sans-900 my-6">
               Quality and Safety of Goli Ashwagandha
             </h2>
             <p>
@@ -340,9 +371,10 @@ const GoliAshwagandha = () => {
               </span>{" "}
               for holistic wellness.
             </p>
+
             <h2
               id="Conclusion"
-              className="text-xl lg:text-2xl work-sans-900 my-6"
+              className="text-2xl work-sans-900 my-6"
             >
               Conclusion: Is Goli Ashwagandha Worth It?
             </h2>
@@ -354,30 +386,23 @@ const GoliAshwagandha = () => {
               <span className="work-sans-900">
                 Goli Apple Cider Vinegar Gummies
               </span>{" "}
-              for a complete wellness routine.{" "}
-
-              <a
-                onClick={() =>
-                  window.open(
-                    "https://goli.com/?discount_code=pricings",
-                    "_blank"
-                  )
-                }
-                className="text-[#3182ce] underline word-sans-900"
-              >
-                  Try Goli Ashwagandha Now
-              </a>{" "}
+              for a complete wellness routine.
             </p>
 
-            <h2 id="Explore" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 id="Explore" className="text-2xl work-sans-900 my-6">
               Explore More Goli Wellness Products
             </h2>
-            <img
-              src="goli-product-range.png"
-              alt="Goli Ashwagandha and other wellness gummies"
-              className="w-full mb-5 object-cover py-5"
-              loading="lazy"
-            />
+            <figure>
+              <img
+                src="goli-product-range.png"
+                alt="Explore Goli Ashwagandha and other wellness gummies for holistic health"
+                className="w-full mb-5 object-cover py-5"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                Discover the full range of Goli wellness gummies.
+              </figcaption>
+            </figure>
             <ul className="list-disc pl-6 py-5 space-y-2">
               <li>
                 <strong>Goli Apple Cider Vinegar Gummies:</strong> Supports
@@ -393,7 +418,7 @@ const GoliAshwagandha = () => {
               </li>
             </ul>
 
-            <h2 id="Notes" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 id="Notes" className="text-2xl work-sans-900 my-6">
               Usage Notes for Goli Ashwagandha
             </h2>
             <ul className="list-disc pl-6 py-5 space-y-2">
@@ -403,47 +428,49 @@ const GoliAshwagandha = () => {
               <li>Not a substitute for medicine.</li>
             </ul>
 
-            <h2 id="Try" className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 id="Try" className="text-2xl work-sans-900 my-6">
               Try Goli Ashwagandha Today!
             </h2>
             <p>
               Take charge of your wellness with{" "}
               <span className="work-sans-900">Goli Ashwagandha</span>.{" "}
               <a
-                onClick={() =>
-                  window.open(
-                    "https://goli.com/?discount_code=pricings",
-                    "_blank"
-                  )
-                }
-                className="text-[#3182ce] underline word-sans-900"
+                href="https://goli.com/?discount_code=pricings"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block text-[#3182ce] rounded-lg work-sans-900 "
               >
-                 Click here
+                Try Goli Ashwagandha Now
               </a>{" "}
               and feel the difference!
             </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h2 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h2>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
                 <h2 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
+                  Peak of Destiny
                 </h2>
                 <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
@@ -455,13 +482,28 @@ const GoliAshwagandha = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -484,8 +526,9 @@ const GoliAshwagandha = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">

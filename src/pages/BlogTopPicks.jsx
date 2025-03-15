@@ -12,38 +12,38 @@ const BlogTopPicks = () => {
         "Best 4 Automatic Note-Takers You Must Try in 2025 (Tested & Ranked)",
       image: "best-ai-meeting-managers-2025.webp",
       date: "August 8, 2024",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
     },
     {
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       image: "best-ai-meeting-managers-2025.webp",
       date: "January 2, 2024",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
     },
     {
       title: "Adobe Acrobat Vs PDFelement: Which One Is Better In 2025?",
       image: "best-ai-meeting-managers-2025.webp",
       date: "January 21, 2025",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
     },
     {
       title:
         "Best 4 Automatic Note-Takers You Must Try in 2025 (Tested & Ranked)",
       image: "best-ai-meeting-managers-2025.webp",
       date: "August 8, 2024",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
     },
     {
       title: "8 Best AI Scheduling Assistants To Maximize Your Time In 2025",
       image: "best-ai-meeting-managers-2025.webp",
       date: "January 2, 2024",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
     },
     {
       title: "Adobe Acrobat Vs PDFelement: Which One Is Better In 2025?",
       image: "best-ai-meeting-managers-2025.webp",
       date: "January 21, 2025",
-      author: "Aron Kantor",
+      author: "Peak of Destiny" ,
     },
   ];
 
@@ -58,7 +58,7 @@ const BlogTopPicks = () => {
             The 8 Best PDF Editors In 2025 | 30+ Personally Tested PDF Tools
           </h1>
           <p className="w-full mr-30 lg:mr-152 my-4 text-[15px] text-center">
-            By Aron Kantor • January 22, 2025
+            Peak of Destiny  • January 22, 2025
           </p>
         </div>
       </div>

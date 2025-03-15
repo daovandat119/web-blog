@@ -10,7 +10,7 @@ const About = () => {
             alt="avatar"
             className="w-48 h-53 object-cover rounded-full"
           />
-          <h1 className="w-50 lg:w-full text-[70px] work-sans-900">Hey, I’m Aron!</h1>
+          <h1 className="w-50 lg:w-full text-[70px] work-sans-900">Hey, I’m Peak!</h1>
         </div>
         <h1 className="work-sans-900 text-xl mb-7">Who Am I?</h1>
         <p className=" text-[18px] leading-relaxed">

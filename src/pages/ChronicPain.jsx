@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -28,20 +27,13 @@ const ChronicPain = () => {
 
   const content = [
     {
-      category: "PDF Tools",
+      category: "Health & Wellness",
       subcategory: [
-        {
-          name: "PDF Tools",
-          url: "/pdf-tools",
-        },
-        {
-          name: "Software Reviews",
-          url: "/software-reviews",
-        },
+        { name: "Pain Relief Solutions", url: "/pain-relief-solutions" },
+        { name: "Product Reviews", url: "/product-reviews" },
       ],
-      title:
-        "NovaaLab Review: At-Home Pain Relief Solution",
-      author: "",
+      title: "NovaaLab Review: At-Home Pain Relief Solution",
+      author: "Peak of Destiny",
       date: "February 21, 2025",
     },
   ];
@@ -113,14 +105,14 @@ const ChronicPain = () => {
   return (
     <div className="container mx-auto">
       <Helmet>
-        <title>NovaaLab Review: At-Home Pain Relief Solution</title>
+        <title>NovaaLab Review: At-Home Pain Relief Solution in 2025</title>
         <meta
           name="description"
-          content="My NovaaLab review: effective red light therapy for chronic pain, arthritis, and injuries at home."
+          content="My 2025 NovaaLab review: effective red light therapy for chronic pain, arthritis, and injuries at home."
         />
         <meta
           name="keywords"
-          content="NovaaLab review, red light therapy, chronic pain relief, arthritis treatment, at-home recovery, NovaaLab devices"
+          content="NovaaLab review, red light therapy, chronic pain relief, arthritis treatment, at-home recovery, NovaaLab devices, pain management 2025"
         />
         <link
           rel="canonical"
@@ -128,11 +120,11 @@ const ChronicPain = () => {
         />
         <meta
           property="og:title"
-          content="NovaaLab Review: At-Home Pain Relief Solution"
+          content="NovaaLab Review: At-Home Pain Relief Solution in 2025"
         />
         <meta
           property="og:description"
-          content="Discover how NovaaLab’s red light therapy helps with chronic pain and recovery at home."
+          content="Explore my 2025 NovaaLab review to see how its red light therapy helps with chronic pain and recovery at home."
         />
         <meta
           property="og:image"
@@ -146,11 +138,11 @@ const ChronicPain = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="NovaaLab Review: At-Home Pain Relief Solution"
+          content="NovaaLab Review: At-Home Pain Relief Solution in 2025"
         />
         <meta
           name="twitter:description"
-          content="NovaaLab offers red light therapy for chronic pain and arthritis relief at home."
+          content="My 2025 take on NovaaLab: red light therapy for chronic pain and arthritis relief at home."
         />
         <meta
           name="twitter:image"
@@ -160,21 +152,34 @@ const ChronicPain = () => {
           {`
             {
               "@context": "https://schema.org",
-              "@type": "ProductReview",
+              "@type": "Article",
               "headline": "NovaaLab Review: At-Home Pain Relief Solution",
-              "description": "A detailed review of NovaaLab’s red light therapy devices for chronic pain and recovery.",
-              "author": {"@type": "Person", "name": "Aron Kantor"},
+              "description": "A detailed 2025 review of NovaaLab’s red light therapy devices for chronic pain, arthritis, and at-home recovery.",
+              "author": {
+                "@type": "Person",
+                "name": "By Peak of Destiny"
+              },
               "datePublished": "2025-02-21",
+              "dateModified": "2025-02-21",
               "image": "https://www.bundlam.com/novaalab-chronic-pain.jpg",
-              "itemReviewed": {
-                "@type": "Product",
-                "name": "NovaaLab Red Light Therapy Devices",
-                "brand": {"@type": "Brand", "name": "NovaaLab"}
-              }
+              "publisher": {
+                "@type": "Organization",
+                "name": "Thebusinessdive",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.bundlam.com/images/logo.png"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.bundlam.com/novaalab-pain-relief"
+              },
+              "articleSection": "Health & Wellness"
             }
           `}
         </script>
       </Helmet>
+
       <div className="w-full bg-[#edf2f7]">
         {content.map((item, index) => (
           <div
@@ -185,39 +190,44 @@ const ChronicPain = () => {
               {item.title}
             </h1>
             <p className="w-90 lg:w-full my-4 text-[15px] work-sans-400">
-              {item.date}
+              By {item.author} | {item.date}
             </p>
           </div>
         ))}
       </div>
-      <div className=" w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+
+      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
         <div className="text-[16.95px] my-10 work-sans-400">
-          {/* phần một */}
           <div>
-          <h2 className="text-xl lg:text-2xl work-sans-900 my-6">
+            <h2 className="text-2xl work-sans-900 my-6">
               Struggling with Chronic Pain?
             </h2>
-            <h1 className="my-10">
+            <p className="my-5">
               Do you often suffer from pain caused by movement, arthritis,
               injuries, or muscle strain? Have you tried multiple treatments,
               but the pain just won’t go away? Physical therapy sessions can be
               expensive, and painkillers only provide temporary relief… So what
               is a safe, effective, and convenient solution you can use at home?
-            </h1>
-            <img
-              src="novaalab-chronic-pain.jpg"
-              alt="NovaaLab red light therapy for chronic pain relief"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1 className="my-10">
+            </p>
+            <figure>
+              <img
+                src="novaalab-chronic-pain.jpg"
+                alt="NovaaLab red light therapy for chronic pain relief"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                NovaaLab – Effective at-home pain relief solution.
+              </figcaption>
+            </figure>
+            <p className="my-5">
               <span className="work-sans-900">NovaaLab</span> brings you
               advanced red light therapy technology, designed to relieve pain,
               support muscle recovery, aid in arthritis treatment, and improve
               blood circulation—all in just a few minutes of use per day.
-            </h1>
+            </p>
             <div className="ml-10 my-15 text-gray-800">
-              <h1 className="text-xl work-sans-900 mb-4">Table of Contents</h1>
+              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
               <ol className="list-decimal pl-5 underline">
                 {sections.map((section, index) => (
                   <li key={index}>
@@ -251,18 +261,19 @@ const ChronicPain = () => {
               </ol>
             </div>
           </div>
-          {/* phần hai */}
-          {/* phần ba */}
+
           <div>
-            <h1
+            <h2
               id="Why"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Why is Red Light Therapy the Ideal Solution?
-            </h1>
-            Red and near-infrared light therapy has been scientifically proven
-            to:
-            <ul className="list-disc pl-5 py-5">
+            </h2>
+            <p>
+              Red and near-infrared light therapy has been scientifically proven
+              to:
+            </p>
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
                 Provide rapid pain relief – Soothes aches caused by arthritis,
                 injuries, or post-workout muscle strain.
@@ -276,160 +287,184 @@ const ChronicPain = () => {
                 effects.
               </li>
             </ul>
-            <img
-              src="novaalab-red-light-therapy.jpg"
-              alt="Benefits of NovaaLab red light therapy"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1
+            <figure>
+              <img
+                src="novaalab-red-light-therapy.jpg"
+                alt="Benefits of NovaaLab red light therapy"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                NovaaLab – Red light therapy benefits for pain relief.
+              </figcaption>
+            </figure>
+
+            <h2
               id="NovaaLab"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               NovaaLab – Advanced At-Home Therapy Solutions
-            </h1>
-            <span className="work-sans-900">NovaaLab</span> offers a variety of
-            devices tailored to different needs:
-            <ul className="list-disc pl-5 py-5">
+            </h2>
+            <p>
+              <span className="work-sans-900">NovaaLab</span> offers a variety of
+              devices tailored to different needs:
+            </p>
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>
-                <span className="work-sans-900">
-                  Novaa Extra Strength Healing Laser
-                </span>
+                <span className="work-sans-900">Novaa Extra Strength Healing Laser</span>
                 – A handheld laser device for targeted pain relief.
               </li>
               <li>
-                <span className="work-sans-900">Novaa Deep Healing Pad</span>– A
+                <span className="work-sans-900">Novaa Deep Healing Pad</span> – A
                 flexible therapy pad for joint, back, shoulder, and knee pain.
               </li>
               <li>
-                <span className="work-sans-900">Novaa Light Pad</span>–
+                <span className="work-sans-900">Novaa Light Pad</span> –
                 Versatile treatment for multiple body areas, promoting overall
                 recovery.
               </li>
               <li>
-                <span className="work-sans-900">Novaa Oral Care</span>–
+                <span className="work-sans-900">Novaa Oral Care</span> –
                 Specialized for oral health, reducing gum inflammation and
                 discomfort.
               </li>
             </ul>
-            <img
-              src="novaalab-devices.png"
-              alt="NovaaLab red light therapy devices"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1
+            <figure>
+              <img
+                src="novaalab-devices.png"
+                alt="NovaaLab red light therapy devices"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                NovaaLab – Advanced devices for at-home therapy.
+              </figcaption>
+            </figure>
+
+            <h2
               id="Quality"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Quality & Value Worth the Investment
-            </h1>
-            <h1 className="my-5">
+            </h2>
+            <p className="my-5">
               <span className="work-sans-900">NovaaLab</span> devices meet
               medical-grade standards and are FDA-approved for safety and
               effectiveness. While prices range from a few hundred to over a
               thousand dollars, they offer a long-term pain relief solution that
-              saves you money on frequent physical therapy sessions
-            </h1>
-            <br />
-            <h1
+              saves you money on frequent physical therapy sessions.
+            </p>
+
+            <h2
               id="Is"
-              className="text-2xl work-sans-900 my-5 flex items-center"
+              className="text-2xl work-sans-900 my-6"
             >
               Is NovaaLab Worth It?
-            </h1>
-            <img
-              src="novaalab-worth-it.png"
-              alt="NovaaLab at-home pain relief review"
-              className="w-full mb-5 object-cover"
-              loading="lazy"
-            />
-            <h1 className="my-5">
+            </h2>
+            <figure>
+              <img
+                src="novaalab-worth-it.png"
+                alt="NovaaLab at-home pain relief review"
+                className="w-full mb-5 object-cover"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-gray-600">
+                NovaaLab – Is it worth the investment for pain relief?
+              </figcaption>
+            </figure>
+            <p className="my-5">
               If you’re looking for a safe, effective way to relieve pain and
               recover at home, <span className="work-sans-900">NovaaLab</span>{" "}
               is definitely worth considering.
-            </h1>
-            <h1 className="text-xl work-sans-900 my-5 flex items-center">
-              Pros:
-            </h1>
-            <ul className="list-disc pl-5 py-5">
+            </p>
+            <h3 className="text-xl work-sans-900 my-4">Pros:</h3>
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>Fast and noticeable results</li>
               <li>Easy to use at home</li>
               <li>Drug-free with no side effects</li>
               <li>Medical-grade and FDA-approved</li>
             </ul>
-            <h1 className="text-xl work-sans-900 my-5 flex items-center">
-              Cons:
-            </h1>
-            <ul className="list-disc pl-5 py-5">
+            <h3 className="text-xl work-sans-900 my-4">Cons:</h3>
+            <ul className="list-disc pl-10 py-5 space-y-2">
               <li>Higher price point, but worth the quality</li>
               <li>Requires consistency for optimal results</li>
             </ul>
-            <h1 className="my-5">
+            <p className="my-5">
               If you’re tired of living with chronic pain, try{" "}
               <span className="work-sans-900">NovaaLab</span> today and
-              experience the difference!
-            </h1>
-            One box, one unforgettable experience—
-            <span className="work-sans-900">Last Crumb</span> is the kind of
-            luxury everyone should try at least once.
-            <br />
-            <br />
-            Ready to experience the ultimate luxury in cookies?
-            <br />
-            <br />
-            <button
-              onClick={() =>
-                window.open(
-                  "https://novaalab.com/?sca_ref=7717479.39U3Um789J",
-                  "_blank"
-                )
-              }
-              className="text-[#3182ce] underline"
-            >
-              Click Here
-            </button>{" "}
-            to explore Novaalab ls’ best-selling collection!
+              experience the difference! Ready to take control of your pain
+              management?
+            </p>
+            <p className="my-5">
+              <a
+                href="https://novaalab.com/?sca_ref=7717479.39U3Um789J"
+                target="_blank"
+                rel="nofollow"
+                className="inline-block rounded-lg work-sans-900 text-[#2b6cb0]"
+              >
+                Explore NovaaLab’s Best-Selling Collection
+              </a>
+            </p>
           </div>
 
-          {/* phần bốn */}
-
-          {/* phần cuối */}
           <div>
-            <h1 className="italic my-7">
-              Disclosure: I only recommend products I would use myself and all
+            <p className="italic my-7">
+              Disclosure: I only recommend products I would use myself, and all
               opinions expressed here are our own. This post may contain
               affiliate links that at no additional cost to you, I may earn a
               small commission. Read the full privacy policy{" "}
-              <a className="text-[#3182ce] underline">here.</a>
-            </h1>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border-1 p-5">
+              <a
+                href="/privacy-policy"
+                className="text-[#3182ce] underline"
+                target="_blank"
+              >
+                here
+              </a>
+              .
+            </p>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
               <img
                 src="aron-kantor-profile.jpg"
-                alt="anh"
+                alt="By Peak of Destiny, founder of Thebusinessdive"
                 className="mr-5 rounded-full w-28 h-28 md:w-40 md:h-40"
+                loading="lazy"
               />
               <div className="text-center xs:py-5 md:text-left md:py-0">
-                <h1 className="text-xl work-sans-900 text-[#3182ce]">
-                  Aron Kantor
-                </h1>
-                <h1 className="text-[14px] mt-3 md:text-[16px]">
+                <h2 className="text-xl work-sans-900 text-[#3182ce]">
+                  By Peak of Destiny
+                </h2>
+                <p className="text-[14px] mt-3 md:text-[16px]">
                   Hey there! I am Aron, the founder of Thebusinessdive. I
                   created Thebusinessdive to help you elevate your productivity
                   to the next level. It is a place where you find the best
                   tools, ideas, and tips to supercharge your productivity and
                   performance. Subscribe to my YouTube channel to hear more
                   about the best productivity tools. Let’s dive in!
-                </h1>
+                </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start  items-center border-l border-b border-r border-gray-300 space-x-2">
-              <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
-              <FaTwitter className="text-xl my-4 mx-1" />
+            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+              <a
+                href="https://youtube.com/your-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's YouTube channel"
+              >
+                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+              </a>
+              <a
+                href="https://twitter.com/your-account"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit By Peak of Destiny's Twitter profile"
+              >
+                <FaTwitter className="text-xl my-4 mx-1" />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="w-full bg-[#edf2f7] mb-20">
         <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
           <div className="w-full m-10">
@@ -452,8 +487,9 @@ const ChronicPain = () => {
                     <Link to={post.url}>
                       <img
                         src={post.image}
-                        alt={post.title}
+                        alt={`${post.title} illustration`}
                         className="w-full h-48 object-cover"
+                        loading="lazy"
                       />
                       <div className="m-7">
                         <h3 className="work-sans-900 text-2xl mt-10">
