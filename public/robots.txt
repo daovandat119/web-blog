@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Allow: /
-Sitemap: https://www.bundlam.com/sitemap.xml
