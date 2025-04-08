@@ -85,7 +85,6 @@ import Anycubic from "./pages/Anycubic";
 import CreativityUtility from "./pages/CreativityUtility";
 import GoliTriple from "./pages/GoliTriple";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import RedirectPage from "./pages/RedirectPage.jsx";
 
 function AppContent() {
   const location = useLocation();
@@ -224,7 +223,6 @@ function AppContent() {
           element={<GoliTriple />}
         />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/auth/link/:id" element={<RedirectPage />} />
       </Routes>
       {showFooter && <Footer />}
     </div>
