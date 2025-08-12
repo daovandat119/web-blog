@@ -9,6 +9,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Elevated = () => {
+
+  useEffect(() => {
+    window.location.href = "https://lovable.dev/?via=alinbe";
+  }, []);
+  
   const [faq, setFaq] = useState(null);
   const faqRefs = useRef([]);
 
@@ -192,7 +197,7 @@ const Elevated = () => {
         {content.map((item, index) => (
           <div
             key={index}
-            className="w-4/7 flex flex-col justify-center items-center mx-auto"
+            className="flex flex-col items-center justify-center mx-auto w-4/7"
           >
             <h1 className="w-80 lg:w-full py-5 text-[40px] work-sans-900 text-center">
               {item.title}
@@ -204,10 +209,10 @@ const Elevated = () => {
         ))}
       </div>
 
-      <div className="w-90 my-10 lg:w-5/9 lg:mt-20 lg:mb-10 mx-auto">
+      <div className="mx-auto my-10 w-90 lg:w-5/9 lg:mt-20 lg:mb-10">
         <div className="text-[16.95px] my-10 work-sans-400">
           <div>
-            <h2 className="text-2xl work-sans-900 my-6">
+            <h2 className="my-6 text-2xl work-sans-900">
               Why Elevated Faith Stands Out
             </h2>
             <p className="my-5">
@@ -220,16 +225,16 @@ const Elevated = () => {
               <img
                 src="elevated-faith-collection.png"
                 alt="Elevated Faith Christian apparel collection with meaningful designs"
-                className="w-full mb-5 object-cover"
+                className="object-cover w-full mb-5"
                 loading="lazy"
               />
               <figcaption className="text-center text-gray-600">
                 Elevated Faith – Faith-inspired apparel with impact.
               </figcaption>
             </figure>
-            <div className="ml-10 my-15 text-gray-800">
-              <h2 className="text-xl work-sans-900 mb-4">Table of Contents</h2>
-              <ol className="list-decimal pl-5 underline">
+            <div className="ml-10 text-gray-800 my-15">
+              <h2 className="mb-4 text-xl work-sans-900">Table of Contents</h2>
+              <ol className="pl-5 underline list-decimal">
                 {sections.map((section, index) => (
                   <li key={index}>
                     <a href={section.link}>{section.title}</a>
@@ -266,7 +271,7 @@ const Elevated = () => {
           <div>
             <h2
               id="Unique"
-              className="text-2xl work-sans-900 my-6"
+              className="my-6 text-2xl work-sans-900"
             >
               Unique & Meaningful Designs That Inspire
             </h2>
@@ -279,11 +284,11 @@ const Elevated = () => {
             </p>
             <h3
               id="Top"
-              className="text-xl work-sans-900 mt-5"
+              className="mt-5 text-xl work-sans-900"
             >
               Top Picks:
             </h3>
-            <ul className="list-disc pl-10 py-5 space-y-2">
+            <ul className="py-5 pl-10 space-y-2 list-disc">
               <li>
                 <span className="italic">Faith Over Fear Hoodie –</span> A
                 stylish and comforting reminder to trust in God.
@@ -306,7 +311,7 @@ const Elevated = () => {
 
             <h2
               id="Premium"
-              className="text-2xl work-sans-900 my-6"
+              className="my-6 text-2xl work-sans-900"
             >
               Premium Quality – Built for Comfort & Durability
             </h2>
@@ -315,7 +320,7 @@ const Elevated = () => {
               <span className="work-sans-900">premium fabrics</span> that feel
               soft, comfortable, and last through repeated wear.
             </p>
-            <ul className="list-disc pl-10 py-5 space-y-4">
+            <ul className="py-5 pl-10 space-y-4 list-disc">
               <li>
                 <span className="work-sans-900">Super-soft cotton blends</span>{" "}
                 – Elevated Faith shirts and hoodies are lightweight yet cozy.
@@ -324,10 +329,10 @@ const Elevated = () => {
                 <img
                   src="elevated-faith-cotton-apparel.jpg"
                   alt="Elevated Faith super-soft cotton shirts and hoodies"
-                  className="w-full object-cover"
+                  className="object-cover w-full"
                   loading="lazy"
                 />
-                <figcaption className="text-center text-gray-600 mt-5">
+                <figcaption className="mt-5 text-center text-gray-600">
                   Elevated Faith – Soft and cozy cotton apparel.
                 </figcaption>
               </figure>
@@ -339,10 +344,10 @@ const Elevated = () => {
                 <img
                   src="elevated-faith-jewelry-engraving.png"
                   alt="Elevated Faith jewelry with high-quality engraving"
-                  className="w-full object-cover"
+                  className="object-cover w-full"
                   loading="lazy"
                 />
-                <figcaption className="text-center text-gray-600 mt-5">
+                <figcaption className="mt-5 text-center text-gray-600">
                   Elevated Faith – Durable jewelry engravings.
                 </figcaption>
               </figure>
@@ -358,7 +363,7 @@ const Elevated = () => {
 
             <h2
               id="Charity"
-              className="text-2xl work-sans-900 my-6"
+              className="my-6 text-2xl work-sans-900"
             >
               A Brand That Gives Back – Every Purchase Makes a Difference
             </h2>
@@ -370,8 +375,8 @@ const Elevated = () => {
               <span className="work-sans-900">not just wearing your faith—you’re sharing it</span>{" "}
               through tangible impact.
             </p>
-            <h3 className="text-xl work-sans-900 mt-4">Where Does Your Money Go?</h3>
-            <ul className="list-disc pl-10 py-5 space-y-2">
+            <h3 className="mt-4 text-xl work-sans-900">Where Does Your Money Go?</h3>
+            <ul className="py-5 pl-10 space-y-2 list-disc">
               <li>Feeding the hungry</li>
               <li>Providing clean water</li>
               <li>Supporting mental health initiatives</li>
@@ -385,7 +390,7 @@ const Elevated = () => {
 
             <h2
               id="Exclusive"
-              className="text-2xl work-sans-900 my-6"
+              className="my-6 text-2xl work-sans-900"
             >
               Exclusive Perks – Discounts, Memberships & Rewards
             </h2>
@@ -394,7 +399,7 @@ const Elevated = () => {
               <span className="work-sans-900">rewards loyal customers</span> in
               multiple ways:
             </p>
-            <ul className="list-disc pl-10 py-5 space-y-2">
+            <ul className="py-5 pl-10 space-y-2 list-disc">
               <li>
                 <span className="work-sans-900">Subscription Boxes</span> – Get
                 a curated selection of faith-based products every month.
@@ -415,7 +420,7 @@ const Elevated = () => {
 
             <h2
               id="Fast"
-              className="text-2xl work-sans-900 my-6"
+              className="my-6 text-2xl work-sans-900"
             >
               Fast Shipping & Excellent Customer Service
             </h2>
@@ -427,7 +432,7 @@ const Elevated = () => {
               <span className="work-sans-900">fast shipping</span> on most
               orders.
             </p>
-            <ul className="list-disc pl-10 py-5 space-y-2">
+            <ul className="py-5 pl-10 space-y-2 list-disc">
               <li>Standard & expedited shipping options available</li>
               <li>Easy returns & exchanges if anything doesn’t fit right</li>
               <li>Hundreds of positive customer reviews praising their service</li>
@@ -441,11 +446,11 @@ const Elevated = () => {
 
             <h2
               id="Final"
-              className="text-2xl work-sans-900 my-6"
+              className="my-6 text-2xl work-sans-900"
             >
               Final Verdict – Is Elevated Faith Worth It?
             </h2>
-            <ul className="list-disc pl-10 py-5 space-y-2">
+            <ul className="py-5 pl-10 space-y-2 list-disc">
               <li>
                 <span className="work-sans-900">Faith-driven, stylish apparel & accessories</span>
               </li>
@@ -509,7 +514,7 @@ const Elevated = () => {
               </a>
               .
             </p>
-            <div className="w-full flex flex-col md:flex-row justify-center items-center border-gray-300 border p-5">
+            <div className="flex flex-col items-center justify-center w-full p-5 border border-gray-300 md:flex-row">
               <img
                 src="aron-kantor-profile.jpg"
                 alt="By Peak of Destiny, founder of Thebusinessdive"
@@ -530,14 +535,14 @@ const Elevated = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full flex flex-row justify-center lg:justify-start items-center border-l border-b border-r border-gray-300 space-x-2">
+            <div className="flex flex-row items-center justify-center w-full space-x-2 border-b border-l border-r border-gray-300 lg:justify-start">
               <a
                 href="https://youtube.com/your-channel"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit By Peak of Destiny's YouTube channel"
               >
-                <FaYoutube className="text-xl my-4 mx-1 lg:m-4" />
+                <FaYoutube className="mx-1 my-4 text-xl lg:m-4" />
               </a>
               <a
                 href="https://twitter.com/your-account"
@@ -545,7 +550,7 @@ const Elevated = () => {
                 rel="noopener noreferrer"
                 aria-label="Visit By Peak of Destiny's Twitter profile"
               >
-                <FaTwitter className="text-xl my-4 mx-1" />
+                <FaTwitter className="mx-1 my-4 text-xl" />
               </a>
             </div>
           </div>
@@ -553,9 +558,9 @@ const Elevated = () => {
       </div>
 
       <div className="w-full bg-[#edf2f7] mb-20">
-        <div className="w-5/7 flex flex-col justify-center items-center mx-auto">
+        <div className="flex flex-col items-center justify-center mx-auto w-5/7">
           <div className="w-full m-10">
-            <h2 className="text-3xl work-sans-900 my-6">Similar Posts</h2>
+            <h2 className="my-6 text-3xl work-sans-900">Similar Posts</h2>
             <Swiper
               modules={[Navigation, Pagination]}
               spaceBetween={40}
@@ -570,19 +575,19 @@ const Elevated = () => {
             >
               {posts.map((post, index) => (
                 <SwiperSlide key={index}>
-                  <div className="bg-white shadow-lg overflow-hidden">
+                  <div className="overflow-hidden bg-white shadow-lg">
                     <Link to={post.url}>
                       <img
                         src={post.image}
                         alt={`${post.title} illustration`}
-                        className="w-full h-48 object-cover"
+                        className="object-cover w-full h-48"
                         loading="lazy"
                       />
                       <div className="m-7">
-                        <h3 className="work-sans-900 text-2xl mt-10">
+                        <h3 className="mt-10 text-2xl work-sans-900">
                           {post.title}
                         </h3>
-                        <p className="text-sm text-gray-600 mt-5 mb-10">
+                        <p className="mt-5 mb-10 text-sm text-gray-600">
                           {post.date}
                         </p>
                       </div>
